@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ title or "Anicca" }}</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+  <!-- Activity Bar (Home + About) -->
+  <aside class="activitybar">
+    <a class="ab-item {% if active_page == 'home' %}active{% endif %}" href="/" title="Home" aria-label="Home">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>
+      </svg>
+    </a>
+    <a class="ab-item {% if active_page == 'about' %}active{% endif %}" href="/about" title="About" aria-label="About">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 8.5h.01M11 11h2v5h-2z"/>
+      </svg>
+    </a>
+  </aside>
+
+  <!-- Main content -->
+  <main class="editor">
+  <section class="page page--{{ active_page }} fade-in">
+    {% block content %}{% endblock %}
+  </section>
+  </main>
+
+
+</body>
+</html>

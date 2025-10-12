@@ -1,0 +1,239 @@
+/* Cascadia Code */
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Palette */
+:root{
+  --activity:#0f1115;
+  --editor:#0f1117;
+  --border:#2a2f3a;
+  --text:#e6eaf1;
+  --muted:#aab3c2;
+  --link:#50fa7b;
+  --accent:#ce1374;      /* your pink */
+  --accent-soft:#ff79c61a;
+
+  --ab-w: 52px;
+  --page-max: 980px;
+  --home-col: 700px;     /* unified column width for Home/About content */
+  --side-pad: clamp(16px, 4vw, 42px);
+  --top-pad: clamp(18px, 3.2vw, 30px);
+}
+
+/* Base */
+*,*::before,*::after{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  background:var(--editor);
+  color:var(--text);
+  font-family:"Cascadia Code","Cascadia Cove",ui-monospace,Consolas,Menlo,monospace;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* Activity Bar */
+.activitybar{
+  position:fixed;
+  inset:0 auto 0 0;
+  width:var(--ab-w);
+  background:var(--activity);
+  border-right:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top:10px;
+  gap:6px;
+  z-index:40;
+}
+.ab-item{
+  width:38px; height:38px;
+  display:grid; place-items:center;
+  border-radius:8px;
+  text-decoration:none;
+  border:1px solid transparent;
+}
+.ab-item svg{
+  width:20px; height:20px;
+  fill:none;
+  stroke:#9aa4b6;
+  stroke-width:1.8;
+}
+.ab-item.active{ background:rgba(255,255,255,.04); border-color:var(--border); }
+.ab-item:hover{ background:rgba(255,255,255,.04); }
+
+/* Editor / Page shell */
+.editor{
+  margin-left: var(--ab-w);
+  min-height:100vh;
+  padding: var(--top-pad) var(--side-pad);
+}
+.page{
+  margin:0 auto;
+  max-width: var(--page-max);
+}
+.page h1{
+  margin:0 0 .3em 0;
+  font-size: clamp(22px, 3.6vw, 32px);
+  line-height:1.2;
+}
+.page p{
+  margin:0;
+  color: var(--muted);
+  font-size: clamp(15px, 2.2vw, 17px);
+}
+a{ color:var(--link); }
+a:hover{ text-decoration:underline; }
+
+/* Subtle fade */
+.fade-in{ opacity:0; animation:fade .35s ease .03s forwards; }
+@keyframes fade{ to{ opacity:1; } }
+
+/* Mobile tweak */
+@media (max-width: 900px){
+  .editor{ padding: var(--top-pad) clamp(14px, 4vw, 22px); }
+}
+
+/* === Dictionary entry (About page) === */
+.entry{
+  padding-top: 8px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:1.8rem;
+}
+
+/* main definition box */
+.entry__box{
+  border:1px solid var(--accent);
+  border-radius:10px;
+  padding:1.8rem 2rem;
+  max-width:min(90%, var(--home-col));
+  background:rgba(255,255,255,0.02);
+  box-shadow:0 0 30px rgba(0,0,0,0.25);
+}
+
+/* header (term + ipa + pos) */
+.entry__head{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:baseline;
+  gap:10px;
+  margin-bottom:.6rem;
+}
+.entry__term{
+  font-family:Georgia,"Times New Roman",Times,serif;
+  font-weight:700;
+  font-size:clamp(26px,5vw,38px);
+  color:var(--text);
+}
+.entry__ipa{
+  font-family:"Cascadia Code","Cascadia Cove",ui-monospace,Consolas,Menlo,monospace;
+  font-style:italic;
+  color:var(--muted);
+  font-size:clamp(14px,2.2vw,16px);
+  border-left:1px solid var(--border);
+  padding-left:10px;
+}
+.entry__pos{
+  font-style:italic;
+  color:var(--muted);
+  font-size:clamp(14px,2.2vw,16px);
+}
+
+/* definitions list + etymology */
+.entry__defs{
+  margin:0 0 .6rem 0;
+  padding-left:1.2rem;
+  list-style:decimal;
+}
+.entry__defs li{
+  margin:.35rem 0;
+  color:var(--text);
+  font-family:"Crimson Pro",Georgia,serif;
+  font-size:clamp(16px,2.4vw,18px);
+  line-height:1.7;
+}
+.entry__defs em{ color:var(--link); font-style:italic; }
+.entry__note{
+  margin-top:.6rem;
+  color:var(--muted);
+  font-style:italic;
+  font-size:clamp(13px,2vw,15px);
+  font-family:"Crimson Pro",Georgia,serif;
+}
+
+/* === Commentary box component (kept for reuse) === */
+.entry__commentary{
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:1.6rem 1.8rem;
+  max-width:min(90%, var(--home-col));
+  background:rgba(255,255,255,0.03);
+  box-shadow:0 0 20px rgba(0,0,0,0.25);
+}
+.commentary__title{
+  margin:0 0 0.9rem 0;
+  font-family:"Cascadia Code","Cascadia Cove",ui-monospace,Consolas,Menlo,monospace;
+  font-weight:700;
+  font-size:clamp(14px,2vw,16px);
+  letter-spacing:2px;
+  color:var(--accent);
+  border-bottom:1px solid var(--border);
+  padding-bottom:0.4rem;
+}
+.entry__commentary p{
+  font-family:"Cascadia Code","Cascadia Cove",ui-monospace,Consolas,Menlo,monospace;
+  font-size:clamp(15px,2.2vw,17px);
+  line-height:1.65;
+  color:#f5f7fa; /* brighter */
+  margin:0 0 0.9rem 0;
+}
+.entry__commentary .etym{
+  color:var(--link);
+  font-style:italic;
+  margin-bottom:0.6rem;
+}
+.entry__commentary strong{ color:var(--accent); }
+
+/* === Home page (no box): center header + commentary to same column width === */
+/* Center the home page content column visually like the about box */
+/* .entry__head--loose,
+.entry__message {
+  display: block;
+  width: 100%;
+  max-width: var(--home-col);
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* Optional: add consistent internal padding so it feels like the box column */
+/* Center content visually accounting for sidebar width */
+.entry__head--loose,
+.entry__message {
+  max-width: var(--home-col);
+  margin-left: calc((100vw - var(--home-col)) / 2 + var(--ab-w) / 2);
+  margin-right: auto;
+}
+
+/* Keep it responsive */
+@media (max-width: 900px) {
+  .entry__head--loose,
+  .entry__message {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+/* Visually center Home across the full viewport (incl. activity bar) */
+.page--home {
+  position: relative;
+  left: calc(var(--ab-w) / 2); /* nudges right by 26px with your current --ab-w */
+}
+
+/* Don't offset on small screens */
+@media (max-width: 900px){
+  .page--home { left: 0; }
+}

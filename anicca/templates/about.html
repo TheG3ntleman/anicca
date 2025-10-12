@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+  <article class="entry">
+
+    <!-- Dictionary definition box WITH etymology inside -->
+    <section class="entry__box">
+      <header class="entry__head">
+        <span class="entry__term">Anicca</span>
+        <span class="entry__ipa">/ə-ˈnɪ-t͡ʃə/</span>
+        <span class="entry__pos">n.</span>
+      </header>
+
+      <ol class="entry__defs">
+        <li>
+          Impermanence; the transient, ever-changing nature of phenomena.
+        </li>
+        <li>
+          In Buddhism, one of the <em>three marks of existence</em>
+          (with <em>dukkha</em> and <em>anattā</em>),
+          pointing to the inevitability of change.
+        </li>
+      </ol>
+
+      <!-- Added back here per your request -->
+      <p class="entry__note">
+        From Pāli <em>a-</em> “not” + <em>nicca</em> “constant, lasting.”
+      </p>
+    </section>
+
+    <!-- (Optional) Keep the commentary box here too, if ever needed)
+    <section class="entry__commentary">
+      <h2 class="commentary__title">COMMENTARY</h2>
+      <p class="etym">From Pāli <em>a-</em> “not” + <em>nicca</em> “constant, lasting.”</p>
+      <p>...</p>
+    </section>
+    -->
+
+  </article>
+{% endblock %}
