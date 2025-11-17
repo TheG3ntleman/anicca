@@ -22,7 +22,6 @@ def home(request: Request):
         },
     )
 
-# About: full dictionary-style definition box (with etymology line)
 @app.get("/about", response_class=HTMLResponse)
 def about(request: Request):
     return templates.TemplateResponse(
@@ -34,6 +33,7 @@ def about(request: Request):
         },
     )
 
+# JSON Health Check, can add other stuff here later...
 @app.get("/health")
 def health():
     return {"status": "ok"}

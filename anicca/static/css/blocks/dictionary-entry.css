@@ -1,0 +1,66 @@
+/* DICTIONARY ENTRY BOX STYLING */
+
+.dictionary-entry {
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  padding: 1.8rem 2rem;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+/* DICTIONARY ENTRY TITLE STYLING */
+.dictionary-entry-main{
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(26px, 5vw, 38px);
+  color: var(--color-text);
+}
+
+/* Pronunciation (with divider line after the headword) */
+.dictionary-entry-pronunciation{
+  font-family: var(--mono);
+  font-style: italic;
+  font-size: clamp(16px, 2.2vw, 18px);
+  color: var(--color-text);
+  opacity: .75;                 /* subtle “muted” tone */
+  border-left: 1px solid currentColor; /* the vertical line */
+  border-right: 1px solid currentColor; /* the vertical line */
+  padding-right: 5px;
+  padding-left: 5px;           /* space after the line */
+  margin-left: 8px;             /* space before the line */
+}
+
+/* Part of speech */
+.dictionary-entry-word-tag{
+  font-style: italic;
+  font-size: clamp(22px, 2.2vw, 24px);
+  color: var(--color-secondary);
+  opacity: .75;
+  padding-left: 8px;            /* space before the line */
+}
+
+/* DICTIONARY ENTRY BODY STYLING */
+
+.dictionary-entry-defs{
+  margin:0 0 .6rem 0;
+  padding-left:1.2rem;
+  list-style:decimal;
+}
+
+.dictionary-entry-defs li{
+  margin:.35rem 0;
+  color:var(--color-text);
+  font-family:var(--serif);
+  font-size:clamp(16px,2.4vw,18px);
+  line-height:1.7;
+}
+
+.dictionary-entry-defs em{ color:var(--color-secondary); font-style:italic; }
+
+.dictionary-entry-note{
+  margin-top:.6rem;
+  color:var(--muted);
+  font-style:italic;
+  font-size:clamp(13px,2vw,15px);
+  font-family:var(--serif);
+}

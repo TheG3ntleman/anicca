@@ -1,0 +1,15 @@
+/* Fallback first (in case container units aren’t supported) */
+.content-page{
+  /* 8% of (viewport width - sidebar width) */
+  padding-inline: calc((100vw - var(--side-bar-width)) * 0.30);
+  padding-block: 28px;
+  margin-inline: auto;
+}
+
+/* Prefer container units when available: 1cqi = 1% of the workspace width */
+@supports (padding-inline: 1cqi){
+  .content-page{
+    padding-inline: 30cqi;         
+  }
+}
+
