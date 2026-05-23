@@ -1,0 +1,38 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "Message related to an appeal hearing"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "Budget spreadsheet"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "Draft email to a foundation"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "a note about the hearing",
+      "notes": "Note concerning the hearing"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+      "notes": "Draft response to Maya"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": "Slide containing a broken chart"
+    }
+  ],
+  "uncertainties": [
+    "The note about the hearing is unclear on whether it is physical or digital.",
+    "The slide with the broken chart is part of a presentation but context is limited."
+  ]
+}

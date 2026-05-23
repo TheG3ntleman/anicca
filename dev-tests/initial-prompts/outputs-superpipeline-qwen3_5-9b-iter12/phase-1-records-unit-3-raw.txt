@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "my supervisor",
+      "notes": "refers to Dr. Sen"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I apologized",
+      "notes": "apology indicates feeling of remorse"
+    }
+  ],
+  "uncertainties": []
+}
+

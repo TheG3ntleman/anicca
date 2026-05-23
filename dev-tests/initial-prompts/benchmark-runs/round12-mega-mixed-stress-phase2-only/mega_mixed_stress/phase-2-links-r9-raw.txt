@@ -1,0 +1,25 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a14",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the draft reply to Priya",
+      "notes": "direct action on artifact"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "ambiguous",
+      "supporting_text": "opened the draft reply to Priya",
+      "notes": "action refers to artifact containing recipient"
+    }
+  ],
+  "uncertainties": [
+    "relation to a2 is ambiguous based on context"
+  ]
+}
+

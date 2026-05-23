@@ -1,0 +1,83 @@
+{
+  "case_id": "technical_argument",
+  "description": "Technical self-argument with documents, traces, review, and unsent follow-up.",
+  "expected_records": [
+    "Most of today was me arguing with my own design memo",
+    "I still think the caching layer is the wrong fix",
+    "I wrote the first proposal for it",
+    "I compared the latency graph with yesterday's trace",
+    "circled the spike near authentication",
+    "added a note that the queue only looks healthy because the retries are hidden",
+    "I said the benchmark was misleading",
+    "I wasn't calm when I said it",
+    "I reopened the benchmark report",
+    "stared at the throughput table",
+    "didn't send the follow-up message"
+  ],
+  "expected_artifacts": [
+    "design memo",
+    "caching layer",
+    "first proposal",
+    "latency graph",
+    "yesterday's trace",
+    "spike near authentication",
+    "note",
+    "code review with Priya",
+    "Priya",
+    "benchmark",
+    "benchmark report",
+    "throughput table",
+    "follow-up message"
+  ],
+  "expected_reference_pairs": [
+    {
+      "record": "Most of today was me arguing with my own design memo",
+      "artifact": "design memo"
+    },
+    {
+      "record": "I still think the caching layer is the wrong fix",
+      "artifact": "caching layer"
+    },
+    {
+      "record": "I wrote the first proposal for it",
+      "artifact": "first proposal"
+    },
+    {
+      "record": "I compared the latency graph with yesterday's trace",
+      "artifact": "latency graph"
+    },
+    {
+      "record": "I compared the latency graph with yesterday's trace",
+      "artifact": "yesterday's trace"
+    },
+    {
+      "record": "circled the spike near authentication",
+      "artifact": "spike near authentication"
+    },
+    {
+      "record": "added a note that the queue only looks healthy because the retries are hidden",
+      "artifact": "note"
+    },
+    {
+      "record": "I said the benchmark was misleading",
+      "artifact": "benchmark"
+    },
+    {
+      "record": "I reopened the benchmark report",
+      "artifact": "benchmark report"
+    },
+    {
+      "record": "stared at the throughput table",
+      "artifact": "throughput table"
+    },
+    {
+      "record": "didn't send the follow-up message",
+      "artifact": "follow-up message"
+    }
+  ],
+  "forbidden_records": [],
+  "forbidden_artifacts": [],
+  "forbidden_reference_pairs": [],
+  "max_encounters": 1,
+  "target_reference_count": 11
+}

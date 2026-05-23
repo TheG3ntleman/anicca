@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": ["I kept wondering whether he had forwarded the thread to protect me or to document me"],
+      "notes": "Speculative reflection on motive behind forwarding an email thread."
+    }
+  ],
+  "uncertainties": []
+}
+

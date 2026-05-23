@@ -1,0 +1,31 @@
+Thinking...
+{
+"candidate_references": [
+  {
+    "from_candidate_id": "r10",
+    "to_candidate_id": "a18",
+    "relation_label": "read",
+    "relation_status": "explicit",
+    "supporting_text": "scene in the novel where the sister breaks the cup",
+    "notes": ""
+  },
+  {
+    "from_candidate_id": "r10",
+    "to_candidate_id": "a17",
+    "relation_label": "heard",
+    "relation_status": "explicit",
+    "supporting_text": "Tessa",
+    "notes": ""
+  },
+  {
+    "from_candidate_id": "r10",
+    "to_candidate_id": "a19",
+    "relation_label": "read",
+    "relation_status": "explicit",
+    "supporting_text": "novel",
+    "notes": ""
+  }
+],
+"uncertainties": []
+}
+

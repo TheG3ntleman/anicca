@@ -1,0 +1,32 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr. Imani",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text describes a thought process ('I don't' vs 'I already knew what it said'), but it is unclear if this constitutes a distinct 'process' under the rules or if the 'I don't' negation is part of the source text's uncertainty. Per rule 15, if unsure, return empty arrays."
+  ]
+}

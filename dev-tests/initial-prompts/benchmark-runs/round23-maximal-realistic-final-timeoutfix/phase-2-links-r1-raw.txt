@@ -1,0 +1,31 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "reread",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Lena's email",
+      "notes": "direct action-object pair"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "email about the ethics complaint",
+      "notes": "topic association"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "from",
+      "relation_status": "ambiguous",
+      "supporting_text": "Lena's email",
+      "notes": "pronoun resolution"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a2",
+      "relation_label": "erased that too",
+      "relation_status": "ambiguous",
+      "supporting_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

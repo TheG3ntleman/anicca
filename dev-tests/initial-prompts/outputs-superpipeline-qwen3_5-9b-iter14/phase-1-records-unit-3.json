@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "my supervisor",
+      "notes": "referring to Dr. Sen's role, but not an action of the author"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a10",
+      "relation_label": "at",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Tessa",
+      "notes": "direct_mention,local_context,token_overlap"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a12",
+      "relation_label": "at",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at the novel",
+      "notes": "direct_mention,local_context,token_overlap"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a10",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

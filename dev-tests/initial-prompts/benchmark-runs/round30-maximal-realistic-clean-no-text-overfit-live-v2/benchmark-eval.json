@@ -1,0 +1,55 @@
+{
+  "case_id": "maximal_realistic_stress",
+  "description": "A highly mixed but realistic journal entry combining narrative events, reflective argument, explicit emotion, body sensations, technical debugging, literary recall, appositives, pronouns, negation, and medical uncertainty.",
+  "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round30-maximal-realistic-clean-no-text-overfit-live-v2",
+  "phase_1_records": 33,
+  "phase_1_artifacts": 46,
+  "phase_2_references": 53,
+  "record_recall": 0.9375,
+  "artifact_recall": 0.9677,
+  "reference_recall": 0.8333,
+  "overbroad_encounters": 0,
+  "unexpected_encounters": 0,
+  "composite_records": 1,
+  "weak_references": 9,
+  "missing_records": [
+    "I don't",
+    "If I call back, it will be about the scan"
+  ],
+  "missing_artifacts": [
+    "draft incident log"
+  ],
+  "missing_reference_pairs": [
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "draft incident log"
+    },
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "Omar"
+    },
+    {
+      "record": "I opened the unsent reply to Lena",
+      "artifact": "Lena"
+    },
+    {
+      "record": "deleted one paragraph",
+      "artifact": "unsent reply to Lena"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "artifact": "my assumptions"
+    },
+    {
+      "record": "If I call back, it will be about the scan",
+      "artifact": "scan"
+    }
+  ],
+  "forbidden_records_present": [],
+  "forbidden_artifacts_present": [
+    "email",
+    "reply"
+  ],
+  "forbidden_reference_hits": [],
+  "score": 49.8602
+}

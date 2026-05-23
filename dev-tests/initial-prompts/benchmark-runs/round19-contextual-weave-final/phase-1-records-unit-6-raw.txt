@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't sent the correction memo to the vendor",
+      "notes": "self-recognition of inaction"
+    }
+  ],
+  "uncertainties": []
+}
+

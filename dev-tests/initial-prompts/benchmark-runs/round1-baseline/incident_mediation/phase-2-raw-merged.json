@@ -1,0 +1,90 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "warning",
+      "relation_status": "explicit",
+      "supporting_text": "she was warning me",
+      "notes": "Author questions if Nora's email was a warning",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "documenting",
+      "relation_status": "explicit",
+      "supporting_text": "documenting me",
+      "notes": "Author questions if the note about the leak was documenting the author",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "read it again",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "read it again",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a4",
+      "relation_label": "involves",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Nora",
+      "notes": "The source text explicitly mentions the draft reply to Nora.",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a4",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a3",
+      "relation_label": "opened",
+      "relation_status": "ambiguous",
+      "supporting_text": "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a3",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a4",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr9"
+    }
+  ],
+  "uncertainties": [
+    "read it again",
+    "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+    "restored it"
+  ]
+}

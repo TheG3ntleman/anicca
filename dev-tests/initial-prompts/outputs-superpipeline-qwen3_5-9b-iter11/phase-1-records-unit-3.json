@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation",
+      "notes": "Author's own admission of failure to send email"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "and then I apologized for freezing during the donor call on Monday",
+      "notes": "Author apologized for their behavior"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

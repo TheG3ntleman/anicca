@@ -1,0 +1,19 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen"
+      ],
+      "notes": ""
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "donor call on Monday"
+      ],
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

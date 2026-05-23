@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass.",
+      "notes": "Author reflects on hearing Eva laugh in a novel scene"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

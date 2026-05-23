@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text 'If I call back, it will be about the scan' contains no clear process. It is a conditional statement about future action but does not describe a current process (thought, emotion, behaviour, body) by the journal author."]
+}
+

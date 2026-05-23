@@ -1,0 +1,69 @@
+You are verifying candidate references for one source record only.
+
+You will be given:
+1. the source work unit
+2. a small local context window
+3. one source candidate_record
+4. a JSON list of candidate record-to-artifact pairs proposed by deterministic code
+
+Your task is to keep only the candidate pairs that are directly supported by the local context.
+
+Return exactly one JSON object with these top-level keys:
+- `candidate_references`
+- `uncertainties`
+
+Rules:
+1. Use the given source record's `candidate_id` as `from_candidate_id` for every emitted reference.
+2. Only emit references whose `to_candidate_id` appears in the provided candidate pair list.
+3. Emit zero or more references, but at most one reference per `to_candidate_id`.
+4. If a pair is not safely supported, omit it.
+5. `supporting_text` must be an exact contiguous span from the provided local context.
+6. Prefer the smallest support span that still supports the pair.
+7. Prefer a support span inside the source record's `source_text` when possible.
+8. Use `relation_status = "explicit"` only when the pairing is directly stated by the text.
+9. If pronoun resolution, quoted-speaker attribution, alternatives, or nearby context are doing work, use `relation_status = "ambiguous"`.
+10. `relation_label` should be short and text-near, such as `read`, `printed`, `opened`, `deleted from`, `restored`, `wrote on`, `compared`, `heard`, `told`, `about`, `for`, or `at`.
+11. Do not create new records, artifacts, or candidate IDs.
+12. Do not use any target outside the provided candidate pair list.
+13. Do not return commentary, explanations, reasoning, or extra top-level keys.
+14. If nothing is safely supported, return `{"candidate_references":[],"uncertainties":[]}`.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "",
+      "to_candidate_id": "",
+      "relation_label": "",
+      "relation_status": "explicit",
+      "supporting_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [""]
+}
+
+Return only JSON.
+
+<source_work_unit_kind>
+fragmentary
+</source_work_unit_kind>
+
+<source_work_unit_text>
+Before sleep I listened to the voicemail from Dr.
+</source_work_unit_text>
+
+<local_context_text>
+Before sleep I listened to the voicemail from Dr.
+</local_context_text>
+
+<source_record_json>
+{"candidate_id":"r16","process_type":"behaviour","source_text":"I listened to the voicemail from Dr","notes":"generic deterministic fallback"}
+</source_record_json>
+
+<candidate_pairs_json>
+[{"to_candidate_id":"a28","artifact_kind":"object","artifact_text":"voicemail from Dr. Hale","candidate_score":48,"candidate_reason":"token_overlap,carrier_family,action_object"},{"to_candidate_id":"a29","artifact_kind":"object","artifact_text":"Dr. Hale","candidate_score":18,"candidate_reason":"token_overlap,action_object"}]
+</candidate_pairs_json>
+
+Return only the final JSON object.

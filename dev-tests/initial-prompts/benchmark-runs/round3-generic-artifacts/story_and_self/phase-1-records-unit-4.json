@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "Later I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin.",
+      "notes": "Author marks text with personal significance."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"this is the part I keep living\" in the margin",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

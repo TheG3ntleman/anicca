@@ -1,0 +1,25 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Priya's message about the ethics review",
+      "notes": "Message referenced by author."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "latency report",
+      "notes": "Report printed before call."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft reply to Priya",
+      "notes": "Draft edited by author."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "Memo subject of afternoon argument."
+    }
+  ],
+  "uncertainties": []
+}

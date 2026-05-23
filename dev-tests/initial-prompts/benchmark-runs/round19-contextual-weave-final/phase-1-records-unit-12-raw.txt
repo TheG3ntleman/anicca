@@ -1,0 +1,13 @@
+Thinking...
+{
+  "process": "Extract candidate_records from the provided work unit.",
+  "work_unit_text": "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict.",
+  "process_type_allowed": ["thought", "emotion", "behaviour", "body"],
+  "rules": ["Extract only journal author's processes", "Do not extract artifacts or encounters", "Use exact contiguous text", "Split distinct author processes when they can stand alone clearly", "Preserve negation exactly", "notes should be short, neutral, and factual"],
+  "uncertainties": ["If something is unclear", "If unsure return empty"],
+  "output": {
+    "candidate_records": [],
+    "uncertainties": []
+  }
+}
+

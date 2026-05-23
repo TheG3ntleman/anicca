@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the draft reply to Priya",
+      "notes": "Author opened a draft reply to Priya after a previous event."
+    }
+  ],
+  "uncertainties": []
+}
+

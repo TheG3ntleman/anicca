@@ -1,0 +1,3 @@
+Thinking...
+{ "candidate_records": [{"source_text": "I opened the unsent reply to Lena", "process_type": "behaviour", "notes": "opened an unsent reply message"}, {"source_text": "deleted one paragraph", "process_type": "behaviour", "notes": "deleted a paragraph"}, {"source_text": "restored it", "process_type": "behaviour", "notes": "restored the deleted paragraph"}, {"source_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup", "process_type": "emotion", "notes": "kept hearing laughter"}], "uncertainties": [] }
+

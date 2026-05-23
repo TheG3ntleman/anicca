@@ -1,0 +1,22 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I read the note about the hearing again",
+      "notes": "Reading the note about the hearing"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I read the note about the hearing again",
+      "notes": "Reading the note about the hearing again"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept hearing Leah say, 'just present the numbers.'",
+      "notes": "Heard Leah say 'just present the numbers.'"
+    }
+  ],
+  "uncertainties": []
+}
+

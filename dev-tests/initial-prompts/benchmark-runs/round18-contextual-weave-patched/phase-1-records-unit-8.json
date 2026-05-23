@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Afterward I opened the unsent reply to Jonah",
+      "notes": "narrative action involving accessing a message"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the unsent reply to Jonah",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the unsent reply to Jonah",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

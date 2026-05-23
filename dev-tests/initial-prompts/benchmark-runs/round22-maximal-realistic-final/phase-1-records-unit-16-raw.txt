@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "Author wrote a marginal note containing a personal reflection on clarity."
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

@@ -1,0 +1,389 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "behaviour",
+      "source_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "behaviour",
+      "source_text": "printed the calendar invite",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me.",
+      "notes": "internal uncertainty about author's intent regarding the other person's actions",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "body",
+      "source_text": "my jaw was tight",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't called the contractor",
+      "notes": "Author admits to not calling contractor.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "apologized",
+      "notes": "Author expresses apology.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "body",
+      "source_text": "for going blank during last week's site visit",
+      "notes": "Author describes going blank.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "kept hearing Omar say, \"just send the estimate.\"",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "thought",
+      "source_text": "kept hearing Omar say, \"just send the estimate",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "behaviour",
+      "source_text": "I opened the draft reply to Nora",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "behaviour",
+      "source_text": "opened the draft reply to Nora",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "thought",
+      "source_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Nora's email about the mediation",
+      "notes": "email from Nora regarding mediation",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "Nora's email",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "Nora",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "mediation",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "calendar invite",
+      "notes": "calendar invitation related to mediation or meeting",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "meeting with Omar"
+      ],
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "Omar",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "contractor",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "site visit"
+      ],
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "note about the leak",
+      "notes": "note concerning a leak",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "note about the leak again",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "draft reply to Nora",
+      "notes": "draft email reply addressed to Nora",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "one sentence",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a5",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the calendar invite",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't called the contractor",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a9",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "for going blank during last week's site visit",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a7",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Omar say, \"just send the estimate.\"",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a7",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Omar say, \"just send the estimate",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a12",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the draft reply to Nora",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a3",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the draft reply to Nora",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a12",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Nora",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a3",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Nora",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr13",
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a13",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one sentence",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr14",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "deterministic backfill",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr15",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr16",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": [
+    "No author processes identified in this narrative text that fit the allowed process_type values (thought, emotion, behaviour, body). The text describes an action by a specific author ('I') but 'printed the calendar invite' is ambiguous regarding whether it counts as 'behaviour' in this context without further context. However, the instruction states 'Extract only the journal author's processes' and 'Do not extract artifacts or encounters'. The action of printing is a physical behaviour. Therefore, it should be extracted.",
+    "I kept wondering whether she was warning me or documenting me",
+    "I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me",
+    "still didn't know whether the reply was for Nora, for Omar, or just for me",
+    "Whether Nora's email was a warning or documentation",
+    "Whether the calendar invite was for the meeting with Omar or the mediation",
+    "Whether the draft reply to Nora was intended for Nora, Omar, or the author",
+    "I kept wondering whether she was warning me or documenting me.",
+    "read it again",
+    "restored it"
+  ]
+}

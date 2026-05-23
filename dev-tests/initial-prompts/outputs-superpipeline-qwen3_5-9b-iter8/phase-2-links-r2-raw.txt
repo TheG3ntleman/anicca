@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a5",
+      "relation_label": "object",
+      "relation_status": "explicit",
+      "supporting_text": "printed the revised budget spreadsheet",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

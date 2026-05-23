@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "If I call back, it will be about the scan",
+  "notes": "Author is indicating future communication related to a scan."
+}
+

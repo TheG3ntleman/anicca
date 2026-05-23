@@ -1,0 +1,3 @@
+Thinking...
+{"artifact_kind":"encounter","source_texts":["Hale is still unopened."],"notes":"no event"}
+

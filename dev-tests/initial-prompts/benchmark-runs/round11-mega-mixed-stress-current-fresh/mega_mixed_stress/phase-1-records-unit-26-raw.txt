@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["No clear candidate record found in the fragmentary text.", "The text does not contain any journal author processes such as thought, emotion, behaviour, or body.", "The text is insufficient to extract candidate records."]
+}
+

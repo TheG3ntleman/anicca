@@ -1,0 +1,24 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict.",
+      "notes": "Author describes conflicting feelings of anger directed at different targets."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The source text does not explicitly state 'I' is the author, but context suggests first-person perspective",
+    "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+    "couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict"
+  ]
+}

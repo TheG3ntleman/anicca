@@ -1,0 +1,9 @@
+Thinking...
+{
+  "role": "assistant",
+  "task": "continue",
+  "input": "You_text\n",
+  "input": "low",
+  "output": "Please provide the JSON content for the continuation task."
+}
+

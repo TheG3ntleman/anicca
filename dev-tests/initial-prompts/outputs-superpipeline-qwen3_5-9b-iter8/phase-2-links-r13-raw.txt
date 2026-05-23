@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_references":[{"from_candidate_id":"r13","to_candidate_id":"a14","relation_label":"event cancellation","relation_status":"explicit","supporting_text":"I wanted to cancel the hospital scan next week","notes":""}],"uncertainties":[]}
+

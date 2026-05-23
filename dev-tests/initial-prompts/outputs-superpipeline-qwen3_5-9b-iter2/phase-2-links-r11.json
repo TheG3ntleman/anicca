@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a15",
+      "relation_label": "mentioned",
+      "relation_status": "ambiguous",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

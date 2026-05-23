@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text 'I wasn't' is a fragmentary statement without a clear context or predicate to support as a process."
+  ]
+}

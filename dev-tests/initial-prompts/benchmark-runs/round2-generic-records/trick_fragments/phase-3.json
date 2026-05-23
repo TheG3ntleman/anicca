@@ -1,0 +1,98 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I did not decide to quit",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I did not forgive Sam",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": "author wrote initial thought on whiteboard",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "behaviour",
+      "source_text": "erased it",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "erased that too",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "emotion",
+      "source_text": "stood there feeling stupid",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "thought",
+      "source_text": "I keep telling myself I already know what it says",
+      "notes": "Author's internal assertion",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "emotion",
+      "source_text": "I am tired of how both options feel like the same answer.",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "emotion",
+      "source_text": "I am tired of how both options feel like the same answer",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [],
+  "candidate_references": [],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": [
+    "No clear journal author process or candidate record identified in the text.",
+    "The text is incomplete: 'The voicemail from Dr.' does not contain a journal author's process, only a fragment of a sentence describing an external object or event.",
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan"
+  ]
+}

@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "it will be about the scan",
+      "process_type": "thought",
+      "notes": "Author anticipates the content of their phone call"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["crossed it out is an action description without clear context for a mental process, emotion, behavior, or body process from the author"]
+}
+

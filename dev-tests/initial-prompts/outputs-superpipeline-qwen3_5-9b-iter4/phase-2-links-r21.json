@@ -1,0 +1,39 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a21",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one paragraph from the draft reply to Maya's message",
+      "notes": "The source explicitly mentions deleting a paragraph from the draft reply to Maya's message"
+    },
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a20",
+      "relation_label": "deleted paragraph",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one paragraph from the draft reply to Maya's message",
+      "notes": "The source explicitly mentions deleting a paragraph"
+    },
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a3",
+      "relation_label": "Maya's message",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one paragraph from the draft reply to Maya's message",
+      "notes": "The source mentions the reply to Maya's message"
+    },
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a2",
+      "relation_label": "deleted from",
+      "relation_status": "ambiguous",
+      "supporting_text": "deleted one paragraph from the draft reply to Maya's message",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "deleted one paragraph from the draft reply to Maya's message"
+  ]
+}

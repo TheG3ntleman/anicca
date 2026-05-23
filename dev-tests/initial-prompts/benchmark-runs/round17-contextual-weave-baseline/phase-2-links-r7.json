@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a10",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Afterward I opened the unsent reply to Jonah",
+      "notes": "opened the unsent reply implies reading/accessing"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a10",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one sentence",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

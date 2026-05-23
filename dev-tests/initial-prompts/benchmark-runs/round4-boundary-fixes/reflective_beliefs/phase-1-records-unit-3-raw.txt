@@ -1,0 +1,27 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "I wrote three lines in the notebook",
+      "notes": "writing action"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "about freedom",
+      "notes": "topic of writing"
+    },
+    {
+      "process_type": "body",
+      "source_text": "crossed them out",
+      "notes": "crossing out action"
+    },
+    {
+      "process_type": "body",
+      "source_text": "rewrote the last line",
+      "notes": "rewriting action"
+    }
+  ],
+  "uncertainties": []
+}
+

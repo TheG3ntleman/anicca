@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it.",
+      "notes": "Author states their current belief about caching layer being the wrong fix despite being its original proposer."
+    }
+  ],
+  "uncertainties": []
+}

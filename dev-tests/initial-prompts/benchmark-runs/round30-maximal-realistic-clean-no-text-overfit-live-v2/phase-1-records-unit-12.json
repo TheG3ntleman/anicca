@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once",
+      "notes": "author describes multiple conflicting emotions felt simultaneously"
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "author describes physical inability to swallow likely due to emotional distress"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once, I could barely swallow",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Before sleep I listened to the voicemail from Dr. Hale",
+      "notes": "Author reflects on a past action of listening to a voicemail."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

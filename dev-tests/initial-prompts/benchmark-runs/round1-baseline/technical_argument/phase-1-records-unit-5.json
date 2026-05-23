@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it.",
+      "notes": "Author expresses emotional state."
+    }
+  ],
+  "uncertainties": []
+}

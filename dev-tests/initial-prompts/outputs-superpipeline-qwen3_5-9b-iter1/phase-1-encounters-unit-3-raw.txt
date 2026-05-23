@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_artifacts": [],
+  "uncertainties": ["The user wants to extract candidate artifacts of kind 'encounter' from the given local work unit."]
+}
+

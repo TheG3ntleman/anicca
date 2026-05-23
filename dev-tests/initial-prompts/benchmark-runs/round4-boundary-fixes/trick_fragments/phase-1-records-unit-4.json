@@ -1,0 +1,30 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"maybe Friday\" on the whiteboard, erased it, wrote \"maybe never,\" erased that too, and then stood there feeling stupid",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "erased it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "erased that too",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "stood there feeling stupid",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

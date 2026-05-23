@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a29",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "my brother",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a30",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "my brother Arun",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a31",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "Arun",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a32",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "scan",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

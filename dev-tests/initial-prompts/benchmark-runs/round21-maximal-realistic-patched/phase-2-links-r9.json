@@ -1,0 +1,29 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a13",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a14",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a15",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

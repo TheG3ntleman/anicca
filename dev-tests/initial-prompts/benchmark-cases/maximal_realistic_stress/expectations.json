@@ -1,0 +1,232 @@
+{
+  "case_id": "maximal_realistic_stress",
+  "description": "A highly mixed but realistic journal entry combining narrative events, reflective argument, explicit emotion, body sensations, technical debugging, literary recall, appositives, pronouns, negation, and medical uncertainty.",
+  "expected_records": [
+    "I reread Lena's email about the ethics complaint",
+    "copied one sentence from the draft incident log into the reply to Omar",
+    "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+    "my jaw tightened",
+    "I admitted I still hadn't sent the corrected invoice to the clinic",
+    "apologized for freezing during Tuesday's intake interview",
+    "I opened the unsent reply to Lena",
+    "deleted one paragraph",
+    "restored it",
+    "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+    "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+    "The rest of the evening was me arguing with my own project memo",
+    "I wrote \"clarity is a promise we make to strangers\" in the margin",
+    "crossed it out",
+    "rewrote the last line",
+    "compared the risk table to last night's trace",
+    "circled the row about the rollback window",
+    "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+    "I told him I was okay",
+    "I wasn't",
+    "I felt ashamed, furious, relieved, and unexpectedly lonely all at once",
+    "I could barely swallow",
+    "I listened to the voicemail from Dr. Imani",
+    "did not call back",
+    "kept telling myself I already knew what it said",
+    "I don't",
+    "Part of me wanted the call to be about the scan",
+    "part of me wanted it to be about nothing medical at all",
+    "I missed Maya",
+    "I did not text her",
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan"
+  ],
+  "expected_artifacts": [
+    "Lena",
+    "Lena's email",
+    "ethics complaint",
+    "draft incident log",
+    "reply to Omar",
+    "Omar",
+    "meeting with Priya, my manager",
+    "Priya",
+    "corrected invoice",
+    "clinic",
+    "Tuesday's intake interview",
+    "unsent reply to Lena",
+    "one paragraph",
+    "Tessa",
+    "scene in the novel where the sister breaks the cup",
+    "novel",
+    "my own project memo",
+    "margin",
+    "last line",
+    "risk table",
+    "last night's trace",
+    "rollback window",
+    "cache",
+    "queue",
+    "parser",
+    "my assumptions",
+    "my brother Arun",
+    "scan",
+    "voicemail from Dr. Imani",
+    "Dr. Imani",
+    "Maya"
+  ],
+  "expected_reference_pairs": [
+    {
+      "record": "I reread Lena's email about the ethics complaint",
+      "artifact": "Lena's email"
+    },
+    {
+      "record": "I reread Lena's email about the ethics complaint",
+      "artifact": "ethics complaint"
+    },
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "draft incident log"
+    },
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "reply to Omar"
+    },
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "Omar"
+    },
+    {
+      "record": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "artifact": "corrected invoice"
+    },
+    {
+      "record": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "artifact": "clinic"
+    },
+    {
+      "record": "apologized for freezing during Tuesday's intake interview",
+      "artifact": "Tuesday's intake interview"
+    },
+    {
+      "record": "I opened the unsent reply to Lena",
+      "artifact": "unsent reply to Lena"
+    },
+    {
+      "record": "I opened the unsent reply to Lena",
+      "artifact": "Lena"
+    },
+    {
+      "record": "deleted one paragraph",
+      "artifact": "one paragraph"
+    },
+    {
+      "record": "deleted one paragraph",
+      "artifact": "unsent reply to Lena"
+    },
+    {
+      "record": "restored it",
+      "artifact": "one paragraph"
+    },
+    {
+      "record": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "artifact": "Tessa"
+    },
+    {
+      "record": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "artifact": "scene in the novel where the sister breaks the cup"
+    },
+    {
+      "record": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "artifact": "Tessa"
+    },
+    {
+      "record": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "artifact": "novel"
+    },
+    {
+      "record": "The rest of the evening was me arguing with my own project memo",
+      "artifact": "my own project memo"
+    },
+    {
+      "record": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "artifact": "margin"
+    },
+    {
+      "record": "rewrote the last line",
+      "artifact": "last line"
+    },
+    {
+      "record": "compared the risk table to last night's trace",
+      "artifact": "risk table"
+    },
+    {
+      "record": "compared the risk table to last night's trace",
+      "artifact": "last night's trace"
+    },
+    {
+      "record": "circled the row about the rollback window",
+      "artifact": "rollback window"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "artifact": "cache"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "artifact": "queue"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "artifact": "parser"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "artifact": "my assumptions"
+    },
+    {
+      "record": "I told him I was okay",
+      "artifact": "my brother Arun"
+    },
+    {
+      "record": "I listened to the voicemail from Dr. Imani",
+      "artifact": "voicemail from Dr. Imani"
+    },
+    {
+      "record": "I listened to the voicemail from Dr. Imani",
+      "artifact": "Dr. Imani"
+    },
+    {
+      "record": "kept telling myself I already knew what it said",
+      "artifact": "voicemail from Dr. Imani"
+    },
+    {
+      "record": "Part of me wanted the call to be about the scan",
+      "artifact": "scan"
+    },
+    {
+      "record": "I missed Maya",
+      "artifact": "Maya"
+    },
+    {
+      "record": "I did not text her",
+      "artifact": "Maya"
+    },
+    {
+      "record": "If I call back, it will be about the scan",
+      "artifact": "scan"
+    },
+    {
+      "record": "if I don't, it will still be about the scan",
+      "artifact": "scan"
+    }
+  ],
+  "forbidden_records": [
+    "I reread Lena's email",
+    "I wrote",
+    "I listened to the voicemail from Dr",
+    "still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions"
+  ],
+  "forbidden_artifacts": [
+    "email",
+    "reply",
+    "note",
+    "message"
+  ],
+  "forbidden_reference_pairs": [],
+  "max_encounters": 5,
+  "target_reference_count": 35
+}

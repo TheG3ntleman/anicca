@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The provided work unit text does not contain a clear author process that meets extraction criteria."]
+}
+

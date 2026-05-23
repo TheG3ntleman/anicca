@@ -1,0 +1,306 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "Most of today was me arguing with my own design memo",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "arguing with my own design memo",
+      "notes": "Author engages in internal debate with their design memo.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "behaviour",
+      "source_text": "I wrote the first proposal for it",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "circled the spike near authentication",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "I said the benchmark was misleading",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it.",
+      "notes": "Author describes their emotional state.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "behaviour",
+      "source_text": "I said it",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "behaviour",
+      "source_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "behaviour",
+      "source_text": "didn't send the follow-up message",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "caching layer",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "first proposal",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "latency graph",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "spike near authentication",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "authentication",
+      "notes": "location of latency spike near authentication",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "described as looking healthy only because retries are hidden",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "Priya",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "benchmark",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "benchmark report",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "throughput table",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "follow-up message",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of today was me arguing with my own design memo",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "arguing with",
+      "relation_status": "explicit",
+      "supporting_text": "arguing with my own design memo",
+      "notes": "Directly argues with the object.",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote the first proposal for it",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a6",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the spike near authentication",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the spike near authentication",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a10",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I said the benchmark was misleading",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a13",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a13",
+      "relation_label": "didn't send",
+      "relation_status": "explicit",
+      "supporting_text": "didn't send the follow-up message",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": []
+}

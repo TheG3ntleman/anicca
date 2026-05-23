@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the row about the rollback window.",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the row about the rollback window",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text describes a thought process ('I don't' vs 'I already knew what it said'), but it is unclear if this constitutes a distinct 'process' under the rules or if the 'I don't' negation is part of the source text's uncertainty. Per rule 15, if unsure, return empty arrays."]
+}
+

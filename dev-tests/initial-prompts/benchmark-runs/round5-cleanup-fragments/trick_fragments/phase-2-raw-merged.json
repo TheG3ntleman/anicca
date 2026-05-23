@@ -1,0 +1,124 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I did not forgive Sam",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "on the",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": "Whiteboard is the surface on which text was written.",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a2",
+      "relation_label": "erased",
+      "relation_status": "explicit",
+      "supporting_text": "erased it",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a2",
+      "relation_label": "written on",
+      "relation_status": "explicit",
+      "supporting_text": "wrote \"maybe never,\"",
+      "notes": "whiteboard used for writing",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a3",
+      "relation_label": "source_text contains",
+      "relation_status": "explicit",
+      "supporting_text": "voicemail from Dr.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a5",
+      "relation_label": "voicemail",
+      "relation_status": "ambiguous",
+      "supporting_text": "voicemail from Dr. Hale",
+      "notes": "unclear link",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a6",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a6",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "If I call back, it will be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr9"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a5",
+      "relation_label": "scan referenced",
+      "relation_status": "ambiguous",
+      "supporting_text": "if I don't, it will still be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr10"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a6",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "if I don't, it will still be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr11"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a5",
+      "relation_label": "encounter",
+      "relation_status": "explicit",
+      "supporting_text": "Hale is still unopened.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr12"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I am tired of how both options feel like the same answer",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr13"
+    }
+  ],
+  "uncertainties": [
+    "None"
+  ]
+}

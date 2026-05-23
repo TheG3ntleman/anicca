@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "internal questioning about motive"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": "physical reaction"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,22 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": "Action of placing mug"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the email draft to the foundation",
+      "notes": "Action of opening email"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I stared at it without sending it",
+      "notes": "Action of staring"
+    }
+  ],
+  "uncertainties": []
+}
+

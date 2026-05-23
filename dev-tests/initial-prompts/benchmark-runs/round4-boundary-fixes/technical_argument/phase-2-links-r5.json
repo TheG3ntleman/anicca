@@ -1,0 +1,39 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a4",
+      "relation_label": "object referred to",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace",
+      "notes": "direct mention"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a5",
+      "relation_label": "object referred to",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace",
+      "notes": "direct mention"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a7",
+      "relation_label": "action initiated",
+      "relation_status": "explicit",
+      "supporting_text": "I added a note",
+      "notes": "direct mention"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I compared the latency graph with yesterday's trace",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "I compared the latency graph with yesterday's trace"
+  ]
+}

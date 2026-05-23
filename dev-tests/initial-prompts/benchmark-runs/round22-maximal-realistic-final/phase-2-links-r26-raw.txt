@@ -1,0 +1,3 @@
+Thinking...
+{"from_candidate_id": "r26", "to_candidate_id": "a32", "relation_label": "about", "relation_status": "ambiguous", "supporting_text": "kept telling myself I already knew what it said", "notes": ""}
+

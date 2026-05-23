@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "The text expresses uncertainty about who the reply was addressed to, but does not contain a clear process that can be extracted as a candidate_record following the rules.",
+    "I don't know whether the reply was for Maya, for the foundation, or just for me"
+  ]
+}

@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+  "notes": "The author is questioning the sender's intent."
+}
+

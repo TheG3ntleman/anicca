@@ -1,0 +1,9 @@
+Thinking...
+{
+  "task": "extract only the journal author's candidate_records from the provided local work unit",
+  "rules": "do not extract artifacts, encounters, others' actions/speech/emotions",
+  "input": "He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart.",
+  "analysis":
+  -8.899409
+  		}
+

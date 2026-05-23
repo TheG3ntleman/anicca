@@ -1,0 +1,28 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": ""
+    },
+    {
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out, and my stomach tightened even though the message itself only said, \"we should talk before Friday",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my stomach tightened even though the message itself only said",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether she had sent the message to warn me or to push me out",
+    "I kept wondering whether she had sent the message to warn me or to push me out, and my stomach tightened even though the message itself only said, \"we should talk before Friday"
+  ]
+}

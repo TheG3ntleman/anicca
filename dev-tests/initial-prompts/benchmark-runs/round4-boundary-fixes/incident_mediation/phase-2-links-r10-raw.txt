@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a6",
+      "relation_label": "hearing Omar say",
+      "relation_status": "explicit",
+      "supporting_text": "hearing Omar say",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a11",
+      "relation_label": "send the estimate",
+      "relation_status": "explicit",
+      "supporting_text": "send the estimate",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

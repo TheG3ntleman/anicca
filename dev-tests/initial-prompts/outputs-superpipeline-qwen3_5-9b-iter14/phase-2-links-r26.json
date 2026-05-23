@@ -1,0 +1,47 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a3",
+      "relation_label": "recipient",
+      "relation_status": "explicit",
+      "supporting_text": "for Maya",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a8",
+      "relation_label": "recipient",
+      "relation_status": "explicit",
+      "supporting_text": "for the foundation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "I don't know whether the reply was for Maya, for the foundation, or just for me."
+  ]
+}

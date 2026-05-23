@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I underlined one sentence in chapter seven and wrote 'this is the part I keep living' in the margin.",
+      "notes": "The author describes an action of underlining text and writing a marginal note, indicating a reflective thought about the content."
+    }
+  ],
+  "uncertainties": []
+}
+

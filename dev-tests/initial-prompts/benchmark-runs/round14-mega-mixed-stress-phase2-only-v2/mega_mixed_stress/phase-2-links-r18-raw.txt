@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a24",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "I wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

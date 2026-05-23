@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I told them I was fine, but I wasn't fine",
+      "notes": "Contradiction between statement and internal state"
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": ""
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't fine",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

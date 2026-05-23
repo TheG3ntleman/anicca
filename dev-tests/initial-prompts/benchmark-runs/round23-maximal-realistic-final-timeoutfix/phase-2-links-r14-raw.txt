@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a20",
+      "relation_label": "at",
+      "relation_status": "ambiguous",
+      "supporting_text": "in the margin",
+      "notes": "local_context shows 'margin' as a location for the text that was 'crossed it out'"
+    }
+  ],
+  "uncertainties": []
+}
+

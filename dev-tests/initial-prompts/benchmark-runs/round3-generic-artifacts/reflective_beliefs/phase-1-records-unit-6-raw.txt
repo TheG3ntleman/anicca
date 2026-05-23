@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": "Author describes ongoing reading and reliance on Weil's concept of attention for decision-making."
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": ["thought", "emotion"],
+  "source_text": ["maybe Friday", "maybe never", "feeling stupid"],
+  "notes": ["action of writing on whiteboard", "action of erasing", "action of standing and feeling"]
+}
+

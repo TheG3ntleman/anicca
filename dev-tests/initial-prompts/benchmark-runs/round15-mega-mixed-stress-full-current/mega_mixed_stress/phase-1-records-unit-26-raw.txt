@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": [
+    "The input 'I don't.' is ambiguous without further context to determine if it represents an incomplete thought, a direct statement of a thought process, or something else."
+  ]
+}
+

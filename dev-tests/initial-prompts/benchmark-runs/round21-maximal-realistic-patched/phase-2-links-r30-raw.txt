@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I missed Maya",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+      "By the time I got to the meeting with Omar, my jaw was tight."
+    ],
+      "notes": "Narrative indicating a tense state before a meeting, implying an impending encounter with Omar."
+    }
+  ],
+  "uncertainties": []
+}
+

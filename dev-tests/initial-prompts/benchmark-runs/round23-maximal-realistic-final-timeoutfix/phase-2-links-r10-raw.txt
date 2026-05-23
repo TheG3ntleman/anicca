@@ -1,0 +1,31 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a16",
+      "relation_label": "heard",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Tessa laugh",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a18",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "from the scene in the novel",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a17",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "from the scene in the novel",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

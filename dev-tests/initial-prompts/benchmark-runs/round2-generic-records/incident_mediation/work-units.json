@@ -1,0 +1,27 @@
+[
+  {
+    "unit_id": "unit-1",
+    "unit_text": "On Tuesday I reread Nora's email about the mediation and printed the calendar invite.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-2",
+    "unit_text": "I kept wondering whether she was warning me or documenting me.",
+    "unit_kind": "reflective"
+  },
+  {
+    "unit_id": "unit-3",
+    "unit_text": "By the time I got to the meeting with Omar, my jaw was tight.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-4",
+    "unit_text": "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-5",
+    "unit_text": "On the bus home I read the note about the leak again, then read it again, and kept hearing Omar say, \"just send the estimate.\" Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+    "unit_kind": "mixed"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"clarity is a promise we make to strangers\" in the margin, crossed it out, rewrote the last line, compared the risk table to last night's trace, circled the row about the rollback window",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "compared the risk table to last night's trace",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the row about the rollback window",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

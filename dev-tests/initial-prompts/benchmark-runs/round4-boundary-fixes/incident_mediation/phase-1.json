@@ -1,0 +1,179 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "behaviour",
+      "source_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "behaviour",
+      "source_text": "printed the calendar invite",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me.",
+      "notes": "Author's internal questioning about another's intention."
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "body",
+      "source_text": "my jaw was tight",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't called the contractor",
+      "notes": "The author describes an internal admission regarding a missed action."
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "apologized for going blank during last week's site visit",
+      "notes": "The author describes an emotional response (apology) to a past lapse in performance."
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "behaviour",
+      "source_text": "I read the note about the leak again",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "kept hearing Omar say, \"just send the estimate",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "behaviour",
+      "source_text": "opened the draft reply to Nora",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "thought",
+      "source_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Nora's email",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "Nora",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "mediation",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "calendar invite",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "meeting with Omar"
+      ],
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "Omar",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "contractor",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "site visit"
+      ],
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "note about the leak",
+      "notes": "Note regarding a leak that the author read multiple times"
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "note about the leak again",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "estimate",
+      "notes": "Estimate that Omar requested the author to send"
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "draft reply to Nora",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "one sentence",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The work unit describes an administrative action (reading an email and printing an invite) rather than an event-like episode involving another person or entity.",
+    "I kept wondering whether she was warning me or documenting me",
+    "I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me",
+    "still didn't know whether the reply was for Nora, for Omar, or just for me",
+    "I kept wondering whether she was warning me or documenting me."
+  ]
+}

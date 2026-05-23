@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "On the ride home I read the note about the hearing again, then read it again, and kept hearing Leah say, \"just present the numbers.\"",
+      "notes": "author reading note and internally repeating Leah's advice"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I read the note about the hearing again",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Leah say, \"just present the numbers.\"",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

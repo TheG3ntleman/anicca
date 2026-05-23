@@ -1,0 +1,37 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I texted Lina",
+      "notes": "Action of texting"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "the book was getting under my skin",
+      "notes": "Author's emotional state regarding the book"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I deleted the message",
+      "notes": "Action of deleting the message"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "instead of sending it",
+      "notes": "Decision or mental shift about not sending the message"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I texted Lina to say the book was getting under my skin, then deleted the message instead of sending it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted the message instead of sending it",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "Determining if 'the book was getting under my skin' qualifies as a recorded emotion or observation"
+  ]
+}

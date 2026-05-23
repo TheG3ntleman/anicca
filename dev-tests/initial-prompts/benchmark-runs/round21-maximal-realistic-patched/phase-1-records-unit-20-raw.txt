@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "behaviour",
+  "source_text": "circled the row about the rollback window.",
+  "notes": ""
+}
+

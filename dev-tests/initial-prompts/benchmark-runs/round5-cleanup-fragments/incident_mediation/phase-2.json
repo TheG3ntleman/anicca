@@ -1,0 +1,98 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a5",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a9",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't called the contractor",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a11",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the leak again",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a12",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the leak again",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a8",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Omar say, \"just send the estimate",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a13",
+      "relation_label": "action on object",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Nora",
+      "notes": "verb 'opened' applies to 'draft reply to Nora'"
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a3",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Nora",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a14",
+      "relation_label": "deleted one",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one sentence",
+      "notes": "direct action on object"
+    }
+  ],
+  "uncertainties": [
+    "read it again",
+    "restored it"
+  ]
+}

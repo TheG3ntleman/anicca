@@ -1,0 +1,32 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "then read it again, and kept hearing Leah say, \"just present the numbers.\"",
+      "notes": "The author repeatedly reads a note and internally hears Leah's instruction."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "On the ride home I read the note about the hearing again",
+      "notes": "The author reads a note about a hearing."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "then read it again",
+      "notes": "The author reads the note again."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "then restored it",
+      "notes": "The author restores a deleted paragraph."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Before bed I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "The author deletes a paragraph from a draft reply."
+    }
+  ],
+  "uncertainties": []
+}
+

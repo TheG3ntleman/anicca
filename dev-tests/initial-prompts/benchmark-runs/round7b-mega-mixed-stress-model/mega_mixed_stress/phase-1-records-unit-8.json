@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "Afterward I opened the draft reply to Priya",
+      "notes": "The author performed the action of opening a draft reply."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the draft reply to Priya",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the draft reply to Priya",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+      "I texted Lina to say the book was getting under my skin, then deleted the message instead of sending it."
+    ],
+    "notes": "Text message to Lina was drafted and deleted before sending."
+    }
+  ],
+  "uncertainties": []
+}
+

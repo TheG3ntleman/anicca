@@ -1,0 +1,23 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a13",
+      "relation_label": "refers to",
+      "relation_status": "explicit",
+      "supporting_text": "the email draft to the foundation",
+      "notes": "The source record describes the action 'stared at it without sending it' which refers to the object 'the email draft to the foundation' mentioned earlier in the same sentence."
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a13",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "stared at it without sending it",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "stared at it without sending it"
+  ]
+}

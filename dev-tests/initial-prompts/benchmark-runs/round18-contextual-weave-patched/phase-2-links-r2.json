@@ -1,0 +1,53 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "copied two figures from the draft budget",
+      "notes": "the artifact 'draft budget' is directly mentioned in the source text"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a5",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "copied two figures from the draft budget into the email to Mara",
+      "notes": "the artifact 'email to Mara' is directly mentioned in the source text"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a6",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "copied two figures from the draft budget into the email to Mara",
+      "notes": "the artifact 'Mara' is directly mentioned in the source text"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "copied two figures from the draft budget into the email to Mara before the meeting with Selene",
+      "notes": "the artifact 'meeting with Selene' is directly mentioned in the source text"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied two figures from the draft budget into the email to Mara",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a27",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied two figures from the draft budget into the email to Mara",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

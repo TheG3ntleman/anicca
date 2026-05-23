@@ -1,0 +1,60 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Priya's message about the ethics review",
+      "notes": "A message from Priya regarding an ethics review"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the latency report",
+      "notes": "A document containing latency data"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the message itself",
+      "notes": "The message from Priya stating 'we should talk before noon'"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the rollback note",
+      "notes": "A note to the vendor regarding a rollback"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Priya",
+      "notes": "An email or message draft intended for Priya"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the scene in the novel",
+      "notes": "A scene within a novel where a brother drops a glass"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the hospital scan",
+      "notes": "A medical imaging report received by the author"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the voicemail from Dr. Hale",
+      "notes": "A voicemail message left by Dr. Hale"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my design memo",
+      "notes": "A memo written by the author regarding design"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the throughput table",
+      "notes": "A data table showing system throughput"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "A trace from the previous day"
+    }
+  ],
+  "uncertainties": []
+}

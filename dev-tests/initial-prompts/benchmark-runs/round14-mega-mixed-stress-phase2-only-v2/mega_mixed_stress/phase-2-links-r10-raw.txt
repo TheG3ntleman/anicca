@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_references":[{"from_candidate_id":"r10","to_candidate_id":"a14","relation_label":"opened","relation_status":"explicit","supporting_text":"opened the draft reply to Priya","notes":""}],"uncertainties":[]}
+

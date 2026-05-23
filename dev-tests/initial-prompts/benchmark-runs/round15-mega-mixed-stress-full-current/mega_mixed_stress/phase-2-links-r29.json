@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a32",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Hale",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a33",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Hale",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a32",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a33",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

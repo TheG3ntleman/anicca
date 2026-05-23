@@ -1,0 +1,39 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a3",
+      "relation_label": "mention",
+      "relation_status": "ambiguous",
+      "supporting_text": "Maya",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a8",
+      "relation_label": "mention",
+      "relation_status": "ambiguous",
+      "supporting_text": "foundation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a20",
+      "relation_label": "reference",
+      "relation_status": "ambiguous",
+      "supporting_text": "reply",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a13",
+      "relation_label": "reference",
+      "relation_status": "ambiguous",
+      "supporting_text": "email draft",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

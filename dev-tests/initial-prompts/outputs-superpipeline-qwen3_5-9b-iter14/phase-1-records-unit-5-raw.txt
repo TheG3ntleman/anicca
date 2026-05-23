@@ -1,0 +1,8 @@
+Thinking...
+{
+  "thought": "",
+  "emotions": [],
+  "behaviors": ["put the mug beside my laptop", "opened the email draft", "stared at it without sending it"],
+  "body": []
+}
+

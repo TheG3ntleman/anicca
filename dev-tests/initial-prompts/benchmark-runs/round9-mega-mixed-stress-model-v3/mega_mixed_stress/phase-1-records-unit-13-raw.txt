@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Most of the afternoon was me arguing with my own design memo.",
+      "notes": "author reflects on internal conflict regarding design memo"
+    }
+  ],
+  "uncertainties": []
+}
+

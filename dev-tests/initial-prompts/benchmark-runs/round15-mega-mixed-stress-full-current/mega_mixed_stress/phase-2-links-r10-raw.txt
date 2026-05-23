@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a13",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Afterward I opened the draft reply to Priya",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Afterward I opened the draft reply to Priya",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

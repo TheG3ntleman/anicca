@@ -1,0 +1,231 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "Priya's message",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "ethics review",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a9",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether he had forwarded the thread to protect me or to document me",
+      "notes": "direct_mention"
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": "deterministic backfill"
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a11",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't sent the rollback note to the vendor",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the draft reply to Priya",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a2",
+      "relation_label": "for",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Priya",
+      "notes": "The recipient 'Priya' (a2) is explicitly mentioned in the same phrase as the object (a15)."
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a18",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a19",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a20",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr13",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr14",
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr15",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a23",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr16",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a23",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "arguing with my own design memo",
+      "notes": "direct_mention,local_context,token_overlap"
+    },
+    {
+      "candidate_reference_id": "cr17",
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a29",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "The text directly discusses the queue as a possible location for the fix."
+    },
+    {
+      "candidate_reference_id": "cr18",
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a30",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "The text directly discusses my assumptions as a possible location for the fix."
+    },
+    {
+      "candidate_reference_id": "cr19",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a29",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr20",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a30",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr21",
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a32",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told them I was fine",
+      "notes": "deterministic backfill"
+    },
+    {
+      "candidate_reference_id": "cr22",
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a33",
+      "relation_label": "told parents",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told them I was fine",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr23",
+      "from_candidate_id": "r34",
+      "to_candidate_id": "a34",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "If I call back, it will be about the scan",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr24",
+      "from_candidate_id": "r35",
+      "to_candidate_id": "a34",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "if I don't, it will still be about the scan",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether he had forwarded the thread to protect me or to document me",
+    "my throat tightened when the message itself only said",
+    "restored it",
+    "I told them I was fine",
+    "I couldn't tell whether I was angry at Eva",
+    "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+    "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+    "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+    "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions"
+  ]
+}

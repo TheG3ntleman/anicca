@@ -1,0 +1,19 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "At dinner with my parents, my mother asked whether Dr. Sen had calmed me down."
+      ],
+      "notes": ""
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

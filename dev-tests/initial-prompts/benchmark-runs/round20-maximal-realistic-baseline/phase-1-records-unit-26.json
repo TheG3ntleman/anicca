@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I could barely swallow.",
+      "notes": "Physical action or physiological state described by the author."
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

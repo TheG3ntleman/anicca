@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix",
+      "notes": "Author's opinion on a proposed solution"
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

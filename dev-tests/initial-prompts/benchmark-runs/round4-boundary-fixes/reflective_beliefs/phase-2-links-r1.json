@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a5",
+      "relation_label": "mentions essay by Weil",
+      "relation_status": "explicit",
+      "supporting_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

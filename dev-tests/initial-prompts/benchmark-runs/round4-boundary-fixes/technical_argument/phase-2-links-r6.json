@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a6",
+      "relation_label": "refers to",
+      "relation_status": "explicit",
+      "supporting_text": "spike near authentication",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a6",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the spike near authentication",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

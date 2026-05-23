@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The provided work unit text is not valid journal text; it states 'deleted one sentence' which contains no author processes."]
+}
+

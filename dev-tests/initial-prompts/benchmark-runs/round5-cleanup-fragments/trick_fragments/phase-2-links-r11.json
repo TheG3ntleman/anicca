@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a5",
+      "relation_label": "voicemail",
+      "relation_status": "ambiguous",
+      "supporting_text": "voicemail from Dr. Hale",
+      "notes": "unclear link"
+    }
+  ],
+  "uncertainties": []
+}

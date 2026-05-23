@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a6",
+      "relation_label": "check-in",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told them I was fine, but I wasn't fine and I could barely swallow.",
+      "notes": "The source record mentions 'I told them' which may refer to the check-in with Dr. Sen, but the pronoun resolution is not explicitly supported by the text."
+    }
+  ],
+  "uncertainties": []
+}
+

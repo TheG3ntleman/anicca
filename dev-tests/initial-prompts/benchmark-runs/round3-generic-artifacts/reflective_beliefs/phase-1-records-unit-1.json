@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I keep telling myself that consistency matters more than sincerity, but I don't believe that all the way through.",
+      "notes": "Author expresses internal conflict about consistency versus sincerity."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I keep telling myself that consistency matters more than sincerity, but I don't believe that all the way through",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't believe that all the way through",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

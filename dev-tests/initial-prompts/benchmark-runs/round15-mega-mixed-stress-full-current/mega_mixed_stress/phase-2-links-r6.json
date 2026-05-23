@@ -1,0 +1,23 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "my throat tightened when the message itself only said"
+  ]
+}

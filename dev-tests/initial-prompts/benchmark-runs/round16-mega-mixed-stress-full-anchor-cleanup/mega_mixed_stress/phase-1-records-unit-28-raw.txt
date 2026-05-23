@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_records":[{"process_type":"thought","source_text":"if I don't, it will still be about the scan.","notes":"conditional statement about the author's concern regarding the scan topic"}],"uncertainties":["unclear antecedent to 'if I don't'"]}
+

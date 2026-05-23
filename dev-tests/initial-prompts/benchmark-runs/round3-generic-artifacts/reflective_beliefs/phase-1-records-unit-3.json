@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote three lines in the notebook about freedom, crossed them out, and then rewrote the last line",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed them out",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

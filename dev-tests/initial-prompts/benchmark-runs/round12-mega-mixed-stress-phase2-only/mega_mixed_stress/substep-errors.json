@@ -1,0 +1,6 @@
+[
+  {
+    "substep": "phase-2-links-r34",
+    "error": "Command '['ollama', 'run', 'qwen3.5:9b', '--think', 'false', '--format', 'json']' timed out after 60 seconds"
+  }
+]

@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "Extracted as behaviour describing an action related to calling back."
+    }
+  ],
+  "uncertainties": []
+}
+

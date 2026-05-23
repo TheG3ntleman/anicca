@@ -1,0 +1,142 @@
+[
+  {
+    "unit_id": "unit-1",
+    "unit_text": "On Monday I reread Priya's message about the ethics review",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-2",
+    "unit_text": "printed the latency report before the call with Martin, the CTO.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-3",
+    "unit_text": "I kept wondering whether he had forwarded the thread to protect me or to document me",
+    "unit_kind": "mixed"
+  },
+  {
+    "unit_id": "unit-4",
+    "unit_text": "my throat tightened when the message itself only said, \"we should talk before noon.\"",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-5",
+    "unit_text": "During the call with Martin, the CTO",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-6",
+    "unit_text": "I admitted I still hadn't sent the rollback note to the vendor",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-7",
+    "unit_text": "apologized for freezing during last week's customer demo.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-8",
+    "unit_text": "Afterward I opened the draft reply to Priya",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-9",
+    "unit_text": "deleted one sentence",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-10",
+    "unit_text": "restored it",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-11",
+    "unit_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass.",
+    "unit_kind": "reflective"
+  },
+  {
+    "unit_id": "unit-12",
+    "unit_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict.",
+    "unit_kind": "reflective"
+  },
+  {
+    "unit_id": "unit-13",
+    "unit_text": "Most of the afternoon was me arguing with my own design memo.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-14",
+    "unit_text": "I wrote \"consistency is a promise we make to the future\" in the margin",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-15",
+    "unit_text": "crossed it out",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-16",
+    "unit_text": "rewrote the last line",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-17",
+    "unit_text": "compared the throughput table to yesterday's trace.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-18",
+    "unit_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-19",
+    "unit_text": "At dinner with my parents my father asked whether the hospital scan had scared me again.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-20",
+    "unit_text": "I told them I was fine",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-21",
+    "unit_text": "I wasn't",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-22",
+    "unit_text": "I could barely swallow.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-23",
+    "unit_text": "Before sleep I listened to the voicemail from Dr. Hale",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-24",
+    "unit_text": "did not call back",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-25",
+    "unit_text": "kept telling myself I already knew what it said.",
+    "unit_kind": "mixed"
+  },
+  {
+    "unit_id": "unit-26",
+    "unit_text": "I don't.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-27",
+    "unit_text": "If I call back, it will be about the scan",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-28",
+    "unit_text": "if I don't, it will still be about the scan.",
+    "unit_kind": "fragmentary"
+  }
+]

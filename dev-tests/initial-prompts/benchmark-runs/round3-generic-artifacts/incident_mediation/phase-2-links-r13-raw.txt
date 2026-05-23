@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a12",
+      "relation_label": "object_mention",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Nora",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a3",
+      "relation_label": "recipient_mention",
+      "relation_status": "explicit",
+      "supporting_text": "to Nora",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

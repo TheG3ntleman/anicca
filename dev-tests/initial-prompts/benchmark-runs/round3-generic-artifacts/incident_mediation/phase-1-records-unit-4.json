@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't called the contractor",
+      "notes": "Author admits to not calling contractor."
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "and apologized",
+      "notes": "Author expresses apology."
+    },
+    {
+      "process_type": "body",
+      "source_text": "for going blank during last week's site visit",
+      "notes": "Author describes going blank."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

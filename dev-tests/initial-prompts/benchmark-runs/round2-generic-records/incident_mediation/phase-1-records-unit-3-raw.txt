@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "By the time I got to the meeting with Omar, my jaw was tight.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

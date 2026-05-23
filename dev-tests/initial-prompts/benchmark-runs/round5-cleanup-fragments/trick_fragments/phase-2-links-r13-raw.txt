@@ -1,0 +1,3 @@
+Thinking...
+{"from_candidate_id":"r13","to_candidate_id":"a5","relation_label":"scan referenced","relation_status":"ambiguous","supporting_text":"if I don't, it will still be about the scan","notes":""}
+

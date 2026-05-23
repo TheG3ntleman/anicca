@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+      "notes": "Author reflects on a novel scene regarding a brother's departure."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

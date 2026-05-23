@@ -1,0 +1,10 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "the scene in the novel",
+      "notes": "referenced scene from a novel"
+    }
+  ],
+  "uncertainties": []
+}

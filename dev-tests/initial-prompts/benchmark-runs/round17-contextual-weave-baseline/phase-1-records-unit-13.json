@@ -1,0 +1,17 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote \"stability is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"stability is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text describes an action of writing a statement but does not specify the underlying thought or emotion of the author."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "The statement 'I told them I was fine' describes a communication act, but the rules specify extracting only the journal author's internal processes (thought, emotion, behaviour, body). 'I told' is an action involving speech, which could be considered behaviour. However, the rule states to extract only processes. Let's evaluate if this fits the definitions."
+  ]
+}

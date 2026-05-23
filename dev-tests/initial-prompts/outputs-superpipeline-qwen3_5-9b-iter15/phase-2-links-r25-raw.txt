@@ -1,0 +1,31 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message",
+      "notes": "reply related to Maya"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a20",
+      "relation_label": "part_of",
+      "relation_status": "explicit",
+      "supporting_text": "the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a19",
+      "relation_label": "deletion_of",
+      "relation_status": "explicit",
+      "supporting_text": "one paragraph",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

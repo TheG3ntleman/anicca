@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "body",
+  "source_text": "After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it.",
+  "notes": ""
+}
+

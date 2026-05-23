@@ -1,0 +1,13 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+      ],
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

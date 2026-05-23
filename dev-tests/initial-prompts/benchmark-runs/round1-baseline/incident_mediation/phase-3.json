@@ -1,0 +1,96 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me.",
+      "notes": "Author questions her motivation",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "body",
+      "source_text": "my jaw was tight",
+      "notes": "Physical tension described by the author",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't called the contractor",
+      "notes": "admitting failure to call contractor",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+      "notes": "Author's internal uncertainty about the purpose of a draft message.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Nora's email about the mediation",
+      "notes": "Email from Nora regarding mediation",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "calendar invite",
+      "notes": "Calendar invitation printed and reviewed",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "note about the leak",
+      "notes": "Note referring to a leak",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "draft reply to Nora",
+      "notes": "Draft message addressed to Nora",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a4",
+      "relation_label": "opened",
+      "relation_status": "ambiguous",
+      "supporting_text": "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": [
+    "I kept wondering whether she was warning me or documenting me.",
+    "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+    "read it again",
+    "restored it"
+  ]
+}

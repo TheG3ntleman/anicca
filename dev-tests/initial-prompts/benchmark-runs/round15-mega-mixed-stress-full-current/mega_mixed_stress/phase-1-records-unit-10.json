@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "restored it lacks context for identifying a process"
+  ]
+}

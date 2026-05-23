@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a6",
+      "relation_label": "mentioned",
+      "relation_status": "ambiguous",
+      "supporting_text": "Omar",
+      "notes": "Pronoun resolution and context attribution involved."
+    }
+  ],
+  "uncertainties": []
+}

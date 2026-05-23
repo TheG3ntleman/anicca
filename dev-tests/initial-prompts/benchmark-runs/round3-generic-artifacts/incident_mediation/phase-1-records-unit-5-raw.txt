@@ -1,0 +1,32 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept hearing Omar say, 'just send the estimate.'",
+      "notes": ""
+    },
+    {
+      "process_type": "body",
+      "source_text": "I opened the draft reply to Nora",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I deleted one sentence",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I restored it",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

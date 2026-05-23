@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it.",
+      "notes": "The author describes actions taken after a meeting: moving a mug, opening an email draft, and staring at it without sending."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at it without sending it",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I wasn't does not clearly indicate an author process or candidate record. The context is missing to determine what is being negated."
+  ]
+}

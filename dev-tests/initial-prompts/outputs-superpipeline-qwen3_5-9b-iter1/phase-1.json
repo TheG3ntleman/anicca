@@ -1,0 +1,303 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "behaviour",
+      "source_text": "printed the revised budget spreadsheet",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "thought",
+      "source_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "behaviour",
+      "source_text": "put the mug beside my laptop",
+      "notes": "physical action"
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "behaviour",
+      "source_text": "stared at it without sending it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of.",
+      "notes": "Author expresses conflicting desire and realization about their fear."
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "thought",
+      "source_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine, but I wasn't fine",
+      "notes": "Internal acknowledgment of hidden condition versus outward presentation"
+    },
+    {
+      "candidate_id": "r17",
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r18",
+      "process_type": "emotion",
+      "source_text": "I wasn't fine",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r19",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r20",
+      "process_type": "behaviour",
+      "source_text": "I read the note about the hearing again",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r21",
+      "process_type": "behaviour",
+      "source_text": "read it again, and kept hearing Leah say, \"just present the numbers.\"",
+      "notes": "The author repeatedly reads a note and internally hears Leah's instruction."
+    },
+    {
+      "candidate_id": "r22",
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r23",
+      "process_type": "behaviour",
+      "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r24",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r25",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Yesterday morning on the train"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "Message related to an appeal hearing"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "Maya",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "appeal hearing"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "Budget spreadsheet"
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "donor call on Monday"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "moment Leah laughed"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "Leah",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": "Slide containing a broken chart"
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "Draft email to a foundation"
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "hospital scan next week"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents, my mother asked whether Dr. Sen had calmed me down."
+      ],
+      "notes": "Mother inquired about Dr. Sen's effect on narrator during dinner."
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "object",
+      "source_text": "my parents",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a18",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "ride home"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a19",
+      "artifact_kind": "object",
+      "source_text": "note about the hearing",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a20",
+      "artifact_kind": "object",
+      "source_text": "one paragraph",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "The user wants to extract candidate artifacts of kind 'encounter' from the given local work unit.",
+    "unclear",
+    "The note about the hearing is unclear on whether it is physical or digital.",
+    "The slide with the broken chart is part of a presentation but context is limited.",
+    "I kept wondering whether she had sent the message to warn me or to push me out",
+    "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+    "I don't know whether the reply was for Maya, for the foundation, or just for me"
+  ]
+}

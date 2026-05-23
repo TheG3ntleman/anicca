@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": ["Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it."],
+      "notes": "A digital interaction involving the deletion and restoration of a draft reply to Maya's message occurred before the narrator went to bed."
+    }
+  ],
+  "uncertainties": ["The purpose of the draft reply is unclear—it may have been intended for Maya, the foundation, or only for the narrator."]
+}
+

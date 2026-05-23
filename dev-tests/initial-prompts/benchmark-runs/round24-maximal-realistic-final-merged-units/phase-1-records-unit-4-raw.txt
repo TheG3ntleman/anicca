@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "I admitted I still hadn't sent the corrected invoice to the clinic",
+  "notes": "Author admits to not sending invoice."
+}
+

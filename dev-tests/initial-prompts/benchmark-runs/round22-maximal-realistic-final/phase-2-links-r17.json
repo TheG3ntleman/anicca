@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a24",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the risk table to last night's trace",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a23",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the risk table to last night's trace",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

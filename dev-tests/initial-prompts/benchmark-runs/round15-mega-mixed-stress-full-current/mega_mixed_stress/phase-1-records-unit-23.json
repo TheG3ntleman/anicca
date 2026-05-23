@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text describes an external action (listening to voicemail) rather than the author's internal processes (thought, emotion, behaviour, body)."
+  ]
+}

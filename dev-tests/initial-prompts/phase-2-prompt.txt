@@ -1,0 +1,137 @@
+You are performing phase 2 only.
+
+Critical output rules:
+1. Return exactly one JSON object and nothing else.
+2. Do not output explanations, planning, self-corrections, or commentary.
+3. Always return all top-level keys: `candidate_records`, `candidate_artifacts`, `uncertainties`.
+4. If a list is empty, return `[]`.
+5. Use record IDs `r1`, `r2`, `r3`, ... in source order.
+6. Use artifact IDs `a1`, `a2`, `a3`, ... in source order.
+7. IDs must be unique across all phase-2 candidates.
+8. `notes` must be short, factual, and neutral. Do not write notes like `need to fix this`, `let's`, `I'll`, `maybe`, or `alternatively`.
+9. Each item in `uncertainties` must be a plain string, not an object.
+10. Be exhaustive. Missing an obvious author process is worse than returning a slightly overlapping span.
+
+You will be given a journal entry.
+
+Your task is to extract candidate records and candidate artifacts directly supported by the text.
+
+Work silently in this order:
+1. Read the entry sentence by sentence in source order.
+2. For each sentence, extract every distinct author process that can stand alone.
+3. Then identify scene/episode boundaries for encounter artifacts.
+4. Then identify identity-worthy objects and people.
+5. Then add any unresolved ambiguities to `uncertainties`.
+
+Definitions:
+- A candidate record is a text span describing the journal author's thought, emotion, behaviour, or body state.
+- A candidate artifact is an identity-worthy object or encounter directly supported by the text.
+
+Allowed process_type values:
+- thought
+- emotion
+- behaviour
+- body
+
+Process typing reminders:
+- `thought`: beliefs, appraisals, judgments, desire, uncertainty statements, rumination, rehearsal, internal deliberation, interpretation
+- `emotion`: explicitly felt emotional states
+- `behaviour`: actions, speech acts, outward conduct, bodily actions
+- `body`: directly described bodily states or physical sensations
+
+High-value typing reminders:
+- `wanted`, `knew`, `don't know`, `wondering`, `couldn't tell`, `replaying`, and `kept hearing` are usually `thought`
+- `admitted`, `apologized`, `told`, `reread`, `printed`, `put`, `opened`, `stared`, `read again`, `deleted`, and `restored` are usually `behaviour`
+- `stomach tightened` and `could barely swallow` are `body`
+- desire and uncertainty are not `emotion`
+
+Record rules:
+1. Extract only the journal author's processes.
+2. Do not extract other people's actions, speech, or emotions as candidate_records.
+3. Preserve negation exactly.
+4. Do not treat a pure object span as a candidate_record.
+5. Do not use `body` as a fallback for vague internal experience.
+6. Split mixed clauses when the resulting parts can each stand alone clearly.
+7. If a clause contains both a bodily state and another process, split them when possible.
+8. If a clause contains both a thought and an emotion, split them when possible.
+9. If a clause contains separate actions joined by `and`, `then`, or a scene shift, do not combine them if they can stand alone.
+10. If a speech act and its content appear in one clause, prefer the speech act as a `behaviour` record unless the content also stands alone clearly.
+11. Each candidate_record must have exactly one `source_text`.
+12. Use the smallest exact contiguous span that can stand on its own.
+13. Do not collapse multiple author actions into one record just because they occur in the same sentence.
+14. Internal replay, mental rehearsal, and repeated hearing in the mind count as candidate records.
+15. Self-report uncertainty such as `I don't know whether...` is a `thought`.
+16. Desire such as `I wanted to...` is a `thought`.
+17. Do not extract clipped connective fragments such as `even though...`, `but...`, or `and then...` unless the full extracted span stands alone clearly.
+18. Do not extract other people's speech or reported claims as candidate_records.
+19. Do not classify `admitted`, `told`, or `apologized` as `body`.
+20. If a later coordinated action omits the subject but still stands alone clearly, you may extract the exact contiguous verb phrase, for example `opened ...`, `stared ...`, `read it again`, or `restored it`.
+21. Do not insert a missing `I` or rewrite the span to make it sound smoother. Use the exact text that appears in the entry.
+
+Allowed artifact_kind values:
+- object
+- encounter
+
+Artifact rules:
+1. Use `object` for identity-worthy non-event things such as people, places, roles, documents, messages, projects, or recurring non-event items.
+2. Use `encounter` for substantial event-like episodes such as conversations, calls, meetings, dinners, rides, appointments, consultations, scans, procedures, trips, arguments, incidents, or past events.
+3. Past events and procedures usually belong in `encounter`, not `object`.
+4. Exclude low-value incidental objects unless they seem central.
+5. Object artifacts must have exactly one `source_text`.
+6. Encounter artifacts may have one or more `source_texts`.
+7. For every substantial event-like episode, create at least one encounter artifact.
+8. Do not create one giant encounter for the whole entry.
+9. If time, location, participants, or scene clearly shift, use separate encounter artifacts.
+10. Encounter `source_texts` should stay local to one coherent episode.
+11. Strong scene-shift markers such as `yesterday morning`, `during`, `after the meeting`, `at dinner`, `on the ride home`, and `before bed` usually start new encounters.
+12. Do not mix source_texts from different scene shifts into one encounter.
+13. Named people and role-bearing people in significant scenes usually deserve object artifacts.
+14. Do not omit central people like supervisors, family members, or named participants just because they also appear inside encounters.
+15. Exclude incidental scene furniture such as mugs or laptops unless they seem central to later meaning.
+16. If you must choose, prioritize author records and encounter artifacts over low-value object artifacts.
+17. Procedures and appointments such as scans and hearings usually belong in `encounter`.
+
+General rules:
+1. Be high recall.
+2. Use exact contiguous text from the entry.
+3. Do not paraphrase.
+4. Output items in source order.
+5. Overlap is allowed.
+6. Do not deduplicate.
+7. Do not create references between items.
+8. Do not infer hidden meaning, diagnosis, symbolism, or deeper causes.
+9. If a sentence contains multiple distinct author processes, it should usually yield multiple candidate_records.
+10. If a dense entry yields only a handful of candidate_records, you probably missed processes.
+11. Before returning, quickly check whether you captured obvious later actions like `printed`, `apologized`, `opened`, `stared`, `told`, `read again`, and `restored` when they appear in the entry.
+
+If something is genuinely unclear, record that in `uncertainties` instead of reasoning out loud in `notes`.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "",
+      "notes": ""
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "encounter",
+      "source_texts": [""],
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+
+Return only JSON.

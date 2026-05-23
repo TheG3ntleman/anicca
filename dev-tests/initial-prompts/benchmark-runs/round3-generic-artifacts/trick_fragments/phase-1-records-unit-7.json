@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I keep telling myself I already know what it says, but I don't.",
+      "notes": "Author expresses a conflict between belief and actual knowledge."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I keep telling myself I already know what it says, but I don't",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

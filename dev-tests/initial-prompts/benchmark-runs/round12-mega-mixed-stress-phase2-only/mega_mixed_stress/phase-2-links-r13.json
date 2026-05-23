@@ -1,0 +1,77 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a19",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a18",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a17",
+      "relation_label": "heard",
+      "relation_status": "explicit",
+      "supporting_text": "hearing Eva laugh",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a20",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "scene in the novel",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a21",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "brother drops the glass",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a17",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a18",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a20",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a21",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,47 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a19",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "scene in the novel where the brother drops the glass",
+      "notes": "direct extraction from source_text"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a18",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "scene in the novel",
+      "notes": "direct extraction from source_text"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a17",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Eva",
+      "notes": "direct extraction from source_text"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a20",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "novel",
+      "notes": "direct extraction from source_text"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a21",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "brother",
+      "notes": "direct extraction from source_text"
+    }
+  ],
+  "uncertainties": []
+}
+

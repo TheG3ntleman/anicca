@@ -1,0 +1,53 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a10",
+      "relation_label": "referenced",
+      "relation_status": "explicit",
+      "supporting_text": "benchmark report",
+      "notes": "r11 source_text does not contain 'benchmark', but 'Later I reopened the benchmark report' in work unit text implies link. However, rule 5 says prefer spans inside source_text. r11 source_text is 'stared at the throughput table, and didn't send the follow-up message'. 'benchmark' is not in source_text. So this link might violate rule 5 if strictly interpreted on text span."
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a11",
+      "relation_label": "referenced",
+      "relation_status": "explicit",
+      "supporting_text": "benchmark report",
+      "notes": "Work unit text contains 'benchmark report'. Link is supported by work unit context, but rule 14 says do not use wider context unless pronoun resolution. This is not pronoun resolution. This might be a 'referenced' link based on work unit context."
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a12",
+      "relation_label": "looked at",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table",
+      "notes": "Direct match in source_text."
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a13",
+      "relation_label": "failed to send",
+      "relation_status": "explicit",
+      "supporting_text": "didn't send the follow-up message",
+      "notes": "Direct match in source_text."
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a13",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

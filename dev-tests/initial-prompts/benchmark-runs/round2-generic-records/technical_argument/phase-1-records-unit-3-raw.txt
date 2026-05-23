@@ -1,0 +1,22 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I compared the latency graph with yesterday's trace",
+      "notes": "Cognitive activity of comparing data."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the spike near authentication",
+      "notes": "Physical action of marking a graph."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "Physical action of documenting an observation."
+    }
+  ],
+  "uncertainties": []
+}
+

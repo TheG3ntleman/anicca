@@ -1,0 +1,250 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "uncertainty about Maya's intent"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "and my stomach tightened",
+      "notes": "bodily sensation"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "emotion",
+      "source_text": "even though the message itself only said, 'we should talk before Friday'",
+      "notes": "interpretation of message content"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "self-reporting to supervisor"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "apology to supervisor"
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "rumination on interaction with Leah"
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": "action after meeting"
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": "action before staring"
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "stared at it without sending it",
+      "notes": "inaction while looking at draft"
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "desire to cancel scan"
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "thought",
+      "source_text": "but I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "awareness of real fear"
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": "response to mother's question"
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "emotion",
+      "source_text": "but I wasn't fine and I could barely swallow",
+      "notes": "denial and physical reaction"
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "behaviour",
+      "source_text": "On the ride home I read the note about the hearing again",
+      "notes": "reading action"
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "thought",
+      "source_text": "then read it again, and kept hearing Leah say, 'just present the numbers'",
+      "notes": "replaying content"
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "behaviour",
+      "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "editing action"
+    },
+    {
+      "candidate_id": "r17",
+      "process_type": "behaviour",
+      "source_text": "and then restored it",
+      "notes": "undoing deletion"
+    },
+    {
+      "candidate_id": "r18",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "uncertainty about reply purpose"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "message from Maya"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": "spreadsheet document"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the check-in with Dr. Sen, my supervisor"
+      ],
+      "notes": "meeting with supervisor"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen, my supervisor",
+      "notes": "supervisor"
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the donor call on Monday"
+      ],
+      "notes": "donor call event"
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "Leah",
+      "notes": "person in donor call"
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": "presentation slide"
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "the mug",
+      "notes": "mug beside laptop"
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "my laptop",
+      "notes": "author's laptop"
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "draft email"
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the hospital scan next week",
+        "the scan wasn't the thing I was really afraid of"
+      ],
+      "notes": "upcoming medical scan"
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen",
+      "notes": "supervisor person"
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "my parents",
+      "notes": "family members"
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "object",
+      "source_text": "my mother",
+      "notes": "mother"
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "At dinner with my parents"
+      ],
+      "notes": "dinner with family"
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "object",
+      "source_text": "the note about the hearing",
+      "notes": "note document"
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the ride home"
+      ],
+      "notes": "ride home after dinner"
+    },
+    {
+      "candidate_id": "a18",
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+      "notes": "draft reply document"
+    },
+    {
+      "candidate_id": "a19",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "before bed"
+      ],
+      "notes": "time of day"
+    }
+  ],
+  "meta_data": {
+    "version": 1,
+    "timestamp": "2024-06-05T08:32:41.744Z",
+    "source": "diary",
+    "language": "English",
+    "note": "This entry captures the author's internal conflict and actions throughout the day."
+  }
+}
+

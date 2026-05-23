@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "did not call back",
+      "notes": "Author describes not being contacted"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "notes": "Author admits to not having sent the corrected invoice"
+    }
+  ],
+  "uncertainties": []
+}
+

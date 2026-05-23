@@ -1,0 +1,28 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan; if I don't, it will still be about the scan.",
+      "notes": "Expression of anticipated concern or expectation regarding communication about a scan."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan"
+  ]
+}

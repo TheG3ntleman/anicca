@@ -1,0 +1,9 @@
+Thinking...
+{
+  "process": "Extract candidate_records from the text 'I missed Maya' based on the given rules.",
+  "rules": "Only extract the journal author's processes. Do not extract artifacts or encounters. Split distinct processes if they stand alone. Use exact contiguous text. Preserve negation. Uncertainties for unclear things. Notes should be short and neutral.",
+  "analysis": "The text 'I missed Maya' describes an emotional state or feeling of the author towards Maya. This fits the `emotion` process type. The subject 'I' is the author. 'missed Maya' is the action/feeling. There is no other action or speech here. It is a direct expression of an emotion.",
+  "plan": "Identify 'missed' as the emotion. Since 'I missed Maya' is a single complete thought, it can be the candidate_record.",
+  "verification": "Source text: 'I missed Maya'. Process type: emotion. Note: expressing missing someone. No negation. Not an artifact or encounter.",
+  "draft": {"candidate_records": [{"process_type": "emotion", "source_text": "I missed Maya", "notes": "Author expresses feeling of missing Maya"}]}, "uncertainties": []}
+

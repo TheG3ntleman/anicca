@@ -1,0 +1,39 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a17",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a18",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a19",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

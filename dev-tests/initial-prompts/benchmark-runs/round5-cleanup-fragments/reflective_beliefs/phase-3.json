@@ -1,0 +1,221 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I keep telling myself that consistency matters more than sincerity",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I don't believe that all the way through",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "Part of me wants a clean principle",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "part of me only wants relief",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "I wrote three lines in the notebook about freedom",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "crossed them out",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira",
+      "notes": "Author claims lack of anger",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "thought",
+      "source_text": "I keep insisting that I'm not angry",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment.",
+      "notes": "Author describes internal feeling as embarrassment",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "emotion",
+      "source_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": "Author expresses reliance on reading Weil's essay as a form of decision-making guidance, indicating emotional or psychological state.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "I keep reading the sentence about attention as if it could decide things for me",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "notebook",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "freedom",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "last line",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "Mira",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "essay by Weil",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "Weil",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "sentence about attention",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a1",
+      "relation_label": "notebook",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote three lines in the notebook about freedom",
+      "notes": "source record explicitly mentions 'the notebook'",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a2",
+      "relation_label": "freedom",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote three lines in the notebook about freedom",
+      "notes": "source record explicitly mentions 'about freedom'",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "rewrote the last line",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a4",
+      "relation_label": "target",
+      "relation_status": "explicit",
+      "supporting_text": "I am not angry at Mira",
+      "notes": "Mira is the target of the anger claim",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a5",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I keep reading the sentence about attention as if it could decide things for me",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": []
+}

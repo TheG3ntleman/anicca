@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "the book was getting under my skin",
+  "notes": "internal state assessment"
+}
+

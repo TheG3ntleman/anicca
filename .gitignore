@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Local project data / save slots
+data/save-slot-*/
+data/**/journal/
+data/**/*.md
+data/**/*.sqlite3
+data/**/*.db
+data/**/*.sqlite

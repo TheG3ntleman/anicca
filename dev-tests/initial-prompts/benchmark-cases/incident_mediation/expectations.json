@@ -1,0 +1,95 @@
+{
+  "case_id": "incident_mediation",
+  "description": "Narrative incident with repeated reading, apology, pronouns, and reply ambiguity.",
+  "expected_records": [
+    "I reread Nora's email about the mediation",
+    "printed the calendar invite",
+    "I kept wondering whether she was warning me or documenting me",
+    "my jaw was tight",
+    "I admitted I still hadn't called the contractor",
+    "I apologized for going blank during last week's site visit",
+    "I read the note about the leak again",
+    "read it again",
+    "kept hearing Omar say, \"just send the estimate.\"",
+    "I opened the draft reply to Nora",
+    "deleted one sentence",
+    "restored it",
+    "still didn't know whether the reply was for Nora, for Omar, or just for me"
+  ],
+  "expected_artifacts": [
+    "Nora",
+    "Nora's email",
+    "mediation",
+    "calendar invite",
+    "meeting with Omar",
+    "Omar",
+    "contractor",
+    "site visit",
+    "note about the leak",
+    "draft reply to Nora",
+    "one sentence"
+  ],
+  "expected_reference_pairs": [
+    {
+      "record": "I reread Nora's email about the mediation",
+      "artifact": "Nora's email"
+    },
+    {
+      "record": "I reread Nora's email about the mediation",
+      "artifact": "mediation"
+    },
+    {
+      "record": "I kept wondering whether she was warning me or documenting me",
+      "artifact": "Nora's email"
+    },
+    {
+      "record": "I admitted I still hadn't called the contractor",
+      "artifact": "contractor"
+    },
+    {
+      "record": "I apologized for going blank during last week's site visit",
+      "artifact": "site visit"
+    },
+    {
+      "record": "I read the note about the leak again",
+      "artifact": "note about the leak"
+    },
+    {
+      "record": "kept hearing Omar say, \"just send the estimate.\"",
+      "artifact": "Omar"
+    },
+    {
+      "record": "I opened the draft reply to Nora",
+      "artifact": "draft reply to Nora"
+    },
+    {
+      "record": "deleted one sentence",
+      "artifact": "one sentence"
+    },
+    {
+      "record": "deleted one sentence",
+      "artifact": "draft reply to Nora"
+    },
+    {
+      "record": "restored it",
+      "artifact": "one sentence"
+    },
+    {
+      "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "artifact": "Nora"
+    },
+    {
+      "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "artifact": "Omar"
+    },
+    {
+      "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "artifact": "draft reply to Nora"
+    }
+  ],
+  "forbidden_records": [],
+  "forbidden_artifacts": [],
+  "forbidden_reference_pairs": [],
+  "max_encounters": 2,
+  "target_reference_count": 14
+}

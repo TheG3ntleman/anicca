@@ -1,0 +1,55 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email about the ethics complaint",
+      "notes": "Email from Lena regarding an ethics complaint"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft incident log",
+      "notes": "Draft log of incidents"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the reply to Omar",
+      "notes": "Drafted reply message to Omar"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "unsent reply to Lena",
+      "notes": "Unsent reply draft to Lena"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "project memo",
+      "notes": "Project documentation"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "risk table",
+      "notes": "Risk assessment table"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "last night's trace",
+      "notes": "Trace from the previous night"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Imani",
+      "notes": "Voicemail message from Dr. Imani"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the scene in the novel where the sister breaks the cup",
+      "notes": "Specific scene from a novel"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the novel",
+      "notes": "Novel being referenced"
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,15 @@
+Thinking...
+{ 
+  "candidate_references": [
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a4",
+      "relation_label": "target",
+      "relation_status": "explicit",
+      "supporting_text": "I am not angry at Mira",
+      "notes": "Mira is the target of the anger claim"
+    }
+  ],
+  "uncertainties": []
+}
+

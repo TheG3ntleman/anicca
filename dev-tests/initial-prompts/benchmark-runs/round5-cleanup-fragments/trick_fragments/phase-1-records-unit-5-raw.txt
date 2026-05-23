@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "The voicemail from Dr.",
+  "notes": "fragmentary text with no clear author process"
+}
+

@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I said the benchmark was misleading",
+      "notes": "author's statement about benchmark evaluation"
+    }
+  ],
+  "uncertainties": []
+}
+

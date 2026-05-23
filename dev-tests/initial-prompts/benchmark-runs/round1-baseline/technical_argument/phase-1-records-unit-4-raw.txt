@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "During code review with Priya I said the benchmark was misleading.",
+      "notes": "The author expressed a judgment about the benchmark during a code review."
+    }
+  ],
+  "uncertainties": []
+}
+

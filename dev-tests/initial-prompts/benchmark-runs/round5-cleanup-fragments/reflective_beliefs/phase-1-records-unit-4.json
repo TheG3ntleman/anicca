@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira",
+      "notes": "Author claims lack of anger"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "or at least I keep insisting that I'm not angry",
+      "notes": "Author admits to self-deception or insistence on lack of anger"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira, or at least I keep insisting that I'm not angry",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I keep insisting that I'm not angry",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

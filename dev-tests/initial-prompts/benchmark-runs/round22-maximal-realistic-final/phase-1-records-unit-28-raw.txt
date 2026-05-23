@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text 'did not call back' describes a failure to perform an action (calling back) but does not clearly attribute this action or its lack to the journal author. It could be an artifact (the recipient not calling back) or an unattributed action."]
+}
+

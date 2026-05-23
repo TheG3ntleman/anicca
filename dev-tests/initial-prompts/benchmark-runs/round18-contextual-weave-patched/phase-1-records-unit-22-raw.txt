@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow.",
+      "notes": "physiological response to fear or distress"
+    }
+  ],
+  "uncertainties": []
+}
+

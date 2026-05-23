@@ -1,0 +1,106 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of today was me arguing with my own design memo.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of today was me arguing with my own design memo",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "critique",
+      "relation_status": "explicit",
+      "supporting_text": "I still think the caching layer is the wrong fix",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a3",
+      "relation_label": "authorship",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote the first proposal for it",
+      "notes": "direct statement of authorship of a3"
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a4",
+      "relation_label": "object referred to",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace",
+      "notes": "direct mention"
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a5",
+      "relation_label": "object referred to",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace",
+      "notes": "direct mention"
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a6",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the spike near authentication",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a9",
+      "relation_label": "said about",
+      "relation_status": "explicit",
+      "supporting_text": "I said the benchmark was misleading",
+      "notes": "direct mention of benchmark in context of said"
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a11",
+      "relation_label": "stared at",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "didn't send the follow-up message",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "I compared the latency graph with yesterday's trace"
+  ]
+}

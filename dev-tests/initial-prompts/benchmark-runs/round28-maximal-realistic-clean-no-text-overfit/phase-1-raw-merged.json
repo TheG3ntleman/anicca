@@ -1,0 +1,513 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Lena's email about the ethics complaint",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "copied one sentence from the draft incident log into the reply to Omar before the meeting with Priya",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit, my jaw tightened when the email itself only said, \"we should talk before noon",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my jaw tightened when the email itself only said",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the corrected invoice to the clinic, apologized for freezing during Tuesday's intake interview",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during Tuesday's intake interview",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the unsent reply to Lena, deleted one paragraph, restored it, kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the unsent reply to Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one paragraph",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "The rest of the evening was me arguing with my own project memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r14"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r15"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"clarity is a promise we make to strangers\" in the margin, crossed it out, rewrote the last line, compared the risk table to last night's trace, circled the row about the rollback window",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r16"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r17"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r18"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "compared the risk table to last night's trace",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r19"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the row about the rollback window",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r20"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r21"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r22"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I told him I was okay, I wasn't",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r23"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r24"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once, I could barely swallow",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r25"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr. Imani",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r26"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r27"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r28"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r29"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r30"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wanted the call to be about the scan, and part of me wanted it to be about nothing medical at all",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r31"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I missed Maya",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r32"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan, if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r33"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r34"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r35"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "meeting with Priya, my manager"
+      ],
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Tuesday's intake interview"
+      ],
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my brother Arun he asked whether the scan had scared me again"
+      ],
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email about the ethics complaint and",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "reply to Omar",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "reply to Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a7"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "unsent reply to Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a8"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "last line",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a9"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a10"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "project memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a11"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "ethics complaint",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a12"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "incident log",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a13"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "sentence",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a14"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "log",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a15"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "reply",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a16"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "corrected invoice",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a17"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "unsent reply",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a18"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "paragraph",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a19"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a20"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "line",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a21"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "table",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a22"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "trace",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a23"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "row",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a24"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "window",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a25"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "clinic",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a26"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "cache",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a27"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a28"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "parser",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a29"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "assumptions",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a30"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the novel",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a31"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a32"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the cache",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a33"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the queue",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a34"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the parser",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a35"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Imani",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a36"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my brother",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a37"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my brother Arun",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a38"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "scan",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a39"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "one sentence",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a40"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "one paragraph",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a41"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Priya",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a42"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Omar",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a43"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a44"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Dr. Imani",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a45"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Tessa",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a46"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Arun",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a47"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit, my jaw tightened when the email itself only said, \"we should talk before noon",
+    "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+    "couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+    "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+    "still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+    "If I call back, it will be about the scan, if I don't, it will still be about the scan",
+    "if I don't, it will still be about the scan"
+  ]
+}

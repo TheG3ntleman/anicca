@@ -1,0 +1,19 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": "Author reflects on a specific past moment involving another person."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "Author expresses uncertainty about another person's reaction."
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

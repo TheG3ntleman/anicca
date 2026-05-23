@@ -1,0 +1,44 @@
+You are doing one narrow extraction task only.
+
+You will be given a journal entry.
+
+Extract only candidate_artifacts with `artifact_kind = "object"` that are identity-worthy and directly supported by the text.
+
+Return exactly one JSON object with these top-level keys:
+- `candidate_artifacts`
+- `uncertainties`
+
+Rules:
+1. Extract people, roles, documents, messages, notes, drafts, projects, and other identity-worthy non-event items.
+2. Exclude low-value incidental objects unless they seem central.
+3. Do not extract encounters in this task.
+4. Use exact contiguous text from the entry.
+5. Do not paraphrase.
+6. `notes` should be short, neutral, and factual.
+7. Do not return encounters in this task.
+8. Do not return a single bare artifact object. Always wrap objects inside `candidate_artifacts`.
+9. Do not include top-level keys such as `thought`, `analysis`, `reasoning`, or explanations.
+10. If unsure, return `{"candidate_artifacts":[],"uncertainties":[]}` instead of commentary.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [""]
+}
+
+Return only JSON.
+
+<journal_entry>
+On Thursday I reread Lena's email about the ethics complaint and copied one sentence from the draft incident log into the reply to Omar before the meeting with Priya, my manager. I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit, and my jaw tightened when the email itself only said, "we should talk before noon." During the meeting with Priya, my manager, I admitted I still hadn't sent the corrected invoice to the clinic and apologized for freezing during Tuesday's intake interview. Afterward I opened the unsent reply to Lena, deleted one paragraph, restored it, and kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup. I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict.
+
+The rest of the evening was me arguing with my own project memo. I wrote "clarity is a promise we make to strangers" in the margin, crossed it out, rewrote the last line, compared the risk table to last night's trace, and circled the row about the rollback window. I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions. At dinner with my brother Arun he asked whether the scan had scared me again. I told him I was okay, but I wasn't. I felt ashamed, furious, relieved, and unexpectedly lonely all at once, and I could barely swallow. Before sleep I listened to the voicemail from Dr. Imani, did not call back, and kept telling myself I already knew what it said. I don't. Part of me wanted the call to be about the scan, and part of me wanted it to be about nothing medical at all. I missed Maya, but I did not text her. If I call back, it will be about the scan; if I don't, it will still be about the scan.
+</journal_entry>
+
+Return only the final JSON object.

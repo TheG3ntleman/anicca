@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": [
+    "No clear journal author process or candidate record identified in the text."
+  ]
+}
+

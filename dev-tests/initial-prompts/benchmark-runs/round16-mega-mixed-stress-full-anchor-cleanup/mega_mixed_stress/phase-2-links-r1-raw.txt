@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message",
+      "notes": "Direct object of 'reread'"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "Priya's message",
+      "notes": "Possession by 'Priya', relation to r1's action is implied but not direct action on 'Priya' itself as the object"
+    }
+  ],
+  "uncertainties": []
+}
+

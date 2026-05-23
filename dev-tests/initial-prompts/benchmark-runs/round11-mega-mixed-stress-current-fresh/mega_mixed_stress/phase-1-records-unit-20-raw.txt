@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The author's statement 'I told them I was fine' is a statement of fact about a conversation, not a description of an internal process (thought, emotion, behaviour, body). It does not clearly describe a direct psychological or physical process of the author in a way that qualifies as a candidate record under the given rules."]
+}
+

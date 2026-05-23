@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "rewrote the last line",
+      "notes": "Describes an action of rewriting a line"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,47 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "Message from Maya regarding the appeal hearing."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "Spreadsheet revised for budget review."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "Draft email intended for the foundation."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the note about the hearing",
+      "notes": "Note regarding the hearing read by the narrator."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+      "notes": "Draft response to Maya's message that was edited."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the mug beside my laptop",
+      "notes": "Mug placed beside the laptop."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": "Slide containing a chart with a broken visual."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the hospital scan",
+      "notes": "Scheduled hospital scan for next week."
+    }
+  ],
+  "uncertainties": []
+}
+

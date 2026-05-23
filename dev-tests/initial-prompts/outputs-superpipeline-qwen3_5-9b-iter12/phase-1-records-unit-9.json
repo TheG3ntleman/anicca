@@ -1,0 +1,30 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I read the note about the hearing again",
+      "notes": ""
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "then read it again",
+      "notes": "The repetition implies continued mental focus."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "and kept hearing Leah say, \"just present the numbers.\"",
+      "notes": "The author is replaying a verbal instruction."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Leah say, \"just present the numbers.\"",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

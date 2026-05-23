@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit.",
+      "notes": "Admitted lack of contractor call; felt apologetic about previous site visit performance."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

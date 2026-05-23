@@ -1,0 +1,3 @@
+Thinking...
+{"source_record_json":{"candidate_id":"r12","process_type":"thought","source_text":"arguing with my own roadmap","notes":"The author's internal conflict or debate with their own plan."},"candidate_pairs_json":[{"to_candidate_id":"a17","artifact_kind":"object","artifact_text":"my own roadmap","candidate_score":82,"candidate_reason":"direct_mention,local_context,token_overlap,with_target"}]}
+

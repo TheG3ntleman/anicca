@@ -1,0 +1,30 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "Later I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message.",
+      "notes": "Author describes actions taken regarding benchmark report and follow-up message."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at the throughput table",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "didn't send the follow-up message",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

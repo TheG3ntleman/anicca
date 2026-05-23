@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "During code review with Priya I said the benchmark was misleading.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

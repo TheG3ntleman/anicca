@@ -1,0 +1,79 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "wondering about message motivation",
+      "relation_status": "explicit",
+      "supporting_text": "I kept wondering whether she had sent the message",
+      "notes": "Thought relates to Maya's message"
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a9",
+      "relation_label": "desire to cancel scan",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan",
+      "notes": "Thought expresses intent about scan"
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a1",
+      "relation_label": "knowing fear is not about scan",
+      "relation_status": "ambiguous",
+      "supporting_text": "the scan wasn't the thing I was really afraid of",
+      "notes": "Unclear what the actual fear is"
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a2",
+      "relation_label": "state during dinner",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told them I was fine",
+      "notes": "Claim made during dinner interaction"
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "r5",
+      "relation_label": "contradictory physical state",
+      "relation_status": "ambiguous",
+      "supporting_text": "but I wasn't fine and I could barely swallow",
+      "notes": "Contradiction between emotional and physical state"
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a13",
+      "relation_label": "uncertainty about draft purpose",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya",
+      "notes": "Uncertainty about recipient of draft"
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a8",
+      "relation_label": "uncertainty about foundation draft",
+      "relation_status": "ambiguous",
+      "supporting_text": "or for the foundation",
+      "notes": "Uncertainty about draft purpose"
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a11",
+      "relation_label": "pushing out via Leah",
+      "relation_status": "ambiguous",
+      "supporting_text": "or to push me out",
+      "notes": "Reference to potential action by Leah"
+    }
+  ],
+  "uncertainties": []
+}
+

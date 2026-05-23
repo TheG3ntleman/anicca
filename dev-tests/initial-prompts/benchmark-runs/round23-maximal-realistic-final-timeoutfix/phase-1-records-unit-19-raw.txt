@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "compared the risk table to last night's trace",
+      "notes": "Comparison activity between a risk table and a trace from the previous night."
+    }
+  ],
+  "uncertainties": []
+}
+

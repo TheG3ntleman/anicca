@@ -1,0 +1,79 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the revised budget spreadsheet",
+      "notes": "behavior acting on spreadsheet"
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a7",
+      "relation_label": "emailing",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "admission about emailing foundation"
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a8",
+      "relation_label": "apologized for freezing",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "apology related to call"
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a13",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "opened email draft"
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a13",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "opened email draft"
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a15",
+      "relation_label": "wanted to cancel",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan next week",
+      "notes": "wants to cancel scan"
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a22",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the hearing again",
+      "notes": "reading note"
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a24",
+      "relation_label": "deleted",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "deleted paragraph from draft"
+    }
+  ],
+  "uncertainties": []
+}
+

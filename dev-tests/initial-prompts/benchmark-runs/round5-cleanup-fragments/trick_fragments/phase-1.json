@@ -1,0 +1,136 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I did not decide to quit",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I did not forgive Sam",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I wrote \"maybe Friday\"",
+      "notes": "Action of writing a thought on whiteboard"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "behaviour",
+      "source_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "erased it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "thought",
+      "source_text": "wrote \"maybe never,\"",
+      "notes": "Action of writing a new thought on whiteboard"
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "erased that too",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "emotion",
+      "source_text": "stood there feeling stupid",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "thought",
+      "source_text": "The voicemail from Dr.",
+      "notes": "fragmentary text with no clear author process"
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "I keep telling myself I already know what it says",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "emotion",
+      "source_text": "I am tired of how both options feel like the same answer",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Sam",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "whiteboard",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Hale",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "Dr. Hale",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Hale is still unopened."
+      ],
+      "notes": "no event"
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "scan"
+      ],
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text provides no explicit journal entry describing author processes or actions.",
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan",
+    "No clear candidate records extracted from the fragmentary work unit."
+  ]
+}

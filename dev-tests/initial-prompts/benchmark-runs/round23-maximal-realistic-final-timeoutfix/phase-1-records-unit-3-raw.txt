@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text 'my manager.' is a noun phrase fragment without a verb or process context. It cannot be mapped to a process_type (thought, emotion, behaviour, body) as no action or internal state is described by the author."]
+}
+

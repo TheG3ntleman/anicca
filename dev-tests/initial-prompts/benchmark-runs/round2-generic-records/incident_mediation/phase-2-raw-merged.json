@@ -1,0 +1,126 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "Nora's email about the mediation",
+      "notes": "Directly refers to the email.",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a2",
+      "relation_label": "object",
+      "relation_status": "explicit",
+      "supporting_text": "printed the calendar invite",
+      "notes": "direct mention of artifact",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a3",
+      "relation_label": "reads",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the leak again",
+      "notes": "Record r8 describes the action of reading the note, which links to artifact a3.",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "read it again",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "read it again",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a3",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the leak again",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a4",
+      "relation_label": "involves",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Nora",
+      "notes": "direct mention of artifact in source text",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a4",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Nora",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr9"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a3",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr10"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a4",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr11"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a4",
+      "relation_label": "reference",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Nora",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr12"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr13"
+    }
+  ],
+  "uncertainties": [
+    "read it again",
+    "restored it",
+    "still didn't know whether the reply was for Nora, for Omar, or just for me"
+  ]
+}

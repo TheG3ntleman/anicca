@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it."
+      ],
+      "notes": "User deleted and restored a paragraph from a draft reply to Maya's message before bed."
+    }
+  ],
+  "uncertainties": []
+}

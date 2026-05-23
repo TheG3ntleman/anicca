@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of.",
+      "notes": "Reflective statement expressing desire to cancel scan and insight into true fear."
+    }
+  ],
+  "uncertainties": []
+}
+

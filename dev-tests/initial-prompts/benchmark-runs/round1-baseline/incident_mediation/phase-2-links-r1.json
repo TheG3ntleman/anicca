@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "warning",
+      "relation_status": "explicit",
+      "supporting_text": "she was warning me",
+      "notes": "Author questions if Nora's email was a warning"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "documenting",
+      "relation_status": "explicit",
+      "supporting_text": "documenting me",
+      "notes": "Author questions if the note about the leak was documenting the author"
+    }
+  ],
+  "uncertainties": []
+}

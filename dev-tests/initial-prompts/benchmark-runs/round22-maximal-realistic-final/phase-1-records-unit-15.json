@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "arguing with my own project memo",
+      "notes": "author engages in argument with project memo"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "The rest of the evening was me arguing with my own project memo",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

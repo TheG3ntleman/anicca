@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a10",
+      "relation_label": "same_event",
+      "relation_status": "explicit",
+      "supporting_text": "donor call on Monday",
+      "notes": "The source text mentions freezing during the donor call on Monday, which directly links to artifact a10 representing the donor call encounter."
+    }
+  ],
+  "uncertainties": ["No uncertainties identified for this link."]
+}
+

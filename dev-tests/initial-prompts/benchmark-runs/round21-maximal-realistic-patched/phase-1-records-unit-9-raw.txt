@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "apologized for freezing during Tuesday's intake interview.",
+      "notes": "Author admits to freezing during an intake interview and apologizing."
+    }
+  ],
+  "uncertainties": []
+}
+

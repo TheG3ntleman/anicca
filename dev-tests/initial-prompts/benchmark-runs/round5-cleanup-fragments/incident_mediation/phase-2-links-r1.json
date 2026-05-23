@@ -1,0 +1,45 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a5",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

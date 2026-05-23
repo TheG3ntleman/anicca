@@ -1,0 +1,79 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "arguing with my own design memo",
+      "notes": "Author describes internal conflict over their own work",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it.",
+      "notes": "Author states their current belief about caching layer being the wrong fix despite being its original proposer.",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": "Author compares graphs and adds a note.",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "During code review with Priya I said the benchmark was misleading.",
+      "notes": "The author expressed a judgment about the benchmark during a code review.",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it.",
+      "notes": "Author expresses emotional state.",
+      "candidate_id": "tmp_r5"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "internal document referenced during self-argument about caching layer",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "caching layer proposal",
+      "notes": "first proposal mentioned by author",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "latency graph",
+      "notes": "compared with yesterday's trace",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "comparison reference for latency graph",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "noted as looking healthy only because retries are hidden",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "benchmark",
+      "notes": "described as misleading by author during code review",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "benchmark report",
+      "notes": "reopened by author to examine throughput table",
+      "candidate_id": "tmp_a7"
+    }
+  ],
+  "uncertainties": []
+}

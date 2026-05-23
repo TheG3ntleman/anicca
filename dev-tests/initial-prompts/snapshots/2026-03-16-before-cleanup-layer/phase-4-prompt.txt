@@ -1,0 +1,131 @@
+You are performing phase 4 only.
+
+Critical output rules:
+1. Return exactly one JSON object and nothing else.
+2. Always return all top-level keys: `candidate_records`, `candidate_artifacts`, `candidate_references`, `removed_items`, `soft_groups`, `uncertainties`.
+3. If a list is empty, return `[]`.
+4. Do not ask for continuation or additional input.
+5. Do not think out loud or explain your reasoning in `notes`.
+6. Unchanged surviving items must still be returned with empty absorbed-ID lists.
+7. Preserve surviving IDs. Do not invent a new ID scheme.
+8. Use the exact field name `candidate_references`, not `candidate_refs`.
+9. Each surviving reference item must use `candidate_reference_id`, not `candidate_id`.
+10. Each item in `uncertainties` must be a plain string, not an object.
+11. If there are no removals, `removed_items` must be `[]`.
+12. If there are no soft groups, `soft_groups` must be `[]`.
+
+You will be given:
+1. a journal entry
+2. phase-2 JSON containing unresolved candidate_records and candidate_artifacts
+3. phase-3 JSON containing unresolved candidate_references
+
+Your task is to perform conservative pre-resolution culling and consolidation over all candidate items.
+
+This stage has two jobs:
+1. genuine removal
+2. consolidation
+
+Definitions:
+- genuine removal: delete a candidate that is clearly unsupported, redundant, structurally wrong, or mentally inconsequential
+- hard consolidation: collapse clearly overlapping candidates into one surviving representative without resolving external identity
+- soft grouping: mark candidates as related, alternative, or possibly-the-same while keeping them separate
+
+General rules:
+1. Be conservative.
+2. Do not resolve identity.
+3. Do not use outside context.
+4. Do not add tags.
+5. Preserve provenance and negation.
+6. Preserve real ambiguity.
+7. Prefer soft grouping over hard consolidation when uncertainty remains.
+8. If nothing should change, copy the phase-2 and phase-3 items forward unchanged and use empty `removed_items` and `soft_groups`.
+9. Most runs will have zero or very few removals.
+10. Returning empty `removed_items` and empty `soft_groups` is valid.
+
+Removal rules:
+1. Remove exact duplicates by hard-consolidating them into one survivor.
+2. Remove candidates that are clearly unsupported by their cited text.
+3. Remove structurally wrong or clearly mistargeted references when a better directly supported surviving reference exists.
+4. Remove dominated variants when a more text-faithful surviving candidate expresses the same structure.
+5. Remove low-consequence artifacts only when they are merely incidental, have no higher-value surviving role, and are unlikely to matter later.
+
+Hard consolidation rules:
+1. Hard-consolidate only when sameness is clear enough before resolution.
+2. Use one surviving representative candidate or candidate_reference.
+3. Record absorbed IDs on the survivor.
+4. Do not hard-consolidate ambiguous alternatives or unresolved likely co-reference.
+5. If a candidate is hard-consolidated, redirect surviving references to the consolidated representative.
+
+Soft grouping rules:
+1. Use soft groups when items are related enough to track together but not safe to collapse.
+2. Use `possible_same_unresolved` for likely co-reference.
+3. Use `alternative_set` for explicit competing alternatives.
+4. Use `close_variant_family` for closely related unresolved variants.
+
+Type-specific reminders:
+1. Remove records rarely.
+2. Remove artifacts cautiously.
+3. Candidate references may be culled more aggressively than records or artifacts.
+4. If two references share the same source, target, and support, prefer the more text-faithful label.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "encounter",
+      "source_texts": [""],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "",
+      "relation_status": "explicit",
+      "supporting_text": "",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [
+    {
+      "item_kind": "candidate_reference",
+      "item_id": "cr9",
+      "removal_kind": "",
+      "reason": "",
+      "replacement_item_id": ""
+    }
+  ],
+  "soft_groups": [
+    {
+      "group_id": "g1",
+      "group_type": "possible_same_unresolved",
+      "member_item_ids": ["a2", "a3"],
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+
+Return only JSON.

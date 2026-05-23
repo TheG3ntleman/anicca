@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": [
+    "unclear if this is the author's action or a description of a past event"
+  ]
+}
+

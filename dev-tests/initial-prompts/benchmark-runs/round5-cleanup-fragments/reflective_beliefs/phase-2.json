@@ -1,0 +1,68 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a1",
+      "relation_label": "notebook",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote three lines in the notebook about freedom",
+      "notes": "source record explicitly mentions 'the notebook'"
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a2",
+      "relation_label": "freedom",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote three lines in the notebook about freedom",
+      "notes": "source record explicitly mentions 'about freedom'"
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "rewrote the last line",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a4",
+      "relation_label": "target",
+      "relation_status": "explicit",
+      "supporting_text": "I am not angry at Mira",
+      "notes": "Mira is the target of the anger claim"
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a5",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I keep reading the sentence about attention as if it could decide things for me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

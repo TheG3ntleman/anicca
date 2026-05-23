@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I care that I kept defending him in my head as if he were someone I owed.",
+      "notes": "Author describes their internal thought process of defending another person."
+    }
+  ],
+  "uncertainties": []
+}
+

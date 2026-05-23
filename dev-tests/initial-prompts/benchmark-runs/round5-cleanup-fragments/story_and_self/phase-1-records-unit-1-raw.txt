@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+      "notes": "The journal author describes spending time thinking about a specific scene from a novel."
+    }
+  ],
+  "uncertainties": []
+}
+

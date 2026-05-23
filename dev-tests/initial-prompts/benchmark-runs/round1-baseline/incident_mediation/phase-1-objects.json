@@ -1,0 +1,25 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Nora's email about the mediation",
+      "notes": "Email from Nora regarding mediation"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "calendar invite",
+      "notes": "Calendar invitation printed and reviewed"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "note about the leak",
+      "notes": "Note referring to a leak"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft reply to Nora",
+      "notes": "Draft message addressed to Nora"
+    }
+  ],
+  "uncertainties": []
+}

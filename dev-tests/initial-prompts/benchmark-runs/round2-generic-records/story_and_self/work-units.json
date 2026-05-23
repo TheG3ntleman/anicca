@@ -1,0 +1,27 @@
+[
+  {
+    "unit_id": "unit-1",
+    "unit_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-2",
+    "unit_text": "I don't care whether that scene is realistic; I care that I kept defending him in my head as if he were someone I owed.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-3",
+    "unit_text": "I texted Lina to say the book was getting under my skin, then deleted the message instead of sending it.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-4",
+    "unit_text": "Later I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-5",
+    "unit_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him.",
+    "unit_kind": "fragmentary"
+  }
+]

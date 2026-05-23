@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text 'If I call back, it will be about the scan' is a statement about future communication, not a direct action or process by the author. It does not clearly describe an extractable process (thought, emotion, behaviour, body) by the journal author. The pronoun 'I' is present, but the statement is conditional and about a future event rather than a current internal state or action that fits standard journal entry process extraction."]
+}
+

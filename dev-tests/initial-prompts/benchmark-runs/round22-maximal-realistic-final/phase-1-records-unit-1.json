@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Lena's email about the ethics complaint",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

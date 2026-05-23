@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I did not text her.",
+      "process_type": "behaviour",
+      "notes": "Author describes not sending a text message to someone."
+    }
+  ],
+  "uncertainties": []
+}
+

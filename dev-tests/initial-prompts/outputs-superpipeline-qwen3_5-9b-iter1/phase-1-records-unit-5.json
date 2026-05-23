@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of.",
+      "notes": "Author expresses conflicting desire and realization about their fear."
+    }
+  ],
+  "uncertainties": []
+}

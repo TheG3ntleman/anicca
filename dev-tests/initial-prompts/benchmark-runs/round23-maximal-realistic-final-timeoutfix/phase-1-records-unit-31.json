@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wanted the call to be about the scan, and part of me wanted it to be about nothing medical at all",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "type",
+    "items"
+  ]
+}

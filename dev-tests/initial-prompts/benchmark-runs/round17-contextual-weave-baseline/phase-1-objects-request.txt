@@ -1,0 +1,44 @@
+You are doing one narrow extraction task only.
+
+You will be given a journal entry.
+
+Extract only candidate_artifacts with `artifact_kind = "object"` that are identity-worthy and directly supported by the text.
+
+Return exactly one JSON object with these top-level keys:
+- `candidate_artifacts`
+- `uncertainties`
+
+Rules:
+1. Extract people, roles, documents, messages, notes, drafts, projects, and other identity-worthy non-event items.
+2. Exclude low-value incidental objects unless they seem central.
+3. Do not extract encounters in this task.
+4. Use exact contiguous text from the entry.
+5. Do not paraphrase.
+6. `notes` should be short, neutral, and factual.
+7. Do not return encounters in this task.
+8. Do not return a single bare artifact object. Always wrap objects inside `candidate_artifacts`.
+9. Do not include top-level keys such as `thought`, `analysis`, `reasoning`, or explanations.
+10. If unsure, return `{"candidate_artifacts":[],"uncertainties":[]}` instead of commentary.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [""]
+}
+
+Return only JSON.
+
+<journal_entry>
+On Tuesday I reread Jonah's note about the audit appeal and copied two figures from the draft budget into the email to Mara before the meeting with Selene, our legal lead. I kept wondering whether he had sent the note to protect me, to warn Mara, or to pin the delay on me, and my chest tightened when the note itself only said, "we need to talk before lunch." During the meeting with Selene, our legal lead, I admitted I still hadn't sent the correction memo to the vendor and apologized for freezing during Friday's client walkthrough. Afterward I opened the unsent reply to Jonah, deleted one sentence, restored it, and kept hearing Noor laugh from the scene in the essay where the child drops the bowl. I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict.
+
+The rest of the evening was me arguing with my own roadmap. I wrote "stability is a promise we make to strangers" in the margin, crossed it out, rewrote the last line, and compared the failure table to last night's trace. I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions. At dinner with my brother he asked whether the scan had frightened me again. I told him I was okay, but I wasn't, and I could barely swallow. Before sleep I listened to the voicemail from Dr. Imani, did not call back, and kept telling myself I already knew what it said. I don't. If I call back, it will be about the scan; if I don't, it will still be about the scan.
+</journal_entry>
+
+Return only the final JSON object.

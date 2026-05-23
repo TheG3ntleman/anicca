@@ -1,0 +1,3 @@
+Thinking...
+{"source_texts":["deleted one sentence"],"artifact_kind":"encounter","notes":"No substantial event described; fragmentary text.","uncertainties":[]}
+

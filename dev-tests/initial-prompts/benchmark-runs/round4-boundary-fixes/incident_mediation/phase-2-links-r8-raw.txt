@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a10",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the leak again",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a9",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the leak again",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,438 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "behaviour",
+      "source_text": "printed the revised budget spreadsheet",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "thought",
+      "source_text": "I felt a mix of pride and anxiety",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "body",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "thought",
+      "source_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "encounter",
+      "source_text": "I had a meeting with Dr. Sen",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "body",
+      "source_text": "stared at it without sending it",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "thought",
+      "source_text": "the scan wasn't the thing I was really afraid of",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "encounter",
+      "source_text": "At dinner with my parents",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "thought",
+      "source_text": "I was worried about how my mother was doing after the scan results",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r17",
+      "process_type": "body",
+      "source_text": "My mother looked at me with sad eyes",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r18",
+      "process_type": "thought",
+      "source_text": "I told her everything was going to be okay",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r19",
+      "process_type": "body",
+      "source_text": "I read the note about the hearing again",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r20",
+      "process_type": "thought",
+      "source_text": "The words blurred on the page",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r21",
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r22",
+      "process_type": "behaviour",
+      "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r23",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r24",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "artifact_records": [
+    {
+      "artifact_id": "a1",
+      "artifact_kind": "encounter",
+      "source_text": "Yesterday morning on the train",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a2",
+      "artifact_kind": "encounter",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a3",
+      "artifact_kind": "encounter",
+      "source_text": "appeal hearing",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a5",
+      "artifact_kind": "encounter",
+      "source_text": "the check-in with Dr. Sen, my supervisor",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a6",
+      "artifact_kind": "encounter",
+      "source_text": "check-in with Dr. Sen",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "the foundation",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a8",
+      "artifact_kind": "encounter",
+      "source_text": "the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a9",
+      "artifact_kind": "encounter",
+      "source_text": "donor call on Monday",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a10",
+      "artifact_kind": "encounter",
+      "source_text": "the moment Leah laughed",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "Leah",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a14",
+      "artifact_kind": "object",
+      "source_text": "email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a15",
+      "artifact_kind": "encounter",
+      "source_text": "the hospital scan next week",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a16",
+      "artifact_kind": "encounter",
+      "source_text": "hospital scan next week",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a17",
+      "artifact_kind": "encounter",
+      "source_text": "At dinner with my parents",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a18",
+      "artifact_kind": "encounter",
+      "source_text": "dinner with my parents",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a19",
+      "artifact_kind": "object",
+      "source_text": "my mother",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a20",
+      "artifact_kind": "encounter",
+      "source_text": "the ride home",
+      "notes": ""
+    },
+    {
+      "artifact_id": "a21",
+      "artifact_kind": "encounter",
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "process_type": "thought",
+        "source_text": "I was worried about how my mother was doing after the scan results",
+        "notes": "",
+        "absorbed_candidate_ids": []
+      },
+    {
+        "candidate_id": "r25",
+        "midpoint": 0.854,
+        "process_type": "thought",
+        "after_text": "I was worried about how my mother was doing after the excerpt",
+        "after_text": "I was worried about how my mother was r14",
+        "after_text": "I was worried about how my mid",
+        "after_text": "I was worried about how my mother was doing after the excerpt"
+      },
+    {
+        "candidate_id":
+        "midpoint",
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        "process_type": "thought",
+        "after_text": "I was worried about how my mother was doing after the excerpt",
+        "after_text": "I was r14",
+        "fields": {
+            "process_type": "thought",
+            "source_text": "I was worried about how my mother was doing after the scan results",
+            "notes": "",
+            "absorbed_candidate_ids":
+        "after_text"
+      },
+    "source_text": "I was worried about how my mother's health was getting worse after the scan results",
+      "after_text": "I was worried about how my mother's health was getting worse after the excerpt",
+      "after_text": "I was worried about the scan results",
+      "after_text": "I was worried about the scan results",
+      "after_text": "I was about my mother",
+      "after_text": "I was worried about how my mother was doing after the excerpt"
+    }
+  ],
+  "artifact_records": [
+    {
+      "artifact_id": "a1",
+      "artifact_kind": "encounter",
+      "source_text": "Yesterday morning on the excerpt",
+      "notes": ""
+    },
+    "source_text",
+    "source_text",
+    "source_text",
+      "notes",
+      "source_text",
+    {
+      "artifact_id": "a2",
+      "structure_type": "encounter",
+      "structure_type": "encounter",
+      "recorder": "",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {"candidate_id": "r21",
+      "process_type": "behaviour",
+      "candidate_id": "r21",
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": "read it again"
+    },
+    {"candidate_id":
+
+        "process_type"
+
+      },
+    {
+        "candidate_id": "r22",
+        "process_type": "behaviour",
+        "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+        "notes": "",
+        "candidate_id": "r22",
+        "JSON: ":", "
+      },
+      "process_type"
+  ],
+  "artifact_records": [
+    {
+      "artifact_id": "a1",
+      " sections":
+      "sections"
+      },
+    {
+      "artifact_id": "a2",
+      "artifact_kind": "encounter",
+      "source_text": "Maya's message about the attack hearing",
+
+        "artifact_kind": "encou  这段文本的语义分析是什么？这段文本的 JSON 数据 这段文本的 JSON 数据 这段文本的 repeated 这段文本的 repeated 这段文本的 repeated  这段文本的 JSON 结构，并解释其用途是什么？请提供详细的解释和结构说明。请提供详细的解释和结构说明。请提供详细的结构说明。请提供详细的解释和结构说明。请提供详细的解释和 "
+

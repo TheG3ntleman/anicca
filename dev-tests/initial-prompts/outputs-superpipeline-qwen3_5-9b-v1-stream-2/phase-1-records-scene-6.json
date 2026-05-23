@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it.",
+      "notes": "Author deleted and restored a paragraph in a draft reply."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": "Author is uncertain about the intended recipient of the reply."
+    }
+  ],
+  "uncertainties": []
+}

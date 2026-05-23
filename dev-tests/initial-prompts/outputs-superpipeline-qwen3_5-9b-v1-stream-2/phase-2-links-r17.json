@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a16",
+      "relation_label": "dinner with my parents",
+      "relation_status": "ambiguous",
+      "supporting_text": "I could barely swallow",
+      "notes": "The action of 'I could barely swallow' happens during or after dinner with my parents (a16), implying the physical state described is linked to that encounter contextually, though not explicitly stated as direct action during the meeting itself."
+    }
+  ],
+  "uncertainties": []
+}

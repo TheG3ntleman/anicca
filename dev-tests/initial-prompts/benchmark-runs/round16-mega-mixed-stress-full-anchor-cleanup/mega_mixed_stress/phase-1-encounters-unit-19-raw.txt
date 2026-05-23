@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+      "At dinner with my parents my father asked whether the hospital scan had scared me again."
+    ],
+    "notes": "Dinner conversation with parents about hospital scan experience"
+    }
+  ],
+  "uncertainties": []
+}
+

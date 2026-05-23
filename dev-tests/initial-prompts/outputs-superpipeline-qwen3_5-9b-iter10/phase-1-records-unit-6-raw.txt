@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "",
+  "source_text": "I wanted to cancel the hospital scan next week",
+  "notes": "Desire or consideration to cancel appointment"
+}
+

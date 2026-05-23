@@ -1,0 +1,67 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me.",
+      "notes": "Author questions her motivation",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my jaw was tight",
+      "notes": "Physical tension described by the author",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't called the contractor",
+      "notes": "admitting failure to call contractor",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+      "notes": "Author's internal uncertainty about the purpose of a draft message.",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": "",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "",
+      "candidate_id": "tmp_r6"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Nora's email about the mediation",
+      "notes": "Email from Nora regarding mediation",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "calendar invite",
+      "notes": "Calendar invitation printed and reviewed",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "note about the leak",
+      "notes": "Note referring to a leak",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft reply to Nora",
+      "notes": "Draft message addressed to Nora",
+      "candidate_id": "tmp_a4"
+    }
+  ],
+  "uncertainties": []
+}

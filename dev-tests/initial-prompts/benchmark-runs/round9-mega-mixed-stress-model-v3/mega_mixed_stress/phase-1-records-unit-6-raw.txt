@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "I admitted I still hadn't sent the rollback note to the vendor",
+  "notes": "The author is expressing self-recognition of an uncompleted task."
+}
+

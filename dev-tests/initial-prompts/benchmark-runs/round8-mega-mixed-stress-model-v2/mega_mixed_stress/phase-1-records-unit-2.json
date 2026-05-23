@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the latency report before the call with Martin",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text describes an external action (printing a report) but lacks the author's internal processing (thoughts, emotions, or feelings) directly linked to the action. The subject 'I' is missing, making it unclear whose action this is, though context implies the author."
+  ]
+}

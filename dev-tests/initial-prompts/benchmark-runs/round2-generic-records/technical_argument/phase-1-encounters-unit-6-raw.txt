@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+      "Later I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message."
+    ],
+    "notes": "Narrative describing an action (reopening report, staring at table) and a decision (not sending message) but no external event or substantial episode involving another entity."
+    }
+  ],
+  "uncertainties": []
+}
+

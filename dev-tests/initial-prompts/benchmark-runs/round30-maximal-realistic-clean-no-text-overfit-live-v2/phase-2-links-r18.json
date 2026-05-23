@@ -1,0 +1,69 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a27",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a28",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a29",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a30",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a31",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a34",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a36",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

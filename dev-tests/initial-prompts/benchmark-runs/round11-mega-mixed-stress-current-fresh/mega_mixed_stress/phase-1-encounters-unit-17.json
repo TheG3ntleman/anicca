@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "compared the throughput table to yesterday's trace."
+      ],
+      "notes": "User compared throughput table to yesterday's trace."
+    }
+  ],
+  "uncertainties": []
+}

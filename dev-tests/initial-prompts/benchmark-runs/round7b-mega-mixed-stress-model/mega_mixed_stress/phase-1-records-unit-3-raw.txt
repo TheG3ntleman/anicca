@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "I kept wondering whether he had forwarded the thread to protect me or to document me",
+  "notes": "The author's internal speculation about the recipient's intentions"
+}
+

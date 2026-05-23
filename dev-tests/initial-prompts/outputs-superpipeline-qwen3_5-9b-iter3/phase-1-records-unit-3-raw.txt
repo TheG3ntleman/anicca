@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday.",
+      "notes": "Author acknowledges email delay and admits freezing during call."
+    }
+  ],
+  "uncertainties": []
+}
+

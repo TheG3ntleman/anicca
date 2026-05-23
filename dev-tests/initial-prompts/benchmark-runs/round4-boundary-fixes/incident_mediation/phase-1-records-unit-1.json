@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the calendar invite",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

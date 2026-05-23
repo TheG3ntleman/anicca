@@ -1,0 +1,15 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "the message itself only said, \"we should talk before Friday.\"",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "the message itself only said, \"we should talk before Friday.\""
+  ]
+}

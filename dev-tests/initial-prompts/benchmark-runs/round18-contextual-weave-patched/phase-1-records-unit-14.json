@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I wrote 'stability is a promise we make to strangers' in the margin",
+      "notes": "Author notes a written thought in margin."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote \"stability is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"stability is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,15 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a25",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I did not text her.",
+      "notes": "Text refers to 'Maya' based on local context."
+    }
+  ],
+  "uncertainties": [
+    "I did not text her."
+  ]
+}

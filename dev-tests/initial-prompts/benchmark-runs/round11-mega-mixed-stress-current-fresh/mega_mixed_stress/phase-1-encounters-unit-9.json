@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "deleted one sentence"
+      ],
+      "notes": "No substantial event described; fragmentary text."
+    }
+  ],
+  "uncertainties": []
+}

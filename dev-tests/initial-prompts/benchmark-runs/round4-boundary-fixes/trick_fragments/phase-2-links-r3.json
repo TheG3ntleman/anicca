@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "\"maybe Friday\"",
+      "notes": "direct object reference in source record"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "whiteboard",
+      "notes": "direct object reference in source record"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "admitted I still hadn't emailed the foundation",
+      "notes": "Acknowledging incomplete task completion."
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "apologized for freezing during the donor call on Monday",
+      "notes": "Expressing regret for specific performance behavior."
+    }
+  ],
+  "uncertainties": []
+}
+

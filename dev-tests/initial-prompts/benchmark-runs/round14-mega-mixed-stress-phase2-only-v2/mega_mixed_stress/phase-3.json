@@ -1,0 +1,1058 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "behaviour",
+      "source_text": "I reread Priya's message about the ethics review",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "behaviour",
+      "source_text": "printed the latency report",
+      "notes": "trimmed trailing context",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "behaviour",
+      "source_text": "printed the latency report before the call with Martin",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether he had forwarded the thread to protect me or to document me",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "body",
+      "source_text": "my throat tightened",
+      "notes": "trimmed trailing context",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "body",
+      "source_text": "my throat tightened when the message itself only said",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the rollback note to the vendor",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during last week's customer demo",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "I opened the draft reply to Priya",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "behaviour",
+      "source_text": "opened the draft reply to Priya",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "thought",
+      "source_text": "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "thought",
+      "source_text": "Most of the afternoon was me arguing with my own design memo.",
+      "notes": "Author describes cognitive process of debating a design document.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r17",
+      "process_type": "thought",
+      "source_text": "Most of the afternoon was me arguing with my own design memo",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r18",
+      "process_type": "behaviour",
+      "source_text": "I wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r19",
+      "process_type": "behaviour",
+      "source_text": "wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r20",
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r21",
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r22",
+      "process_type": "behaviour",
+      "source_text": "compared the throughput table to yesterday's trace",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r23",
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "Author expresses uncertainty about where to implement a fix.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r24",
+      "process_type": "thought",
+      "source_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r25",
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r26",
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r27",
+      "process_type": "body",
+      "source_text": "I could barely swallow.",
+      "notes": "The author describes a physical sensation or action (swallowing) which may be linked to an emotional state but the action itself is a bodily process.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r28",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r29",
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr. Hale",
+      "notes": "trimmed scene prefix",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r30",
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r31",
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r32",
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r33",
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r34",
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r35",
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Priya's message",
+      "notes": "A message from Priya regarding an ethics review",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "Priya",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "message",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "ethics review",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "latency report",
+      "notes": "A document containing latency data",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "call with Martin, the CTO"
+      ],
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "Martin",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "CTO",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "message itself",
+      "notes": "The message from Priya stating 'we should talk before noon'",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "rollback note",
+      "notes": "A note to the vendor regarding a rollback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "vendor",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "customer demo"
+      ],
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "customer demo",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "object",
+      "source_text": "draft reply to Priya",
+      "notes": "An email or message draft intended for Priya",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "deleted one sentence"
+      ],
+      "notes": "No substantial event described; fragmentary text.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "object",
+      "source_text": "one sentence",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "object",
+      "source_text": "Eva",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a18",
+      "artifact_kind": "object",
+      "source_text": "scene in the novel",
+      "notes": "A scene within a novel where a brother drops a glass",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a19",
+      "artifact_kind": "object",
+      "source_text": "scene in the novel where the brother drops the glass",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a20",
+      "artifact_kind": "object",
+      "source_text": "novel",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a21",
+      "artifact_kind": "object",
+      "source_text": "brother",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a22",
+      "artifact_kind": "object",
+      "source_text": "my own design memo",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a23",
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a24",
+      "artifact_kind": "object",
+      "source_text": "margin",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a25",
+      "artifact_kind": "object",
+      "source_text": "last line",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a26",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "compared the throughput table to yesterday's trace."
+      ],
+      "notes": "User compared throughput table to yesterday's trace.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a27",
+      "artifact_kind": "object",
+      "source_text": "throughput table",
+      "notes": "A data table showing system throughput",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a28",
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a29",
+      "artifact_kind": "object",
+      "source_text": "caching layer",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a30",
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a31",
+      "artifact_kind": "object",
+      "source_text": "my assumptions",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a32",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a33",
+      "artifact_kind": "object",
+      "source_text": "my parents",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a34",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "hospital scan"
+      ],
+      "notes": "A medical imaging report received by the author",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a35",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "scan"
+      ],
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a36",
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Hale",
+      "notes": "A voicemail message left by Dr. Hale",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a37",
+      "artifact_kind": "object",
+      "source_text": "Dr. Hale",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message about the ethics review",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message about the ethics review",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message about the ethics review",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a7",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether he had forwarded the thread to protect me or to document me",
+      "notes": "deterministic backfill",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a9",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a10",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't sent the rollback note to the vendor",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a11",
+      "relation_label": "told",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't sent the rollback note to the vendor",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "apologized for freezing during last week's customer demo",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr13",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a13",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "apologized for freezing during last week's customer demo",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr14",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a14",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the draft reply to Priya",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr15",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the draft reply to Priya",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr16",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a14",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Priya",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr17",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Priya",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr18",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a15",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one sentence",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr19",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a16",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one sentence",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr20",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a17",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr21",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a18",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr22",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a19",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr23",
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a17",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr24",
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr25",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a17",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr26",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr27",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a22",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo.",
+      "notes": "Direct mention of artifact 'my own design memo' in source text.",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr28",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a23",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr29",
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a22",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr30",
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a23",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr31",
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a24",
+      "relation_label": "wrote on",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr32",
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a24",
+      "relation_label": "wrote on",
+      "relation_status": "explicit",
+      "supporting_text": "wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr33",
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a25",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "rewrote the last line",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr34",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a28",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr35",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a27",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr36",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a26",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr37",
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a29",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "Direct mention in local context",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr38",
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a30",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "Direct mention in local context",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr39",
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a31",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "Direct mention in local context",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr40",
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a29",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr41",
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a30",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr42",
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a31",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr43",
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a33",
+      "relation_label": "told parents",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told them I was fine",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr44",
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a36",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Hale",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr45",
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a37",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Hale",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr46",
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a36",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr47",
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a37",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr48",
+      "from_candidate_id": "r31",
+      "to_candidate_id": "a6",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "did not call back",
+      "notes": "pronoun resolution required",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr49",
+      "from_candidate_id": "r34",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "If I call back, it will be about the scan",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr50",
+      "from_candidate_id": "r35",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "if I don't, it will still be about the scan",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": [
+    "The text contains mixed intent (protect vs document) but does not clearly describe an action taken by the journal author.",
+    "I kept wondering whether he had forwarded the thread to protect me or to document me",
+    "The statement 'apologized for freezing during last week's customer demo.' describes an action by the author but the verb 'apologized' is a reported action rather than an internal process. The prompt instructions forbid extracting other people's actions, but an apology from oneself about a specific behavior can be considered a process. However, the instruction 'Do not extract other people's actions' suggests that only the author's internal states are valid. An apology is a social act. The author is narrating a past action. Without further context, it is unclear if this constitutes an internal process like a thought or emotion, or a reported behaviour. Since the rule is to extract only processes and the text is a single sentence describing a past action that might be interpreted as a behaviour, but it is ambiguous whether this falls under 'behaviour' as a direct process or if it is simply a narrative statement. Given the instruction to be strict and only extract supported processes, and the text is a standalone clause, it is safer to treat it as a narrative statement rather than a direct process record unless clearly linked to an internal state. However, the instruction 'Do not extract artifacts or encounters' suggests focusing on the author's own processes. An apology is a social act. Therefore, it is unclear if it qualifies. To be safe, I will mark it as uncertain or return empty. But looking at the allowed process_types: thought, emotion, behaviour, body. An apology is an act of behaviour. Is the apology itself a process? It is a verb. But it might be the content of the record. However, the prompt says 'journal author's processes'. An apology is an action. Therefore, it could be a behaviour. But the text is very short. I will extract it as a behaviour if I can, but since it's unclear if it's the author's own process or a description of an event, and I must follow strict rules, I will return empty. Actually, the prompt says 'Extract only the journal author's processes'. The author apologizing is a behaviour. So I should extract it. But the rule says 'Do not extract other people's actions'. This is the author's action. So it should be extracted. But is an apology an internal process or an external act? It is an external act. The allowed types are thought, emotion, behaviour, body. Apology is a behaviour. So I will extract it. Wait, the instruction says 'apologized for freezing'. This implies the author froze, which is a behaviour, but the text only contains the apology about it. The apology is the text. The freezing is the content. The text does not explicitly state the author froze, only that they apologized for it. This might be a report of an encounter or a past event rather than a current process. Given the ambiguity, and the strict rule to avoid uncertainty, I will put it in uncertainties if I am unsure. However, the safest path following 'Do not extract other people's actions' implies only the author's internal states are valid. An apology is a social action. So I will treat it as an uncertainty.",
+    "The text 'restored it' is a fragment without subject or clear context. It lacks information to determine the author's process.",
+    "Without knowing who performed the action, I cannot extract a record of the author's action or thought.",
+    "unclear if anger is directed at Eva or self",
+    "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+    "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+    "no candidate records extracted, source text only contains 'crossed it out' which describes an action rather than a journal author's process",
+    "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+    "The author's statement 'I told them I was fine' is a statement of fact about a conversation, not a description of an internal process (thought, emotion, behaviour, body). It does not clearly describe a direct psychological or physical process of the author in a way that qualifies as a candidate record under the given rules.",
+    "The phrase describes an action by another party ('did not call back'), not an internal process of the author. No direct author process is extracted.",
+    "type",
+    "items",
+    "No clear candidate record found in the fragmentary text.",
+    "The text does not contain any journal author processes such as thought, emotion, behaviour, or body.",
+    "The text is insufficient to extract candidate records.",
+    "The text describes an action to call back regarding a scan, but does not contain a journal author's internal thought, emotion, behavior, or body process from which to extract candidate_records.",
+    "If I call back, it will be about the scan",
+    "If something is unclear, put a short string in uncertainties.",
+    "if I don't, it will still be about the scan",
+    "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+    "I reread Priya's message about the ethics review",
+    "my throat tightened when the message itself only said",
+    "deleted one sentence",
+    "restored it",
+    "I told them I was fine",
+    "did not call back"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Lena's email about the ethics complaint",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "copied one sentence from the draft incident log into the reply to Omar before the meeting with Priya",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

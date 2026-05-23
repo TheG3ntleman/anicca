@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text fragment describes an action conditional on 'if I don't', but lacks explicit verb completion or subject action for clear candidate record extraction."]
+}
+

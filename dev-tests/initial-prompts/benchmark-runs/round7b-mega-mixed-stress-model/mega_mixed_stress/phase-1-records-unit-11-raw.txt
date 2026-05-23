@@ -1,0 +1,5 @@
+Thinking...
+{
+  "process_type": ["thought", "emotion", "behaviour", "body"]
+  		}
+

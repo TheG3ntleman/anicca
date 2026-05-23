@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a11",
+      "relation_label": "sent",
+      "relation_status": "explicit",
+      "supporting_text": "sent the corrected invoice",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a12",
+      "relation_label": "to",
+      "relation_status": "explicit",
+      "supporting_text": "to the clinic",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

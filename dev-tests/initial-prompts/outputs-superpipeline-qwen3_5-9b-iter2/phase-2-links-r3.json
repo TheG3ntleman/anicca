@@ -1,0 +1,23 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether she had sent the message to warn me or to push me out"
+  ]
+}

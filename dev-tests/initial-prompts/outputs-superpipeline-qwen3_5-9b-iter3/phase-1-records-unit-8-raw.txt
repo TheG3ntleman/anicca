@@ -1,0 +1,22 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I told them I was fine",
+      "notes": "Speaker's attempt to project a specific emotional state."
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "but I wasn't fine",
+      "notes": "Speaker reveals their actual internal emotional state."
+    },
+    {
+      "process_type": "body",
+      "source_text": "and I could barely swallow",
+      "notes": "Speaker describes a physical symptom."
+    }
+  ],
+  "uncertainties": []
+}
+

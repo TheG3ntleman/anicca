@@ -1,0 +1,278 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "1",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "2",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "3",
+      "process_type": "thought",
+      "source_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "4",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "5",
+      "process_type": "emotion",
+      "source_text": "my stomach tightened",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "6",
+      "process_type": "emotion",
+      "source_text": "I wasn't fine",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "7",
+      "process_type": "emotion",
+      "source_text": "I could barely swallow",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "8",
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "9",
+      "process_type": "behaviour",
+      "source_text": "I printed the revised budget spreadsheet",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "10",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "11",
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "12",
+      "process_type": "behaviour",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "13",
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "14",
+      "process_type": "behaviour",
+      "source_text": "I opened the email draft to the foundation",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "15",
+      "process_type": "behaviour",
+      "source_text": "I stared at it without sending it",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "16",
+      "process_type": "behaviour",
+      "source_text": "I read the note about the hearing again",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "17",
+      "process_type": "behaviour",
+      "source_text": "I read it again",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "18",
+      "process_type": "behaviour",
+      "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "19",
+      "process_type": "behaviour",
+      "source_text": "I restored it",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "2",
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "3",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "4",
+      "artifact_kind": "object",
+      "source_text": "the foundation",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "5",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen, my supervisor",
+        "check-in with Dr. Sen, my supervisor"
+      ],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "donor call on Monday"
+      ],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "7",
+      "artifact_kind": "encounter",
+     ": ":
+      "source_texts”: [“dinner with my parents”], "  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+ 
+

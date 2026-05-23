@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_references":[{"from_candidate_id":"r28","to_candidate_id":"a22","relation_label":"about","relation_status":"ambiguous","supporting_text":"Part of me wanted the call to be about the scan","notes":"Pronoun resolution work; text mentions 'the scan' but candidate pair links to artifact 'scan' directly."}],"uncertainties":[]}
+

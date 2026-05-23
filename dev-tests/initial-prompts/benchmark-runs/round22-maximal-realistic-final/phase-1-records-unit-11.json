@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one paragraph",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The work unit text 'deleted one paragraph' indicates a deletion rather than new content; no specific journal content to extract from this."
+  ]
+}

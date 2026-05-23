@@ -1,0 +1,91 @@
+{
+  "case_id": "maximal_realistic_stress",
+  "description": "A highly mixed but realistic journal entry combining narrative events, reflective argument, explicit emotion, body sensations, technical debugging, literary recall, appositives, pronouns, negation, and medical uncertainty.",
+  "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round20-maximal-realistic-baseline",
+  "phase_1_records": 31,
+  "phase_1_artifacts": 25,
+  "phase_2_references": 31,
+  "record_recall": 0.875,
+  "artifact_recall": 0.6774,
+  "reference_recall": 0.6389,
+  "overbroad_encounters": 0,
+  "unexpected_encounters": 0,
+  "composite_records": 0,
+  "weak_references": 4,
+  "missing_records": [
+    "deleted one paragraph",
+    "Part of me wanted the call to be about the scan",
+    "part of me wanted it to be about nothing medical at all",
+    "I missed Maya"
+  ],
+  "missing_artifacts": [
+    "ethics complaint",
+    "reply to Omar",
+    "meeting with Priya, my manager",
+    "corrected invoice",
+    "clinic",
+    "Tuesday's intake interview",
+    "my own project memo",
+    "rollback window",
+    "parser",
+    "my brother Arun"
+  ],
+  "missing_reference_pairs": [
+    {
+      "record": "I reread Lena's email about the ethics complaint",
+      "artifact": "ethics complaint"
+    },
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "reply to Omar"
+    },
+    {
+      "record": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "artifact": "corrected invoice"
+    },
+    {
+      "record": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "artifact": "clinic"
+    },
+    {
+      "record": "apologized for freezing during Tuesday's intake interview",
+      "artifact": "Tuesday's intake interview"
+    },
+    {
+      "record": "deleted one paragraph",
+      "artifact": "one paragraph"
+    },
+    {
+      "record": "deleted one paragraph",
+      "artifact": "unsent reply to Lena"
+    },
+    {
+      "record": "The rest of the evening was me arguing with my own project memo",
+      "artifact": "my own project memo"
+    },
+    {
+      "record": "circled the row about the rollback window",
+      "artifact": "rollback window"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "artifact": "parser"
+    },
+    {
+      "record": "I told him I was okay",
+      "artifact": "my brother Arun"
+    },
+    {
+      "record": "Part of me wanted the call to be about the scan",
+      "artifact": "scan"
+    },
+    {
+      "record": "I missed Maya",
+      "artifact": "Maya"
+    }
+  ],
+  "forbidden_records_present": [],
+  "forbidden_artifacts_present": [],
+  "forbidden_reference_hits": [],
+  "score": 64.2966
+}

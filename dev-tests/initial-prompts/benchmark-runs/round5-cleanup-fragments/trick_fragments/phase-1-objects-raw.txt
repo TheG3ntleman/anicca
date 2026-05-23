@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "whiteboard",
+      "notes": "whiteboard in the entry"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Hale",
+      "notes": "voicemail from Dr. Hale in the entry"
+    }
+  ],
+  "uncertainties": []
+}
+

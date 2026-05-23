@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "kept telling myself I already knew what it said."
+      ],
+      "notes": "Subject repeatedly told self they knew message content."
+    }
+  ],
+  "uncertainties": []
+}
+

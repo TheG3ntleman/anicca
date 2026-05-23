@@ -1,0 +1,22 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I wrote",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "Is the statement 'clarity is a promise we make to strangers' being written a thought process or a recording of an action? Given the rule to extract only processes, writing is often a behavioural action, but the content 'clarity is a promise we make to strangers' represents a thought or belief. The source text says 'I wrote'. This is the author's process. Is writing an action (behaviour) or is the content the thought? The instruction says 'Extract only the journal author's processes'. Writing is an action (behaviour). The content is a quote. So the process is the act of writing. Let's check process_type values: thought, emotion, behaviour, body. Writing is a behaviour. The text is: 'I wrote"
+  ]
+}

@@ -1,0 +1,3 @@
+Thinking...
+{"type":"object","properties":{"candidate_records":{"type":"array","items":{"type":"object","properties":{"process_type":{"type":"string","enum":["thought","emotion","behaviour","body"]},"source_text":{"type":"string","description":"Exact contiguous text from the work unit, no paraphrasing","maxLength":500},"notes":{"type":"string","description":"Short, neutral, factual notes","maxLength":100}},"required":["process_type","source_text","notes"]}}},"uncertainties":{"type":"array","items":{"type":"string"}},"required":["candidate_records","uncertainties"]}
+

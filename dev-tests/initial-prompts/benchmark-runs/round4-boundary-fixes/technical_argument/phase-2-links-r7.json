@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

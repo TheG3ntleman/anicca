@@ -1,0 +1,93 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Jonah's note",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "from the draft budget",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "into",
+      "relation_status": "explicit",
+      "supporting_text": "into the email to Mara",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a5",
+      "relation_label": "into",
+      "relation_status": "explicit",
+      "supporting_text": "into the email to Mara",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Jonah's note",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a7",
+      "relation_label": "with",
+      "relation_status": "explicit",
+      "supporting_text": "meeting with Selene",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Jonah's note about the audit appeal and copied two figures from the draft budget into the email to Mara",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Jonah's note about the audit appeal and copied two figures from the draft budget into the email to Mara",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Jonah's note about the audit appeal and copied two figures from the draft budget into the email to Mara",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Jonah's note about the audit appeal and copied two figures from the draft budget into the email to Mara",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a5",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Jonah's note about the audit appeal and copied two figures from the draft budget into the email to Mara",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

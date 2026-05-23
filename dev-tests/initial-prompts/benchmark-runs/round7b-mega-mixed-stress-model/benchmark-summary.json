@@ -1,0 +1,96 @@
+{
+  "run_label": "round7b-mega-mixed-stress-model",
+  "model": "qwen3.5:9b",
+  "aggregate": {
+    "case_count": 1,
+    "ok_count": 1,
+    "avg_score": 55.3249,
+    "avg_record_recall": 0.8077,
+    "avg_artifact_recall": 1.0,
+    "avg_reference_recall": 0.5862,
+    "total_missing_records": 5,
+    "total_missing_artifacts": 0,
+    "total_missing_reference_pairs": 12
+  },
+  "results": [
+    {
+      "case_id": "mega_mixed_stress",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round7b-mega-mixed-stress-model/mega_mixed_stress",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "One mixed entry combining incident description, reflective rumination, literary carryover, technical argument, belief-like self-talk, quotes, pronouns, negation, and alternatives.",
+      "phase_1_records": 35,
+      "phase_1_artifacts": 36,
+      "phase_2_references": 46,
+      "record_recall": 0.8077,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.5862,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 3,
+      "composite_records": 0,
+      "weak_references": 1,
+      "missing_records": [
+        "printed the latency report",
+        "apologized for freezing during last week's customer demo",
+        "compared the throughput table to yesterday's trace",
+        "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+        "I listened to the voicemail from Dr. Hale"
+      ],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "printed the latency report",
+          "artifact": "latency report"
+        },
+        {
+          "record": "apologized for freezing during last week's customer demo",
+          "artifact": "customer demo"
+        },
+        {
+          "record": "deleted one sentence",
+          "artifact": "draft reply to Priya"
+        },
+        {
+          "record": "restored it",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "compared the throughput table to yesterday's trace",
+          "artifact": "throughput table"
+        },
+        {
+          "record": "compared the throughput table to yesterday's trace",
+          "artifact": "yesterday's trace"
+        },
+        {
+          "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+          "artifact": "caching layer"
+        },
+        {
+          "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+          "artifact": "queue"
+        },
+        {
+          "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+          "artifact": "my assumptions"
+        },
+        {
+          "record": "I listened to the voicemail from Dr. Hale",
+          "artifact": "voicemail from Dr. Hale"
+        },
+        {
+          "record": "I listened to the voicemail from Dr. Hale",
+          "artifact": "Dr. Hale"
+        },
+        {
+          "record": "kept telling myself I already knew what it said",
+          "artifact": "voicemail from Dr. Hale"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 55.3249
+    }
+  ]
+}

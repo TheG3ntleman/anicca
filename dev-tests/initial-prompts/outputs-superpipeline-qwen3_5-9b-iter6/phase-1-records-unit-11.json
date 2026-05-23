@@ -1,0 +1,17 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": "Author reflects on the intent and recipient of a reply."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "I don't know whether the reply was for Maya, for the foundation, or just for me"
+  ]
+}

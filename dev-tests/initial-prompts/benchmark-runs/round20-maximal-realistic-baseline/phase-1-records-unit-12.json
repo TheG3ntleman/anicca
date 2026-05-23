@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "The text 'restored it' lacks context to determine the author or subject of the action, and does not clearly identify the journal author's process according to the rules.",
+    "The phrase 'restored it' may be a continuation of a sentence fragment rather than a standalone action by the author.",
+    "It is unclear who or what 'it' refers to without surrounding context.",
+    "The verb 'restored' implies an action, but without a clear subject linked to the journal author, this cannot be confidently extracted as a candidate_record under the given constraints."
+  ]
+}

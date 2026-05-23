@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": [
+    "No journal author processes identified in this local work unit"
+  ]
+}
+

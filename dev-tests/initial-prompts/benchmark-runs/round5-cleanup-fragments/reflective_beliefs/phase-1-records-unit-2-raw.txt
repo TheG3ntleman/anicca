@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wants a clean principle",
+      "notes": "Author expresses a thought/feeling."
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "Part of me only wants relief",
+      "notes": "Author expresses an emotional desire/feeling."
+    }
+  ],
+  "uncertainties": []
+}
+

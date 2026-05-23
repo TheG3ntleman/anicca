@@ -1,0 +1,22 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I wrote",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The excerpt is incomplete and cuts off mid-sentence. Cannot determine if the writing action itself is a process to extract or if it refers to the act of writing the thought. Source text ends abruptly, missing the closing quotation mark, making it unclear if 'I wrote...' refers to the process of writing or describing a completed action."
+  ]
+}

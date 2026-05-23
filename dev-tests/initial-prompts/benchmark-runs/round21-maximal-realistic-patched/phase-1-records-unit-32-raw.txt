@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I missed Maya",
+      "notes": "Author expresses feeling of missing Maya"
+    }
+  ],
+  "uncertainties": []
+}
+

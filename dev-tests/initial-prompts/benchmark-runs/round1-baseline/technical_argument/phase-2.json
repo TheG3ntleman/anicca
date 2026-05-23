@@ -1,0 +1,50 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "arguing with",
+      "relation_status": "explicit",
+      "supporting_text": "arguing with my own design memo",
+      "notes": "Source text explicitly links the thought to the design memo artifact"
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a5",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "During code review with Priya I said the benchmark was misleading.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a9",
+      "relation_label": "apology",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a6",
+      "relation_label": "apology",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a7",
+      "relation_label": "during",
+      "relation_status": "explicit",
+      "supporting_text": "during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "about the foundation",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

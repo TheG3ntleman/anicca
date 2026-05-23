@@ -1,0 +1,862 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message about the ethics review",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message about the ethics review",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "about the ethics review",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message about the ethics review",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message about the ethics review",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a9",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "I reread Priya's message about the ethics review",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin, the CTO.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr9"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a7",
+      "relation_label": "with",
+      "relation_status": "explicit",
+      "supporting_text": "with Martin",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr10"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a6",
+      "relation_label": "before",
+      "relation_status": "explicit",
+      "supporting_text": "before the call with Martin, the CTO",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr11"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a8",
+      "relation_label": "the",
+      "relation_status": "explicit",
+      "supporting_text": "the CTO",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr12"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr13"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a7",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr14"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a6",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin, the CTO",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr15"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin, the CTO",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr16"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a7",
+      "relation_label": "with",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin, the CTO",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr17"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a8",
+      "relation_label": "with",
+      "relation_status": "explicit",
+      "supporting_text": "printed the latency report before the call with Martin, the CTO",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr18"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether he had forwarded the thread to protect me or to document me",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr19"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "the message itself only said",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr20"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a9",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "the message itself only said",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr21"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a3",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "the message itself only said",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr22"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr23"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr24"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a9",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "my throat tightened when the message itself only said",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr25"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a10",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't sent the rollback note to the vendor",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr26"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a11",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't sent the rollback note to the vendor",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr27"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "apologized for freezing during last week's customer demo",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr28"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a13",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "apologized for freezing during last week's customer demo",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr29"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a14",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the draft reply to Priya",
+      "notes": "direct action on artifact",
+      "candidate_reference_id": "tmp_cr30"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "ambiguous",
+      "supporting_text": "opened the draft reply to Priya",
+      "notes": "action refers to artifact containing recipient",
+      "candidate_reference_id": "tmp_cr31"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the draft reply to Priya",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr32"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a14",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Priya",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr33"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "ambiguous",
+      "supporting_text": "draft reply to Priya",
+      "notes": "context links via draft reply to Priya",
+      "candidate_reference_id": "tmp_cr34"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Priya",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr35"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a14",
+      "relation_label": "deleted from",
+      "relation_status": "ambiguous",
+      "supporting_text": "deleted one sentence",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr36"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a15",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one sentence",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr37"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a16",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one sentence",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr38"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a16",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr39"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a19",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr40"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a18",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr41"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a17",
+      "relation_label": "heard",
+      "relation_status": "explicit",
+      "supporting_text": "hearing Eva laugh",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr42"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a20",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "scene in the novel",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr43"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a21",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "brother drops the glass",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr44"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a17",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr45"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a18",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr46"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a20",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr47"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a21",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr48"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a17",
+      "relation_label": "angry at",
+      "relation_status": "explicit",
+      "supporting_text": "angry at Eva",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr49"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a20",
+      "relation_label": "angry at",
+      "relation_status": "explicit",
+      "supporting_text": "angry at the novel",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr50"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a17",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr51"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr52"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a17",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr53"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr54"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a18",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr55"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a19",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr56"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a17",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr57"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr58"
+    },
+    {
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a22",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo.",
+      "notes": "The source text directly mentions 'my own design memo' which matches the artifact text for a22.",
+      "candidate_reference_id": "tmp_cr59"
+    },
+    {
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a23",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo.",
+      "notes": "The source text directly mentions 'design memo' which matches the artifact text for a23.",
+      "candidate_reference_id": "tmp_cr60"
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a22",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "my own design memo",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr61"
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a22",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr62"
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a23",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of the afternoon was me arguing with my own design memo",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr63"
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a24",
+      "relation_label": "wrote on",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr64"
+    },
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a24",
+      "relation_label": "wrote on",
+      "relation_status": "explicit",
+      "supporting_text": "wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr65"
+    },
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a25",
+      "relation_label": "wrote",
+      "relation_status": "explicit",
+      "supporting_text": "rewrote the last line",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr66"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a28",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr67"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a27",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr68"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a26",
+      "relation_label": "performed",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr69"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a26",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr70"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a27",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr71"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a28",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the throughput table to yesterday's trace",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr72"
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a29",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr73"
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a30",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the fix belonged in the queue",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr74"
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a31",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the fix belonged in my assumptions",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr75"
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a29",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr76"
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a30",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr77"
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a31",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr78"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a29",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer",
+      "notes": "pronoun resolution,alternatives",
+      "candidate_reference_id": "tmp_cr79"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a29",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr80"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a30",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr81"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a31",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr82"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a32",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I told them I was fine",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr83"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a33",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told them I was fine",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr84"
+    },
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a36",
+      "relation_label": "heard",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Hale",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr85"
+    },
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a37",
+      "relation_label": "heard",
+      "relation_status": "ambiguous",
+      "supporting_text": "voicemail from Dr. Hale",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr86"
+    },
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a37",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Hale",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr87"
+    },
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a36",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Before sleep I listened to the voicemail from Dr. Hale",
+      "notes": "source text contains artifact text verbatim",
+      "candidate_reference_id": "tmp_cr88"
+    },
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a37",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "voicemail from Dr. Hale",
+      "notes": "artifact text is a substring of source text",
+      "candidate_reference_id": "tmp_cr89"
+    },
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a36",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr90"
+    },
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a37",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr91"
+    },
+    {
+      "from_candidate_id": "r31",
+      "to_candidate_id": "a6",
+      "relation_label": "at",
+      "relation_status": "ambiguous",
+      "supporting_text": "did not call back",
+      "notes": "pronoun resolution, quoted-speaker attribution, alternatives, or nearby context are doing work",
+      "candidate_reference_id": "tmp_cr92"
+    },
+    {
+      "from_candidate_id": "r34",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "If I call back, it will be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr93"
+    },
+    {
+      "from_candidate_id": "r35",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "if I don't, it will still be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr94"
+    }
+  ],
+  "uncertainties": [
+    "I reread Priya's message about the ethics review",
+    "I kept wondering whether he had forwarded the thread to protect me or to document me",
+    "my throat tightened when the message itself only said",
+    "relation to a2 is ambiguous based on context",
+    "relation_label for a2 is ambiguous due to pronoun resolution context",
+    "deleted one sentence",
+    "restored it",
+    "direct_mention,local_context,token_overlap,carrier_family,action_object",
+    "I told them I was fine",
+    "ambiguous resolution for call"
+  ]
+}

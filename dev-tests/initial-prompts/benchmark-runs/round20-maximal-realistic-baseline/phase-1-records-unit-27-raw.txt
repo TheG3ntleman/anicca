@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": [
+    "No journal author's processes were identified in the provided text, as the sentence describes an external action (listening to a voicemail) rather than an internal process like thought, emotion, behaviour, or body."
+  ]
+}
+

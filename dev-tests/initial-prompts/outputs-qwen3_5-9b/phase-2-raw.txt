@@ -1,0 +1,162 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "1",
+      "process_type": "behaviour",
+      "source_text": "revised budget spreadsheet",
+      "notes": "not a process type - need to fix this"
+    },
+    {
+      "candidate_id": "2",
+      "process_type": "body",
+      "source_text": "stomach tightened",
+      "notes": ""
+    },
+    {
+      "candidate_id": "3",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": ""
+    },
+    {
+      "candidate_id": "4",
+      "process_type": "emotion",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "need to separate thought and emotion"
+    },
+    {
+      "candidate_id": "5",
+      "process_type": "emotion",
+      "source_text": "my stomach tightened",
+      "notes": "split into body and thought"
+    },
+    {
+      "candidate_id": "6",
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "7",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "desire/thought"
+    },
+    {
+      "candidate_id": "8",
+      "process_type": "emotion",
+      "source_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "fear/appraisal"
+    },
+    {
+      "candidate_id": "9",
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": "speech act"
+    },
+    {
+      "candidate_id": "10",
+      "process_type": "emotion",
+      "source_text": "I was fine",
+      "notes": "self-report"
+    },
+    {
+      "candidate_id": "11",
+      "process_type": "emotion",
+      "source_text": "I wasn't fine",
+      "notes": "self-report"
+    },
+    {
+      "candidate_id": "12",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "physical sensation"
+    },
+    {
+      "candidate_id": "13",
+      "process_type": "behaviour",
+      "source_text": "kept hearing Leah say",
+      "notes": "internal action"
+    },
+    {
+      "candidate_id": "14",
+      "process_type": "thought",
+      "source_text": "just present the numbers",
+      "notes": "internalized quote"
+    },
+    {
+      "candidate_id": "15",
+      "process_type": "behaviour",
+      "source_text": "deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "candidate_id": "16",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "undoing deletion"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "documented message"
+    },
+    {
+      "candidate_id": "2",
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": "document"
+    },
+    {
+      "candidate_id": "3",
+      "artifact_kind": "object",
+      "source_text": "the foundation",
+      "notes": "entity"
+    },
+    {
+      "candidate_id": "4",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Yesterday morning on the train I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor",
+        "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday. He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart."
+      ],
+      "notes": "meeting with supervisor and prior call"
+    },
+    {
+      "candidate_id": "5",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen, my supervisor",
+        "the donor call on Monday"
+      ],
+      "notes": "separate events"
+    },
+    {
+      "candidate_id": "6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": "social interaction"
+    },
+    {
+      "candidate_id": "7",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "hospital scan next week"
+      ],
+      "notes": "procedure"
+    },
+    {
+      "candidate_id": "8",
+      "artifact_kind": "object",
+      "source_text": "the foundation",
+      "notes": "organization"
+    }
+  ]
+}
+

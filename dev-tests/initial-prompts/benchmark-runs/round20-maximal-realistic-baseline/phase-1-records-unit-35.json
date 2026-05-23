@@ -1,0 +1,22 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan.",
+      "notes": "conditional thought about outcome of an action"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "if I don't, it will still be about the scan"
+  ]
+}

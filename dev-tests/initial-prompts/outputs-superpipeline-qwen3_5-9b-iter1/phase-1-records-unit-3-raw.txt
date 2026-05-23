@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text does not contain clear author processes or candidate_records that are directly supported by this local work unit."]
+}
+

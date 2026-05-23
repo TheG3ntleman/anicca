@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a3",
+      "relation_label": "for",
+      "relation_status": "ambiguous",
+      "supporting_text": "message itself only said",
+      "notes": "referenced message content"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a9",
+      "relation_label": "for",
+      "relation_status": "ambiguous",
+      "supporting_text": "message itself only said",
+      "notes": "referenced message content"
+    }
+  ],
+  "uncertainties": []
+}

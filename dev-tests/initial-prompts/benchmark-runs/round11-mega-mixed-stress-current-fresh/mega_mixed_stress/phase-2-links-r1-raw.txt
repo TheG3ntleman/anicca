@@ -1,0 +1,47 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Priya's message",
+      "notes": "direct action-object pairing"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "Priya's message",
+      "notes": "possession implies relation but ambiguous scope"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "message about",
+      "notes": "token overlap implies relation"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "message about",
+      "notes": "token overlap implies relation"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a9",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "message itself",
+      "notes": "ambiguous reference to the message"
+    }
+  ],
+  "uncertainties": []
+}
+

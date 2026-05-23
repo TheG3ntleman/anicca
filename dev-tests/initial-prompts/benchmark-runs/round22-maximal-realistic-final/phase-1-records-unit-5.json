@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "my jaw tightened",
+      "notes": "physical reaction indicating tension"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my jaw tightened when the email itself only said",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

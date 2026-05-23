@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "arguing with my own roadmap",
+      "notes": "The author's internal conflict or debate with their own plan."
+    }
+  ],
+  "uncertainties": []
+}
+

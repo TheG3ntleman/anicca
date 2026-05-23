@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text describes an action to call back regarding a scan, but does not contain a journal author's internal thought, emotion, behavior, or body process from which to extract candidate_records."]
+}
+

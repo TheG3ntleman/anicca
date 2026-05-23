@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "I admitted I still hadn't sent the rollback note to the vendor"
+      ],
+      "notes": "Narrative entry reflecting admission of not sending rollback note to vendor."
+    }
+  ],
+  "uncertainties": []
+}

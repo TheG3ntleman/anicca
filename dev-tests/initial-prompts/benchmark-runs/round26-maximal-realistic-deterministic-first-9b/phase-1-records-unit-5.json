@@ -1,0 +1,30 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the unsent reply to Lena, deleted one paragraph, restored it, kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the unsent reply to Lena",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one paragraph",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

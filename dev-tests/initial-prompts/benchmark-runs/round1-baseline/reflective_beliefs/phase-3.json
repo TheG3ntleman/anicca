@@ -1,0 +1,96 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I keep telling myself that consistency matters more than sincerity, but I don't believe that all the way through.",
+      "notes": "Author reports an internal conflict between stated belief (consistency) and deeper belief (sincerity).",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "emotion",
+      "source_text": "Part of me wants a clean principle",
+      "notes": "expressed desire for cleanliness/principles",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "emotion",
+      "source_text": "part of me only wants relief",
+      "notes": "expressed desire for relief",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "I wrote three lines in the notebook about freedom",
+      "notes": "Author wrote lines about freedom",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira, or at least I keep insisting that I'm not angry.",
+      "notes": "Author denies anger and notes the need to insist on it.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment.",
+      "notes": "Author identifies their felt emotion as embarrassment rather than an alternative previously discussed.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "thought",
+      "source_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": "Author reflects on reading Weil's essay and the potential of attention to decide things.",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "notebook",
+      "notes": "a notebook where lines about freedom were written, crossed out, and rewritten",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me."
+      ],
+      "notes": "Reflective commentary on reading Weil's essay and its impact on decision-making.",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote three lines in the notebook about freedom",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a2",
+      "relation_label": "contains text",
+      "relation_status": "explicit",
+      "supporting_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": "The source record's source_text matches the artifact's source_text entirely.",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": []
+}

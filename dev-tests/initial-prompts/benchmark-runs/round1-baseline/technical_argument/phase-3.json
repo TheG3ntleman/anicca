@@ -1,0 +1,138 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "arguing with my own design memo",
+      "notes": "Author describes internal conflict over their own work",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it.",
+      "notes": "Author states their current belief about caching layer being the wrong fix despite being its original proposer.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": "Author compares graphs and adds a note.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "emotion",
+      "source_text": "During code review with Priya I said the benchmark was misleading.",
+      "notes": "The author expressed a judgment about the benchmark during a code review.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it.",
+      "notes": "Author expresses emotional state.",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "internal document referenced during self-argument about caching layer",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "latency graph",
+      "notes": "compared with yesterday's trace",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "comparison reference for latency graph",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "noted as looking healthy only because retries are hidden",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "benchmark",
+      "notes": "described as misleading by author during code review",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "benchmark report",
+      "notes": "reopened by author to examine throughput table",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "arguing with",
+      "relation_status": "explicit",
+      "supporting_text": "arguing with my own design memo",
+      "notes": "Source text explicitly links the thought to the design memo artifact",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a5",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "During code review with Priya I said the benchmark was misleading.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": []
+}

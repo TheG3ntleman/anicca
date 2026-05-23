@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_records":[{"process_type":"thought","source_text":"I wasn't","notes":"Partial text fragment indicating incomplete thought process"}],"uncertainties":["Fragment is incomplete; subject and predicate missing for full interpretation"]}
+

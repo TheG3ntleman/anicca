@@ -1,0 +1,152 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I reread Nora's email about the mediation",
+      "notes": "Reading an email.",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the calendar invite",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Nora's email about the mediation and printed the calendar invite",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "body",
+      "source_text": "By the time I got to the meeting with Omar, my jaw was tight.",
+      "notes": "",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my jaw was tight",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit.",
+      "notes": "Admitted lack of contractor call; felt apologetic about previous site visit performance.",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "read the note about the leak again",
+      "notes": "Author reads a note.",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": "",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "kept hearing Omar say, \"just send the estimate.\"",
+      "notes": "Author hears Omar's voice repeatedly.",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the draft reply to Nora",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "",
+      "candidate_id": "tmp_r14"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r15"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I read the note about the leak again, then read it again, and kept hearing Omar say, \"just send the estimate",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r16"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Omar say, \"just send the estimate",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r17"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r18"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit."
+      ],
+      "notes": "Internal admission of inaction and apology regarding contractor communication and site visit performance.",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Nora's email about the mediation",
+      "notes": "Email sent by Nora regarding mediation",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "calendar invite",
+      "notes": "Calendar invitation related to the mediation or meeting",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "note about the leak",
+      "notes": "Note mentioning a leak",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft reply to Nora",
+      "notes": "Drafted response intended for Nora",
+      "candidate_id": "tmp_a5"
+    }
+  ],
+  "uncertainties": [
+    "The text does not contain clear author processes or candidate_records that are directly supported by this local work unit.",
+    "I kept wondering whether she was warning me or documenting me",
+    "I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me",
+    "still didn't know whether the reply was for Nora, for Omar, or just for me"
+  ]
+}

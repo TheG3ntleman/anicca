@@ -1,0 +1,306 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": "",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the revised budget spreadsheet",
+      "notes": "",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": "",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday.",
+      "notes": "Author acknowledges email delay and admits freezing during call.",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": "",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": "",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the email draft to the foundation",
+      "notes": "Action of opening email",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I stared at it without sending it",
+      "notes": "Action of staring",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": "",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at it without sending it",
+      "notes": "",
+      "candidate_id": "tmp_r14"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of.",
+      "notes": "Author reflects on their desire to cancel a scan versus their underlying fears.",
+      "candidate_id": "tmp_r15"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "",
+      "candidate_id": "tmp_r16"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "",
+      "candidate_id": "tmp_r17"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": "",
+      "candidate_id": "tmp_r18"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "but I wasn't fine",
+      "notes": "Speaker reveals their actual internal emotional state.",
+      "candidate_id": "tmp_r19"
+    },
+    {
+      "process_type": "body",
+      "source_text": "and I could barely swallow",
+      "notes": "Speaker describes a physical symptom.",
+      "candidate_id": "tmp_r20"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't fine",
+      "notes": "",
+      "candidate_id": "tmp_r21"
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "",
+      "candidate_id": "tmp_r22"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I read the note about the hearing again",
+      "notes": "",
+      "candidate_id": "tmp_r23"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept hearing Leah say, 'just present the numbers.'",
+      "notes": "Heard Leah say 'just present the numbers.'",
+      "candidate_id": "tmp_r24"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": "",
+      "candidate_id": "tmp_r25"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Leah say, \"just present the numbers.\"",
+      "notes": "",
+      "candidate_id": "tmp_r26"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it.",
+      "notes": "Deleted and restored a paragraph in a draft message",
+      "candidate_id": "tmp_r27"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "",
+      "candidate_id": "tmp_r28"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "",
+      "candidate_id": "tmp_r29"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "",
+      "candidate_id": "tmp_r30"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Yesterday morning on the train I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor."
+      ],
+      "notes": "N/A",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Yesterday morning on the train"
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "appeal hearing"
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen"
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen"
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "donor call on Monday"
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the moment Leah laughed"
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a7"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a8"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "I told them I was fine, but I wasn't fine and I could barely swallow."
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a9"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "ride home"
+      ],
+      "notes": "",
+      "candidate_id": "tmp_a10"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Maya's message",
+      "notes": "a message about the appeal hearing",
+      "candidate_id": "tmp_a11"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "printed before the check-in with Dr. Sen",
+      "candidate_id": "tmp_a12"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "opened and stared at without sending",
+      "candidate_id": "tmp_a13"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the note about the hearing",
+      "notes": "read multiple times",
+      "candidate_id": "tmp_a14"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+      "notes": "one paragraph was deleted and then restored",
+      "candidate_id": "tmp_a15"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether she had sent the message to warn me or to push me out",
+    "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+    "The text describes internal reflection on a phone call outcome and ambiguous interpretation of Leah's laughter, but does not clearly describe a substantial, discrete event-like episode meeting the extraction criteria for an 'encounter' artifact.",
+    "The passage focuses on the narrator's emotional replay of a social interaction rather than providing a factual record of a substantial encounter event itself.",
+    "Is 'I don't know whether the reply was for Maya, for the foundation, or just for me.' an action, speech, or process by the author, or is it a report of uncertainty about others' intentions?",
+    "I don't know whether the reply was for Maya, for the foundation, or just for me",
+    "unclear whether the message was a warning or a push",
+    "unclear if the draft was intended for Maya, the foundation, or self"
+  ]
+}

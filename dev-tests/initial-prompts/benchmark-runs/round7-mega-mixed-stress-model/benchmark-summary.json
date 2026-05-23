@@ -1,0 +1,24 @@
+{
+  "run_label": "round7-mega-mixed-stress-model",
+  "model": "qwen3.5:9b",
+  "aggregate": {
+    "case_count": 1,
+    "ok_count": 0,
+    "avg_score": 0.0,
+    "avg_record_recall": 0.0,
+    "avg_artifact_recall": 0.0,
+    "avg_reference_recall": 0.0,
+    "total_missing_records": 0,
+    "total_missing_artifacts": 0,
+    "total_missing_reference_pairs": 0
+  },
+  "results": [
+    {
+      "case_id": "mega_mixed_stress",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round7-mega-mixed-stress-model/mega_mixed_stress",
+      "runner_exit_code": 1,
+      "status": "runner_failed",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 1426, in <module>\n    main()\n    ~~~~^^\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 1268, in main\n    units = segment_local_work_units(entry)\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 427, in segment_local_work_units\n    for sentence in split_sentences(block):\n                    ~~~~~~~~~~~~~~~^^^^^^^\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 361, in split_sentences\n    parts = re.split(r'(?<=[.!?][\"\\']?)\\s+(?=[A-Z])', protected)\n  File \"/home/abhirath/miniconda3/lib/python3.13/re/__init__.py\", line 267, in split\n    return _compile(pattern, flags).split(string, maxsplit)\n           ~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"/home/abhirath/miniconda3/lib/python3.13/re/__init__.py\", line 350, in _compile\n    p = _compiler.compile(pattern, flags)\n  File \"/home/abhirath/miniconda3/lib/python3.13/re/_compiler.py\", line 752, in compile\n    code = _code(p, flags)\n  File \"/home/abhirath/miniconda3/lib/python3.13/re/_compiler.py\", line 585, in _code\n    _compile(code, p.data, flags)\n    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhirath/miniconda3/lib/python3.13/re/_compiler.py\", line 153, in _compile\n    raise PatternError(\"look-behind requires fixed-width pattern\")\nre.PatternError: look-behind requires fixed-width pattern\n"
+    }
+  ]
+}

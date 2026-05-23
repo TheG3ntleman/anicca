@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r28",
+      "to_candidate_id": "a31",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "Part of me wanted the call to be about the scan",
+      "notes": "The local context contains the phrase 'about the scan', but it is part of a larger statement with conflicting desires (about nothing medical at all), making the pairing ambiguous regarding the primary intent. The source text is only a split of this thought."
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,172 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "rec_1",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_2",
+      "process_type": "thought",
+      "source_text": "my stomach tightened even though the message itself only said, \"we should talk before Friday.\"",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_3",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_4",
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_5",
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_6",
+      "process_type": "behaviour",
+      "source_text": "After the meeting I put the mug beside my laptop",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_7",
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_8",
+      "process_type": "behaviour",
+      "source_text": "stared at it without sending it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_9",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_10",
+      "process_type": "thought",
+      "source_text": "but I also knew the scan wasn't the thing I was really afraid of",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_11",
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_12",
+      "process_type": "behaviour",
+      "source_text": "but I wasn't fine and I could barely swallow",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_13",
+      "process_type": "behaviour",
+      "source_text": "On the ride home I read the note about the hearing again",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_14",
+      "process_type": "behaviour",
+      "source_text": "then read it again",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_15",
+      "process_type": "thought",
+      "source_text": "kept hearing Leah say, \"just present the numbers.\"",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_16",
+      "process_type": "behaviour",
+      "source_text": "Before bed I deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_17",
+      "process_type": "behaviour",
+      "source_text": "and then restored it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "rec_18",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "art_1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message",
+      "notes": ""
+    },
+    {
+      "candidate_id": "art_2",
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": ""
+    },
+    {
+      "candidate_id": "art_3",
+      "artifact_kind": "encounter",
+      "source_texts": [
+      "Yesterday morning on the train I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor.",
+      "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday."
+    ],
+    "notes": ""
+    },
+    {
+      "candidate_id": "art_4",
+      "artifact_kind": "object",
+      "source_text": "the hospital scan",
+      "notes": ""
+    },
+    {
+      "candidate_id": "art_5",
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "art_6",
+      "artifact_kind": "object",
+      "source_text": "the donor call",
+      "notes": ""
+    },
+    {
+      "candidate_id": "art_7",
+      "artifact_kind": "encounter",
+      "source_texts": [
+      "At dinner with my parents, my mother asked whether Dr. Sen had calmed me down."
+    ],
+    "notes": ""
+    },
+    {
+      "candidate_id": "art_8",
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+    "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "I don't know whether the reply was for Maya, for the foundation, or just for me."
+  ]
+}
+

@@ -1,0 +1,32 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I wrote 'maybe Friday'",
+      "notes": "Action of writing a thought on whiteboard"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I erased it",
+      "notes": "Action of erasing a thought"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I wrote 'maybe never,'",
+      "notes": "Action of writing a new thought on whiteboard"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I erased that too",
+      "notes": "Action of erasing another thought"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I stood there feeling stupid",
+      "notes": "Action of standing and experiencing an emotion"
+    }
+  ],
+  "uncertainties": []
+}
+

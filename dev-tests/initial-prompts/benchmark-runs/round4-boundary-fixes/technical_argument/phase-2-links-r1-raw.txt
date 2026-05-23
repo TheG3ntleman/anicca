@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "arguing with",
+      "relation_status": "explicit",
+      "supporting_text": "arguing with my own design memo",
+      "notes": "Record mentions arguing with design memo."
+    }
+  ],
+  "uncertainties": []
+}
+

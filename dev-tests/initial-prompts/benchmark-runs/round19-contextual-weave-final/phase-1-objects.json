@@ -1,0 +1,62 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Jonah's note about the audit appeal",
+      "notes": "Note referenced in the journal entry regarding an audit appeal."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the draft budget",
+      "notes": "Draft budget mentioned in the context of copying figures."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the email to Mara",
+      "notes": "Email drafted before the meeting with Selene."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the meeting with Selene",
+      "notes": "Meeting referenced where the narrator discussed with Selene, their legal lead."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the correction memo",
+      "notes": "Correction memo mentioned as not yet sent to the vendor."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the unsent reply to Jonah",
+      "notes": "Email reply to Jonah that was opened, edited, and remained unsent."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the essay",
+      "notes": "Essay containing a scene where a child drops a bowl, as referenced in the journal entry."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my roadmap",
+      "notes": "Roadmap document the narrator argued with themselves about at dinner."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the failure table",
+      "notes": "Table compared to the trace mentioned in the journal entry."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "last night's trace",
+      "notes": "Trace from the previous night mentioned for comparison with the failure table."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the voicemail from Dr. Imani",
+      "notes": "Voicemail from Dr. Imani mentioned as listened to before sleep."
+    }
+  ],
+  "uncertainties": [
+    "Determine if Jonah's note is an original artifact or a copy referenced within the entry."
+  ]
+}

@@ -1,0 +1,31 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a12",
+      "relation_label": "object reference",
+      "relation_status": "explicit",
+      "supporting_text": "slide with the broken chart",
+      "notes": "Direct mention of the slide artifact"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a10",
+      "relation_label": "event reference",
+      "relation_status": "explicit",
+      "supporting_text": "moment Leah laughed",
+      "notes": "Direct mention of the encounter event"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a11",
+      "relation_label": "person reference",
+      "relation_status": "explicit",
+      "supporting_text": "Leah",
+      "notes": "Direct mention of Leah"
+    }
+  ],
+  "uncertainties": []
+}
+

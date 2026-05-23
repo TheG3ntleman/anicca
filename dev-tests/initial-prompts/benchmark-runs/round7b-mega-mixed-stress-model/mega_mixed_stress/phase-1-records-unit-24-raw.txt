@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["It is unclear whether 'did not call back' refers to the author's own action or an external event without additional context."]
+}
+

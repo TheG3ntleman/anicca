@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The work unit text appears to be a placeholder or placeholder description rather than actual journal content describing actions, thoughts, or emotions."]
+}
+

@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a14",
+      "relation_label": "refers to",
+      "relation_status": "ambiguous",
+      "supporting_text": "the scan wasn't the thing I was really afraid of",
+      "notes": "The record mentions 'the scan' which links to the artifact 'hospital scan next week', but the connection is part of a broader thought process rather than a direct statement linking the two specific records. Pronoun 'the scan' is resolved to artifact a14."
+    }
+  ],
+  "uncertainties": []
+}

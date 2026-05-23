@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I am tired of how both options feel like the same answer.",
+      "notes": "expression of fatigue/ambivalence"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I am tired of how both options feel like the same answer",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

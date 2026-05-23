@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my brother Arun he asked whether the scan had scared me again"
+      ],
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

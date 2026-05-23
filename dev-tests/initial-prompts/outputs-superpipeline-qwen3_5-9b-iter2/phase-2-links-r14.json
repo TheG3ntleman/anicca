@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a16",
+      "relation_label": "hospital scan",
+      "relation_status": "explicit",
+      "supporting_text": "hospital scan next week",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a16",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan next week",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

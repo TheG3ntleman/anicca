@@ -1,0 +1,31 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a6",
+      "relation_label": "during_check_in",
+      "relation_status": "ambiguous",
+      "supporting_text": "During the check-in with Dr. Sen",
+      "notes": "Contextual link during check-in"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a7",
+      "relation_label": "with_supervisor",
+      "relation_status": "explicit",
+      "supporting_text": "Dr. Sen",
+      "notes": "Directly linked to supervisor Dr. Sen"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a8",
+      "relation_label": "haven_t_emailed",
+      "relation_status": "explicit",
+      "supporting_text": "emailed the foundation",
+      "notes": "Refers to emailing the foundation"
+    }
+  ],
+  "uncertainties": []
+}
+

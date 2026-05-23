@@ -1,0 +1,32 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "Message received from Maya regarding an appeal hearing."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": "A budget spreadsheet that was revised prior to a meeting."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "email draft to the foundation",
+      "notes": "Draft email intended for the foundation but not sent."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "note about the hearing",
+      "notes": "A note regarding the appeal hearing that the narrator read repeatedly."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft reply to Maya's message",
+      "notes": "Draft reply to a message from Maya that was edited and restored."
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "behaviour",
+  "source_text": "After the meeting I put the mug beside my laptop",
+  "notes": "Action of placing object after meeting"
+}
+

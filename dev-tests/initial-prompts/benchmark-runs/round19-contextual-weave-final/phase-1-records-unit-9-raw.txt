@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "deletion",
+  "source_text": "deleted one sentence",
+  "notes": "Author deleted one sentence, but the sentence text is not provided, so the specific content of the deletion is unknown."
+}
+

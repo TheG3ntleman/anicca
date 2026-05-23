@@ -1,0 +1,7 @@
+Thinking...
+{
+  "source_text": "Before sleep I listened to the voicemail from Dr. Imani, did not call back, kept telling myself I already knew what it said. I don't.",
+  "process_type": "thought",
+  "notes": "The author internally tells themselves they already knew the voicemail's content, then immediately contradicts this."
+}
+

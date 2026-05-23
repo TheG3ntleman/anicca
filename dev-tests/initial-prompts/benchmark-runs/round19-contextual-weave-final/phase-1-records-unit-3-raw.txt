@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether he had sent the note to protect me, to warn Mara, or to pin the delay on me",
+      "notes": "Author questions possible intentions behind sending a note."
+    }
+  ],
+  "uncertainties": []
+}
+

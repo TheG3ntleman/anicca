@@ -1,0 +1,15 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r31",
+      "to_candidate_id": "a6",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "did not call back",
+      "notes": "pronoun resolution required"
+    }
+  ],
+  "uncertainties": [
+    "did not call back"
+  ]
+}

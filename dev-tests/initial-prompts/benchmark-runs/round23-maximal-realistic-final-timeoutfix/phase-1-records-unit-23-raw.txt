@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "I told him I was okay",
+  "notes": "Author reports communication with another person. However, this is primarily describing the content of speech rather than internal thought process. Given the rule to not extract other people's actions/speech, this should be excluded."
+}
+

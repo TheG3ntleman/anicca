@@ -1,0 +1,19 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "apologized for freezing during last week's customer demo."
+      ],
+      "notes": ""
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "customer demo"
+      ],
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

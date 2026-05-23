@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "crossed it out does not clearly identify a specific author action or process; context is missing"
+  ]
+}

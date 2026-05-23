@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a13",
+      "relation_label": "contains",
+      "relation_status": "explicit",
+      "supporting_text": "email draft to the foundation",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

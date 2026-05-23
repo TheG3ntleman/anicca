@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the row about the rollback window.",
+      "notes": "direct action describing author's behavior"
+    }
+  ],
+  "uncertainties": []
+}
+

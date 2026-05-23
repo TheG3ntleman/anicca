@@ -1,0 +1,33 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Maya's message",
+      "notes": "a message about the appeal hearing"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "printed before the check-in with Dr. Sen"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "opened and stared at without sending"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the note about the hearing",
+      "notes": "read multiple times"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+      "notes": "one paragraph was deleted and then restored"
+    }
+  ],
+  "uncertainties": [
+    "unclear whether the message was a warning or a push",
+    "unclear if the draft was intended for Maya, the foundation, or self"
+  ]
+}

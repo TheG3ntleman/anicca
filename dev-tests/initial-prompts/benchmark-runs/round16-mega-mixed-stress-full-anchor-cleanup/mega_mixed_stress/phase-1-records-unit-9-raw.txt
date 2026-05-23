@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The provided work unit text is a single deletion notice and does not contain a valid narrative from the author."]
+}
+

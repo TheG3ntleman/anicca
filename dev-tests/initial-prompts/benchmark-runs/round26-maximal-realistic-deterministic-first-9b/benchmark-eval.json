@@ -1,0 +1,70 @@
+{
+  "case_id": "maximal_realistic_stress",
+  "description": "A highly mixed but realistic journal entry combining narrative events, reflective argument, explicit emotion, body sensations, technical debugging, literary recall, appositives, pronouns, negation, and medical uncertainty.",
+  "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round26-maximal-realistic-deterministic-first-9b",
+  "phase_1_records": 26,
+  "phase_1_artifacts": 31,
+  "phase_2_references": 36,
+  "record_recall": 0.7812,
+  "artifact_recall": 0.9355,
+  "reference_recall": 0.75,
+  "overbroad_encounters": 0,
+  "unexpected_encounters": 0,
+  "composite_records": 0,
+  "weak_references": 7,
+  "missing_records": [
+    "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+    "I admitted I still hadn't sent the corrected invoice to the clinic",
+    "I opened the unsent reply to Lena",
+    "I told him I was okay",
+    "I felt ashamed, furious, relieved, and unexpectedly lonely all at once",
+    "I don't",
+    "If I call back, it will be about the scan"
+  ],
+  "missing_artifacts": [
+    "draft incident log",
+    "risk table"
+  ],
+  "missing_reference_pairs": [
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "draft incident log"
+    },
+    {
+      "record": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "artifact": "corrected invoice"
+    },
+    {
+      "record": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "artifact": "clinic"
+    },
+    {
+      "record": "I opened the unsent reply to Lena",
+      "artifact": "unsent reply to Lena"
+    },
+    {
+      "record": "I opened the unsent reply to Lena",
+      "artifact": "Lena"
+    },
+    {
+      "record": "compared the risk table to last night's trace",
+      "artifact": "risk table"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "artifact": "my assumptions"
+    },
+    {
+      "record": "I told him I was okay",
+      "artifact": "my brother Arun"
+    },
+    {
+      "record": "If I call back, it will be about the scan",
+      "artifact": "scan"
+    }
+  ],
+  "forbidden_records_present": [],
+  "forbidden_artifacts_present": [],
+  "forbidden_reference_hits": [],
+  "score": 66.3871
+}

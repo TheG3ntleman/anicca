@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a2",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message",
+      "notes": "Source record mentions 'message' which links to artifact 'Maya's message'"
+    }
+  ],
+  "uncertainties": []
+}
+

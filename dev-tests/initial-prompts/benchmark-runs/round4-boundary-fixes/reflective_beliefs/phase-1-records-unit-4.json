@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira",
+      "notes": "author states lack of anger"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I keep insisting that I'm not angry",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira, or at least I keep insisting that I'm not angry",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

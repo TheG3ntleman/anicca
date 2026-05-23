@@ -1,0 +1,19 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I did not decide to quit",
+      "notes": "author process"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I did not forgive Sam",
+      "notes": "author process"
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

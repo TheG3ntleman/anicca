@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "If something is unclear",
+    "If unsure return empty",
+    "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+    "couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict"
+  ]
+}

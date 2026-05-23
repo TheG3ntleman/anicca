@@ -1,0 +1,104 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "forgiveness target",
+      "relation_status": "explicit",
+      "supporting_text": "forgive Sam",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I did not forgive Sam",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "\"maybe Friday\"",
+      "notes": "direct object reference in source record",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "whiteboard",
+      "notes": "direct object reference in source record",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"maybe Friday\" on the whiteboard",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "If I call back, it will be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a7",
+      "relation_label": "about the scan",
+      "relation_status": "explicit",
+      "supporting_text": "about the scan",
+      "notes": "direct mention of scan in artifact text matches source context",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "if I don't, it will still be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr9"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I am tired of how both options feel like the same answer.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr10"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I am tired of how both options feel like the same answer",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr11"
+    }
+  ],
+  "uncertainties": []
+}

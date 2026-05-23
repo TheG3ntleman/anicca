@@ -1,0 +1,241 @@
+{
+  "run_label": "round5-cleanup-fragments",
+  "model": "qwen3.5:9b",
+  "aggregate": {
+    "case_count": 5,
+    "ok_count": 5,
+    "avg_score": 72.4069,
+    "avg_record_recall": 0.8213,
+    "avg_artifact_recall": 0.9846,
+    "avg_reference_recall": 0.5954,
+    "total_missing_records": 10,
+    "total_missing_artifacts": 1,
+    "total_missing_reference_pairs": 21
+  },
+  "results": [
+    {
+      "case_id": "incident_mediation",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round5-cleanup-fragments/incident_mediation",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Narrative incident with repeated reading, apology, pronouns, and reply ambiguity.",
+      "phase_1_records": 11,
+      "phase_1_artifacts": 14,
+      "phase_2_references": 10,
+      "record_recall": 0.5385,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.2143,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 1,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "I reread Nora's email about the mediation",
+        "printed the calendar invite",
+        "I apologized for going blank during last week's site visit",
+        "kept hearing Omar say, \"just send the estimate.\"",
+        "I opened the draft reply to Nora",
+        "still didn't know whether the reply was for Nora, for Omar, or just for me"
+      ],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "I reread Nora's email about the mediation",
+          "artifact": "Nora's email"
+        },
+        {
+          "record": "I reread Nora's email about the mediation",
+          "artifact": "mediation"
+        },
+        {
+          "record": "I kept wondering whether she was warning me or documenting me",
+          "artifact": "Nora's email"
+        },
+        {
+          "record": "I apologized for going blank during last week's site visit",
+          "artifact": "site visit"
+        },
+        {
+          "record": "kept hearing Omar say, \"just send the estimate.\"",
+          "artifact": "Omar"
+        },
+        {
+          "record": "I opened the draft reply to Nora",
+          "artifact": "draft reply to Nora"
+        },
+        {
+          "record": "deleted one sentence",
+          "artifact": "draft reply to Nora"
+        },
+        {
+          "record": "restored it",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+          "artifact": "Nora"
+        },
+        {
+          "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+          "artifact": "Omar"
+        },
+        {
+          "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+          "artifact": "draft reply to Nora"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 48.0385
+    },
+    {
+      "case_id": "reflective_beliefs",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round5-cleanup-fragments/reflective_beliefs",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Reflective journal text with beliefs, self-argument, and no real encounters.",
+      "phase_1_records": 13,
+      "phase_1_artifacts": 7,
+      "phase_2_references": 7,
+      "record_recall": 1.0,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.8333,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "I keep reading the sentence about attention as if it could decide things for me",
+          "artifact": "essay by Weil"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 93.6667
+    },
+    {
+      "case_id": "story_and_self",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round5-cleanup-fragments/story_and_self",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Story-focused reflective entry where other characters should become artifacts, not records.",
+      "phase_1_records": 9,
+      "phase_1_artifacts": 10,
+      "phase_2_references": 16,
+      "record_recall": 0.75,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.4444,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "I underlined one sentence in chapter seven",
+        "wrote \"this is the part I keep living\" in the margin"
+      ],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "I don't care whether that scene is realistic",
+          "artifact": "scene in the novel where the brother leaves without explaining himself"
+        },
+        {
+          "record": "I care that I kept defending him in my head as if he were someone I owed",
+          "artifact": "the brother"
+        },
+        {
+          "record": "I underlined one sentence in chapter seven",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "I underlined one sentence in chapter seven",
+          "artifact": "chapter seven"
+        },
+        {
+          "record": "wrote \"this is the part I keep living\" in the margin",
+          "artifact": "the margin"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 67.0556
+    },
+    {
+      "case_id": "technical_argument",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round5-cleanup-fragments/technical_argument",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Technical self-argument with documents, traces, review, and unsent follow-up.",
+      "phase_1_records": 13,
+      "phase_1_artifacts": 13,
+      "phase_2_references": 13,
+      "record_recall": 0.8182,
+      "artifact_recall": 0.9231,
+      "reference_recall": 0.8182,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 1,
+      "weak_references": 2,
+      "missing_records": [
+        "I reopened the benchmark report",
+        "didn't send the follow-up message"
+      ],
+      "missing_artifacts": [
+        "code review with Priya"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I reopened the benchmark report",
+          "artifact": "benchmark report"
+        },
+        {
+          "record": "didn't send the follow-up message",
+          "artifact": "follow-up message"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 73.4406
+    },
+    {
+      "case_id": "trick_fragments",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round5-cleanup-fragments/trick_fragments",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Fragmentary entry with negation, alternatives, quoted text, and pronouns.",
+      "phase_1_records": 14,
+      "phase_1_artifacts": 6,
+      "phase_2_references": 7,
+      "record_recall": 1.0,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.6667,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 2,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "wrote \"maybe never,\"",
+          "artifact": "whiteboard"
+        },
+        {
+          "record": "I keep telling myself I already know what it says",
+          "artifact": "voicemail from Dr. Hale"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 79.8333
+    }
+  ]
+}

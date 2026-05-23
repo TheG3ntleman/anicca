@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I am tired of how both options feel like the same answer",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "No clear candidate records extracted from the fragmentary work unit."
+  ]
+}

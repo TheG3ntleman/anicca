@@ -1,0 +1,152 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't care whether that scene is realistic",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a5",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I texted Lina to say the book was getting under my skin",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I texted Lina to say the book was getting under my skin",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a6",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted the message instead of sending it",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a1",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted the message instead of sending it",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr13",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr14",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a9",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr15",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a10",
+      "relation_label": "miss Arun",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr16",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "I don't care whether that scene is realistic",
+    "I still can't tell whether I miss Arun or only miss the version of myself that existed around him"
+  ]
+}

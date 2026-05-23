@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "my chest tightened",
+  "notes": "Physical reaction indicating emotional tension"
+}
+

@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "I admitted I still hadn't sent the rollback note to the vendor"
+      ],
+      "notes": "User admitted they had not sent a rollback note to a vendor."
+    }
+  ],
+  "uncertainties": []
+}

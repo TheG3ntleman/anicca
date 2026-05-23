@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["Text 'my manager.' is not a complete action, thought, emotion, or behaviour. It appears to be a fragment referring to another person rather than an author process."]
+}
+

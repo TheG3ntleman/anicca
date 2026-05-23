@@ -1,0 +1,30 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "message referenced in the journal entry"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": "spreadsheet printed before check-in"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "email draft to the foundation",
+      "notes": "draft stared at without sending"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "note about the hearing",
+      "notes": "note read repeatedly"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft reply to Maya's message",
+      "notes": "reply from which a paragraph was deleted and restored"
+    }
+  ],
+  "uncertainties": []
+}

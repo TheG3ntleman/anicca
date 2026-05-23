@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a27",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Imani did not call back",
+      "notes": "pair supported by local context"
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a28",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "voicemail from Dr. Imani",
+      "notes": "pair supported by local context"
+    }
+  ],
+  "uncertainties": []
+}

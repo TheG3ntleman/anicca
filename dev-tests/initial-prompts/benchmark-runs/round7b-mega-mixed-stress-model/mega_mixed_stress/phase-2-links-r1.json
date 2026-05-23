@@ -1,0 +1,69 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "Priya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "Priya",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "ethics review",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "On Monday I reread Priya's message about the ethics review",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "On Monday I reread Priya's message about the ethics review",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "On Monday I reread Priya's message about the ethics review",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "On Monday I reread Priya's message about the ethics review",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

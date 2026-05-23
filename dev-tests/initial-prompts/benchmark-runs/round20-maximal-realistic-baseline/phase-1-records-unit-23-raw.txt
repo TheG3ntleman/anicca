@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I told him I was okay",
+      "notes": "Narrator reporting their own action of telling someone they were okay, interpreted as a thought process regarding self-presentation or reassurance."
+    }
+  ],
+  "uncertainties": []
+}
+

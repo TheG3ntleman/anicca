@@ -1,0 +1,32 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "Message discussed regarding an appeal hearing."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "Spreadsheet reviewed before check-in with supervisor."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "Unsent email draft reviewed at the end of a meeting."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the note about the hearing",
+      "notes": "Note read multiple times on the ride home."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+      "notes": "Draft reply edited before bed."
+    }
+  ],
+  "uncertainties": []
+}
+

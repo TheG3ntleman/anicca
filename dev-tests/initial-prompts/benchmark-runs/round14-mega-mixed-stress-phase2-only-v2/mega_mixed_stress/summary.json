@@ -1,0 +1,8 @@
+{
+  "model": "qwen3.5:9b",
+  "phase_1_candidate_records": 35,
+  "phase_1_candidate_artifacts": 37,
+  "phase_2_candidate_references": 50,
+  "phase_3_candidate_references": 50,
+  "substep_error_count": 1
+}

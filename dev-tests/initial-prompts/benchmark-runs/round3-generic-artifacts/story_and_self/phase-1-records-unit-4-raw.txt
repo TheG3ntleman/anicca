@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "Later I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin.",
+  "notes": "Author marks text with personal significance."
+}
+

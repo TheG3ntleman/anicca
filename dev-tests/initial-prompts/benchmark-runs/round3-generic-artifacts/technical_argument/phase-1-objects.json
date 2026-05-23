@@ -1,0 +1,60 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "mentioned by author as being argued with"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "caching layer",
+      "notes": "referred to as the proposed fix"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "first proposal",
+      "notes": "author wrote the initial proposal for caching layer"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "latency graph",
+      "notes": "compared with yesterday's trace"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "used for comparison with latency graph"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "benchmark",
+      "notes": "described as misleading during code review"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "benchmark report",
+      "notes": "reopened and examined by author"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "throughput table",
+      "notes": "part of benchmark report"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "follow-up message",
+      "notes": "intended but not sent"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "described as looking healthy only because retries are hidden"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "authentication",
+      "notes": "location of latency spike near authentication"
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,35 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Before sleep I listened to the voicemail from Dr. Imani, did not call back, kept telling myself I already knew what it said. I don't.",
+      "notes": "The author internally tells themselves they already knew the voicemail's content, then immediately contradicts this."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr. Imani",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

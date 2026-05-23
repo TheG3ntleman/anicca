@@ -1,0 +1,47 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Jonah's note about the audit appeal",
+      "notes": "A note referencing an audit appeal, sent by Jonah."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft budget",
+      "notes": "A draft budget document containing figures copied into an email."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "email to Mara",
+      "notes": "An email addressed to Mara, receiving copied figures from a draft budget."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "correction memo to the vendor",
+      "notes": "A memo intended for a vendor regarding a correction."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "essay",
+      "notes": "An essay containing a scene where a child drops a bowl."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "roadmap",
+      "notes": "A document or plan that the narrator argues with regarding stability."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "failure table",
+      "notes": "A table containing failure data compared to a trace."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Imani",
+      "notes": "A voicemail message received from Dr. Imani."
+    }
+  ],
+  "uncertainties": []
+}
+

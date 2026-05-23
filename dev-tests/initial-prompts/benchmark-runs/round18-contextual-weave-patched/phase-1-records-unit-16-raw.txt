@@ -1,0 +1,13 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "Author rewrote the last line."
+    }
+  ],
+  "uncertainties": [
+  ]
+}
+

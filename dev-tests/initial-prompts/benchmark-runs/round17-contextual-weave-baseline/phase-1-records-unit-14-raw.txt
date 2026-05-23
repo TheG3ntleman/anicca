@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "crossed it out",
+      "notes": "Author crossed out a previous statement or idea, indicating a change in thought."
+    }
+  ],
+  "uncertainties": []
+}
+

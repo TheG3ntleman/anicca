@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wanted the call to be about the scan",
+      "notes": "Author describes an internal desire regarding the purpose of a call."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "and part of me wanted it to be about nothing medical at all.",
+      "notes": "Author describes a contrasting internal desire regarding the purpose of a call."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wanted the call to be about the scan, and part of me wanted it to be about nothing medical at all",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

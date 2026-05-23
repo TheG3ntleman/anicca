@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a7",
+      "relation_label": "about the scan",
+      "relation_status": "explicit",
+      "supporting_text": "about the scan",
+      "notes": "direct mention of scan in artifact text matches source context"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "if I don't, it will still be about the scan",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,108 @@
+You will be given a journal entry.
+
+Your task is to extract candidate records and candidate artifacts directly supported by the text.
+
+Definitions:
+- A candidate record is a process-like item of the journal author.
+- A candidate artifact is something that may deserve its own identity later.
+
+Allowed process_type values:
+- thought
+- emotion
+- behaviour
+- body
+
+Do not invent any other process types.
+
+Process typing rules:
+- thought:
+  beliefs, appraisals, judgments, self-talk, desire, uncertainty-statements, rumination, rehearsal, internal deliberation, interpretation
+- emotion:
+  explicitly felt emotional states such as fear, shame, grief, anger, loneliness, relief, jealousy, tenderness
+- behaviour:
+  actions, speech acts, outward conduct, and bodily actions such as calling, saying, crying, leaving, opening, searching, rereading, clenching, apologizing, staying
+- body:
+  directly described bodily states or physical sensations such as pain, hunger, nausea, numbness, burning, tightness, shakiness, tiredness, lack of sleep
+
+Record rules:
+1. Extract only the journal author's processes as candidate_records.
+2. Do not extract other people's actions, speech, or emotions as candidate_records.
+3. Preserve negation exactly. Do not drop words like "not", "never", "no", "didn't", "couldn't".
+4. Do not assume a reported claim is true if the surrounding text undermines it.
+5. Do not use body as a fallback category for vague internal experience.
+6. If a clause contains both a bodily state and a thought, emotion, or behaviour, split them when possible.
+7. If a clause contains both a thought and an emotion, split them when possible.
+8. Split long mixed clauses only when each extracted part can stand alone clearly.
+9. Do not output clipped fragments that cannot stand on their own as meaningful text.
+10. Each candidate_record must have exactly one source_text string.
+
+Allowed artifact_kind values:
+- object
+- encounter
+- unknown
+
+Artifact rules:
+1. Use artifact_kind = object for identity-worthy non-event things such as people, places, roles, documents, messages, projects, or recurring non-event items.
+2. Use artifact_kind = encounter for substantial event-like episodes such as conversations, calls, meetings, dinners, rides, appointments, consultations, scans, procedures, trips, arguments, incidents, or past events.
+3. Past events and procedures usually belong in encounter, not object.
+4. Exclude low-value incidental objects unless they seem central.
+5. Object artifacts must have exactly one source_text string.
+6. Encounter artifacts may have one or more source_texts strings.
+7. For every substantial event-like episode in the entry, create at least one candidate_artifact with artifact_kind = encounter.
+8. If the same encounter is described across multiple clauses or sentences, group those snippets into one encounter artifact using multiple source_texts in source order.
+9. Do not rely only on separate behaviour records when a coherent encounter is clearly being described.
+
+General rules:
+1. Be exhaustive and high-recall.
+2. Use exact contiguous text from the entry.
+3. Do not paraphrase.
+4. Do not use ellipses.
+5. Output items in source order.
+6. Overlap is allowed.
+7. Do not deduplicate.
+8. Do not create references between items.
+9. Do not infer hidden meaning, diagnosis, symbolism, or deeper causes.
+10. Use the smallest exact span that can stand on its own.
+11. Differentiate behavior from thoughts about behavior.
+12. Be cautious of metaphorical statements used, they are perhaps not what they seem at a superficial level.
+
+Notes:
+- notes are optional
+- use notes only to justify classification or ambiguity
+- keep notes short, neutral, and factual
+- if not needed, use ""
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_records": [
+    {
+      "candidate_id": "",
+      "process_type": "",
+      "source_text": "",
+      "notes": ""
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "",
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": ""
+    },
+    {
+      "candidate_id": "",
+      "artifact_kind": "encounter",
+      "source_texts": [""],
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+
+Return only JSON.
+
+Journal entry:
+Yesterday morning on the train I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor. I kept wondering whether she had sent the message to warn me or to push me out, and my stomach tightened even though the message itself only said, "we should talk before Friday." During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday. He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart. After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it. I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of. At dinner with my parents, my mother asked whether Dr. Sen had calmed me down. I told them I was fine, but I wasn't fine and I could barely swallow. On the ride home I read the note about the hearing again, then read it again, and kept hearing Leah say, "just present the numbers." Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it. I don't know whether the reply was for Maya, for the foundation, or just for me.

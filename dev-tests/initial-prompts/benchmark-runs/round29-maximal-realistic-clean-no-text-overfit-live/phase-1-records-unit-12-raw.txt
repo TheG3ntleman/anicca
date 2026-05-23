@@ -1,0 +1,32 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I felt ashamed",
+      "process_type": "emotion",
+      "notes": "Expression of shame"
+    },
+    {
+      "source_text": "I felt furious",
+      "process_type": "emotion",
+      "notes": "Expression of anger"
+    },
+    {
+      "source_text": "I felt relieved",
+      "process_type": "emotion",
+      "notes": "Expression of relief"
+    },
+    {
+      "source_text": "I felt lonely",
+      "process_type": "emotion",
+      "notes": "Expression of loneliness"
+    },
+    {
+      "source_text": "I could barely swallow",
+      "process_type": "behaviour",
+      "notes": "Physical reaction to emotional state"
+    }
+  ],
+  "uncertainties": []
+}
+

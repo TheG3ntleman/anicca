@@ -1,0 +1,225 @@
+{
+  "run_label": "round4-boundary-fixes",
+  "model": "qwen3.5:9b",
+  "aggregate": {
+    "case_count": 5,
+    "ok_count": 5,
+    "avg_score": 74.2518,
+    "avg_record_recall": 0.8604,
+    "avg_artifact_recall": 0.9846,
+    "avg_reference_recall": 0.6263,
+    "total_missing_records": 8,
+    "total_missing_artifacts": 1,
+    "total_missing_reference_pairs": 17
+  },
+  "results": [
+    {
+      "case_id": "incident_mediation",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round4-boundary-fixes/incident_mediation",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Narrative incident with repeated reading, apology, pronouns, and reply ambiguity.",
+      "phase_1_records": 14,
+      "phase_1_artifacts": 13,
+      "phase_2_references": 18,
+      "record_recall": 0.6923,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.5,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 2,
+      "missing_records": [
+        "I reread Nora's email about the mediation",
+        "I apologized for going blank during last week's site visit",
+        "kept hearing Omar say, \"just send the estimate.\"",
+        "I opened the draft reply to Nora"
+      ],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "I reread Nora's email about the mediation",
+          "artifact": "Nora's email"
+        },
+        {
+          "record": "I reread Nora's email about the mediation",
+          "artifact": "mediation"
+        },
+        {
+          "record": "I apologized for going blank during last week's site visit",
+          "artifact": "site visit"
+        },
+        {
+          "record": "kept hearing Omar say, \"just send the estimate.\"",
+          "artifact": "Omar"
+        },
+        {
+          "record": "I opened the draft reply to Nora",
+          "artifact": "draft reply to Nora"
+        },
+        {
+          "record": "deleted one sentence",
+          "artifact": "draft reply to Nora"
+        },
+        {
+          "record": "restored it",
+          "artifact": "one sentence"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 64.1923
+    },
+    {
+      "case_id": "reflective_beliefs",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round4-boundary-fixes/reflective_beliefs",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Reflective journal text with beliefs, self-argument, and no real encounters.",
+      "phase_1_records": 14,
+      "phase_1_artifacts": 8,
+      "phase_2_references": 7,
+      "record_recall": 0.9091,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.5,
+      "overbroad_encounters": 1,
+      "unexpected_encounters": 1,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "I wrote three lines in the notebook about freedom"
+      ],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "I wrote three lines in the notebook about freedom",
+          "artifact": "notebook"
+        },
+        {
+          "record": "I wrote three lines in the notebook about freedom",
+          "artifact": "freedom"
+        },
+        {
+          "record": "I keep reading the sentence about attention as if it could decide things for me",
+          "artifact": "essay by Weil"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 66.3636
+    },
+    {
+      "case_id": "story_and_self",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round4-boundary-fixes/story_and_self",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Story-focused reflective entry where other characters should become artifacts, not records.",
+      "phase_1_records": 10,
+      "phase_1_artifacts": 11,
+      "phase_2_references": 18,
+      "record_recall": 0.875,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.5556,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "I underlined one sentence in chapter seven"
+      ],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "I don't care whether that scene is realistic",
+          "artifact": "scene in the novel where the brother leaves without explaining himself"
+        },
+        {
+          "record": "I care that I kept defending him in my head as if he were someone I owed",
+          "artifact": "the brother"
+        },
+        {
+          "record": "I underlined one sentence in chapter seven",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "I underlined one sentence in chapter seven",
+          "artifact": "chapter seven"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 74.9444
+    },
+    {
+      "case_id": "technical_argument",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round4-boundary-fixes/technical_argument",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Technical self-argument with documents, traces, review, and unsent follow-up.",
+      "phase_1_records": 14,
+      "phase_1_artifacts": 12,
+      "phase_2_references": 11,
+      "record_recall": 0.9091,
+      "artifact_recall": 0.9231,
+      "reference_recall": 0.9091,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 1,
+      "weak_references": 0,
+      "missing_records": [
+        "I reopened the benchmark report"
+      ],
+      "missing_artifacts": [
+        "code review with Priya"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I reopened the benchmark report",
+          "artifact": "benchmark report"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 85.2587
+    },
+    {
+      "case_id": "trick_fragments",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round4-boundary-fixes/trick_fragments",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Fragmentary entry with negation, alternatives, quoted text, and pronouns.",
+      "phase_1_records": 12,
+      "phase_1_artifacts": 7,
+      "phase_2_references": 7,
+      "record_recall": 0.9167,
+      "artifact_recall": 1.0,
+      "reference_recall": 0.6667,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 1,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "wrote \"maybe never,\""
+      ],
+      "missing_artifacts": [],
+      "missing_reference_pairs": [
+        {
+          "record": "wrote \"maybe never,\"",
+          "artifact": "whiteboard"
+        },
+        {
+          "record": "I keep telling myself I already know what it says",
+          "artifact": "voicemail from Dr. Hale"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 80.5
+    }
+  ]
+}

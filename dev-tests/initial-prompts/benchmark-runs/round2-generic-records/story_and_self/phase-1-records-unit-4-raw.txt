@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Later I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin.",
+      "notes": "Author underlined text and added a personal note in margin."
+    }
+  ],
+  "uncertainties": []
+}
+

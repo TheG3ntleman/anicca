@@ -1,0 +1,3 @@
+Thinking...
+{"type":"text","text":"I told them I was fine\n"}
+

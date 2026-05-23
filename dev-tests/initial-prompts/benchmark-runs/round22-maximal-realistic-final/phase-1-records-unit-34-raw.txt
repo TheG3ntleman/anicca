@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "Author's statement about future action regarding scan"
+    }
+  ],
+  "uncertainties": []
+}
+

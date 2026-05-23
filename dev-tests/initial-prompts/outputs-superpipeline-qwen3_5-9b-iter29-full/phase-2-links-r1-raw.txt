@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message",
+      "notes": "direct object mention"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "appeal hearing",
+      "notes": "topic of message"
+    }
+  ],
+  "uncertainties": []
+}
+

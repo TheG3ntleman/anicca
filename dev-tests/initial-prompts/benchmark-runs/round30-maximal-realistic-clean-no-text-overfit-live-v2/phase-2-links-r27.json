@@ -1,0 +1,15 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r27",
+      "to_candidate_id": "a44",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "kept telling myself I already knew what it said",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "kept telling myself I already knew what it said"
+  ]
+}

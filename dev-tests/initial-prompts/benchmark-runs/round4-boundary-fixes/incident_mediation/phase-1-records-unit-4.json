@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "I admitted I still hadn't called the contractor",
+      "notes": "The author describes an internal admission regarding a missed action."
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I apologized for going blank during last week's site visit",
+      "notes": "The author describes an emotional response (apology) to a past lapse in performance."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

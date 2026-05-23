@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "apologized for freezing during Friday's client walkthrough.",
+      "notes": "apologized for freezing during Friday's client walkthrough."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during Friday's client walkthrough",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

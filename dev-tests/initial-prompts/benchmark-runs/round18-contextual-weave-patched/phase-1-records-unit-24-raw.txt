@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The phrase 'did not call back' may describe an action (communication/behavior) but lacks a clear subject or verb to identify as an author's process without additional context."]
+}
+

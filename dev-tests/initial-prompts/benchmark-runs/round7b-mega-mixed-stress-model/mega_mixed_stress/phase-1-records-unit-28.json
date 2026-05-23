@@ -1,0 +1,18 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The provided work unit text does not contain a clear author process that meets extraction criteria.",
+    "if I don't, it will still be about the scan"
+  ]
+}

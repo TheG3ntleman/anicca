@@ -1,0 +1,27 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Afterward I opened the unsent reply to Lena",
+      "notes": "navigating digital communication"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "deleted one paragraph",
+      "notes": "revising text"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "restored it",
+      "notes": "revising text"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "kept hearing Tessa laugh",
+      "notes": "recollection or persistent auditory sensation"
+    }
+  ],
+  "uncertainties": []
+}
+

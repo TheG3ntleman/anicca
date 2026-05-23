@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "my own design memo",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of today was me arguing with my own design memo",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

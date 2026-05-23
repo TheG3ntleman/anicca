@@ -1,0 +1,33 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "mentioned",
+      "relation_status": "ambiguous",
+      "supporting_text": "",
+      "notes": "no support text"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a2",
+      "relation_label": "mentioned",
+      "relation_status": "ambiguous",
+      "supporting_text": "",
+      "notes": "no support text"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a3",
+      "relation_label": "mentioned",
+      "relation_status": "ambiguous",
+      "supporting_text": "",
+      "notes": "no support text"
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

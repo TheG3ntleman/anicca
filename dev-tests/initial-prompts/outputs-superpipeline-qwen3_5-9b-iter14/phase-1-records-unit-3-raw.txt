@@ -1,0 +1,22 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "my supervisor",
+      "notes": "referring to Dr. Sen's role, but not an action of the author"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "author's admission of fact"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "author's expression of regret"
+    }
+  ],
+  "uncertainties": []
+}
+

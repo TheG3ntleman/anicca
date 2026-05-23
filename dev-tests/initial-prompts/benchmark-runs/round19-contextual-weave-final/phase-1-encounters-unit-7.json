@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Friday's client walkthrough"
+      ],
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

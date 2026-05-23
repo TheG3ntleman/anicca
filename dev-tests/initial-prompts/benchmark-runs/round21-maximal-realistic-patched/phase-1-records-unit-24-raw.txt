@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't.",
+      "notes": "Expresses a negative emotional state or response to an unstated condition."
+    }
+  ],
+  "uncertainties": [
+    "Context is missing to determine the specific emotion or condition being negated."
+  ]
+}
+

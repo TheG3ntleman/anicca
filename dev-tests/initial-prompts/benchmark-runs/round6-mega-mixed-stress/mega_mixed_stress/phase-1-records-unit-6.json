@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the draft reply to Priya, deleted one sentence, restored it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the draft reply to Priya",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

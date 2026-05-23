@@ -1,0 +1,66 @@
+You are doing one narrow linking task only.
+
+You will be given:
+1. one local work unit containing the source record
+2. one source candidate_record
+3. a shortlist of candidate_artifacts
+
+Your task is to create candidate_references only from the given source candidate_record to the existing candidate_artifacts.
+
+Return exactly one JSON object with these top-level keys:
+- `candidate_references`
+- `uncertainties`
+
+Rules:
+1. Every emitted reference must use the given source record's `candidate_id` as `from_candidate_id`.
+2. Only use `to_candidate_id` values from the provided artifact list.
+3. Do not create any new records or artifacts.
+4. `supporting_text` must be an exact contiguous span from the journal entry.
+5. Prefer support spans that are contained inside the source record's `source_text`.
+6. Use `relation_status = "explicit"` only when the link is directly stated.
+7. If pronoun resolution or alternatives are doing work, use `relation_status = "ambiguous"`.
+8. `relation_label` should be short and text-near.
+9. If no directly supported references exist for this source record, return an empty list.
+10. Do not return the source record by itself.
+11. Do not return an artifact by itself.
+12. Do not invent links to artifacts outside the provided shortlist.
+13. If the shortlist does not contain a safe target, return an empty list.
+14. Do not use wider context from outside the source record text unless pronoun resolution inside the same work unit is unavoidable.
+15. Do not include top-level keys such as `thought`, `analysis`, `reasoning`, or explanations.
+16. If unsure, return `{"candidate_references":[],"uncertainties":[]}` instead of commentary.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "",
+      "to_candidate_id": "",
+      "relation_label": "",
+      "relation_status": "explicit",
+      "supporting_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [""]
+}
+
+Return only JSON.
+
+<source_work_unit_kind>
+mixed
+</source_work_unit_kind>
+
+<source_work_unit_text>
+On the ride home I read the note about the hearing again, then read it again, and kept hearing Leah say, "just present the numbers."
+</source_work_unit_text>
+
+<source_record_json>
+{"candidate_id":"r21","process_type":"thought","source_text":"kept hearing Leah say, \"just present the numbers.\"","notes":""}
+</source_record_json>
+
+<candidate_artifacts_json>
+[{"candidate_id":"a11","artifact_kind":"object","source_text":"Leah"},{"candidate_id":"a18","artifact_kind":"object","source_text":"the note about the hearing"},{"candidate_id":"a10","artifact_kind":"encounter","source_texts":["moment Leah laughed"]},{"candidate_id":"a17","artifact_kind":"encounter","source_texts":["ride home"]},{"candidate_id":"a2","artifact_kind":"object","source_text":"Maya's message about the appeal hearing"},{"candidate_id":"a4","artifact_kind":"encounter","source_texts":["appeal hearing"]}]
+</candidate_artifacts_json>
+
+Return only the final JSON object.

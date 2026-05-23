@@ -1,0 +1,22 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "I told them I was fine",
+      "notes": "Speaker reported state to others"
+    },
+    {
+      "process_type": "body",
+      "source_text": "I wasn't fine",
+      "notes": "Speaker internal state assessment"
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "Physical difficulty in swallowing"
+    }
+  ],
+  "uncertainties": []
+}
+

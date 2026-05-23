@@ -1,0 +1,11 @@
+{
+  "model": "qwen3.5:9b",
+  "scene_count": 6,
+  "phase_1_candidate_records": 26,
+  "phase_1_candidate_artifacts": 21,
+  "phase_2_candidate_references": 27,
+  "phase_3_candidate_records": 26,
+  "phase_3_candidate_artifacts": 21,
+  "phase_3_candidate_references": 27,
+  "substep_error_count": 1
+}

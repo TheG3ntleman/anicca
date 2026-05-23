@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "At dinner with my brother Arun he asked whether the scan had scared me again.",
+      "notes": "author reflects on fear from scan"
+    }
+  ],
+  "uncertainties": []
+}
+

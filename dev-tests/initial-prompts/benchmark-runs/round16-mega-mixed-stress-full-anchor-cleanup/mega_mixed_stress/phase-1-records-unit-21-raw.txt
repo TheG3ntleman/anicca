@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["Fragmentary input ends abruptly without a complete thought or action to extract."]
+}
+

@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["unclear how to categorize the uncertainty about Leah's laugh as an internal process versus an uncertainty about external events"]
+}
+

@@ -1,0 +1,115 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I keep telling myself that consistency matters more than sincerity",
+      "notes": "Author states a belief about prioritizing consistency over sincerity.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I don't believe that all the way through.",
+      "notes": "Author expresses doubt or contradiction regarding their stated belief.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I don't believe that all the way through",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "Part of me wants a clean principle",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "thought",
+      "source_text": "part of me only wants relief",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "crossed them out",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira",
+      "notes": "Author states current emotional state regarding Mira.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "emotion",
+      "source_text": "or at least I keep insisting that I'm not angry",
+      "notes": "Author notes the ongoing effort to maintain or assert the lack of anger.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "I keep insisting that I'm not angry",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment.",
+      "notes": "Author describes their felt emotion",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "I keep reading the sentence about attention as if it could decide things for me",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "three lines in the notebook",
+      "notes": "Notes written by the journal author, crossed out and rewritten.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "essay by Weil",
+      "notes": "Essay by Simone Weil referenced as being on the desk and read repeatedly.",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": []
+}

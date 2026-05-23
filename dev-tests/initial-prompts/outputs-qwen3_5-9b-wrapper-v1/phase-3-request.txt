@@ -1,0 +1,84 @@
+You are performing phase 3 only.
+
+Critical output rules:
+1. Return exactly one JSON object and nothing else.
+2. The only top-level keys are `candidate_references` and `uncertainties`.
+3. Never recreate `candidate_records` or `candidate_artifacts`.
+4. Never echo the phase-2 JSON.
+5. If no supported references exist, return empty arrays.
+6. Use reference IDs `cr1`, `cr2`, `cr3`, ... in source order.
+7. `from_candidate_id` and `to_candidate_id` must exactly match existing phase-2 IDs.
+8. `notes` must be short, factual, and neutral. Do not reason out loud there.
+9. Each item in `uncertainties` must be a plain string, not an object.
+
+You will be given:
+1. a journal entry
+2. unresolved phase-2 JSON containing candidate_records and candidate_artifacts
+
+Your task is to add candidate references between the existing phase-2 candidates.
+
+This is still an unresolved text-only stage:
+- do not resolve identities
+- do not add tags
+- do not introduce outside context
+- do not create new records or artifacts
+
+Definitions:
+- A candidate reference is a text-supported unresolved link between two existing phase-2 candidates.
+- `relation_label` should be the smallest text-near phrase that captures the relation, usually 1 to 5 words.
+- `relation_status` is `explicit` when the link is directly stated, otherwise `ambiguous`.
+
+Allowed relation_status values:
+- explicit
+- ambiguous
+
+Reference rules:
+1. Only create references between candidates that already exist in the phase-2 JSON.
+2. A candidate may emit multiple references when the text directly supports multiple distinct links.
+3. References may connect records to artifacts, artifacts to artifacts, or records to records.
+4. Do not create references just because two candidates appear in the same sentence or scene.
+5. Every candidate_reference must have exactly one `supporting_text`.
+6. `supporting_text` must be an exact contiguous span from the journal entry.
+7. Use the smallest exact span that still clearly supports the reference.
+8. Do not emit exact duplicates.
+9. Preserve negation exactly.
+10. Do not invent hidden causal, diagnostic, symbolic, or identity claims.
+
+Targeting rules:
+1. If a record acts directly on a carrier object such as a note, message, draft, page, or photo, prefer the carrier object as the direct target.
+2. If the carrier explicitly names an embedded topic, that topic may receive a separate artifact-to-artifact reference.
+3. If a pronoun has exactly one strong local antecedent, you may use it.
+4. If multiple plausible antecedents remain, emit one candidate reference per plausible target and mark each one `ambiguous`.
+5. If a record belongs to a current scene and is also about a remembered or replayed scene, keep both links when both are directly supported.
+6. A speaking record may link separately to an addressee, a scene, and a content target if the text supports each one.
+
+If something remains unclear, put it in `uncertainties` instead of adding interpretive notes.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "",
+      "relation_status": "explicit",
+      "supporting_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+
+Return only JSON.
+
+<journal_entry>
+Yesterday morning on the train I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor. I kept wondering whether she had sent the message to warn me or to push me out, and my stomach tightened even though the message itself only said, "we should talk before Friday." During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday. He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart. After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it. I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of. At dinner with my parents, my mother asked whether Dr. Sen had calmed me down. I told them I was fine, but I wasn't fine and I could barely swallow. On the ride home I read the note about the hearing again, then read it again, and kept hearing Leah say, "just present the numbers." Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it. I don't know whether the reply was for Maya, for the foundation, or just for me.
+</journal_entry>
+
+<phase_2_json>
+{"candidate_records":[{"candidate_id":"r1","process_type":"thought","source_text":"I kept wondering whether she had sent the message to warn me or to push me out","notes":"Internal deliberation about motivation"},{"candidate_id":"r2","process_type":"body","source_text":"my stomach tightened","notes":""},{"candidate_id":"r3","process_type":"emotion","source_text":"I wanted to cancel the hospital scan next week","notes":"Desire expressed"},{"candidate_id":"r4","process_type":"thought","source_text":"I also knew the scan wasn't the thing I was really afraid of","notes":"Internal judgment about fear"},{"candidate_id":"r5","process_type":"body","source_text":"I could barely swallow","notes":"Physical sensation"},{"candidate_id":"r6","process_type":"emotion","source_text":"I was fine, but I wasn't fine","notes":"Contradictory self-report of emotional state"},{"candidate_id":"r7","process_type":"emotion","source_text":"I don't know whether the reply was for Maya, for the foundation, or just for me","notes":"Expression of uncertainty"}],"candidate_artifacts":[{"candidate_id":"a1","artifact_kind":"encounter","source_texts":["the check-in with Dr. Sen, my supervisor","the meeting"],"notes":"Meeting with supervisor"},{"candidate_id":"a2","artifact_kind":"encounter","source_texts":["dinner with my parents","the check-in with Dr. Sen, my supervisor"],"notes":"Dinner with family"},{"candidate_id":"a3","artifact_kind":"encounter","source_texts":["the donor call on Monday","the call"],"notes":"Previous event referenced"},{"candidate_id":"a4","artifact_kind":"object","source_text":"Maya's message about the appeal hearing","notes":"Message from Maya"},{"candidate_id":"a5","artifact_kind":"object","source_text":"the revised budget spreadsheet","notes":"Document referenced"},{"candidate_id":"a6","artifact_kind":"object","source_text":"the mug","notes":""},{"candidate_id":"a7","artifact_kind":"object","source_text":"my laptop","notes":""},{"candidate_id":"a8","artifact_kind":"object","source_text":"the email draft to the foundation","notes":"Draft message"},{"candidate_id":"a9","artifact_kind":"object","source_text":"the hospital scan","notes":"Procedure referenced"},{"candidate_id":"a10","artifact_kind":"object","source_text":"the note about the hearing","notes":"Note read repeatedly"},{"candidate_id":"a11","artifact_kind":"object","source_text":"Leah","notes":"Person referenced"},{"candidate_id":"a12","artifact_kind":"object","source_text":"the slide with the broken chart","notes":""},{"candidate_id":"a13","artifact_kind":"object","source_text":"the draft reply to Maya's message","notes":"Draft message edited"}],"uncertainties":[]}
+</phase_2_json>
+
+Return only the final JSON object.

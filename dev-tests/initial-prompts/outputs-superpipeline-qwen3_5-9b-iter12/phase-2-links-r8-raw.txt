@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a6",
+      "relation_label": "check-in with Dr. Sen",
+      "relation_status": "explicit",
+      "supporting_text": "check-in with Dr. Sen",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a8",
+      "relation_label": "foundation",
+      "relation_status": "explicit",
+      "supporting_text": "foundation",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "I told him I was okay"
+      ],
+      "notes": "report of status communication"
+    }
+  ],
+  "uncertainties": []
+}

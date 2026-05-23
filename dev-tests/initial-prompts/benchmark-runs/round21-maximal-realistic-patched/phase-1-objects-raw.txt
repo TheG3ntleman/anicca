@@ -1,0 +1,52 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email",
+      "notes": "Email discussed ethics complaint."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft incident log",
+      "notes": "Document referenced for copying a sentence."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the reply to Omar",
+      "notes": "Email draft copied into."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the unsent reply to Lena",
+      "notes": "Email draft that was edited."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the novel",
+      "notes": "Text source of a scene involving Tessa."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my project memo",
+      "notes": "Document the user argued with."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the risk table",
+      "notes": "Part of the project memo."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "last night's trace",
+      "notes": "Comparison reference for the risk table."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my own project memo",
+      "notes": "Document argued with during evening."
+    }
+  ],
+  "uncertainties": []
+}
+

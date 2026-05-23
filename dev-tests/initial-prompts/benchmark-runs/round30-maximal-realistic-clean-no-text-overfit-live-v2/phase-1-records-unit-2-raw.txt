@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+      "process_type": "thought",
+      "notes": "Author reflects on possible reasons for forwarding email thread."
+    },
+    {
+      "source_text": "my jaw tightened when the email itself only said, \"we should talk before noon.\"",
+      "process_type": "body",
+      "notes": "Author exhibits physical reaction upon reading email."
+    }
+  ],
+  "uncertainties": []
+}
+

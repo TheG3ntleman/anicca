@@ -1,0 +1,48 @@
+You are doing one narrow extraction task only.
+
+You will be given one local work unit from a journal entry plus its conservative work-unit kind.
+
+Extract only candidate_artifacts with `artifact_kind = "encounter"` that are directly supported by this local work unit.
+
+Return exactly one JSON object with these top-level keys:
+- `candidate_artifacts`
+- `uncertainties`
+
+Rules:
+1. Extract only substantial event-like episodes.
+2. Do not extract object artifacts in this task.
+3. Do not paraphrase.
+4. Use exact contiguous text from the local work unit.
+5. `source_texts` may contain one or more exact snippets from the same local work unit.
+6. Do not combine clearly separate units into one encounter.
+7. `notes` should be short, neutral, and factual.
+8. If the unit is reflective, list-like, or fragmentary and does not itself describe a substantial episode, return an empty `candidate_artifacts` list.
+9. Do not treat quoted message content, a note, or a draft document as an encounter unless the text clearly describes an event-like episode.
+10. Do not return a single bare artifact object. Always wrap encounters inside `candidate_artifacts`.
+11. Do not include top-level keys such as `thought`, `analysis`, `reasoning`, or explanations.
+12. If unsure, return `{"candidate_artifacts":[],"uncertainties":[]}` instead of commentary.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [""],
+      "notes": ""
+    }
+  ],
+  "uncertainties": [""]
+}
+
+Return only JSON.
+
+<work_unit_kind>
+narrative
+</work_unit_kind>
+
+<work_unit_text>
+Afterward I opened the draft reply to Priya
+</work_unit_text>
+
+Return only the final JSON object.

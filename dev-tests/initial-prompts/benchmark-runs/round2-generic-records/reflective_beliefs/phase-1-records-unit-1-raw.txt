@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I keep telling myself that consistency matters more than sincerity",
+      "notes": "Author states a belief about prioritizing consistency over sincerity."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "but I don't believe that all the way through.",
+      "notes": "Author expresses doubt or contradiction regarding their stated belief."
+    }
+  ],
+  "uncertainties": []
+}
+

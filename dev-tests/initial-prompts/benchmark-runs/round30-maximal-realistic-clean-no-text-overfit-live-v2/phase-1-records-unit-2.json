@@ -1,0 +1,27 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+      "notes": "Author reflects on possible reasons for forwarding email thread."
+    },
+    {
+      "process_type": "body",
+      "source_text": "my jaw tightened when the email itself only said, \"we should talk before noon.\"",
+      "notes": "Author exhibits physical reaction upon reading email."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit, my jaw tightened when the email itself only said, \"we should talk before noon",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my jaw tightened when the email itself only said",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit, my jaw tightened when the email itself only said, \"we should talk before noon"
+  ]
+}

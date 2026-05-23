@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "my throat tightened when the message itself only said, \"we should talk before noon.\"",
+      "notes": "Author describes physical sensation in throat"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my throat tightened when the message itself only said",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

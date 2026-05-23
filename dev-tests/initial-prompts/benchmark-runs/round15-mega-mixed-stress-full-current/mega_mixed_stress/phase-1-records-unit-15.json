@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "unclear subject"
+  ]
+}

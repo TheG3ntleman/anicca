@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a20",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "my own project memo",
+      "notes": "direct mention in source text"
+    }
+  ],
+  "uncertainties": []
+}
+

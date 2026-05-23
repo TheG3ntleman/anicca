@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["I don't know whether the reply was for Maya, for the foundation, or just for me."]
+}
+

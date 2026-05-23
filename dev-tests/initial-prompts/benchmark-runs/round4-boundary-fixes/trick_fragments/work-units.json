@@ -1,0 +1,47 @@
+[
+  {
+    "unit_id": "unit-1",
+    "unit_text": "Not a to-do list, exactly.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-2",
+    "unit_text": "Not a confession either.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-3",
+    "unit_text": "I did not decide to quit, and I did not forgive Sam.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-4",
+    "unit_text": "I wrote \"maybe Friday\" on the whiteboard, erased it, wrote \"maybe never,\" erased that too, and then stood there feeling stupid.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-5",
+    "unit_text": "The voicemail from Dr.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-6",
+    "unit_text": "Hale is still unopened.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-7",
+    "unit_text": "I keep telling myself I already know what it says, but I don't.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-8",
+    "unit_text": "If I call back, it will be about the scan; if I don't, it will still be about the scan.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-9",
+    "unit_text": "I am tired of how both options feel like the same answer.",
+    "unit_kind": "fragmentary"
+  }
+]

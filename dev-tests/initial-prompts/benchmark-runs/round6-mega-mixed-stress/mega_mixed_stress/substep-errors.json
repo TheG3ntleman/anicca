@@ -1,0 +1,206 @@
+[
+  {
+    "substep": "phase-1-records-unit-1",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-1",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-2",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-2",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-3",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-3",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-4",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-4",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-5",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-5",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-6",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-6",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-7",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-8",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-9",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-10",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-11",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-11",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-12",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-13",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-13",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-14",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-14",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-15",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-16",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-17",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-18",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-19",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-encounters-unit-19",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-20",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-21",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-records-unit-22",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-1-objects",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r1",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r2",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r3",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r4",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r5",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r6",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r7",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r8",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r9",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r10",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r11",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r12",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r13",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r14",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r16",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r17",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r19",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  },
+  {
+    "substep": "phase-2-links-r20",
+    "error": "Error: Head \"http://127.0.0.1:11434/\": dial tcp 127.0.0.1:11434: socket: operation not permitted"
+  }
+]

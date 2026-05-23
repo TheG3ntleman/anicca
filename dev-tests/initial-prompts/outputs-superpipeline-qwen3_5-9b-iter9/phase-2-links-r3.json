@@ -1,0 +1,16 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "source text mentions message but artifact a2 is message itself, not response; a20 is draft reply but not explicitly supported",
+    "I kept wondering whether she had sent the message to warn me or to push me out"
+  ]
+}

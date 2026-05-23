@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "body",
+  "source_text": "I could barely swallow.",
+  "notes": "Physiological reaction describing difficulty swallowing."
+}
+

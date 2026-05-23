@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wants a clean principle",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "part of me only wants relief",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

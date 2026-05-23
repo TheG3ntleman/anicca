@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "Author expresses a desire to cancel a medical procedure."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "but I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "Author reflects on their true fear regarding the medical situation."
+    }
+  ],
+  "uncertainties": []
+}
+

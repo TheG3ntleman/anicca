@@ -1,0 +1,15 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "maybe Friday",
+      "notes": "Text written on whiteboard"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "maybe never",
+      "notes": "Text written on whiteboard"
+    }
+  ],
+  "uncertainties": []
+}

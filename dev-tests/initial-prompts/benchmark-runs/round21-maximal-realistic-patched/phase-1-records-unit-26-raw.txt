@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I could barely swallow.",
+      "notes": "Describes a physical action/state of difficulty swallowing."
+    }
+  ],
+  "uncertainties": []
+}
+

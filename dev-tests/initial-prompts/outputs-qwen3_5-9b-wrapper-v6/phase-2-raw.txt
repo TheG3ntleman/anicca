@@ -1,0 +1,205 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": "action of rereading, process is rereading, which is a thought action."
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "behaviour",
+      "source_text": "I printed the revised budget spreadsheet",
+      "notes": "action of printing."
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "emotion",
+      "source_text": "my stomach tightened",
+      "notes": "physical manifestation of emotion."
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "wondering is a thought."
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "body",
+      "source_text": "my stomach tightened even though the message itself only said, \"we should talk before Friday.\"",
+      "notes": "body state, though message content is separate, but stomach tightened is the key."
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "wondering."
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "uncertainty about intention."
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "desire is a thought."
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "thought",
+      "source_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "knowledge/desire."
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "bodily state."
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "uncertainty."
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "repetition of wondering, which is a thought process."
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "message artifact."
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": "spreadsheet artifact."
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen",
+      "notes": "supervisor object."
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "foundation",
+      "notes": "organization artifact."
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen"
+      ],
+      "notes": "meeting with supervisor."
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "Leah",
+      "notes": "person artifact."
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": "slide artifact."
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "donor call on Monday"
+      ],
+      "notes": "call event."
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "mug",
+      "notes": "mug artifact."
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "laptop",
+      "notes": "laptop artifact."
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "hospital scan",
+      "notes": "procedure artifact."
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": "dinner event."
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "parents",
+      "notes": "people artifact."
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "object",
+      "source_text": "mother",
+      "notes": "family member artifact."
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "object",
+      "source_text": "note about the hearing",
+      "notes": "note artifact."
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "object",
+      "source_text": "email draft to the foundation",
+      "notes": "draft artifact."
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "ride home"
+      ],
+      "notes": "travel event."
+    },
+    {
+      "candidate_id": "a18",
+      "artifact_kind": "object",
+      "source_text": "reply to Maya's message",
+      "notes": "reply artifact."
+    },
+    {
+      "candidate_id": "a19",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "scan next week"
+      ],
+      "notes": "procedure encounter."
+    }
+  ],
+  "uncertainties": []
+}
+

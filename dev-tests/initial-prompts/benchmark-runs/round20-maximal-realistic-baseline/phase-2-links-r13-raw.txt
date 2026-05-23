@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a14",
+      "relation_label": "written on",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "source text explicitly links r13 action (writing) to artifact margin"
+    }
+  ],
+  "uncertainties": []
+}
+

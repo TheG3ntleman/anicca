@@ -1,0 +1,44 @@
+You are doing one narrow extraction task only.
+
+You will be given a journal entry.
+
+Extract only candidate_artifacts with `artifact_kind = "object"` that are identity-worthy and directly supported by the text.
+
+Return exactly one JSON object with these top-level keys:
+- `candidate_artifacts`
+- `uncertainties`
+
+Rules:
+1. Extract people, roles, documents, messages, notes, drafts, projects, and other identity-worthy non-event items.
+2. Exclude low-value incidental objects unless they seem central.
+3. Do not extract encounters in this task.
+4. Use exact contiguous text from the entry.
+5. Do not paraphrase.
+6. `notes` should be short, neutral, and factual.
+7. Do not return encounters in this task.
+8. Do not return a single bare artifact object. Always wrap objects inside `candidate_artifacts`.
+9. Do not include top-level keys such as `thought`, `analysis`, `reasoning`, or explanations.
+10. If unsure, return `{"candidate_artifacts":[],"uncertainties":[]}` instead of commentary.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [""]
+}
+
+Return only JSON.
+
+<journal_entry>
+On Monday I reread Priya's message about the ethics review and printed the latency report before the call with Martin, the CTO. I kept wondering whether he had forwarded the thread to protect me or to document me, and my throat tightened when the message itself only said, "we should talk before noon." During the call with Martin, the CTO, I admitted I still hadn't sent the rollback note to the vendor and apologized for freezing during last week's customer demo. Afterward I opened the draft reply to Priya, deleted one sentence, restored it, and kept hearing Eva laugh from the scene in the novel where the brother drops the glass. I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict.
+
+Most of the afternoon was me arguing with my own design memo. I wrote "consistency is a promise we make to the future" in the margin, crossed it out, rewrote the last line, and compared the throughput table to yesterday's trace. I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions. At dinner with my parents my father asked whether the hospital scan had scared me again. I told them I was fine, but I wasn't, and I could barely swallow. Before sleep I listened to the voicemail from Dr. Hale, did not call back, and kept telling myself I already knew what it said. I don't. If I call back, it will be about the scan; if I don't, it will still be about the scan.
+</journal_entry>
+
+Return only the final JSON object.

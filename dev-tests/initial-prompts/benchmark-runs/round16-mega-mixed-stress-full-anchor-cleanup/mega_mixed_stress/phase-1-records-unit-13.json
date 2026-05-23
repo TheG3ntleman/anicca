@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Most of the afternoon was me arguing with my own design memo.",
+      "notes": "author describes internal cognitive conflict with personal design notes"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Most of the afternoon was me arguing with my own design memo",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

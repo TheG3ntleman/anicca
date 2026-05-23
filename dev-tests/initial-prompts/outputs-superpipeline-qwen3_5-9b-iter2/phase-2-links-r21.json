@@ -1,0 +1,23 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a13",
+      "relation_label": "object mention",
+      "relation_status": "explicit",
+      "supporting_text": "Leah",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a20",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "read it again",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "read it again"
+  ]
+}

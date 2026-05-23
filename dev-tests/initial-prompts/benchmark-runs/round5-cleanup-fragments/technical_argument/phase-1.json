@@ -1,0 +1,163 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "Most of today was me arguing with my own design memo.",
+      "notes": "Author describes internal conflict over design memo."
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "Most of today was me arguing with my own design memo",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "behaviour",
+      "source_text": "I wrote the first proposal for it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "I compared the latency graph with yesterday's trace",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "circled the spike near authentication",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "thought",
+      "source_text": "During code review with Priya I said the benchmark was misleading.",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "I said the benchmark was misleading",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "emotion",
+      "source_text": "I wasn't calm",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "behaviour",
+      "source_text": "I said it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "behaviour",
+      "source_text": "stared at the throughput table",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "caching layer",
+      "notes": "proposed fix that the user argues against"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "first proposal for it",
+      "notes": "initial design memo related to caching"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "first proposal",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "latency graph",
+      "notes": "visual data comparing latency metrics"
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "spike near authentication",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "note",
+      "notes": "added observation about retries being hidden"
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "Priya",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "benchmark",
+      "notes": "metric used by the user that was deemed misleading"
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "benchmark report",
+      "notes": "reopened document containing throughput data"
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "throughput table",
+      "notes": "section within benchmark report being reviewed"
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "follow-up message",
+      "notes": "message that was not sent after review"
+    }
+  ],
+  "uncertainties": []
+}

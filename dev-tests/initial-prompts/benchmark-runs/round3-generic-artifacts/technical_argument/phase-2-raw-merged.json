@@ -1,0 +1,167 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "refer to",
+      "relation_status": "explicit",
+      "supporting_text": "arguing with my own design memo",
+      "notes": "directly referenced artifact name",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Most of today was me arguing with my own design memo",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "arguing with",
+      "relation_status": "explicit",
+      "supporting_text": "arguing with my own design memo",
+      "notes": "Directly argues with the object.",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote the first proposal for it",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a6",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the spike near authentication",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the spike near authentication",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr9"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a10",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "benchmark",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr10"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a10",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I said the benchmark was misleading",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr11"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a10",
+      "relation_label": "referenced",
+      "relation_status": "explicit",
+      "supporting_text": "benchmark report",
+      "notes": "r11 source_text does not contain 'benchmark', but 'Later I reopened the benchmark report' in work unit text implies link. However, rule 5 says prefer spans inside source_text. r11 source_text is 'stared at the throughput table, and didn't send the follow-up message'. 'benchmark' is not in source_text. So this link might violate rule 5 if strictly interpreted on text span.",
+      "candidate_reference_id": "tmp_cr12"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a11",
+      "relation_label": "referenced",
+      "relation_status": "explicit",
+      "supporting_text": "benchmark report",
+      "notes": "Work unit text contains 'benchmark report'. Link is supported by work unit context, but rule 14 says do not use wider context unless pronoun resolution. This is not pronoun resolution. This might be a 'referenced' link based on work unit context.",
+      "candidate_reference_id": "tmp_cr13"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a12",
+      "relation_label": "looked at",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table",
+      "notes": "Direct match in source_text.",
+      "candidate_reference_id": "tmp_cr14"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a13",
+      "relation_label": "failed to send",
+      "relation_status": "explicit",
+      "supporting_text": "didn't send the follow-up message",
+      "notes": "Direct match in source_text.",
+      "candidate_reference_id": "tmp_cr15"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a13",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr16"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr17"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a13",
+      "relation_label": "didn't send",
+      "relation_status": "explicit",
+      "supporting_text": "didn't send the follow-up message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr18"
+    }
+  ],
+  "uncertainties": []
+}

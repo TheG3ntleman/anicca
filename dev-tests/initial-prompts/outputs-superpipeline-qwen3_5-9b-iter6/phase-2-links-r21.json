@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a18",
+      "relation_label": "description",
+      "relation_status": "explicit",
+      "supporting_text": "note about the hearing",
+      "notes": "The source record mentions reading the note about the hearing, which directly links to artifact a18."
+    },
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a18",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the hearing again",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

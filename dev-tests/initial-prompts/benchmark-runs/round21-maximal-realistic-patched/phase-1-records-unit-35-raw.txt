@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan.",
+      "notes": "Speculative statement about future outcome conditional on an unstated action."
+    }
+  ],
+  "uncertainties": []
+}
+

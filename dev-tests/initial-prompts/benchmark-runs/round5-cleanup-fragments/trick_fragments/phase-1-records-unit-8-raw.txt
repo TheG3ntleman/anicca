@@ -1,0 +1,8 @@
+Thinking...
+{
+  "thought": "",
+  "emotion": "",
+  "behaviour": "",
+  "body": ""
+}
+

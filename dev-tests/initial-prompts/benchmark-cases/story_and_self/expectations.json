@@ -1,0 +1,70 @@
+{
+  "case_id": "story_and_self",
+  "description": "Story-focused reflective entry where other characters should become artifacts, not records.",
+  "expected_records": [
+    "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+    "I don't care whether that scene is realistic",
+    "I care that I kept defending him in my head as if he were someone I owed",
+    "I texted Lina to say the book was getting under my skin",
+    "deleted the message instead of sending it",
+    "I underlined one sentence in chapter seven",
+    "wrote \"this is the part I keep living\" in the margin",
+    "I still can't tell whether I miss Arun or only miss the version of myself that existed around him"
+  ],
+  "expected_artifacts": [
+    "scene in the novel where the brother leaves without explaining himself",
+    "the novel",
+    "the brother",
+    "Lina",
+    "the message",
+    "chapter seven",
+    "one sentence",
+    "the margin",
+    "Arun"
+  ],
+  "expected_reference_pairs": [
+    {
+      "record": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "artifact": "scene in the novel where the brother leaves without explaining himself"
+    },
+    {
+      "record": "I don't care whether that scene is realistic",
+      "artifact": "scene in the novel where the brother leaves without explaining himself"
+    },
+    {
+      "record": "I care that I kept defending him in my head as if he were someone I owed",
+      "artifact": "the brother"
+    },
+    {
+      "record": "I texted Lina to say the book was getting under my skin",
+      "artifact": "Lina"
+    },
+    {
+      "record": "deleted the message instead of sending it",
+      "artifact": "the message"
+    },
+    {
+      "record": "I underlined one sentence in chapter seven",
+      "artifact": "one sentence"
+    },
+    {
+      "record": "I underlined one sentence in chapter seven",
+      "artifact": "chapter seven"
+    },
+    {
+      "record": "wrote \"this is the part I keep living\" in the margin",
+      "artifact": "the margin"
+    },
+    {
+      "record": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "artifact": "Arun"
+    }
+  ],
+  "forbidden_records": [
+    "the brother leaves without explaining himself"
+  ],
+  "forbidden_artifacts": [],
+  "forbidden_reference_pairs": [],
+  "max_encounters": 0,
+  "target_reference_count": 9
+}

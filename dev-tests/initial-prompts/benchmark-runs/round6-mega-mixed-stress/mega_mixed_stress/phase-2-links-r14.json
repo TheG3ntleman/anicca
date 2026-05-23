@@ -1,0 +1,15 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a26",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told them I was fine",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "I told them I was fine"
+  ]
+}

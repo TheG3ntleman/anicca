@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once",
+      "process_type": "emotion",
+      "notes": "author describes multiple conflicting emotions felt simultaneously"
+    },
+    {
+      "source_text": "I could barely swallow",
+      "process_type": "body",
+      "notes": "author describes physical inability to swallow likely due to emotional distress"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text is incomplete: 'The voicemail from Dr.' does not contain a journal author's process, only a fragment of a sentence describing an external object or event."]
+}
+

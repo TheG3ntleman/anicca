@@ -1,0 +1,57 @@
+{
+  "case_id": "reflective_beliefs",
+  "description": "Reflective journal text with beliefs, self-argument, and no real encounters.",
+  "expected_records": [
+    "I keep telling myself that consistency matters more than sincerity",
+    "I don't believe that all the way through",
+    "Part of me wants a clean principle",
+    "part of me only wants relief",
+    "I wrote three lines in the notebook about freedom",
+    "crossed them out",
+    "rewrote the last line",
+    "I am not angry at Mira",
+    "I keep insisting that I'm not angry",
+    "What I actually feel is smaller and sharper than that, more like embarrassment",
+    "I keep reading the sentence about attention as if it could decide things for me"
+  ],
+  "expected_artifacts": [
+    "notebook",
+    "freedom",
+    "last line",
+    "Mira",
+    "essay by Weil",
+    "Weil",
+    "sentence about attention"
+  ],
+  "expected_reference_pairs": [
+    {
+      "record": "I wrote three lines in the notebook about freedom",
+      "artifact": "notebook"
+    },
+    {
+      "record": "I wrote three lines in the notebook about freedom",
+      "artifact": "freedom"
+    },
+    {
+      "record": "rewrote the last line",
+      "artifact": "last line"
+    },
+    {
+      "record": "I am not angry at Mira",
+      "artifact": "Mira"
+    },
+    {
+      "record": "I keep reading the sentence about attention as if it could decide things for me",
+      "artifact": "sentence about attention"
+    },
+    {
+      "record": "I keep reading the sentence about attention as if it could decide things for me",
+      "artifact": "essay by Weil"
+    }
+  ],
+  "forbidden_records": [],
+  "forbidden_artifacts": [],
+  "forbidden_reference_pairs": [],
+  "max_encounters": 0,
+  "target_reference_count": 6
+}

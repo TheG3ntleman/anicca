@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_records":[{"candidate_id":"r1","process_type":"thought","source_text":"I reread Maya's message about the appeal hearing","notes":"reviewing previous communication"},"candidate_id:"
+

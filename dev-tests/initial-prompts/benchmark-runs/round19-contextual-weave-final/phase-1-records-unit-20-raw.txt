@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "communication",
+  "source_text": "I told him I was okay",
+  "notes": "The author states they reported their status to another person. This is a communication action by the author."
+}
+

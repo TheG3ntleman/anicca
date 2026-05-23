@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I compared the latency graph with yesterday's trace",
+      "notes": "Cognitive activity of comparing data."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the spike near authentication",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

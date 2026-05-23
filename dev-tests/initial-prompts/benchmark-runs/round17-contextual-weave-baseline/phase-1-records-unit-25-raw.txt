@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text 'I don't.' is an incomplete sentence and provides no clear process evidence."]
+}
+

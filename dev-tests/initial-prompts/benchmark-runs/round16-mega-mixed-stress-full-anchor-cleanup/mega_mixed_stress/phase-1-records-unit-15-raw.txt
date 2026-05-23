@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["crossed it out does not clearly identify a specific author action or process; context is missing"]
+}
+

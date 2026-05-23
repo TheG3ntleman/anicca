@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I texted Lina to say the book was getting under my skin",
+      "notes": "The author considers writing and deleting a text"
+    },
+    {
+      "process_type": "body",
+      "source_text": "then deleted the message",
+      "notes": "The author deletes the text message"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_id":"r2","process_type":"behaviour","source_text":"printed the revised budget spreadsheet"}
+

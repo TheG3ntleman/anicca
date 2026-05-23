@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a8",
+      "relation_label": "email target",
+      "relation_status": "explicit",
+      "supporting_text": "foundation",
+      "notes": "the foundation is the intended recipient of the email"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a13",
+      "relation_label": "email draft",
+      "relation_status": "explicit",
+      "supporting_text": "the email draft to the foundation",
+      "notes": "the draft refers to the foundation as the intended recipient"
+    }
+  ],
+  "uncertainties": []
+}

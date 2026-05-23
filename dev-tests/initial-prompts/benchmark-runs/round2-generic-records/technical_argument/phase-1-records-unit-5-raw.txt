@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "I wasn't calm when I said it.",
+  "notes": "The author admits to being not calm during speaking."
+}
+

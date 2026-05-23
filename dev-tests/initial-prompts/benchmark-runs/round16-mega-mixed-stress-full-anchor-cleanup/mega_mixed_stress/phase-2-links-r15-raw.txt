@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a18",
+      "relation_label": "written in",
+      "relation_status": "ambiguous",
+      "supporting_text": "I wrote \"consistency is a promise we make to the future\" in the margin crossed it out",
+      "notes": "Local context mentions 'margin' but the source record text 'crossed it out' implies an action on text. The candidate pair links 'margin' to source via local context."
+    }
+  ],
+  "uncertainties": []
+}
+

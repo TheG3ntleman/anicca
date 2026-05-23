@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+      "notes": "Author's internal uncertainty about the purpose of a draft message."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

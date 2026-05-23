@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "copied two figures from the draft budget into the email to Mara",
+      "notes": "Action of copying and sending information"
+    }
+  ],
+  "uncertainties": []
+}
+

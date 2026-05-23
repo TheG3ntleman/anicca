@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I keep reading the sentence about attention as if it could decide things for me",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

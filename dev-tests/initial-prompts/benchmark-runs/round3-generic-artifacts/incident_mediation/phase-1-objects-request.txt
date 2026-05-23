@@ -1,0 +1,42 @@
+You are doing one narrow extraction task only.
+
+You will be given a journal entry.
+
+Extract only candidate_artifacts with `artifact_kind = "object"` that are identity-worthy and directly supported by the text.
+
+Return exactly one JSON object with these top-level keys:
+- `candidate_artifacts`
+- `uncertainties`
+
+Rules:
+1. Extract people, roles, documents, messages, notes, drafts, projects, and other identity-worthy non-event items.
+2. Exclude low-value incidental objects unless they seem central.
+3. Do not extract encounters in this task.
+4. Use exact contiguous text from the entry.
+5. Do not paraphrase.
+6. `notes` should be short, neutral, and factual.
+7. Do not return encounters in this task.
+8. Do not return a single bare artifact object. Always wrap objects inside `candidate_artifacts`.
+9. Do not include top-level keys such as `thought`, `analysis`, `reasoning`, or explanations.
+10. If unsure, return `{"candidate_artifacts":[],"uncertainties":[]}` instead of commentary.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [""]
+}
+
+Return only JSON.
+
+<journal_entry>
+On Tuesday I reread Nora's email about the mediation and printed the calendar invite. I kept wondering whether she was warning me or documenting me. By the time I got to the meeting with Omar, my jaw was tight. I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit. On the bus home I read the note about the leak again, then read it again, and kept hearing Omar say, "just send the estimate." Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.
+</journal_entry>
+
+Return only the final JSON object.

@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a2",
+      "relation_label": "mentioned",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether she was warning me or documenting me",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a1",
+      "relation_label": "implied",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether she was warning me or documenting me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

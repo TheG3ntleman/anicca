@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a24",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "The rest of the evening was me arguing with my own project memo",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

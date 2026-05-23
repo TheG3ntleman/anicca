@@ -1,0 +1,22 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart.",
+      "notes": "Internal processing of uncertainty regarding Leah's laughter."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "couldn't tell whether she was laughing at me or at the slide with the broken chart"
+  ]
+}

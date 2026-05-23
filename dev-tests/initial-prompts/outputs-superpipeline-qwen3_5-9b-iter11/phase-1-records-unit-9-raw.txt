@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "read the note about the hearing again, then read it again, and kept hearing Leah say, \"just present the numbers.\"",
+      "notes": "Internal repetition of reading the note and internalized hearing of Leah's instruction"
+    }
+  ],
+  "uncertainties": []
+}
+

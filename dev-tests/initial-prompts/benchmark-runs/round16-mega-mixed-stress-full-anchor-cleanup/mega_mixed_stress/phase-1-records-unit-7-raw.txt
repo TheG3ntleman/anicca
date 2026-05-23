@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "apologized for freezing during last week's customer demo.",
+  "notes": "Author apologizes for a specific behavior."
+}
+

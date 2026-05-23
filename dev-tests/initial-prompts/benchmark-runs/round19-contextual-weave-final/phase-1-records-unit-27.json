@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "If I call back, it will be about the scan"
+  ]
+}

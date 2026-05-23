@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "At dinner with my parents my father asked whether the hospital scan had scared me again.",
+  "notes": "Author is recounting an interaction where their father asks about being scared by a hospital scan."
+}
+

@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira",
+      "notes": "Author states current emotional state regarding Mira."
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "or at least I keep insisting that I'm not angry",
+      "notes": "Author notes the ongoing effort to maintain or assert the lack of anger."
+    }
+  ],
+  "uncertainties": []
+}
+

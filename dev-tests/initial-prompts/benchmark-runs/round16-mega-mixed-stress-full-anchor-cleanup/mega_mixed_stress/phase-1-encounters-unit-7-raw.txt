@@ -1,0 +1,3 @@
+Thinking...
+{"reasoning":"The work unit 'apologized for freezing during last week's customer demo' is reflective and list-like (describes an apology and an incident, but in a fragmentary manner without clear narrative detail of a substantial episode). It does not describe a substantial event-like episode in the narrative sense (it's a retrospective statement rather than a description of the episode itself). Therefore, per Rule 8, we return an empty candidate_artifacts list.","answer":"{"
+

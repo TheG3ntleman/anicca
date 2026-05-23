@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the correction memo to the vendor",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

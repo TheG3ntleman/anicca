@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": ["After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it."],
+      "notes": "The narrator describes post-meeting actions including placing a mug, reviewing an unsent email to a foundation."
+    }
+  ],
+  "uncertainties": []
+}
+

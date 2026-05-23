@@ -1,0 +1,18 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a4",
+      "relation_label": "opened",
+      "relation_status": "ambiguous",
+      "supporting_text": "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "read it again",
+    "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+    "restored it"
+  ]
+}

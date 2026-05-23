@@ -1,0 +1,47 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "Nora",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "Nora's email about the mediation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "Nora's email",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "mediation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a5",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "calendar invite",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

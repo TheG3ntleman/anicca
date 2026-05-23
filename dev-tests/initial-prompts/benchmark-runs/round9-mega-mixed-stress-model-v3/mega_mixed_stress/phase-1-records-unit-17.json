@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "compared the throughput table to yesterday's trace.",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "compared the throughput table to yesterday's trace",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

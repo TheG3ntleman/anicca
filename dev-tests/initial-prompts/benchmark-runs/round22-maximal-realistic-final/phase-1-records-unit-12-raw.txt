@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "Author performed action of restoring."
+    }
+  ],
+  "uncertainties": []
+}
+

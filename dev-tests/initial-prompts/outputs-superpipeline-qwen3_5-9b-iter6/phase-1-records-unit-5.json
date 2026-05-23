@@ -1,0 +1,40 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "put the mug beside my laptop",
+      "notes": "author placing mug"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the email draft",
+      "notes": "author opening email"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at it",
+      "notes": "author staring at email"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "without sending it",
+      "notes": "author decision not to send"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at it without sending it",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

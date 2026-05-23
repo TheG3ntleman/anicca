@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "Author's speculation about the sender's intent."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "my stomach tightened even though the message itself only said, 'we should talk before Friday'",
+      "notes": "Physical reaction to thought, followed by summary of message content."
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,18 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text fragment describes an action conditional on 'if I don't', but lacks explicit verb completion or subject action for clear candidate record extraction.",
+    "if I don't, it will still be about the scan"
+  ]
+}

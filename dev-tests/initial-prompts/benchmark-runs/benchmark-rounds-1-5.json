@@ -1,0 +1,52 @@
+[
+  {
+    "run_label": "round1-baseline",
+    "avg_score": 8.5184,
+    "avg_record_recall": 0.1935,
+    "avg_artifact_recall": 0.2667,
+    "avg_reference_recall": 0.0556,
+    "total_missing_records": 28,
+    "total_missing_artifacts": 22,
+    "total_missing_reference_pairs": 30
+  },
+  {
+    "run_label": "round2-generic-records",
+    "avg_score": 37.3592,
+    "avg_record_recall": 0.7991,
+    "avg_artifact_recall": 0.2575,
+    "avg_reference_recall": 0.1274,
+    "total_missing_records": 11,
+    "total_missing_artifacts": 31,
+    "total_missing_reference_pairs": 39
+  },
+  {
+    "run_label": "round3-generic-artifacts",
+    "avg_score": 63.1107,
+    "avg_record_recall": 0.7698,
+    "avg_artifact_recall": 0.8784,
+    "avg_reference_recall": 0.4131,
+    "total_missing_records": 13,
+    "total_missing_artifacts": 5,
+    "total_missing_reference_pairs": 26
+  },
+  {
+    "run_label": "round4-boundary-fixes",
+    "avg_score": 74.2518,
+    "avg_record_recall": 0.8604,
+    "avg_artifact_recall": 0.9846,
+    "avg_reference_recall": 0.6263,
+    "total_missing_records": 8,
+    "total_missing_artifacts": 1,
+    "total_missing_reference_pairs": 17
+  },
+  {
+    "run_label": "round5-cleanup-fragments",
+    "avg_score": 72.4069,
+    "avg_record_recall": 0.8213,
+    "avg_artifact_recall": 0.9846,
+    "avg_reference_recall": 0.5954,
+    "total_missing_records": 10,
+    "total_missing_artifacts": 1,
+    "total_missing_reference_pairs": 21
+  }
+]

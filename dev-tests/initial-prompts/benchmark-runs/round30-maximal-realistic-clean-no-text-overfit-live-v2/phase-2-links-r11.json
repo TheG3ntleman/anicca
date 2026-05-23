@@ -1,0 +1,29 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a23",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a24",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a25",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

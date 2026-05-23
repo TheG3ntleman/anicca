@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text 'restored it' lacks a clear subject or verb to constitute a distinct author process without context."]
+}
+

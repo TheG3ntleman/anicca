@@ -1,0 +1,30 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Yesterday morning on the train I reread Maya's message about the appeal hearing",
+      "notes": "Author reflected on a message"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "and printed the revised budget spreadsheet",
+      "notes": "Author printed a document"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "before the check-in with Dr. Sen",
+      "notes": "Author anticipated meeting"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the revised budget spreadsheet",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

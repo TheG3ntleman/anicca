@@ -1,0 +1,31 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a29",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told him I was okay",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a30",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told him I was okay",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a31",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told him I was okay",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "I told him I was okay"
+  ]
+}

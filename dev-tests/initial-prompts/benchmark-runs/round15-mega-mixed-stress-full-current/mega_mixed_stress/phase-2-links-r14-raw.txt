@@ -1,0 +1,24 @@
+Thinking...
+{
+
+"candidate_references": [
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a15",
+      "relation_label": "angry at",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Eva",
+      "notes": "direct reference to Eva"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a17",
+      "relation_label": "angry at",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at the novel",
+      "notes": "direct reference to novel"
+    }
+  ],
+  "uncertainties": []
+}
+

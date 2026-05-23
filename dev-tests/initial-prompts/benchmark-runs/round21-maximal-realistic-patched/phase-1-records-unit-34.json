@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text 'If I call back, it will be about the scan' contains no clear process. It is a conditional statement about future action but does not describe a current process (thought, emotion, behaviour, body) by the journal author.",
+    "If I call back, it will be about the scan"
+  ]
+}

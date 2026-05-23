@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": ["I admitted I still hadn't sent the corrected invoice to the clinic, apologized for freezing during Tuesday's intake interview."],
+      "notes": "Author reflects on admission of failure to send invoice and freezing during clinic intake."
+    }
+  ],
+  "uncertainties": []
+}
+

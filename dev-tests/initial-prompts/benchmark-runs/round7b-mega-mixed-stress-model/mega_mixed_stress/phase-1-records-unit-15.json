@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The phrase 'crossed it out' refers to an action taken on previous text, but does not clearly describe a current process (thought, emotion, behaviour, body) of the author without additional context."
+  ]
+}

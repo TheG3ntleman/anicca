@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The provided text describes an action of listening to a voicemail. No clear candidate records representing the journal author's own thoughts, emotions, behaviors, or physical sensations are explicitly extracted from this single sentence as distinct processes. The action 'listened' could be a 'behaviour' but the instruction implies extracting processes that are distinctly 'supported' by the unit. The text is a simple action statement."
+  ]
+}

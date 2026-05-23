@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the latency report before the call with Martin",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

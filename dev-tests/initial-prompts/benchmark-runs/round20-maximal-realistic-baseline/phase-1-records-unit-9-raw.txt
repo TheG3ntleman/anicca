@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "apologized for freezing during Tuesday's intake interview.",
+  "notes": "author reflecting on past performance during an interview"
+}
+

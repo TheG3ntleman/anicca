@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "On Tuesday I reread Jonah's note about the audit appeal and copied two figures from the draft budget into the email to Mara before the meeting with Selene, our legal lead.",
+      "notes": "The author describes specific actions: rereading a note and copying figures into an email."
+    }
+  ],
+  "uncertainties": []
+}
+

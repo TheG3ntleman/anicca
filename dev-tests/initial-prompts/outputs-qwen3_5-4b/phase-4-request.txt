@@ -1,0 +1,397 @@
+You will be given:
+1. a journal entry
+2. phase-2 JSON containing unresolved candidate_records and candidate_artifacts with stable candidate_id values
+3. phase-3 JSON containing unresolved candidate_references with stable candidate_reference_id values
+
+Your task is to perform conservative pre-resolution culling and consolidation over all candidate items.
+
+This stage has two jobs:
+1. genuine removal
+2. consolidation
+
+Definitions:
+- genuine removal means removing a candidate item that is clearly unsupported, redundant, structurally wrong, or of no likely lasting mental consequence
+- hard consolidation means collapsing multiple clearly overlapping candidates into one surviving representative without resolving external identity
+- soft grouping means marking candidates as related, alternative, or possibly-the-same while keeping them separate for later resolution
+
+General rules:
+1. Be conservative.
+2. Do not resolve identity against outside knowledge or the existing database.
+3. Do not use outside context.
+4. Do not add tags.
+5. Preserve provenance.
+6. Preserve negation.
+7. Preserve real ambiguity.
+8. Prefer soft grouping over hard collapse when uncertainty remains.
+9. Prefer keeping meaningful mental structure over making the output smaller.
+
+Removal rules:
+1. Remove exact duplicates by hard-consolidating them into one survivor.
+2. Remove candidates that are clearly unsupported by their cited text.
+3. Remove structurally wrong or clearly mistargeted references when a better directly supported surviving reference exists.
+4. Remove dominated variants when a more text-faithful surviving candidate expresses the same structure.
+5. Low-consequence artifacts may be removed only when they are merely incidental scene furniture, have no higher-value surviving role, and are unlikely to matter for later retrieval or mental interpretation.
+6. If removing an item creates orphaned dependent items, remove or consolidate those dependents as well.
+
+Hard consolidation rules:
+1. Hard-consolidate only when sameness is clear enough before resolution.
+2. Use one surviving representative candidate or candidate_reference.
+3. Record all absorbed IDs on the survivor.
+4. For same-entry alias variants, hard-consolidation is allowed when the local text makes the sameness explicit and unambiguous.
+5. Records may be hard-consolidated only when they are clearly duplicate or dominated variants of the same mental content.
+6. Do not hard-consolidate ambiguous alternatives, likely co-referring role labels, or other unresolved competing candidates.
+7. If a candidate is hard-consolidated, redirect surviving references to the consolidated representative.
+
+Soft grouping rules:
+1. Use soft groups when items are related enough to track together but not safe to collapse.
+2. Use `possible_same_unresolved` for likely co-reference that remains unresolved.
+3. Use `alternative_set` for explicit competing alternatives that should survive together.
+4. Use `close_variant_family` for closely related unresolved variants that should remain separate for now.
+5. Soft groups do not absorb or delete their members.
+
+Reference-specific rules:
+1. Candidate references may be culled more aggressively than records or artifacts.
+2. If two references share the same source, target, and support, prefer the more text-faithful label.
+3. Do not consolidate orthogonal links just because they share a source candidate.
+4. When a later reference clearly points to a specific earlier candidate, prefer that target over weaker participant guesses.
+5. Preserve ambiguous alternatives by soft-grouping them rather than deleting them.
+
+Record-specific rules:
+1. Remove records rarely.
+2. Keep separate records whenever they preserve distinct mental content, even if closely related.
+3. Hard-consolidate records only when one adds no distinct mental consequence beyond another surviving record.
+
+Artifact-specific rules:
+1. Remove artifacts cautiously.
+2. Hard-consolidate exact or explicit same-entry alias variants when safe.
+3. Soft-group likely-same artifacts when sameness is not yet safe enough to collapse.
+
+Before returning, check:
+- does every removed item have a reason?
+- does every hard-consolidated survivor list absorbed IDs?
+- did I preserve real ambiguity?
+- did I avoid premature identity resolution?
+- did I preserve provenance and negation?
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_records": [
+    {
+      "candidate_id": "",
+      "process_type": "",
+      "source_text": "",
+      "notes": "",
+      "absorbed_candidate_ids": [""]
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "",
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": "",
+      "absorbed_candidate_ids": [""]
+    },
+    {
+      "candidate_id": "",
+      "artifact_kind": "encounter",
+      "source_texts": [""],
+      "notes": "",
+      "absorbed_candidate_ids": [""]
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "",
+      "from_candidate_id": "",
+      "to_candidate_id": "",
+      "relation_label": "",
+      "relation_status": "explicit",
+      "supporting_text": "",
+      "notes": "",
+      "absorbed_candidate_reference_ids": [""]
+    }
+  ],
+  "removed_items": [
+    {
+      "item_kind": "candidate_record",
+      "item_id": "",
+      "removal_kind": "",
+      "reason": "",
+      "replacement_item_id": ""
+    }
+  ],
+  "soft_groups": [
+    {
+      "group_id": "",
+      "group_type": "possible_same_unresolved",
+      "member_item_ids": [""],
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+
+Return only JSON.
+
+Journal entry:
+Yesterday morning on the train I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor. I kept wondering whether she had sent the message to warn me or to push me out, and my stomach tightened even though the message itself only said, "we should talk before Friday." During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday. He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart. After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it. I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of. At dinner with my parents, my mother asked whether Dr. Sen had calmed me down. I told them I was fine, but I wasn't fine and I could barely swallow. On the ride home I read the note about the hearing again, then read it again, and kept hearing Leah say, "just present the numbers." Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it. I don't know whether the reply was for Maya, for the foundation, or just for me.
+
+Phase 2 JSON:
+{
+  "candidate_records": [
+    {
+      "candidate_id": "1",
+      "process_type": "thought",
+      "source_text": "Yesterday morning on the train I reread Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "candidate_id": "2",
+      "process_type": "behaviour",
+      "source_text": "I printed the revised budget spreadsheet before the check-in with Dr. Sen",
+      "notes": ""
+    },
+    {
+      "candidate_id": "3",
+      "process_type": "emotion",
+      "source_text": "my stomach tightened",
+      "notes": ""
+    },
+    {
+      "candidate_id": "4",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": ""
+    },
+    {
+      "candidate_id": "5",
+      "process_type": "behaviour",
+      "source_text": "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "6",
+      "process_type": "behaviour",
+      "source_text": "then I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "candidate_id": "7",
+      "process_type": "behaviour",
+      "source_text": "After the meeting I put the mug beside my laptop",
+      "notes": ""
+    },
+    {
+      "candidate_id": "8",
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "9",
+      "process_type": "behaviour",
+      "source_text": "stared at it without sending it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "10",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of",
+      "notes": ""
+    },
+    {
+      "candidate_id": "11",
+      "process_type": "behaviour",
+      "source_text": "At dinner with my parents, my mother asked whether Dr. Sen had calmed me down",
+      "notes": ""
+    },
+    {
+      "candidate_id": "12",
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": ""
+    },
+    {
+      "candidate_id": "13",
+      "process_type": "behaviour",
+      "source_text": "but I wasn't fine",
+      "notes": ""
+    },
+    {
+      "candidate_id": "14",
+      "process_type": "emotion",
+      "source_text": "and I could barely swallow",
+      "notes": ""
+    },
+    {
+      "candidate_id": "15",
+      "process_type": "behaviour",
+      "source_text": "On the ride home I read the note about the hearing again",
+      "notes": ""
+    },
+    {
+      "candidate_id": "16",
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": ""
+    },
+    {
+      "candidate_id": "17",
+      "process_type": "behaviour",
+      "source_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "18",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "candidate_id": "2",
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": ""
+    },
+    {
+      "candidate_id": "3",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen",
+      "notes": ""
+    },
+    {
+      "candidate_id": "4",
+      "artifact_kind": "object",
+      "source_text": "the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "candidate_id": "5",
+      "artifact_kind": "object",
+      "source_text": "the hospital scan",
+      "notes": ""
+    },
+    {
+      "candidate_id": "6",
+      "artifact_kind": "object",
+      "source_text": "my parents",
+      "notes": ""
+    },
+    {
+      "candidate_id": "7",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Yesterday morning on the train I reread Maya's message about the appeal hearing",
+        "printed the revised budget spreadsheet before the check-in with Dr. Sen",
+        "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday",
+        "After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it",
+        "I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of",
+        "At dinner with my parents, my mother asked whether Dr. Sen had calmed me down",
+        "I told them I was fine, but I wasn't fine and I could barely swallow",
+        "On the ride home I read the note about the hearing again, then read it again",
+        "I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart",
+        "After the meeting I put the mug beside my laptop",
+        "opened the email draft to the foundation, and stared at it without sending it",
+        "I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of",
+        "At dinner with my parents, my mother asked whether Dr. Sen had calmed me down",
+        "I told them I was fine, but I wasn't fine and I could barely swallow",
+        "On the ride home I read the note about the hearing again, then read it again, and kept hearing Leah say, \"just present the numbers.\"",
+        "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it",
+        "I don't know whether the reply was for Maya, for the foundation, or just for me"
+      ],
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+
+Phase 3 JSON:
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "ref_1",
+      "from_candidate_id": "3",
+      "to_candidate_id": "1",
+      "relation_label": "replaying moment Leah laughed",
+      "relation_status": "ambiguous",
+      "supporting_text": "kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "Pronoun she in first part of sentence. Leah is the only named person in context that could be laughing at the protagonist, but text does not explicitly say Leah laughed at the slide. The slide is broken, which makes sense for the protagonist, but the laughing event itself is not tied to either target explicitly."
+    },
+    {
+      "candidate_reference_id": "ref_2",
+      "from_candidate_id": "4",
+      "to_candidate_id": "1",
+      "relation_label": "questioning why message was sent",
+      "relation_status": "explicit",
+      "supporting_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "The message sent by Maya (candidate 1) is the object of the verb sent in the thought process about its purpose. Pronoun she refers to Maya."
+    },
+    {
+      "candidate_reference_id": "ref_3",
+      "from_candidate_id": "11",
+      "to_candidate_id": "1",
+      "relation_label": "mentioned the appeal hearing",
+      "relation_status": "ambiguous",
+      "supporting_text": "my mother asked whether Dr. Sen had calmed me down",
+      "notes": "Candidate 1 (Maya's message about the appeal hearing) and candidate 3 (stomach tightened) are both thoughts/events connected to the same scene. Dr. Sen and Maya's message are linked by the mention of 'Dr. Sen had calmed me down' in relation to the event that preceded it. This link is indirect and thus ambiguous."
+    },
+    {
+      "candidate_reference_id": "ref_4",
+      "from_candidate_id": "18",
+      "to_candidate_id": "8",
+      "relation_label": "uncertain audience",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "The reply is explicitly linked to Maya's message and the email draft. The uncertainty is expressed explicitly."
+    },
+    {
+      "candidate_reference_id": "ref_5",
+      "from_candidate_id": "17",
+      "to_candidate_id": "1",
+      "relation_label": "deleted and restored paragraph",
+      "relation_status": "ambiguous",
+      "supporting_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it",
+      "notes": "The draft reply is mentioned in candidate 1 (Maya's message about the appeal hearing). This link is ambiguous due to the unresolved purpose of the reply."
+    },
+    {
+      "candidate_reference_id": "ref_6",
+      "from_candidate_id": "15",
+      "to_candidate_id": "1",
+      "relation_label": "read note about hearing",
+      "relation_status": "explicit",
+      "supporting_text": "On the ride home I read the note about the hearing again",
+      "notes": "Candidate 1 (Maya's message about the appeal hearing) and candidate 15 (reading the note) are directly linked by the text 'about the appeal hearing'."
+    },
+    {
+      "candidate_reference_id": "ref_7",
+      "from_candidate_id": "5",
+      "to_candidate_id": "1",
+      "relation_label": "admitting hadn't emailed",
+      "relation_status": "explicit",
+      "supporting_text": "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation",
+      "notes": "The foundation is a separate candidate (candidate 2). The text supports an explicit link between 5 and the foundation."
+    },
+    {
+      "candidate_reference_id": "ref_8",
+      "from_candidate_id": "2",
+      "to_candidate_id": "5",
+      "relation_label": "printed spreadsheet",
+      "relation_status": "explicit",
+      "supporting_text": "I printed the revised budget spreadsheet before the check-in with Dr. Sen",
+      "notes": "Explicit link between the action of printing and the check-in."
+    }
+  ],
+  "uncertainties": []
+}

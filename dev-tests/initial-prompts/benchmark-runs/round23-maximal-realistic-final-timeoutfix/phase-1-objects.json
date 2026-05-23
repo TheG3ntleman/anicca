@@ -1,0 +1,35 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email",
+      "notes": "Email regarding ethics complaint mentioned by narrator."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft incident log",
+      "notes": "Draft document containing sentence copied by narrator."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "corrected invoice",
+      "notes": "Invoice referenced as unsent by narrator to clinic."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "unsent reply to Lena",
+      "notes": "Draft email draft edited by narrator."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "project memo",
+      "notes": "Memo subject of argumentation by narrator."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "voice mail from Dr. Imani",
+      "notes": "Voicemail mentioned as source of information."
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I reread Lena's email about the ethics complaint",
+      "notes": "Action of reviewing email before meeting"
+    }
+  ],
+  "uncertainties": []
+}
+

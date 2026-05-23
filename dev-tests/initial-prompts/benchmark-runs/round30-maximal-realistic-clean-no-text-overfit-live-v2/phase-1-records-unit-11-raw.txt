@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I told him I was okay",
+      "process_type": "behaviour",
+      "notes": "Author states they informed someone they were okay."
+    },
+    {
+      "source_text": "I wasn't.",
+      "process_type": "emotion",
+      "notes": "Author describes their internal state of not being okay."
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "notes": ""
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I apologized for freezing during Tuesday's intake interview",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the corrected invoice to the clinic, apologized for freezing during Tuesday's intake interview",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during Tuesday's intake interview",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

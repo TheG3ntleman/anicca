@@ -1,0 +1,22 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "The second clause describes an internal state (caring about defending someone) and an action (defending someone in my head). The process_type could be 'thought' or 'behaviour'. 'Defending him in my head' is a thought process or a cognitive action. The author is describing an internal action or belief. 'I care that I kept defending him' implies a deliberate mental stance. So 'thought' is appropriate. The first clause 'I don't care whether that scene is realistic' is also a thought about the text. So both are thoughts.",
+      "source_text": "Must be exact.",
+      "notes": "Keep them neutral and factual."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't care whether that scene is realistic",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I care that I kept defending him in my head as if he were someone I owed",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I don't care whether that scene is realistic"
+  ]
+}

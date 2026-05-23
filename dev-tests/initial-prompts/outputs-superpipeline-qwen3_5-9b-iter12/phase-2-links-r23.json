@@ -1,0 +1,61 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a20",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a2",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a19",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "one paragraph",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a20",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a2",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a19",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a3",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

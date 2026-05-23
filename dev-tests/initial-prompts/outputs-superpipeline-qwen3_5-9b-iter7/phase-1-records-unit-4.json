@@ -1,0 +1,18 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "The text describes the narrator's internal experience regarding their interpretation of Leah's laughter, which involves thoughts and emotions, but per the strict instruction 'Extract only the journal author's processes' and 'Do not extract other people's actions, speech, or emotions as candidate_records', only the narrator's processes can be extracted. However, the instruction also says 'Do not return other top-level keys' and 'Return only JSON', so I need to extract the narrator's thoughts/emotions if they are explicitly stated processes.",
+    "couldn't tell whether she was laughing at me or at the slide with the broken chart"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow.",
+      "notes": "Author reports physical sensation"
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

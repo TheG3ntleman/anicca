@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The work unit text 'did not call back' does not contain any identifiable journal author's processes. It could be an action by another person or an artifact.",
+    "The context of who 'did not call back' is unclear - it is not explicitly the author of the journal entry."
+  ]
+}

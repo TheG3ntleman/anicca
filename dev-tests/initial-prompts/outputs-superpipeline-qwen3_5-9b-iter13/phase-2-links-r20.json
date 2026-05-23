@@ -1,0 +1,29 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a19",
+      "relation_label": "reads the note",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the hearing again",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a11",
+      "relation_label": "mentions Leah",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Leah say",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a19",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the hearing again, then read it again",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

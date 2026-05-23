@@ -1,0 +1,39 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a20",
+      "relation_label": "reply",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a8",
+      "relation_label": "for the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "for the foundation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a13",
+      "relation_label": "for the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "for the foundation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a2",
+      "relation_label": "for Maya",
+      "relation_status": "explicit",
+      "supporting_text": "for Maya",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

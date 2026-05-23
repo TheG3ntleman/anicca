@@ -1,0 +1,148 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+      "notes": "Author engaged in reflective thought about a narrative element.",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "The second clause describes an internal state (caring about defending someone) and an action (defending someone in my head). The process_type could be 'thought' or 'behaviour'. 'Defending him in my head' is a thought process or a cognitive action. The author is describing an internal action or belief. 'I care that I kept defending him' implies a deliberate mental stance. So 'thought' is appropriate. The first clause 'I don't care whether that scene is realistic' is also a thought about the text. So both are thoughts.",
+      "source_text": "Must be exact.",
+      "notes": "Keep them neutral and factual.",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't care whether that scene is realistic",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I care that I kept defending him in my head as if he were someone I owed",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I texted Lina to say the book was getting under my skin",
+      "notes": "author's internal assessment of emotional state",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I deleted the message instead of sending it",
+      "notes": "author's action of deleting message",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I texted Lina to say the book was getting under my skin, then deleted the message instead of sending it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted the message instead of sending it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "Later I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin.",
+      "notes": "Author marks text with personal significance.",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"this is the part I keep living\" in the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him.",
+      "notes": "author reflects on missing Arun versus missing past self",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r14"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "the novel",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "chapter seven",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "scene in the novel where the brother leaves without explaining himself",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the brother",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the message",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "one sentence",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a7"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Arun",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a8"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a9"
+    }
+  ],
+  "uncertainties": [
+    "I don't care whether that scene is realistic",
+    "I still can't tell whether I miss Arun or only miss the version of myself that existed around him"
+  ]
+}

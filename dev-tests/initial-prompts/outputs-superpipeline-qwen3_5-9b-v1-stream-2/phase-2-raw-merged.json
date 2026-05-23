@@ -1,0 +1,225 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "reread",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message about the appeal hearing",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a9",
+      "relation_label": "email the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "direct reference to foundation",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a10",
+      "relation_label": "same_event",
+      "relation_status": "explicit",
+      "supporting_text": "donor call on Monday",
+      "notes": "The source text mentions freezing during the donor call on Monday, which directly links to artifact a10 representing the donor call encounter.",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a11",
+      "relation_label": "same event",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a12",
+      "relation_label": "same entity",
+      "relation_status": "explicit",
+      "supporting_text": "moment Leah laughed",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a13",
+      "relation_label": "related context",
+      "relation_status": "explicit",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a12",
+      "relation_label": "laughing at me",
+      "relation_status": "explicit",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a11",
+      "relation_label": "moment Leah laughed",
+      "relation_status": "explicit",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a13",
+      "relation_label": "broken chart",
+      "relation_status": "explicit",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr9"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a14",
+      "relation_label": "email draft",
+      "relation_status": "ambiguous",
+      "supporting_text": "email draft to the foundation",
+      "notes": "source text mentions 'email draft' but artifact a14 is about email draft to the foundation; the text around the mug is 'I put the mug beside my laptop, opened the email draft to the foundation'.",
+      "candidate_reference_id": "tmp_cr10"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a9",
+      "relation_label": "email draft to the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr11"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a14",
+      "relation_label": "email draft to the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr12"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a16",
+      "relation_label": "speaker",
+      "relation_status": "ambiguous",
+      "supporting_text": "dinner with my parents",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr13"
+    },
+    {
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a16",
+      "relation_label": "during",
+      "relation_status": "ambiguous",
+      "supporting_text": "At dinner with my parents, my mother asked whether Dr. Sen had calmed me down. I told them I was fine, but I wasn't fine and I could barely swallow.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr14"
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a16",
+      "relation_label": "dinner with my parents",
+      "relation_status": "ambiguous",
+      "supporting_text": "I could barely swallow",
+      "notes": "The action of 'I could barely swallow' happens during or after dinner with my parents (a16), implying the physical state described is linked to that encounter contextually, though not explicitly stated as direct action during the meeting itself.",
+      "candidate_reference_id": "tmp_cr15"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a19",
+      "relation_label": "read it again",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the hearing again, then read it again",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr16"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a8",
+      "relation_label": "talk before Friday",
+      "relation_status": "ambiguous",
+      "supporting_text": "my stomach tightened even though the message itself only said, we should talk before Friday",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr17"
+    },
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a12",
+      "relation_label": "character_mention",
+      "relation_status": "explicit",
+      "supporting_text": "Leah laughed",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr18"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a20",
+      "relation_label": "identifies",
+      "relation_status": "explicit",
+      "supporting_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it.",
+      "notes": "The source record directly quotes and describes the artifact.",
+      "candidate_reference_id": "tmp_cr19"
+    },
+    {
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a20",
+      "relation_label": "delete action",
+      "relation_status": "explicit",
+      "supporting_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it.",
+      "notes": "a20 source_text contains the full event",
+      "candidate_reference_id": "tmp_cr20"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a20",
+      "relation_label": "restored it",
+      "relation_status": "explicit",
+      "supporting_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr21"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a3",
+      "relation_label": "for Maya",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr22"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a9",
+      "relation_label": "for the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr23"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a1",
+      "relation_label": "for me",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr24"
+    }
+  ],
+  "uncertainties": [
+    "No uncertainties identified for this link.",
+    "parents",
+    "supporting text must contain exact phrase 'I wasn't fine', which spans from the end of one sentence to the beginning of another in the journal entry"
+  ]
+}

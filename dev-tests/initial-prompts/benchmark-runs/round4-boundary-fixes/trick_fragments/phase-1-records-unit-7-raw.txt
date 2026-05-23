@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I keep telling myself I already know what it says, but I don't.",
+      "notes": "Author states they are claiming to know the content of something but then acknowledges they don't actually know it."
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

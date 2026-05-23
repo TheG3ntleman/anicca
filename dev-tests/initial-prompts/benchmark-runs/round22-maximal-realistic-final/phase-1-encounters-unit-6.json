@@ -1,0 +1,19 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "During the meeting with Priya"
+      ],
+      "notes": "Meeting with Priya."
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "meeting with Priya"
+      ],
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

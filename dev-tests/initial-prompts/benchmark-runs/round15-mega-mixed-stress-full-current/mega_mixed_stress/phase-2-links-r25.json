@@ -1,0 +1,48 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a28",
+      "relation_label": "at",
+      "relation_status": "ambiguous",
+      "supporting_text": "At dinner with my parents my father asked whether the hospital scan had scared me again. I told them I was fine",
+      "notes": "Pronoun resolution and quoted-speaker attribution require ambiguity"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a29",
+      "relation_label": "at",
+      "relation_status": "ambiguous",
+      "supporting_text": "At dinner with my parents my father asked whether the hospital scan had scared me again. I told them I was fine",
+      "notes": "Pronoun resolution and quoted-speaker attribution require ambiguity"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a30",
+      "relation_label": "with",
+      "relation_status": "ambiguous",
+      "supporting_text": "At dinner with my parents my father asked whether the hospital scan had scared me again. I told them I was fine",
+      "notes": "Pronoun resolution and quoted-speaker attribution require ambiguity"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a31",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "At dinner with my parents my father asked whether the hospital scan had scared me again. I told them I was fine",
+      "notes": "Pronoun resolution and quoted-speaker attribution require ambiguity"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a30",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told them I was fine",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "Pronoun resolution, quoted-speaker attribution, and nearby context are doing work for all pairs.",
+    "I told them I was fine"
+  ]
+}

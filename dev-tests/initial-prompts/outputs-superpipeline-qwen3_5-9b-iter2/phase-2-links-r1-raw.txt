@@ -1,0 +1,47 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "part-of",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor.",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "part-of",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a5",
+      "relation_label": "part-of",
+      "relation_status": "explicit",
+      "supporting_text": "about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "part-of",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a6",
+      "relation_label": "part-of",
+      "relation_status": "explicit",
+      "supporting_text": "the revised budget spreadsheet",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

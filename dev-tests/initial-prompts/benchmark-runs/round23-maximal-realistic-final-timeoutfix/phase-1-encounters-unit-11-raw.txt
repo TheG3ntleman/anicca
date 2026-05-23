@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "deleted one paragraph"
+      ],
+      "notes": "No substantial event-like episode described."
+    }
+  ],
+  "uncertainties": []
+}
+

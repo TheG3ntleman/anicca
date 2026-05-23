@@ -1,0 +1,13 @@
+Thinking...
+{
+  "process": "Extract candidate_records from a single sentence describing an author's action or inaction.",
+  "task_type": "fragmentary extraction",
+  "input": "I did not text her.",
+  "goal": "Identify the author's process (specifically an inaction) in the provided text.",
+  "constraints": "Exact text, no commentary, only JSON with specific keys.",
+  "analysis": "The sentence 'I did not text her' describes an author's inaction regarding communication (texting) with someone else. The subject is 'I' (the author). The action is 'texting'. Since the author explicitly states what they did NOT do, the process is the absence of that action. However, for extraction purposes in this context, usually the action itself ('texting') or the negated action ('did not text') is captured. Given the prompt asks for 'candidate_records' that are 'directly supported', capturing the negated action fits best. The process type is 'behaviour' as it relates to an action (or lack thereof) in the world.",
+  "output": "Construct JSON with one record.",
+  "record_details": {"process_type": "behaviour", "source_text": "I did not text her.", "notes": "Author describes an action they did not take."},
+  "uncertainties": []
+}
+

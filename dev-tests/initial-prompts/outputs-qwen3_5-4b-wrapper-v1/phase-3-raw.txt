@@ -1,0 +1,85 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "wondering about sender's intent",
+      "relation_status": "ambiguous",
+      "supporting_text": "whether she had sent the message to warn me or to push me out",
+      "notes": "Internal doubt about the message's purpose."
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "printed draft before check-in",
+      "relation_status": "ambiguous",
+      "supporting_text": "printed the revised budget spreadsheet before the check-in with Dr. Sen",
+      "notes": "Action occurred before supervisory meeting."
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a4",
+      "relation_label": "replaying laugh moment",
+      "relation_status": "ambiguous",
+      "supporting_text": "kept replaying the moment Leah laughed",
+      "notes": "Rehearsal of Leah's interaction at check-in."
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a1",
+      "relation_label": "replaying laugh moment",
+      "relation_status": "ambiguous",
+      "supporting_text": "kept replaying the moment Leah laughed",
+      "notes": "Rehearsal of Leah's interaction during check-in."
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a3",
+      "relation_label": "opened draft to foundation",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "Direct interaction with the document."
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a2",
+      "relation_label": "wanted to cancel scan",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan next week",
+      "notes": "Desire regarding medical appointment."
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a8",
+      "relation_label": "barely swallowing",
+      "relation_status": "explicit",
+      "supporting_text": "I could barely swallow",
+      "notes": "Physical state during dinner."
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a5",
+      "relation_label": "uncertain purpose of reply",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "Uncertainty about recipient/purpose of draft."
+    }
+  ],
+  "uncertainties": [
+    {
+      "candidate_id": "u1",
+      "source_text": "whether she was laughing at me or at the slide with the broken chart",
+      "notes": "Uncertain interpretation of Leah's laughter."
+    }
+  ]
+}
+

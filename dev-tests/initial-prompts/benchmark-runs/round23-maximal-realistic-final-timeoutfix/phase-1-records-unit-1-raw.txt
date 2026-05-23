@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "On Thursday I reread Lena's email about the ethics complaint",
+      "notes": "Author performed an action of rereading an email on Thursday"
+    }
+  ],
+  "uncertainties": []
+}
+

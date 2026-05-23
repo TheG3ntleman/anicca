@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "type",
+    "items"
+  ]
+}

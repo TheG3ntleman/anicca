@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "my throat tightened",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

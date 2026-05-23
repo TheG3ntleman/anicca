@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The phrase 'crossed it out' describes an action of modifying text but does not clearly indicate a specific process_type (thought, emotion, behaviour, body) performed by the journal author in a way that can be directly extracted as a candidate_record without additional context."
+  ]
+}

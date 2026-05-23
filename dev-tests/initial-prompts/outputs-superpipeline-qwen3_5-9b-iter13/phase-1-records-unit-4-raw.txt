@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart.",
+      "notes": "The narrator's internal thought about replaying a moment and being uncertain about Leah's laughter."
+    }
+  ],
+  "uncertainties": []
+}
+

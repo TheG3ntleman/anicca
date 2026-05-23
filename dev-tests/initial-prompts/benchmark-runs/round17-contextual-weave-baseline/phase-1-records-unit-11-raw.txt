@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict.",
+  "notes": ""
+}
+

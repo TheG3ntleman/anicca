@@ -1,0 +1,377 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": "replaying past communication"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I printed the revised budget spreadsheet",
+      "notes": "action taken with an object"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "uncertainty about Maya's motive"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": "physical reaction"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "thought",
+      "source_text": "the message itself only said, we should talk before Friday",
+      "notes": "recalled message content"
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "self-disclosure during meeting"
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "expression of regret"
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "body",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": "replaying mental image"
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "uncertainty about Leah's intent"
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": "physical action"
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": "action with text artifact"
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "behaviour",
+      "source_text": "I stared at it without sending it",
+      "notes": "observation of draft"
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "desire"
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "thought",
+      "source_text": "I knew the scan wasn't the thing I was really afraid of",
+      "notes": "self-assessment of fear"
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "thought",
+      "source_text": "I told them I was fine",
+      "notes": "denial statement"
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "thought",
+      "source_text": "I wasn't fine",
+      "notes": "emotional admission"
+    },
+    {
+      "candidate_id": "r17",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "physical manifestation of distress"
+    },
+    {
+      "candidate_id": "r18",
+      "process_type": "thought",
+      "source_text": "I read the note about the hearing again",
+      "notes": "rereading text"
+    },
+    {
+      "candidate_id": "r19",
+      "process_type": "thought",
+      "source_text": "I read it again",
+      "notes": "repetition of reading"
+    },
+    {
+      "candidate_id": "r20",
+      "process_type": "thought",
+      "source_text": "I kept hearing Leah say, just present the numbers",
+      "notes": "replayed voice"
+    },
+    {
+      "candidate_id": "r21",
+      "process_type": "behaviour",
+      "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "edit action"
+    },
+    {
+      "candidate_id": "r22",
+      "process_type": "behaviour",
+      "source_text": "then restored it",
+      "notes": "restoring edit"
+    },
+    {
+      "candidate_id": "r23",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "uncertainty about purpose"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "email communication artifact"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "document artifact"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen, my supervisor",
+      "notes": "role bearer in supervisor role"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the check-in with Dr. Sen",
+        "the check-in with Dr. Sen, my supervisor"
+      ],
+      "notes": "professional meeting encounter"
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "the foundation",
+      "notes": "organization entity"
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "the donor call on Monday",
+      "notes": "past event artifact"
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "Leah",
+      "notes": "named person object"
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": "presentation artifact"
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "the mug",
+      "notes": "physical object artifact"
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "my laptop",
+      "notes": "device artifact"
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "draft document artifact"
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the hospital scan next week"
+      ],
+      "notes": "upcoming medical procedure encounter"
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "my parents",
+      "notes": "family member group"
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "object",
+      "source_text": "my mother",
+      "notes": "specific family member"
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the hospital scan"
+      ],
+      "notes": "past event"
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "object",
+      "source_text": "the note about the hearing",
+      "notes": "text artifact"
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+      "notes": "draft artifact"
+    }
+  ],
+  "candidate_events": [
+    {
+      "candidate_id": "e1",
+      "process_type": "encounter",
+      "source_text": "the hearing",
+      "notes": "the past meeting encounter"
+    },
+    {
+      "candidate_id": "e2",
+      "process_type": "thought",
+      "source_text": "the appeal hearing",
+      "notes": "thinking about hearing"
+    },
+    {
+      "candidate_id": "e3",
+      "process_type": "thought",
+      "source_text": "replaying past communication",
+      "notes": "mental activity"
+    },
+    {
+      "candidate_id": "e4",
+      "process_type": "thought",
+      "source_text": "action taken with an object",
+      "notes": "thinking about action"
+    },
+    {
+      "candidate_id": "e5",
+      "process_type": "thought",
+      "source_text": "uncertainty about Maya's motive",
+      "notes": "thinking about motive"
+    },
+    {
+      "candidate_id": "e6",
+      "process_type": "body",
+      "source_text": "physical reaction",
+      "notes": "thinking about body"
+    },
+    {
+      "candidate_id": "e7",
+      "process_type": "thought",
+      "source_text": "recalled message content",
+      "notes": "thinking about content"
+    },
+    {
+      "candidate_id": "e8",
+      "process_type": "body",
+      "source_text": "admitted I still hadn't emailed the foundation",
+      "notes": "thinking about admission"
+    },
+    {
+      "candidate_id": "e9",
+      "process_type": "behaviour",
+      "source_text": "expression of regret",
+      "notes": "thinking about behaviour"
+    },
+    {
+      "candidate_id": "e10",
+      "process_type": "thought",
+      "source_text": "replaying mental image",
+      "notes": "thinking about image"
+    },
+    {
+      "candidate_id": "e11",
+      "process_type": "thought",
+      "source_text": "observation of draft",
+      "notes": "thinking about observation"
+    },
+    {
+      "candidate_id": "e12",
+      "process_type": "thought",
+      "source_text": "desire",
+      "notes": "thinking about desire"
+    },
+    {
+      "candidate_id": "e13",
+      "process_type": "thought",
+      "source_text": "self-assessment of fear",
+      "notes": "thinking about fear"
+    },
+    {
+      "candidate_id": "e14",
+      "process_type": "thought",
+      "source_text": "denial statement",
+      "notes": "thinking about denial"
+    },
+    {
+      "candidate_id": "e15",
+      "process_type": "body",
+      "source_text": "physical manifestation of distress",
+      "notes": "thinking about physical manifestation"
+    },
+    {
+      "candidate_id": "e16",
+      "process_type": "thought",
+      "source_text": "rereading text",
+      "notes": "thinking about text"
+    },
+    {
+      "candidate_id": "e17",
+      "process_type": "thought",
+      "source_text": "replaying voice",
+      "notes": "thinking about voice"
+    },
+    {
+      "candidate_id": "e18",
+      "process_type": "behaviour",
+      "source_text": "edit action",
+      "notes": "thinking about edit"
+    },
+    {
+      "candidate_id": "e19",
+      "process_type": "behaviour",
+      "source_text": "restoring edit",
+      "notes": "thinking about restore"
+    },
+    {
+      "candidate_id": "e20",
+      "process_type": "thought",
+      "source_text": "uncertainty about purpose",
+      "notes": "thinking about purpose"
+    }
+  ]
+}
+

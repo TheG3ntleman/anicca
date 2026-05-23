@@ -1,0 +1,3 @@
+Thinking...
+{  "process_type": "",  "source_text": "",  "notes": ""  }
+

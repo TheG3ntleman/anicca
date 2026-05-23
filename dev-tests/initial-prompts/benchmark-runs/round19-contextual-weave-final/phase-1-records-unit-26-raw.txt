@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I don't.",
+      "notes": "The author expresses a negative thought or denial."
+    }
+  ],
+  "uncertainties": []
+}
+

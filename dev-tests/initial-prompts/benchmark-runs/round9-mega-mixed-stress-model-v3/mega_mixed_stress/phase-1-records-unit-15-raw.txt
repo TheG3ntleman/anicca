@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": [
+    "The work unit 'crossed it out' describes an action to a previous text rather than a direct author process or thought that can be extracted in this format."
+  ]
+}
+

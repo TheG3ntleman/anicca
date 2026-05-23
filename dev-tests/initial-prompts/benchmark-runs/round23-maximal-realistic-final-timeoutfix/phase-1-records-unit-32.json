@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I missed Maya",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "It is unclear if 'I missed Maya' represents a process of the author's internal state (emotion/behaviour) or if 'Maya' is another person whose actions/emotions are being referenced. Without more context, it cannot be definitively classified. Additionally, the instruction is to extract only journal author's candidate_records directly supported by this local work unit. The phrase is ambiguous."
+  ]
+}

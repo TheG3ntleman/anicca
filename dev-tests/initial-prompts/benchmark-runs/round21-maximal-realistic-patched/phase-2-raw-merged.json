@@ -1,0 +1,733 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Lena's email",
+      "notes": "direct object of action",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "about the ethics complaint",
+      "notes": "content topic",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "from",
+      "relation_status": "explicit",
+      "supporting_text": "Lena's",
+      "notes": "possessive attribution",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Lena's email about the ethics complaint",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Lena's email about the ethics complaint",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Lena's email about the ethics complaint",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "draft incident log",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "one sentence",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a6",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "reply to Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr9"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a7",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr10"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied one sentence from the draft incident log into the reply to Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr11"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied one sentence from the draft incident log into the reply to Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr12"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a5",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied one sentence from the draft incident log into the reply to Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr13"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a6",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied one sentence from the draft incident log into the reply to Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr14"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a7",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied one sentence from the draft incident log into the reply to Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr15"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a13",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied one sentence from the draft incident log into the reply to Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr16"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a14",
+      "relation_label": "copied",
+      "relation_status": "explicit",
+      "supporting_text": "copied one sentence from the draft incident log into the reply to Omar",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr17"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a7",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr18"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a10",
+      "relation_label": "wrote",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr19"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a11",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr20"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Tuesday's intake interview",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr21"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "apologized for freezing during Tuesday's intake interview",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr22"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a13",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "Afterward I opened the unsent reply to Lena",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr23"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a14",
+      "relation_label": "opened",
+      "relation_status": "ambiguous",
+      "supporting_text": "Afterward I opened the unsent reply to Lena",
+      "notes": "reply to Lena is a substring of unsent reply to Lena",
+      "candidate_reference_id": "tmp_cr24"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "Afterward I opened the unsent reply to Lena",
+      "notes": "Lena is part of the reply description",
+      "candidate_reference_id": "tmp_cr25"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a2",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the unsent reply to Lena",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr26"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a6",
+      "relation_label": "opened",
+      "relation_status": "ambiguous",
+      "supporting_text": "I opened the unsent reply to Lena",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr27"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a13",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the unsent reply to Lena",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr28"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a14",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the unsent reply to Lena",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr29"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a13",
+      "relation_label": "deleted from",
+      "relation_status": "ambiguous",
+      "supporting_text": "deleted one paragraph",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr30"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a14",
+      "relation_label": "deleted from",
+      "relation_status": "ambiguous",
+      "supporting_text": "deleted one paragraph",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr31"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a15",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one paragraph",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr32"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a13",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr33"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a14",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr34"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a15",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr35"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a17",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "scene in the novel where the sister breaks the cup",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr36"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a16",
+      "relation_label": "heard",
+      "relation_status": "explicit",
+      "supporting_text": "Tessa",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr37"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a18",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "novel",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr38"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a16",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr39"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a17",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr40"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a18",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr41"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a16",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "angry at Tessa",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr42"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a18",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "angry at the novel",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr43"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a16",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr44"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a18",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr45"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a19",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "The rest of the evening was me arguing with my own project memo",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr46"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a20",
+      "relation_label": "wrote on",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr47"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a20",
+      "relation_label": "wrote on",
+      "relation_status": "explicit",
+      "supporting_text": "margin crossed it out",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr48"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a21",
+      "relation_label": "wrote",
+      "relation_status": "explicit",
+      "supporting_text": "rewrote the last line",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr49"
+    },
+    {
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a22",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the risk table to last night's trace",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr50"
+    },
+    {
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a23",
+      "relation_label": "compared",
+      "relation_status": "explicit",
+      "supporting_text": "compared the risk table to last night's trace",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr51"
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a24",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "circled the row about the rollback window",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr52"
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a25",
+      "relation_label": "belonged in",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the bug belonged in the cache",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr53"
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a26",
+      "relation_label": "belonged in",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the bug belonged in the cache, in the queue",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr54"
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a27",
+      "relation_label": "belonged in",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr55"
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a28",
+      "relation_label": "belonged in",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr56"
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a25",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr57"
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a26",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr58"
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a27",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr59"
+    },
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a29",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "my brother",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr60"
+    },
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a30",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "my brother Arun",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr61"
+    },
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a31",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "Arun",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr62"
+    },
+    {
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a32",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr63"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a29",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told him I was okay",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr64"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a30",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told him I was okay",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr65"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a31",
+      "relation_label": "told",
+      "relation_status": "ambiguous",
+      "supporting_text": "I told him I was okay",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr66"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a33",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Imani",
+      "notes": "listened to voicemail",
+      "candidate_reference_id": "tmp_cr67"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a34",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Dr. Imani",
+      "notes": "mentioned in voicemail",
+      "candidate_reference_id": "tmp_cr68"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a34",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr. Imani",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr69"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a33",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "voicemail from Dr. Imani",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr70"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a34",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "Dr. Imani",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr71"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a33",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "kept telling myself I already knew what it said",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr72"
+    },
+    {
+      "from_candidate_id": "r28",
+      "to_candidate_id": "a32",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "Part of me wanted the call to be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr73"
+    },
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a32",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "the call to be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr74"
+    },
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I missed Maya",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr75"
+    },
+    {
+      "from_candidate_id": "r31",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I missed Maya I did not text her.",
+      "notes": "Text 'Maya' appears in the local context as the referent for 'her' in the source text.",
+      "candidate_reference_id": "tmp_cr76"
+    },
+    {
+      "from_candidate_id": "r31",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I did not text her.",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr77"
+    },
+    {
+      "from_candidate_id": "r32",
+      "to_candidate_id": "a32",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "If I call back, it will be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr78"
+    },
+    {
+      "from_candidate_id": "r33",
+      "to_candidate_id": "a32",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "it will still be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr79"
+    },
+    {
+      "from_candidate_id": "r33",
+      "to_candidate_id": "a32",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "if I don't, it will still be about the scan",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr80"
+    }
+  ],
+  "uncertainties": [
+    "I opened the unsent reply to Lena",
+    "deleted one paragraph",
+    "I told him I was okay",
+    "voicemail from Dr. Imani",
+    "Dr. Imani",
+    "kept telling myself I already knew what it said",
+    "I did not text her."
+  ]
+}

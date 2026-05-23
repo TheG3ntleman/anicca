@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the row about the rollback window.",
+      "notes": "Describes a physical action performed by the author."
+    }
+  ],
+  "uncertainties": []
+}
+

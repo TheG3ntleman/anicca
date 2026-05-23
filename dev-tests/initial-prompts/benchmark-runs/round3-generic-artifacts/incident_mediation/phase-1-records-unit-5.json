@@ -1,0 +1,73 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept hearing Omar say, 'just send the estimate.'",
+      "notes": ""
+    },
+    {
+      "process_type": "body",
+      "source_text": "I opened the draft reply to Nora",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I deleted one sentence",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I restored it",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I read the note about the leak again, then read it again, and kept hearing Omar say, \"just send the estimate",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Omar say, \"just send the estimate",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the draft reply to Nora",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me",
+    "still didn't know whether the reply was for Nora, for Omar, or just for me"
+  ]
+}

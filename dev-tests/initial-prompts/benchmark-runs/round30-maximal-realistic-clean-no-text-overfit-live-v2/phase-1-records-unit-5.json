@@ -1,0 +1,42 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I opened the unsent reply to Lena",
+      "notes": "Opening an unsent reply to Lena is a mental action regarding the composition of the reply."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one paragraph",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "kept hearing Tessa laugh",
+      "notes": "The narrator continues to hear Tessa laughing from the scene."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the unsent reply to Lena, deleted one paragraph, restored it, kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the unsent reply to Lena",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "It is unclear whether 'kept hearing Tessa laugh' is an active perception of an external sound or an internal auditory hallucination/imagining of the scene."
+  ]
+}

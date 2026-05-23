@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I told him I was okay, I wasn't",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

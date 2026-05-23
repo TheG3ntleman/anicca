@@ -1,0 +1,3 @@
+Thinking...
+{"error_type":"invalid_query","message":"Query must contain a work_unit_text element. Please include exactly one journal text element."}
+

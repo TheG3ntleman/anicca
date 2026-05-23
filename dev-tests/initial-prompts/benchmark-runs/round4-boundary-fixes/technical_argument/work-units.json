@@ -1,0 +1,32 @@
+[
+  {
+    "unit_id": "unit-1",
+    "unit_text": "Most of today was me arguing with my own design memo.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-2",
+    "unit_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-3",
+    "unit_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-4",
+    "unit_text": "During code review with Priya I said the benchmark was misleading.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-5",
+    "unit_text": "I wasn't calm when I said it.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-6",
+    "unit_text": "Later I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message.",
+    "unit_kind": "narrative"
+  }
+]

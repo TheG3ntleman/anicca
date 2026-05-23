@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "copied two figures from the draft budget into the email to Mara",
+      "notes": "Action of copying and sending information"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "copied two figures from the draft budget into the email to Mara before the meeting with Selene",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

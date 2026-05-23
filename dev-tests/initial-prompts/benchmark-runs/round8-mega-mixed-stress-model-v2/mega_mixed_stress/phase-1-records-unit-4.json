@@ -1,0 +1,17 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "my throat tightened",
+      "notes": "The user's physical reaction indicates anxiety or stress."
+    },
+    {
+      "process_type": "body",
+      "source_text": "my throat tightened when the message itself only said",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "the meaning of the message"
+  ]
+}

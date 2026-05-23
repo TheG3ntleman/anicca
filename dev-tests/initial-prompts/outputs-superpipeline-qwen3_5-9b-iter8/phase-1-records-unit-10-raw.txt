@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "Before bed I deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "and then restored it",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

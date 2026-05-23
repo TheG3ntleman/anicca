@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["I wasn't does not clearly indicate an author process or candidate record. The context is missing to determine what is being negated."]
+}
+

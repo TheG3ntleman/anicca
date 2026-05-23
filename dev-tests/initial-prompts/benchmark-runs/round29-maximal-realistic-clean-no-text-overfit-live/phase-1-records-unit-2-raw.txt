@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+      "process_type": "thought",
+      "notes": "Author speculates about the recipient's motivation for forwarding the thread."
+    },
+    {
+      "source_text": "my jaw tightened",
+      "process_type": "body",
+      "notes": "Author describes a physical reaction."
+    }
+  ],
+  "uncertainties": []
+}
+

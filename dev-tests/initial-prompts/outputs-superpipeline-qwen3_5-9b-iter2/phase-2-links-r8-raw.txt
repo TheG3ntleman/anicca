@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a12",
+      "relation_label": "described event",
+      "relation_status": "explicit",
+      "supporting_text": "Leah laughed",
+      "notes": "link from thought record to encounter artifact describing the same moment"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a14",
+      "relation_label": "described object",
+      "relation_status": "explicit",
+      "supporting_text": "the slide with the broken chart",
+      "notes": "link from thought record to object artifact involved in the moment"
+    }
+  ],
+  "uncertainties": []
+}
+

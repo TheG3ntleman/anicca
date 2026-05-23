@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text 'If I call back, it will be about the scan' describes a future action but does not explicitly detail an internal thought process, emotion, or physical behavior from the author's perspective. Without further context, the nature of the record (e.g., planning, intention) is unclear."]
+}
+

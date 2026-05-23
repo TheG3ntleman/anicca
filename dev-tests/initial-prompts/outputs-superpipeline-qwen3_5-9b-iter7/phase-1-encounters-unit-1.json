@@ -1,0 +1,26 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Yesterday morning on the train"
+      ],
+      "notes": ""
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "appeal hearing"
+      ],
+      "notes": ""
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen"
+      ],
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

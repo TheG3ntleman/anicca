@@ -1,0 +1,19 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "printed the latency report before the call with Martin, the CTO."
+      ],
+      "notes": "preparation for a call with Martin, the CTO, involved printing a latency report"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "call with Martin, the CTO"
+      ],
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

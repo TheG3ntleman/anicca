@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Later I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

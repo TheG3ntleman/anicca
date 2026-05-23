@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "I admitted I still hadn't sent the rollback note to the vendor",
+  "notes": "Author admits an action they hadn't completed."
+}
+

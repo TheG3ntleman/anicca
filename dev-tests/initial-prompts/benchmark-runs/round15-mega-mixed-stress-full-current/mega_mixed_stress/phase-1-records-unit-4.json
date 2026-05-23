@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "my throat tightened",
+      "notes": "Physiological reaction to the message"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my throat tightened when the message itself only said",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

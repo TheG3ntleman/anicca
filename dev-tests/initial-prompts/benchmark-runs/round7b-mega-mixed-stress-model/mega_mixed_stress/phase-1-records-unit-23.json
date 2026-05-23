@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr. Imani",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "No journal author's processes were identified in the provided text, as the sentence describes an external action (listening to a voicemail) rather than an internal process like thought, emotion, behaviour, or body."
+  ]
+}

@@ -1,0 +1,13 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Afterward I opened the unsent reply to Jonah",
+      "notes": "narrative action involving accessing a message"
+    }
+  ],
+  "uncertainties": [
+  ]
+}
+

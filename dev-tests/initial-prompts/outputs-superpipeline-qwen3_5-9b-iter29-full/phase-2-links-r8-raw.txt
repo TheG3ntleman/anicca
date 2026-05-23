@@ -1,0 +1,31 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a6",
+      "relation_label": "check-in with Dr. Sen",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a8",
+      "relation_label": "emailed the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "emailed the foundation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a9",
+      "relation_label": "freezing during the donor call",
+      "relation_status": "explicit",
+      "supporting_text": "freezing during the donor call on Monday",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

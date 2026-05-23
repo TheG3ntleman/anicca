@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "At dinner with my brother he asked whether the scan had frightened me again.",
+      "notes": "Brother's action, not author's. No author process directly extracted."
+    }
+  ],
+  "uncertainties": []
+}
+

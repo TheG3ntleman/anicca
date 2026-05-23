@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "apologized for freezing during last week's customer demo.",
+      "notes": "Author apologizes for a specific behavior."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during last week's customer demo",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

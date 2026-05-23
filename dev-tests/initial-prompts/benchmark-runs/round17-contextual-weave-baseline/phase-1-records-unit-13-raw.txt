@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": [
+    "The text describes an action of writing a statement but does not specify the underlying thought or emotion of the author."
+  ]
+}
+

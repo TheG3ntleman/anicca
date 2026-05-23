@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "At dinner with my brother Arun he asked whether the scan had scared me again.",
+  "notes": "The author is answering a question from their brother about their emotional state following a medical scan."
+}
+

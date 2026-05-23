@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Noor laugh from the scene in the essay where the child drops the bowl",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text describes hearing someone laugh but does not explicitly state the journal author's internal process, thoughts, or actions related to the laughter."
+  ]
+}

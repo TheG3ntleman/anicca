@@ -1,0 +1,185 @@
+{
+  "case_id": "mega_mixed_stress",
+  "description": "One mixed entry combining incident description, reflective rumination, literary carryover, technical argument, belief-like self-talk, quotes, pronouns, negation, and alternatives.",
+  "expected_records": [
+    "I reread Priya's message about the ethics review",
+    "printed the latency report",
+    "I kept wondering whether he had forwarded the thread to protect me or to document me",
+    "my throat tightened",
+    "I admitted I still hadn't sent the rollback note to the vendor",
+    "apologized for freezing during last week's customer demo",
+    "I opened the draft reply to Priya",
+    "deleted one sentence",
+    "restored it",
+    "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+    "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+    "Most of the afternoon was me arguing with my own design memo",
+    "I wrote \"consistency is a promise we make to the future\" in the margin",
+    "crossed it out",
+    "rewrote the last line",
+    "compared the throughput table to yesterday's trace",
+    "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+    "I told them I was fine",
+    "I wasn't",
+    "I could barely swallow",
+    "I listened to the voicemail from Dr. Hale",
+    "did not call back",
+    "kept telling myself I already knew what it said",
+    "I don't",
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan"
+  ],
+  "expected_artifacts": [
+    "Priya",
+    "Priya's message",
+    "ethics review",
+    "latency report",
+    "call with Martin, the CTO",
+    "Martin",
+    "the CTO",
+    "rollback note",
+    "vendor",
+    "customer demo",
+    "draft reply to Priya",
+    "one sentence",
+    "Eva",
+    "scene in the novel where the brother drops the glass",
+    "the novel",
+    "my own design memo",
+    "margin",
+    "last line",
+    "throughput table",
+    "yesterday's trace",
+    "caching layer",
+    "queue",
+    "my assumptions",
+    "my parents",
+    "hospital scan",
+    "voicemail from Dr. Hale",
+    "Dr. Hale",
+    "scan"
+  ],
+  "expected_reference_pairs": [
+    {
+      "record": "I reread Priya's message about the ethics review",
+      "artifact": "Priya's message"
+    },
+    {
+      "record": "I reread Priya's message about the ethics review",
+      "artifact": "ethics review"
+    },
+    {
+      "record": "printed the latency report",
+      "artifact": "latency report"
+    },
+    {
+      "record": "I admitted I still hadn't sent the rollback note to the vendor",
+      "artifact": "rollback note"
+    },
+    {
+      "record": "I admitted I still hadn't sent the rollback note to the vendor",
+      "artifact": "vendor"
+    },
+    {
+      "record": "apologized for freezing during last week's customer demo",
+      "artifact": "customer demo"
+    },
+    {
+      "record": "I opened the draft reply to Priya",
+      "artifact": "draft reply to Priya"
+    },
+    {
+      "record": "I opened the draft reply to Priya",
+      "artifact": "Priya"
+    },
+    {
+      "record": "deleted one sentence",
+      "artifact": "one sentence"
+    },
+    {
+      "record": "deleted one sentence",
+      "artifact": "draft reply to Priya"
+    },
+    {
+      "record": "restored it",
+      "artifact": "one sentence"
+    },
+    {
+      "record": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "artifact": "Eva"
+    },
+    {
+      "record": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "artifact": "scene in the novel where the brother drops the glass"
+    },
+    {
+      "record": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "artifact": "Eva"
+    },
+    {
+      "record": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "artifact": "the novel"
+    },
+    {
+      "record": "Most of the afternoon was me arguing with my own design memo",
+      "artifact": "my own design memo"
+    },
+    {
+      "record": "I wrote \"consistency is a promise we make to the future\" in the margin",
+      "artifact": "margin"
+    },
+    {
+      "record": "rewrote the last line",
+      "artifact": "last line"
+    },
+    {
+      "record": "compared the throughput table to yesterday's trace",
+      "artifact": "throughput table"
+    },
+    {
+      "record": "compared the throughput table to yesterday's trace",
+      "artifact": "yesterday's trace"
+    },
+    {
+      "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "artifact": "caching layer"
+    },
+    {
+      "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "artifact": "queue"
+    },
+    {
+      "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "artifact": "my assumptions"
+    },
+    {
+      "record": "I told them I was fine",
+      "artifact": "my parents"
+    },
+    {
+      "record": "I listened to the voicemail from Dr. Hale",
+      "artifact": "voicemail from Dr. Hale"
+    },
+    {
+      "record": "I listened to the voicemail from Dr. Hale",
+      "artifact": "Dr. Hale"
+    },
+    {
+      "record": "kept telling myself I already knew what it said",
+      "artifact": "voicemail from Dr. Hale"
+    },
+    {
+      "record": "If I call back, it will be about the scan",
+      "artifact": "scan"
+    },
+    {
+      "record": "if I don't, it will still be about the scan",
+      "artifact": "scan"
+    }
+  ],
+  "forbidden_records": [],
+  "forbidden_artifacts": [],
+  "forbidden_reference_pairs": [],
+  "max_encounters": 4,
+  "target_reference_count": 29
+}

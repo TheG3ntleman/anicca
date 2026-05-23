@@ -1,0 +1,30 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "After the meeting I put the mug beside my laptop",
+      "notes": ""
+    },
+    {
+      "process_type": "body",
+      "source_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "process_type": "body",
+      "source_text": "stared at it without sending it",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I knew the scan wasn't the thing I was really afraid of",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

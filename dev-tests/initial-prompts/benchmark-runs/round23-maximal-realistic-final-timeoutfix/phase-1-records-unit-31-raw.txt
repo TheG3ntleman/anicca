@@ -1,0 +1,4 @@
+Thinking...
+{"type":"object","properties":{"candidate_records":{"type":"array","items":{"type":"object","properties":{"process_type":{"type":"string"},"source_text":{"type":"string"},"notes":{"type":"string"}},"required":["process_type","source_text","notes"]}}},"uncertainties":{"type":"array","items":{"type":"string"}},"required":["candidate_records","uncertainties"]
+}
+

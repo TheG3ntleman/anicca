@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "Part of me wants a clean principle",
+      "notes": "expressed desire for cleanliness/principles"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "part of me only wants relief",
+      "notes": "expressed desire for relief"
+    }
+  ],
+  "uncertainties": []
+}

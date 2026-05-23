@@ -1,0 +1,29 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I opened the unsent reply to Lena",
+      "process_type": "thought",
+      "notes": "Opening an unsent reply to Lena is a mental action regarding the composition of the reply."
+    },
+    {
+      "source_text": "deleted one paragraph",
+      "process_type": "behaviour",
+      "notes": "Deleted a paragraph from the unsent reply to Lena."
+    },
+    {
+      "source_text": "restored it",
+      "process_type": "behaviour",
+      "notes": "Restored the previously deleted paragraph."
+    },
+    {
+      "source_text": "kept hearing Tessa laugh",
+      "process_type": "behaviour",
+      "notes": "The narrator continues to hear Tessa laughing from the scene."
+    }
+  ],
+  "uncertainties": [
+    "It is unclear whether 'kept hearing Tessa laugh' is an active perception of an external sound or an internal auditory hallucination/imagining of the scene."
+  ]
+}
+

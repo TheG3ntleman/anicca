@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a24",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "\"consistency is a promise we make to the future\" in the margin",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r18",
+      "to_candidate_id": "a24",
+      "relation_label": "wrote on",
+      "relation_status": "explicit",
+      "supporting_text": "wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

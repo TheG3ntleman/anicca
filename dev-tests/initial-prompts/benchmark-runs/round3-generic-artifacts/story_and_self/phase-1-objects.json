@@ -1,0 +1,15 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "the novel",
+      "notes": "Book referenced in journal entry about a scene involving a brother."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "chapter seven",
+      "notes": "Specific chapter of the novel mentioned by the journal writer."
+    }
+  ],
+  "uncertainties": []
+}

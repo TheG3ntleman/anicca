@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether he had forwarded the thread to protect me or to document me",
+      "notes": "author speculates about another person's intent"
+    }
+  ],
+  "uncertainties": []
+}
+

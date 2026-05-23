@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r31",
+      "to_candidate_id": "a35",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I missed Maya I did not text her.",
+      "notes": "Text 'Maya' appears in the local context as the referent for 'her' in the source text."
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

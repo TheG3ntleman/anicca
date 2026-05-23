@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "On Monday I reread Priya's message about the ethics review",
+      "notes": "author reread a message"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Priya's message about the ethics review",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

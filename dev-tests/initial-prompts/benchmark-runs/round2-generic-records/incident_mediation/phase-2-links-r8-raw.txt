@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a3",
+      "relation_label": "reads",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the leak again",
+      "notes": "Record r8 describes the action of reading the note, which links to artifact a3."
+    }
+  ],
+  "uncertainties": []
+}
+

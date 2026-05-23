@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a2",
+      "relation_label": "refer to",
+      "relation_status": "ambiguous",
+      "supporting_text": "The essay by Weil is still on my desk",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

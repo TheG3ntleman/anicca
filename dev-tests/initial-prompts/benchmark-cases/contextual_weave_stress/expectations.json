@@ -1,0 +1,202 @@
+{
+  "case_id": "contextual_weave_stress",
+  "description": "A fresh mixed challenge case stressing clipped anchors, carrier objects, appositives, pronouns, alternatives, reflective text, and short-context references.",
+  "expected_records": [
+    "I reread Jonah's note about the audit appeal",
+    "copied two figures from the draft budget into the email to Mara",
+    "I kept wondering whether he had sent the note to protect me, to warn Mara, or to pin the delay on me",
+    "my chest tightened",
+    "I admitted I still hadn't sent the correction memo to the vendor",
+    "apologized for freezing during Friday's client walkthrough",
+    "I opened the unsent reply to Jonah",
+    "deleted one sentence",
+    "restored it",
+    "kept hearing Noor laugh from the scene in the essay where the child drops the bowl",
+    "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+    "The rest of the evening was me arguing with my own roadmap",
+    "I wrote \"stability is a promise we make to strangers\" in the margin",
+    "crossed it out",
+    "rewrote the last line",
+    "compared the failure table to last night's trace",
+    "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+    "I told him I was okay",
+    "I wasn't",
+    "I could barely swallow",
+    "I listened to the voicemail from Dr. Imani",
+    "did not call back",
+    "kept telling myself I already knew what it said",
+    "I don't",
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan"
+  ],
+  "expected_artifacts": [
+    "Jonah",
+    "Jonah's note",
+    "audit appeal",
+    "draft budget",
+    "email to Mara",
+    "Mara",
+    "meeting with Selene, our legal lead",
+    "Selene",
+    "correction memo",
+    "vendor",
+    "Friday's client walkthrough",
+    "unsent reply to Jonah",
+    "one sentence",
+    "Noor",
+    "scene in the essay where the child drops the bowl",
+    "essay",
+    "my own roadmap",
+    "margin",
+    "last line",
+    "failure table",
+    "last night's trace",
+    "cache",
+    "queue",
+    "my assumptions",
+    "my brother",
+    "scan",
+    "voicemail from Dr. Imani",
+    "Dr. Imani"
+  ],
+  "expected_reference_pairs": [
+    {
+      "record": "I reread Jonah's note about the audit appeal",
+      "artifact": "Jonah's note"
+    },
+    {
+      "record": "I reread Jonah's note about the audit appeal",
+      "artifact": "audit appeal"
+    },
+    {
+      "record": "copied two figures from the draft budget into the email to Mara",
+      "artifact": "draft budget"
+    },
+    {
+      "record": "copied two figures from the draft budget into the email to Mara",
+      "artifact": "email to Mara"
+    },
+    {
+      "record": "copied two figures from the draft budget into the email to Mara",
+      "artifact": "Mara"
+    },
+    {
+      "record": "I admitted I still hadn't sent the correction memo to the vendor",
+      "artifact": "correction memo"
+    },
+    {
+      "record": "I admitted I still hadn't sent the correction memo to the vendor",
+      "artifact": "vendor"
+    },
+    {
+      "record": "apologized for freezing during Friday's client walkthrough",
+      "artifact": "Friday's client walkthrough"
+    },
+    {
+      "record": "I opened the unsent reply to Jonah",
+      "artifact": "unsent reply to Jonah"
+    },
+    {
+      "record": "I opened the unsent reply to Jonah",
+      "artifact": "Jonah"
+    },
+    {
+      "record": "deleted one sentence",
+      "artifact": "one sentence"
+    },
+    {
+      "record": "deleted one sentence",
+      "artifact": "unsent reply to Jonah"
+    },
+    {
+      "record": "restored it",
+      "artifact": "one sentence"
+    },
+    {
+      "record": "kept hearing Noor laugh from the scene in the essay where the child drops the bowl",
+      "artifact": "Noor"
+    },
+    {
+      "record": "kept hearing Noor laugh from the scene in the essay where the child drops the bowl",
+      "artifact": "scene in the essay where the child drops the bowl"
+    },
+    {
+      "record": "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+      "artifact": "Noor"
+    },
+    {
+      "record": "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+      "artifact": "essay"
+    },
+    {
+      "record": "The rest of the evening was me arguing with my own roadmap",
+      "artifact": "my own roadmap"
+    },
+    {
+      "record": "I wrote \"stability is a promise we make to strangers\" in the margin",
+      "artifact": "margin"
+    },
+    {
+      "record": "rewrote the last line",
+      "artifact": "last line"
+    },
+    {
+      "record": "compared the failure table to last night's trace",
+      "artifact": "failure table"
+    },
+    {
+      "record": "compared the failure table to last night's trace",
+      "artifact": "last night's trace"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+      "artifact": "cache"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+      "artifact": "queue"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+      "artifact": "my assumptions"
+    },
+    {
+      "record": "I told him I was okay",
+      "artifact": "my brother"
+    },
+    {
+      "record": "I listened to the voicemail from Dr. Imani",
+      "artifact": "voicemail from Dr. Imani"
+    },
+    {
+      "record": "I listened to the voicemail from Dr. Imani",
+      "artifact": "Dr. Imani"
+    },
+    {
+      "record": "kept telling myself I already knew what it said",
+      "artifact": "voicemail from Dr. Imani"
+    },
+    {
+      "record": "If I call back, it will be about the scan",
+      "artifact": "scan"
+    },
+    {
+      "record": "if I don't, it will still be about the scan",
+      "artifact": "scan"
+    }
+  ],
+  "forbidden_records": [
+    "I reread Jonah's note",
+    "I wrote",
+    "I listened to the voicemail from Dr",
+    "still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions"
+  ],
+  "forbidden_artifacts": [
+    "message",
+    "note",
+    "email"
+  ],
+  "forbidden_reference_pairs": [],
+  "max_encounters": 4,
+  "target_reference_count": 31
+}

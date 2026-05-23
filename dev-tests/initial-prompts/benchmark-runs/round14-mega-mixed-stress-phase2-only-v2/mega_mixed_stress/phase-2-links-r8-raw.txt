@@ -1,0 +1,3 @@
+Thinking...
+{"error": "The response was empty. Please provide a JSON response", "code": 422}
+

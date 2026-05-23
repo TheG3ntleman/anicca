@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The phrase describes an action by another party ('did not call back'), not an internal process of the author. No direct author process is extracted."
+  ]
+}

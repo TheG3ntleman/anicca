@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a13",
+      "relation_label": "action on object",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Nora",
+      "notes": "verb 'opened' applies to 'draft reply to Nora'"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a3",
+      "relation_label": "message regarding",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Nora",
+      "notes": "reply is directed at/for Nora"
+    }
+  ],
+  "uncertainties": []
+}
+

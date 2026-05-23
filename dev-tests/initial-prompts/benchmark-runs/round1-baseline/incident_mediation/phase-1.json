@@ -1,0 +1,70 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me.",
+      "notes": "Author questions her motivation"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "body",
+      "source_text": "my jaw was tight",
+      "notes": "Physical tension described by the author"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't called the contractor",
+      "notes": "admitting failure to call contractor"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me.",
+      "notes": "Author's internal uncertainty about the purpose of a draft message."
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Nora's email about the mediation",
+      "notes": "Email from Nora regarding mediation"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "calendar invite",
+      "notes": "Calendar invitation printed and reviewed"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "note about the leak",
+      "notes": "Note referring to a leak"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "draft reply to Nora",
+      "notes": "Draft message addressed to Nora"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether she was warning me or documenting me.",
+    "Before sleep I opened the draft reply to Nora, deleted one sentence, restored it, and still didn't know whether the reply was for Nora, for Omar, or just for me."
+  ]
+}

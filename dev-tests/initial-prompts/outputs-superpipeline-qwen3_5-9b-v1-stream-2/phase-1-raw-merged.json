@@ -1,0 +1,112 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "After the meeting I put the mug beside my laptop",
+      "notes": "",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "body",
+      "source_text": "opened the email draft to the foundation",
+      "notes": "",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "body",
+      "source_text": "stared at it without sending it",
+      "notes": "",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I knew the scan wasn't the thing I was really afraid of",
+      "notes": "",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "On the ride home I read the note about the hearing again, then read it again",
+      "notes": "author repeatedly reads the note",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "kept hearing Leah say",
+      "notes": "author experiences a persistent internal thought of Leah speaking",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it.",
+      "notes": "Author deleted and restored a paragraph in a draft reply.",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": "Author is uncertain about the intended recipient of the reply.",
+      "candidate_id": "tmp_r9"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "we should talk before Friday."
+      ],
+      "notes": "Maya's message content indicating an upcoming conversation.",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it."
+      ],
+      "notes": "A digital interaction involving the deletion and restoration of a draft reply to Maya's message occurred before the narrator went to bed.",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "A message from Maya regarding an appeal hearing.",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": "A budget spreadsheet that was printed.",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "email draft to the foundation",
+      "notes": "An email draft intended for the foundation that was not sent.",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "note about the hearing",
+      "notes": "A note about the hearing that was read multiple times.",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft reply to Maya's message",
+      "notes": "A draft reply to Maya's message that was edited.",
+      "candidate_id": "tmp_a7"
+    }
+  ],
+  "uncertainties": [
+    "Whether Maya's message was intended as a warning or a push-out.",
+    "unclear how to categorize the uncertainty about Leah's laugh as an internal process versus an uncertainty about external events",
+    "The scene describes internal thoughts and actions after a meeting, but does not depict a concrete external event or episode that qualifies as an 'encounter' artifact. The hesitation about sending an email and the fear regarding a hospital scan are internal states rather than substantial external events.",
+    "The purpose of the draft reply is unclear—it may have been intended for Maya, the foundation, or only for the narrator."
+  ]
+}

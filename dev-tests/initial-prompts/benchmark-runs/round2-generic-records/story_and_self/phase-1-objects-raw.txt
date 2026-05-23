@@ -1,0 +1,37 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "I texted Lina",
+      "notes": "a text message sent or attempted to be sent"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "a book",
+      "notes": "the novel being discussed"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "chapter seven",
+      "notes": "specific chapter of the novel underlined"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "this is the part I keep living",
+      "notes": "margin note written in the book"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lina",
+      "notes": "person texted or messaged"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Arun",
+      "notes": "person mentioned in the journal"
+    }
+  ],
+  "uncertainties": []
+}
+

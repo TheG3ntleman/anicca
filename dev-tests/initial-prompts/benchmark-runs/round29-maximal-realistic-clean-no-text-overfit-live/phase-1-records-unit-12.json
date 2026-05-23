@@ -1,0 +1,35 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I felt ashamed",
+      "notes": "Expression of shame"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I felt furious",
+      "notes": "Expression of anger"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I felt relieved",
+      "notes": "Expression of relief"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I felt lonely",
+      "notes": "Expression of loneliness"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I could barely swallow",
+      "notes": "Physical reaction to emotional state"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once, I could barely swallow",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

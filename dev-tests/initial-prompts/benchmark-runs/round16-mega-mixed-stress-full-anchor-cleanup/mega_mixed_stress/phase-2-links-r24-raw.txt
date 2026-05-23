@@ -1,0 +1,3 @@
+Thinking...
+{"type":"object","properties":{}}
+

@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I reread Nora's email about the mediation",
+      "notes": "Reading an email."
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the calendar invite",
+      "notes": "Printing a calendar invite."
+    }
+  ],
+  "uncertainties": []
+}
+

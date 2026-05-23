@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during last week's customer demo",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The text 'apologized for freezing during last week's customer demo' describes an action (apologizing) but the agent performing the apology is not specified. This is not the author's own process."
+  ]
+}

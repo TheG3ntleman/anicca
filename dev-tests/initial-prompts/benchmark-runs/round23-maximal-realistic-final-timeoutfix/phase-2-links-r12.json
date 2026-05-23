@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a19",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "The rest of the evening was me arguing with my own project memo.",
+      "notes": "direct_mention,local_context,token_overlap"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a19",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "The rest of the evening was me arguing with my own project memo",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

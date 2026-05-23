@@ -1,0 +1,23 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "read it again",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "read it again",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "read it again"
+  ]
+}

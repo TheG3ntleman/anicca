@@ -1,0 +1,193 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Most of today was me arguing with my own design memo.",
+      "notes": "Author reflects on internal conflict about their design decisions.",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Most of today was me arguing with my own design memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote the first proposal for it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden.",
+      "notes": "Action sequence: comparison, circling, adding note.",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I compared the latency graph with yesterday's trace",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the spike near authentication",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "the benchmark was misleading",
+      "notes": "Author expresses evaluation of benchmark during code review interaction.",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I said the benchmark was misleading",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it.",
+      "notes": "Author expresses lack of calmness during an utterance.",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I said it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r14"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at the throughput table",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r15"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r16"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "didn't send the follow-up message",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r17"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "first proposal",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "latency graph",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "authentication spike",
+      "notes": "identified near in latency graph analysis",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "note",
+      "notes": "added regarding queue health and retries",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "benchmark",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a7"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "benchmark report",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a8"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "throughput table",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a9"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my own design memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a10"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "caching layer",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a11"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "spike near authentication",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a12"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "follow-up message",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a13"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Priya",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a14"
+    }
+  ],
+  "uncertainties": []
+}

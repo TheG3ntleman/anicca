@@ -1,0 +1,350 @@
+{
+  "run_label": "round2-generic-records",
+  "model": "qwen3.5:9b",
+  "aggregate": {
+    "case_count": 5,
+    "ok_count": 5,
+    "avg_score": 37.3592,
+    "avg_record_recall": 0.7991,
+    "avg_artifact_recall": 0.2575,
+    "avg_reference_recall": 0.1274,
+    "total_missing_records": 11,
+    "total_missing_artifacts": 31,
+    "total_missing_reference_pairs": 39
+  },
+  "results": [
+    {
+      "case_id": "incident_mediation",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round2-generic-records/incident_mediation",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Narrative incident with repeated reading, apology, pronouns, and reply ambiguity.",
+      "phase_1_records": 15,
+      "phase_1_artifacts": 4,
+      "phase_2_references": 5,
+      "record_recall": 0.6923,
+      "artifact_recall": 0.2727,
+      "reference_recall": 0.0714,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 1,
+      "missing_records": [
+        "I admitted I still hadn't called the contractor",
+        "I apologized for going blank during last week's site visit",
+        "I read the note about the leak again",
+        "I opened the draft reply to Nora"
+      ],
+      "missing_artifacts": [
+        "Nora",
+        "Nora's email",
+        "mediation",
+        "meeting with Omar",
+        "Omar",
+        "contractor",
+        "site visit",
+        "one sentence"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I reread Nora's email about the mediation",
+          "artifact": "Nora's email"
+        },
+        {
+          "record": "I reread Nora's email about the mediation",
+          "artifact": "mediation"
+        },
+        {
+          "record": "I kept wondering whether she was warning me or documenting me",
+          "artifact": "Nora's email"
+        },
+        {
+          "record": "I admitted I still hadn't called the contractor",
+          "artifact": "contractor"
+        },
+        {
+          "record": "I apologized for going blank during last week's site visit",
+          "artifact": "site visit"
+        },
+        {
+          "record": "I read the note about the leak again",
+          "artifact": "note about the leak"
+        },
+        {
+          "record": "kept hearing Omar say, \"just send the estimate.\"",
+          "artifact": "Omar"
+        },
+        {
+          "record": "I opened the draft reply to Nora",
+          "artifact": "draft reply to Nora"
+        },
+        {
+          "record": "deleted one sentence",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "deleted one sentence",
+          "artifact": "draft reply to Nora"
+        },
+        {
+          "record": "restored it",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+          "artifact": "Nora"
+        },
+        {
+          "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+          "artifact": "Omar"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 30.5105
+    },
+    {
+      "case_id": "reflective_beliefs",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round2-generic-records/reflective_beliefs",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Reflective journal text with beliefs, self-argument, and no real encounters.",
+      "phase_1_records": 13,
+      "phase_1_artifacts": 2,
+      "phase_2_references": 0,
+      "record_recall": 0.9091,
+      "artifact_recall": 0.1429,
+      "reference_recall": 0.0,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "I wrote three lines in the notebook about freedom"
+      ],
+      "missing_artifacts": [
+        "notebook",
+        "freedom",
+        "last line",
+        "Mira",
+        "Weil",
+        "sentence about attention"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I wrote three lines in the notebook about freedom",
+          "artifact": "notebook"
+        },
+        {
+          "record": "I wrote three lines in the notebook about freedom",
+          "artifact": "freedom"
+        },
+        {
+          "record": "rewrote the last line",
+          "artifact": "last line"
+        },
+        {
+          "record": "I am not angry at Mira",
+          "artifact": "Mira"
+        },
+        {
+          "record": "I keep reading the sentence about attention as if it could decide things for me",
+          "artifact": "sentence about attention"
+        },
+        {
+          "record": "I keep reading the sentence about attention as if it could decide things for me",
+          "artifact": "essay by Weil"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 36.9351
+    },
+    {
+      "case_id": "story_and_self",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round2-generic-records/story_and_self",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Story-focused reflective entry where other characters should become artifacts, not records.",
+      "phase_1_records": 13,
+      "phase_1_artifacts": 5,
+      "phase_2_references": 5,
+      "record_recall": 0.75,
+      "artifact_recall": 0.3333,
+      "reference_recall": 0.1111,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 1,
+      "weak_references": 0,
+      "missing_records": [
+        "I texted Lina to say the book was getting under my skin",
+        "I underlined one sentence in chapter seven"
+      ],
+      "missing_artifacts": [
+        "scene in the novel where the brother leaves without explaining himself",
+        "the novel",
+        "the brother",
+        "the message",
+        "one sentence",
+        "the margin"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+          "artifact": "scene in the novel where the brother leaves without explaining himself"
+        },
+        {
+          "record": "I don't care whether that scene is realistic",
+          "artifact": "scene in the novel where the brother leaves without explaining himself"
+        },
+        {
+          "record": "I care that I kept defending him in my head as if he were someone I owed",
+          "artifact": "the brother"
+        },
+        {
+          "record": "I texted Lina to say the book was getting under my skin",
+          "artifact": "Lina"
+        },
+        {
+          "record": "deleted the message instead of sending it",
+          "artifact": "the message"
+        },
+        {
+          "record": "I underlined one sentence in chapter seven",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "I underlined one sentence in chapter seven",
+          "artifact": "chapter seven"
+        },
+        {
+          "record": "wrote \"this is the part I keep living\" in the margin",
+          "artifact": "the margin"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 34.2222
+    },
+    {
+      "case_id": "technical_argument",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round2-generic-records/technical_argument",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Technical self-argument with documents, traces, review, and unsent follow-up.",
+      "phase_1_records": 13,
+      "phase_1_artifacts": 8,
+      "phase_2_references": 9,
+      "record_recall": 0.7273,
+      "artifact_recall": 0.5385,
+      "reference_recall": 0.4545,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 1,
+      "weak_references": 0,
+      "missing_records": [
+        "I still think the caching layer is the wrong fix",
+        "I reopened the benchmark report",
+        "stared at the throughput table"
+      ],
+      "missing_artifacts": [
+        "design memo",
+        "caching layer",
+        "first proposal",
+        "spike near authentication",
+        "code review with Priya",
+        "Priya"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "Most of today was me arguing with my own design memo",
+          "artifact": "design memo"
+        },
+        {
+          "record": "I still think the caching layer is the wrong fix",
+          "artifact": "caching layer"
+        },
+        {
+          "record": "I wrote the first proposal for it",
+          "artifact": "first proposal"
+        },
+        {
+          "record": "circled the spike near authentication",
+          "artifact": "spike near authentication"
+        },
+        {
+          "record": "I reopened the benchmark report",
+          "artifact": "benchmark report"
+        },
+        {
+          "record": "stared at the throughput table",
+          "artifact": "throughput table"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 51.4615
+    },
+    {
+      "case_id": "trick_fragments",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round2-generic-records/trick_fragments",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Fragmentary entry with negation, alternatives, quoted text, and pronouns.",
+      "phase_1_records": 12,
+      "phase_1_artifacts": 0,
+      "phase_2_references": 0,
+      "record_recall": 0.9167,
+      "artifact_recall": 0.0,
+      "reference_recall": 0.0,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "wrote \"maybe never,\""
+      ],
+      "missing_artifacts": [
+        "Sam",
+        "whiteboard",
+        "voicemail from Dr. Hale",
+        "Dr. Hale",
+        "scan"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I did not forgive Sam",
+          "artifact": "Sam"
+        },
+        {
+          "record": "I wrote \"maybe Friday\" on the whiteboard",
+          "artifact": "whiteboard"
+        },
+        {
+          "record": "wrote \"maybe never,\"",
+          "artifact": "whiteboard"
+        },
+        {
+          "record": "I keep telling myself I already know what it says",
+          "artifact": "voicemail from Dr. Hale"
+        },
+        {
+          "record": "If I call back, it will be about the scan",
+          "artifact": "scan"
+        },
+        {
+          "record": "if I don't, it will still be about the scan",
+          "artifact": "scan"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 33.6667
+    }
+  ]
+}

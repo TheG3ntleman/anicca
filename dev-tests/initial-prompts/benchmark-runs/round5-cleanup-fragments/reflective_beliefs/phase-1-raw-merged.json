@@ -1,0 +1,151 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I keep telling myself that consistency matters more than sincerity",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "but I don't believe that all the way through",
+      "notes": "conflicting belief statement",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't believe that all the way through",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wants a clean principle",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "part of me only wants relief",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote three lines in the notebook about freedom, crossed them out, and then rewrote the last line.",
+      "notes": "Describes physical action of writing and rewriting in a notebook.",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote three lines in the notebook about freedom",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed them out",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira",
+      "notes": "Author claims lack of anger",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "or at least I keep insisting that I'm not angry",
+      "notes": "Author admits to self-deception or insistence on lack of anger",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I am not angry at Mira, or at least I keep insisting that I'm not angry",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I keep insisting that I'm not angry",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment.",
+      "notes": "Author describes internal feeling as embarrassment",
+      "candidate_id": "tmp_r14"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r15"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me.",
+      "notes": "Author expresses reliance on reading Weil's essay as a form of decision-making guidance, indicating emotional or psychological state.",
+      "candidate_id": "tmp_r16"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I keep reading the sentence about attention as if it could decide things for me",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r17"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "notebook",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "essay by Weil",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "freedom",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "last line",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "sentence about attention",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Weil",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Mira",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a7"
+    }
+  ],
+  "uncertainties": []
+}

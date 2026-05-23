@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a5",
+      "relation_label": "misleading benchmark",
+      "relation_status": "explicit",
+      "supporting_text": "the benchmark was misleading",
+      "notes": "Direct mention of the benchmark being misleading."
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a5",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "During code review with Priya I said the benchmark was misleading.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

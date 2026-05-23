@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The source text 'I don't.' is an incomplete sentence and does not provide enough context to identify the journal author's candidate records or processes. The text could be part of a larger statement, but it is fragmented and unclear on its own.", "The input is 'I don't.' which implies a negation but lacks the verb to form a complete thought or process. Without further context, no specific candidate record can be reliably extracted."]
+}
+

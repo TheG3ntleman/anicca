@@ -1,0 +1,37 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "read the note about the hearing again, then read it again",
+      "notes": "author reading note repeatedly"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I read the note about the hearing again",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "read it again",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Leah say, \"just present the numbers.\"",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I read the note about the hearing again, then read it again, and kept hearing Leah say, \"just present the numbers",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Leah say, \"just present the numbers",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "just present the numbers"
+  ]
+}

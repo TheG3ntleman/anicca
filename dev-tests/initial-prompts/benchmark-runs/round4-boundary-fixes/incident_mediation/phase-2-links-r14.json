@@ -1,0 +1,39 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a12",
+      "relation_label": "draft reply",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Nora",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a6",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "still didn't know whether the reply was for Nora, for Omar, or just for me"
+  ]
+}

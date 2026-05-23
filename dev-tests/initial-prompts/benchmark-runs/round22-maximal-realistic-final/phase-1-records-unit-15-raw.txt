@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "arguing with my own project memo",
+      "notes": "author engages in argument with project memo"
+    }
+  ],
+  "uncertainties": []
+}
+

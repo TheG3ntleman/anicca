@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": [
+    "fragmentary text does not contain clear journal author's candidate_records as the text is a fragment describing a call with Martin the CTO without explicit internal processes"
+  ]
+}
+

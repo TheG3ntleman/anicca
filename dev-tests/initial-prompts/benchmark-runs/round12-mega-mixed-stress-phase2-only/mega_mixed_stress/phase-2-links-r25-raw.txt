@@ -1,0 +1,3 @@
+Thinking...
+{"from_candidate_id":"r25","to_candidate_id":"a32","relation_label":"about","relation_status":"explicit","supporting_text":"I told them I was fine","notes":""}
+

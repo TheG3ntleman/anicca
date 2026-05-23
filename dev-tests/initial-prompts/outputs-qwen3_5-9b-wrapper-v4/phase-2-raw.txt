@@ -1,0 +1,216 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": "internal action of rereading"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "rumination/uncertainty"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": "physical sensation"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "emotion",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "self-reporting of internal state"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "emotion",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "emotion",
+      "source_text": "my stomach tightened",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": "internal replay"
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "uncertainty/interpretation"
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "desire"
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "thought",
+      "source_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "internal knowledge/appraisal"
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "physical sensation"
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "thought",
+      "source_text": "I kept hearing Leah say, 'just present the numbers'",
+      "notes": "repeated hearing"
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "thought",
+      "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "internal reflection"
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "uncertainty/ambiguity"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message",
+      "notes": "text message content about appeal hearing"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": "work document"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen",
+      "notes": "supervisor"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen",
+        "admitted I still hadn't emailed the foundation"
+      ],
+      "notes": "supervision meeting"
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "Leah",
+      "notes": "colleague"
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "donor call on Monday"
+      ],
+      "notes": "telephone interaction"
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": "presentation material"
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "mug",
+      "notes": "personal item"
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "laptop",
+      "notes": "work device"
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "email draft to the foundation",
+      "notes": "document"
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "hospital scan",
+      "notes": "medical procedure"
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "my parents",
+      "notes": "family members"
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": "social interaction"
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "ride home"
+      ],
+      "notes": "travel event"
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "object",
+      "source_text": "note about the hearing",
+      "notes": "text document"
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "object",
+      "source_text": "draft reply to Maya's message",
+      "notes": "email draft"
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "object",
+      "source_text": "one paragraph",
+      "notes": "text segment"
+    }
+  ],
+  "uncertainties": []
+}
+

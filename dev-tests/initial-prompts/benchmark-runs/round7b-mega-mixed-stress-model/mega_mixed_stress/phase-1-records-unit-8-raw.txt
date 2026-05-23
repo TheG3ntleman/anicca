@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "behaviour",
+  "source_text": "Afterward I opened the draft reply to Priya",
+  "notes": "The author performed the action of opening a draft reply."
+}
+

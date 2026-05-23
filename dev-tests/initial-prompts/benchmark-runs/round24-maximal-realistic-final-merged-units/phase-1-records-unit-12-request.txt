@@ -1,0 +1,56 @@
+You are doing one narrow extraction task only.
+
+You will be given one local work unit from a journal entry.
+
+Extract only the journal author's candidate_records that are directly supported by this local work unit.
+
+Return exactly one JSON object with these top-level keys:
+- `candidate_records`
+- `uncertainties`
+
+Allowed `process_type` values:
+- thought
+- emotion
+- behaviour
+- body
+
+Rules:
+1. Extract only the journal author's processes.
+2. Do not extract artifacts or encounters in this task.
+3. Do not extract other people's actions, speech, or emotions as candidate_records.
+4. Use exact contiguous text from the local work unit.
+5. Do not paraphrase.
+6. Do not insert a missing `I`.
+7. Split distinct author processes when they can stand alone clearly.
+8. Preserve negation exactly.
+9. If something is unclear, put a short string in `uncertainties`.
+10. `notes` should be short, neutral, and factual.
+11. Do not return a single bare record object. Always wrap records inside `candidate_records`.
+12. Do not return other top-level keys.
+13. Do not include top-level keys such as `thought`, `analysis`, `reasoning`, or explanations.
+14. If unsure, return `{"candidate_records":[],"uncertainties":[]}` instead of commentary.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_records": [
+    {
+      "process_type": "",
+      "source_text": "",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [""]
+}
+
+Return only JSON.
+
+<work_unit_kind>
+fragmentary
+</work_unit_kind>
+
+<work_unit_text>
+I felt ashamed, furious, relieved, and unexpectedly lonely all at once, I could barely swallow.
+</work_unit_text>
+
+Return only the final JSON object.

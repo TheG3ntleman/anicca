@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r29",
+      "to_candidate_id": "a34",
+      "relation_label": "for",
+      "relation_status": "ambiguous",
+      "supporting_text": "I missed Maya",
+      "notes": "Candidate a34 is directly mentioned in source text. Resolution relies on pronoun/mention resolution without explicit pairing statement."
+    }
+  ],
+  "uncertainties": [
+    "Candidate a34 appears in local context but relation status is ambiguous due to lack of explicit statement connecting r29 to a34."
+  ]
+}
+

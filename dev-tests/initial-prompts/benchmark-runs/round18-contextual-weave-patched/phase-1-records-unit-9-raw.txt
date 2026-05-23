@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The source text 'deleted one sentence' contains no identifiable processes, thoughts, emotions, behaviours, or body actions attributable to the journal author."]
+}
+

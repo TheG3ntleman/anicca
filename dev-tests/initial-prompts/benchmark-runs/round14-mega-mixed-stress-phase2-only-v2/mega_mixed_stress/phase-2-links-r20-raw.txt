@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a24",
+      "relation_label": "wrote on",
+      "relation_status": "ambiguous",
+      "supporting_text": "margin",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

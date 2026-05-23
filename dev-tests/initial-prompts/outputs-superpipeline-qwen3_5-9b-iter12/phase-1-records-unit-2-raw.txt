@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "Author considers possible intentions behind a message."
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "my stomach tightened",
+      "notes": "Author experiences physical sensation of anxiety or fear."
+    }
+  ],
+  "uncertainties": []
+}
+

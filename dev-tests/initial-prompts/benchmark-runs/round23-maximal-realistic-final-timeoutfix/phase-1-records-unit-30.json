@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The source text 'I don't' is a fragment that does not provide sufficient context to determine the author's candidate records, process type, or content."
+  ]
+}

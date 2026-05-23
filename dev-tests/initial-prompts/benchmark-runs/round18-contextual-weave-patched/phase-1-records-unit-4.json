@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "my chest tightened",
+      "notes": "Physical reaction indicating emotional tension"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my chest tightened when the note itself only said",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

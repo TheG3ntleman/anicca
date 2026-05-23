@@ -1,0 +1,23 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a4",
+      "relation_label": "reference",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Nora",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "still didn't know whether the reply was for Nora, for Omar, or just for me"
+  ]
+}

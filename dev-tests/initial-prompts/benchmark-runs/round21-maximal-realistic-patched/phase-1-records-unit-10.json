@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the unsent reply to Lena",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the unsent reply to Lena",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

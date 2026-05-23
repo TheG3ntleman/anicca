@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I wrote consistency is a promise we make to the future in the margin",
+      "notes": "The author describes writing a specific phrase about consistency."
+    }
+  ],
+  "uncertainties": []
+}
+

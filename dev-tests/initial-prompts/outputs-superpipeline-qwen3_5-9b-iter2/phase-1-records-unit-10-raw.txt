@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it.",
+      "notes": "author deleted a paragraph then restored it"
+    }
+  ],
+  "uncertainties": []
+}
+

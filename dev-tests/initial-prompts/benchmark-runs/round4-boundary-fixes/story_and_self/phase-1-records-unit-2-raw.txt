@@ -1,0 +1,18 @@
+Thinking...
+{
+  "process": "Extract journal author's candidate_records from the work_unit_text.",
+  "thought": "The user wants me to extract the journal author's processes from the provided text 'I don't care whether that scene is realistic; I care that I kept defending him in my head as if he were someone I owed.'",
+  "rules_analysis": "I must extract only the author's processes. I cannot extract other people's actions (like 'him' or 'defending him'). I must use exact text. I must not paraphrase. I must not add 'I' if not present. I need to identify the author's internal thoughts/emotions.",
+  "content_breakdown": "The text has two clauses.",
+  "clause 1": "I don't care whether that scene is realistic",
+  "process_type": "thought",
+  "source_text": "I don't care whether that scene is realistic",
+  "notes": "Author dismissing scene realism",
+  "clause 2": "I care that I kept defending him in my head as if he were someone I owed",
+  "process_type": "thought",
+  "source_text": "I care that I kept defending him in my head as if he were someone I owed",
+  "notes": "Author describing their internal defense mechanism",
+  "verification": "The text contains 'I'. 'defending him' is the author's action/mental action, not the 'him' character's action. 'in my head' confirms it is an internal process.",
+  "formatting": "Wrap in the specified JSON structure. No other keys."
+}
+

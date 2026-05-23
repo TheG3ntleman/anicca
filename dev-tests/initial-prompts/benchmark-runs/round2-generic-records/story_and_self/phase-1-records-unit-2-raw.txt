@@ -1,0 +1,3 @@
+Thinking...
+{"type":"object","properties":{"candidate_records":[{"process_type":"emotion","source_text":"I don't care whether that scene is realistic; I care that I kept defending him in my head as if he were someone I owed.","notes":"The author expresses indifference to realism but emotional attachment to defending the character"}]}}
+

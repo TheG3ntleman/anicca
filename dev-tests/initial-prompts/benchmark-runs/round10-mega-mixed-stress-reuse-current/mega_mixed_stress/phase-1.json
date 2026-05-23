@@ -1,0 +1,462 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "behaviour",
+      "source_text": "I reread Priya's message about the ethics review",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "behaviour",
+      "source_text": "printed the latency report before the call with Martin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "behaviour",
+      "source_text": "printed the latency report",
+      "notes": "trimmed trailing context"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether he had forwarded the thread to protect me or to document me",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "body",
+      "source_text": "my throat tightened",
+      "notes": "trimmed trailing context"
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "body",
+      "source_text": "my throat tightened when the message itself only said",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the rollback note to the vendor",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "behaviour",
+      "source_text": "I opened the draft reply to Priya",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "opened the draft reply to Priya",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "thought",
+      "source_text": "kept hearing Eva laugh from the scene in the novel where the brother drops the glass",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "thought",
+      "source_text": "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "thought",
+      "source_text": "Most of the afternoon was me arguing with my own design memo",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "thought",
+      "source_text": "arguing with my own design memo",
+      "notes": "Author's internal conflict or reasoning process regarding design decisions."
+    },
+    {
+      "candidate_id": "r17",
+      "process_type": "behaviour",
+      "source_text": "I wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r18",
+      "process_type": "behaviour",
+      "source_text": "wrote \"consistency is a promise we make to the future\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r19",
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r20",
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r21",
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "The author reflects on uncertainty about where to implement a fix."
+    },
+    {
+      "candidate_id": "r22",
+      "process_type": "thought",
+      "source_text": "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r23",
+      "process_type": "thought",
+      "source_text": "again.",
+      "notes": "trimmed scene prefix"
+    },
+    {
+      "candidate_id": "r24",
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r25",
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r26",
+      "process_type": "body",
+      "source_text": "I could barely swallow.",
+      "notes": "Author describes physical difficulty swallowing"
+    },
+    {
+      "candidate_id": "r27",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r28",
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r29",
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r30",
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said.",
+      "notes": "The author's internal thought process about familiarity with something."
+    },
+    {
+      "candidate_id": "r31",
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r32",
+      "process_type": "",
+      "source_text": "I don't.",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r33",
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r34",
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r35",
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Priya's message",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "Priya",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "message",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "ethics review",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "latency report",
+      "notes": "Report printed before the call."
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "call with Martin, the CTO"
+      ],
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "Martin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "CTO",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "I kept wondering whether he had forwarded the thread to protect me or to document me"
+      ],
+      "notes": "Speculative reflection on motive behind forwarding an email thread."
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "rollback note",
+      "notes": "Note to vendor."
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "vendor",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "apologized for freezing during last week's customer demo."
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "customer demo"
+      ],
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "object",
+      "source_text": "customer demo",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "object",
+      "source_text": "draft reply to Priya",
+      "notes": "Draft that was edited during the day."
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "object",
+      "source_text": "one sentence",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a18",
+      "artifact_kind": "object",
+      "source_text": "Eva",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a19",
+      "artifact_kind": "object",
+      "source_text": "scene in the novel",
+      "notes": "Scene where the brother drops the glass."
+    },
+    {
+      "candidate_id": "a20",
+      "artifact_kind": "object",
+      "source_text": "scene in the novel where the brother drops the glass",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a21",
+      "artifact_kind": "object",
+      "source_text": "novel",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a22",
+      "artifact_kind": "object",
+      "source_text": "brother",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a23",
+      "artifact_kind": "object",
+      "source_text": "my own design memo",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a24",
+      "artifact_kind": "object",
+      "source_text": "design memo",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a25",
+      "artifact_kind": "object",
+      "source_text": "margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a26",
+      "artifact_kind": "object",
+      "source_text": "last line",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a27",
+      "artifact_kind": "object",
+      "source_text": "throughput table",
+      "notes": "Table compared to yesterday's trace."
+    },
+    {
+      "candidate_id": "a28",
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a29",
+      "artifact_kind": "object",
+      "source_text": "caching layer",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a30",
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a31",
+      "artifact_kind": "object",
+      "source_text": "my assumptions",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a32",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": ""
+    },
+    {
+      "candidate_id": "a33",
+      "artifact_kind": "object",
+      "source_text": "my parents",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a34",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "hospital scan"
+      ],
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a35",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "scan"
+      ],
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a36",
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Hale",
+      "notes": "Voicemail the narrator listened to before sleep."
+    },
+    {
+      "candidate_id": "a37",
+      "artifact_kind": "object",
+      "source_text": "Dr. Hale",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether he had forwarded the thread to protect me or to document me",
+    "fragmentary text does not contain clear journal author's candidate_records as the text is a fragment describing a call with Martin the CTO without explicit internal processes",
+    "deleted one sentence",
+    "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+    "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+    "The phrase 'crossed it out' refers to an action taken on previous text, but does not clearly describe a current process (thought, emotion, behaviour, body) of the author without additional context.",
+    "No clear evidence of journal author's internal process in this fragmentary text",
+    "still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+    "Fragment is incomplete; subject and predicate missing for full interpretation",
+    "It is unclear whether 'did not call back' refers to the author's own action or an external event without additional context.",
+    "If I call back, it will be about the scan",
+    "The provided work unit text does not contain a clear author process that meets extraction criteria.",
+    "if I don't, it will still be about the scan",
+    "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions."
+  ]
+}

@@ -1,0 +1,3 @@
+Thinking...
+{"thoughts": [{"process_type": "thought", "source_text": "rewrote the last line", "notes": "author rewrote text"}], "uncertainties": []}
+

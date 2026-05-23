@@ -1,0 +1,3 @@
+Thinking...
+{"source_record_json": {"candidate_id": "r24", "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me", "notes": ""}, "candidate_artifacts_json": [{"candidate_id": "a3", "source_text": "Maya"}, {"candidate_id": "a8", "source_text": "artifact_kind"}, {"candidate_id": "a20", "source_text": "the draft reply to Maya's message"}, {"candidate_id": "a13", "source_text": "the email draft to the foundation"}]}
+

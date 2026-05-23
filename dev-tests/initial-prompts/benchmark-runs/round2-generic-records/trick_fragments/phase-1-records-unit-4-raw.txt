@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "I wrote 'maybe Friday' on the whiteboard",
+  "notes": "author wrote initial thought on whiteboard"
+}
+

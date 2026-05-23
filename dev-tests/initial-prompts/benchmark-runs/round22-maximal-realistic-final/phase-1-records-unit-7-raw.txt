@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["Input fragment 'my manager' does not clearly describe an action, thought, emotion, or behavior of the journal author. It appears to be a reference to another person rather than a process of the author."]
+}
+

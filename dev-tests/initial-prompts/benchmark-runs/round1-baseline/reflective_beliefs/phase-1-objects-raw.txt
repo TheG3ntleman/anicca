@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "the notebook",
+      "notes": "a notebook where lines about freedom were written, crossed out, and rewritten"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the essay by Weil",
+      "notes": "an essay by Weil sitting on the desk, containing a sentence about attention"
+    }
+  ],
+  "uncertainties": []
+}
+

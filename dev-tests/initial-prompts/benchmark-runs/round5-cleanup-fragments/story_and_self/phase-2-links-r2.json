@@ -1,0 +1,61 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a2",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "scene in the novel where the brother leaves without explaining himself",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a3",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "novel",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "brother",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+      "I told them I was fine, but I wasn't fine and I could barely swallow."
+    ],
+    "notes": "Narrator reports being unable to swallow while pretending to be fine."
+    }
+  ],
+  "uncertainties": []
+}
+

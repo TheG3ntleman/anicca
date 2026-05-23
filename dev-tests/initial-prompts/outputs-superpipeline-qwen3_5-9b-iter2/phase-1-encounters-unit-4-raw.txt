@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": ["He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart."],
+      "notes": "Narrator internalizes the call's conclusion, replaying Leah's ambiguous laugh."
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,27 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": ""
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "my stomach tightened",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

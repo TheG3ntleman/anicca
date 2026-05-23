@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["fragmentary unit describing an action does not clearly indicate an internal psychological process of the journal author"]
+}
+

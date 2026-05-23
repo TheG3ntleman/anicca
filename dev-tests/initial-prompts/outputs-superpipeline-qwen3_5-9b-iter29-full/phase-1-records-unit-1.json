@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "Yesterday morning on the train I reread Maya's message about the appeal hearing",
+      "notes": "reread message about appeal hearing on train"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor",
+      "notes": "printed revised budget spreadsheet before meeting Dr. Sen"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the revised budget spreadsheet",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,6 @@
+[
+  {
+    "substep": "phase-1-records-unit-5",
+    "error": "Command '['ollama', 'run', 'qwen3.5:9b', '--think', 'false', '--format', 'json']' timed out after 90 seconds"
+  }
+]

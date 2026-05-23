@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I wrote \"stability is a promise we make to strangers\" in the margin",
+      "notes": "Author writing a statement in margin"
+    }
+  ],
+  "uncertainties": []
+}
+

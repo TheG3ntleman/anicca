@@ -1,0 +1,13 @@
+Thinking...
+{
+  "processes": [
+    "I told them I was fine",
+    "I wasn't fine",
+    "I could barely swallow"
+  ],
+  "uncertainties": [
+    "Is 'I told them' part of the author's process or the narrative description of an interaction?",
+    "Is the first clause 'I told them I was fine' a process or a report of an action?"
+  ]
+}
+

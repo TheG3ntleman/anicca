@@ -1,0 +1,22 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I told them I was fine",
+      "notes": "author reporting what they said to others"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "but I wasn't fine",
+      "notes": "author expressing internal state contrasting with external statement"
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "author describing physical sensation"
+    }
+  ],
+  "uncertainties": []
+}
+

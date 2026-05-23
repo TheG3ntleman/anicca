@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "It is unclear if the source text 'If I call back, it will be about the scan' represents a process performed by the journal author or is a direct speech quote.",
+    "If I call back, it will be about the scan"
+  ]
+}

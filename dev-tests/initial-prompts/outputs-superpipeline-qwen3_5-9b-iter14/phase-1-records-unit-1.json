@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the revised budget spreadsheet",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "printed the revised budget spreadsheet before the check-in with Dr",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

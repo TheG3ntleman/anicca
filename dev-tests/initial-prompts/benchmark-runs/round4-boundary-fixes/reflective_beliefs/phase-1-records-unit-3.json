@@ -1,0 +1,30 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "I wrote three lines in the notebook",
+      "notes": "writing action"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "about freedom",
+      "notes": "topic of writing"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed them out",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote three lines in the notebook about freedom",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

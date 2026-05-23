@@ -1,0 +1,23 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a3",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a4",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "restored it"
+  ]
+}

@@ -1,0 +1,3 @@
+Thinking...
+{"work_unit_kind":"mixed","work_unit_text":"He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart.","candidate_artifacts":[],"uncertainties":[]}
+

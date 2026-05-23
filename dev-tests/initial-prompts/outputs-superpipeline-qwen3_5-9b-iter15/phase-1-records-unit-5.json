@@ -1,0 +1,22 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at it without sending it",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I put the mug beside my laptop",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "distinguishing physical action from internal thought"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict.",
+      "notes": "Author expresses uncertainty about the object of anger (Eva, novel, self)."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+    "couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict"
+  ]
+}

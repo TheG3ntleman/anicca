@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Jonah's note about the audit appeal",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "type",
+    "items"
+  ]
+}

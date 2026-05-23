@@ -1,0 +1,23 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions.",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+    "still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions"
+  ]
+}

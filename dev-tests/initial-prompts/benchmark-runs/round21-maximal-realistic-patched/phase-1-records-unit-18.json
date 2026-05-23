@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "the local work unit 'rewrote the last line' describes an action but lacks clear context to determine if it represents a journal author's internal process, behaviour, or external action without additional context"
+  ]
+}

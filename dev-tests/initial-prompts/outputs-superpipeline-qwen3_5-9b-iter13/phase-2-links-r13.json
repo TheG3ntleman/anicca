@@ -1,0 +1,23 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a13",
+      "relation_label": "target_of",
+      "relation_status": "explicit",
+      "supporting_text": "stared at it",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a13",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "stared at it without sending it",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "stared at it without sending it"
+  ]
+}

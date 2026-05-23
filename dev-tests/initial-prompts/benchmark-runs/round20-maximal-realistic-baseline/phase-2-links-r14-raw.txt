@@ -1,0 +1,11 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a14",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "crossed it out",
+      "notes": "Source text 'crossed it out' implies the action of writing 'margin' then crossing it out, but the text provided does not explicitly link 'margin' as an artifact to the source text 'crossed it out' in a way that defines a relation, but the candidate reason 'local_context,object_pronoun' links the context 'I wrote "
+

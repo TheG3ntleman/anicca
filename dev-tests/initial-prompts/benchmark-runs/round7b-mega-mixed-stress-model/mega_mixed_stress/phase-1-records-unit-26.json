@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "",
+      "source_text": "I don't.",
+      "notes": ""
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

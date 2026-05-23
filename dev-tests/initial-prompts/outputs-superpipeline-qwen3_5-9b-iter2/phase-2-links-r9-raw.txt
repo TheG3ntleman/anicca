@@ -1,0 +1,39 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a14",
+      "relation_label": "contains",
+      "relation_status": "explicit",
+      "supporting_text": "the slide with the broken chart",
+      "notes": "source_text spans directly to the object artifact source_text"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a13",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "Leah",
+      "notes": "source_text spans directly to the person artifact source_text"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a11",
+      "relation_label": "belongs_to",
+      "relation_status": "ambiguous",
+      "supporting_text": "He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart.",
+      "notes": "thought record likely associated with the encounter"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a12",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "moment Leah laughed",
+      "notes": "source_text spans directly to the moment encounter artifact source_text"
+    }
+  ],
+  "uncertainties": [""]
+}
+

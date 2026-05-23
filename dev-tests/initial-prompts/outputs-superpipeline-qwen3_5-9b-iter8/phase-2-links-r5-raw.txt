@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a8",
+      "relation_label": "object referred to",
+      "relation_status": "explicit",
+      "supporting_text": "foundation",
+      "notes": "source_text directly mentions 'foundation'"
+    }
+  ],
+  "uncertainties": []
+}
+

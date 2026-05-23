@@ -1,0 +1,192 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+      "notes": "Author reflects on a novel scene.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I don't care whether that scene is realistic",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "I care that I kept defending him in my head as if he were someone I owed",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "I texted Lina",
+      "notes": "Action of texting",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "emotion",
+      "source_text": "the book was getting under my skin",
+      "notes": "Author's emotional state regarding the book",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "deleted the message",
+      "notes": "Action of deleting the message",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "behaviour",
+      "source_text": "deleted the message instead of sending it",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "instead of sending it",
+      "notes": "Decision or mental shift about not sending the message",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "behaviour",
+      "source_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "behaviour",
+      "source_text": "wrote \"this is the part I keep living\" in the margin",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "emotion",
+      "source_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him.",
+      "notes": "Author reflects on missing Arun versus missing self around Arun.",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "thought",
+      "source_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "notes": "generic deterministic fallback",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "I texted Lina",
+      "notes": "a text message sent or attempted to be sent",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "Lina",
+      "notes": "person texted or messaged",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "chapter seven",
+      "notes": "specific chapter of the novel underlined",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "this is the part I keep living",
+      "notes": "margin note written in the book",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "Arun",
+      "notes": "person mentioned in the journal",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a4",
+      "relation_label": "wrote text",
+      "relation_status": "explicit",
+      "supporting_text": "wrote \"this is the part I keep living\" in the margin",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a5",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him.",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a5",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [],
+  "soft_groups": [],
+  "uncertainties": [
+    "I don't care whether that scene is realistic",
+    "Determining if 'the book was getting under my skin' qualifies as a recorded emotion or observation",
+    "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+    "I still can't tell whether I miss Arun or only miss the version of myself that existed around him."
+  ]
+}

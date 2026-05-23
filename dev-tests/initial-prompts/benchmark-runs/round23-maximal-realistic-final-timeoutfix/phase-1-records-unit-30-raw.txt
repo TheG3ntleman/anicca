@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The source text 'I don't' is a fragment that does not provide sufficient context to determine the author's candidate records, process type, or content."]
+}
+

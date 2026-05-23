@@ -1,0 +1,3 @@
+Thinking...
+{"process_type":"emotion","source_text":"whether the scan had scared me again","notes":"question about fear from scan"}
+

@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a3",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "first proposal for it",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a4",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "first proposal",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote the first proposal for it",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote the first proposal for it",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

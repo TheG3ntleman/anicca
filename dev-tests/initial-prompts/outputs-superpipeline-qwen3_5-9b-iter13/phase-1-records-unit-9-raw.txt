@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "read the note about the hearing again, then read it again",
+      "notes": "author reading note repeatedly"
+    }
+  ],
+  "uncertainties": [
+    "just present the numbers"
+  ]
+}
+

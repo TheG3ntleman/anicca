@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "unclear subject of 'did not call back'"
+  ]
+}

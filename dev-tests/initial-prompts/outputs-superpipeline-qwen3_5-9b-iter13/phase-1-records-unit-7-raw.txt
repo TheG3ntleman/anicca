@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "my mother asked whether Dr. Sen had calmed me down",
+  "notes": "Narrator reflects on their mother's inquiry about Dr. Sen's effectiveness in calming them during a dinner setting"
+}
+

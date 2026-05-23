@@ -1,0 +1,15 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a16",
+      "relation_label": "speaker",
+      "relation_status": "ambiguous",
+      "supporting_text": "dinner with my parents",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "parents"
+  ]
+}

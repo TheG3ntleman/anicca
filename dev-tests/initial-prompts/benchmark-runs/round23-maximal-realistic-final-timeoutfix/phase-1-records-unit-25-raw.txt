@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once",
+      "notes": "author's compound emotional state"
+    }
+  ],
+  "uncertainties": []
+}
+

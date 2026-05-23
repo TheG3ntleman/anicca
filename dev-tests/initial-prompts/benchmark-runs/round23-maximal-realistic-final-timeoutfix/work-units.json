@@ -1,0 +1,177 @@
+[
+  {
+    "unit_id": "unit-1",
+    "unit_text": "On Thursday I reread Lena's email about the ethics complaint",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-2",
+    "unit_text": "copied one sentence from the draft incident log into the reply to Omar before the meeting with Priya",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-3",
+    "unit_text": "my manager.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-4",
+    "unit_text": "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+    "unit_kind": "mixed"
+  },
+  {
+    "unit_id": "unit-5",
+    "unit_text": "my jaw tightened when the email itself only said, \"we should talk before noon.\"",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-6",
+    "unit_text": "During the meeting with Priya",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-7",
+    "unit_text": "my manager",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-8",
+    "unit_text": "I admitted I still hadn't sent the corrected invoice to the clinic",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-9",
+    "unit_text": "apologized for freezing during Tuesday's intake interview.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-10",
+    "unit_text": "Afterward I opened the unsent reply to Lena",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-11",
+    "unit_text": "deleted one paragraph",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-12",
+    "unit_text": "restored it",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-13",
+    "unit_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup.",
+    "unit_kind": "reflective"
+  },
+  {
+    "unit_id": "unit-14",
+    "unit_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict.",
+    "unit_kind": "reflective"
+  },
+  {
+    "unit_id": "unit-15",
+    "unit_text": "The rest of the evening was me arguing with my own project memo.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-16",
+    "unit_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-17",
+    "unit_text": "crossed it out",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-18",
+    "unit_text": "rewrote the last line",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-19",
+    "unit_text": "compared the risk table to last night's trace",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-20",
+    "unit_text": "circled the row about the rollback window.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-21",
+    "unit_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-22",
+    "unit_text": "At dinner with my brother Arun he asked whether the scan had scared me again.",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-23",
+    "unit_text": "I told him I was okay",
+    "unit_kind": "narrative"
+  },
+  {
+    "unit_id": "unit-24",
+    "unit_text": "I wasn't.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-25",
+    "unit_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-26",
+    "unit_text": "I could barely swallow.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-27",
+    "unit_text": "Before sleep I listened to the voicemail from Dr. Imani",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-28",
+    "unit_text": "did not call back",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-29",
+    "unit_text": "kept telling myself I already knew what it said.",
+    "unit_kind": "mixed"
+  },
+  {
+    "unit_id": "unit-30",
+    "unit_text": "I don't.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-31",
+    "unit_text": "Part of me wanted the call to be about the scan, and part of me wanted it to be about nothing medical at all.",
+    "unit_kind": "reflective"
+  },
+  {
+    "unit_id": "unit-32",
+    "unit_text": "I missed Maya",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-33",
+    "unit_text": "I did not text her.",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-34",
+    "unit_text": "If I call back, it will be about the scan",
+    "unit_kind": "fragmentary"
+  },
+  {
+    "unit_id": "unit-35",
+    "unit_text": "if I don't, it will still be about the scan.",
+    "unit_kind": "fragmentary"
+  }
+]

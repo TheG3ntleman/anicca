@@ -1,0 +1,199 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "about hearing",
+      "relation_status": "explicit",
+      "supporting_text": "about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a4",
+      "relation_label": "printed spreadsheet",
+      "relation_status": "explicit",
+      "supporting_text": "printed the revised budget spreadsheet",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a7",
+      "relation_label": "hadn't emailed",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a8",
+      "relation_label": "apologized for freezing",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "apology related to call"
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a9",
+      "relation_label": "apologized for freezing",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a11",
+      "relation_label": "replaying Leah's laugh",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a10",
+      "relation_label": "replaying laugh moment",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a11",
+      "relation_label": "uncertain laugh target",
+      "relation_status": "ambiguous",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a12",
+      "relation_label": "uncertain laugh target",
+      "relation_status": "ambiguous",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a13",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "opened email draft"
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a14",
+      "relation_label": "opened draft",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a14",
+      "relation_label": "stared without sending",
+      "relation_status": "ambiguous",
+      "supporting_text": "stared at it without sending it",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr13",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a15",
+      "relation_label": "wanted to cancel",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan next week",
+      "notes": "wants to cancel scan"
+    },
+    {
+      "candidate_reference_id": "cr14",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a16",
+      "relation_label": "wanted to cancel scan",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan next week",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr15",
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a16",
+      "relation_label": "scan not fear object",
+      "relation_status": "explicit",
+      "supporting_text": "the scan wasn't the thing I was really afraid of",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr16",
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a22",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the hearing again",
+      "notes": "reading note"
+    },
+    {
+      "candidate_reference_id": "cr17",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a24",
+      "relation_label": "deleted",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "deleted paragraph from draft"
+    },
+    {
+      "candidate_reference_id": "cr18",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a25",
+      "relation_label": "deleted from draft",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr19",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a23",
+      "relation_label": "deleted paragraph",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr20",
+      "from_candidate_id": "r23",
+      "to_candidate_id": "a23",
+      "relation_label": "restored paragraph",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": ""
+    },
+    {
+      "candidate_reference_id": "cr21",
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a25",
+      "relation_label": "about reply",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+    "stared at it without sending it",
+    "restored it",
+    "I don't know whether the reply was for Maya, for the foundation, or just for me"
+  ]
+}

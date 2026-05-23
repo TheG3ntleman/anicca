@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "No clear evidence of journal author's internal process in this fragmentary text"
+  ]
+}

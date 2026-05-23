@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_references":[{"from_candidate_id":"r7","to_candidate_id":"a11","relation_label":"object_mention","relation_status":"explicit","supporting_text":"Leah","notes":""},{"from_candidate_id":"r7","to_candidate_id":"a10","relation_label":"event_mention","relation_status":"explicit","supporting_text":"moment Leah laughed","notes":""},{"from_candidate_id":"r7","to_candidate_id":"a12","relation_label":"object_mention","relation_status":"explicit","supporting_text":"broken chart","notes":""}],"uncertainties":[]}
+

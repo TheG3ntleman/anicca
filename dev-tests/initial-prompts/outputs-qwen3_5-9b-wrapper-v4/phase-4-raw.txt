@@ -1,0 +1,310 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "behaviour",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "thought",
+      "source_text": "I kept replaying the moment Leah laughed",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "thought",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "thought",
+      "source_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "thought",
+      "source_text": "I kept hearing Leah say, 'just present the numbers'",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "behaviour",
+      "source_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Maya's message",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "revised budget spreadsheet",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "Dr. Sen",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "check-in with Dr. Sen",
+        "admitted I still hadn't emailed the foundation"
+      ],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "Leah",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "donor call on Monday"
+      ],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "mug",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "laptop",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "email draft to the foundation",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "hospital scan",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "my parents",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents"
+      ],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "ride home"
+      ],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "object",
+      "source_text": "note about the hearing",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "object",
+      "source_text": "draft reply to Maya's message",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "object",
+      "source_text": "one paragraph",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "reread message",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message"
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "wondering about warning",
+      "relation_status": "ambiguous",
+      "supporting_text": "whether she had sent the message to warn me"
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a10",
+      "relation_label": "emailed foundation",
+      "relation_status": "ambiguous",
+      "supporting_text": "I admitted I still hadn't emailed the foundation"
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a5",
+      "relation_label": "replaying Leah's laugh",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed"
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a5",
+      "relation_label": "interpreting Leah's laugh",
+      "relation_status": "ambiguous",
+      "supporting_text": "whether she was laughing at me or at the slide"
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a7",
+      "relation_label": "interpreting laugh target",
+      "relation_status": "ambiguous",
+      "supporting_text": "whether she was laughing at me or at the slide with the broken chart"
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a11",
+      "relation_label": "wanted to cancel scan",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan"
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a11",
+      "relation_label": "scan not fear object",
+      "relation_status": "explicit",
+      "supporting_text": "the scan wasn't the thing I was really afraid of"
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a16",
+      "relation_label": "deleted from draft",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply"
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a17",
+      "relation_label": "deleted one paragraph",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph"
+    },
+    {
+      "candidate_reference_id": "cr14",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a16",
+      "relation_label": "reply intended recipient",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me"
+    }
+  ]
+}
+

@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions.",
+      "notes": "Author's internal uncertainty about where a fix should be implemented."
+    }
+  ],
+  "uncertainties": []
+}
+

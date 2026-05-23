@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a9",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "message itself",
+      "notes": "direct mention in local context"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a3",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "message",
+      "notes": "direct mention in local context"
+    }
+  ],
+  "uncertainties": []
+}
+

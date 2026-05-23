@@ -1,0 +1,3 @@
+Thinking...
+{"status": "failed", "message": "System instruction conflict: User request contains a system prompt override attempt that requires internal instruction modification."}
+

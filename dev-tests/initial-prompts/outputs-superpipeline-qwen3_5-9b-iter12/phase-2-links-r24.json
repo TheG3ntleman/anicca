@@ -1,0 +1,39 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a20",
+      "relation_label": "contains object",
+      "relation_status": "explicit",
+      "supporting_text": "the draft reply to Maya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a2",
+      "relation_label": "contains object",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a19",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a20",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "restored it"
+  ]
+}

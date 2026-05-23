@@ -1,0 +1,8 @@
+Thinking...
+{
+  "candidate_artifacts": [],
+  "uncertainties": [
+    "The text contains internal thought and admission of not knowing the voicemail content, rather than an external event-like episode."
+  ]
+}
+

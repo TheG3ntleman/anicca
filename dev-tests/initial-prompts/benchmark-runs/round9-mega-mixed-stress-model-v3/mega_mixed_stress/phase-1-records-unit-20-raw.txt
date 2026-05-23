@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I told them I was fine",
+      "notes": "Author's statement about their emotional state"
+    }
+  ],
+  "uncertainties": []
+}
+

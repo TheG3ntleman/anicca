@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a36",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Before sleep I listened to the voicemail from Dr. Hale",
+      "notes": "source text contains artifact text verbatim"
+    },
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a37",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "voicemail from Dr. Hale",
+      "notes": "artifact text is a substring of source text"
+    },
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a36",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r30",
+      "to_candidate_id": "a37",
+      "relation_label": "listened to",
+      "relation_status": "explicit",
+      "supporting_text": "I listened to the voicemail from Dr",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,131 @@
+{
+  "run_label": "round6-mega-mixed-stress",
+  "model": "qwen3.5:9b",
+  "aggregate": {
+    "case_count": 1,
+    "ok_count": 1,
+    "avg_score": 49.7814,
+    "avg_record_recall": 0.5769,
+    "avg_artifact_recall": 0.8571,
+    "avg_reference_recall": 0.3793,
+    "total_missing_records": 11,
+    "total_missing_artifacts": 4,
+    "total_missing_reference_pairs": 18
+  },
+  "results": [
+    {
+      "case_id": "mega_mixed_stress",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round6-mega-mixed-stress/mega_mixed_stress",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "One mixed entry combining incident description, reflective rumination, literary carryover, technical argument, belief-like self-talk, quotes, pronouns, negation, and alternatives.",
+      "phase_1_records": 20,
+      "phase_1_artifacts": 29,
+      "phase_2_references": 25,
+      "record_recall": 0.5769,
+      "artifact_recall": 0.8571,
+      "reference_recall": 0.3793,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 3,
+      "missing_records": [
+        "printed the latency report",
+        "my throat tightened",
+        "apologized for freezing during last week's customer demo",
+        "I opened the draft reply to Priya",
+        "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+        "Most of the afternoon was me arguing with my own design memo",
+        "compared the throughput table to yesterday's trace",
+        "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+        "I wasn't",
+        "I listened to the voicemail from Dr. Hale",
+        "kept telling myself I already knew what it said"
+      ],
+      "missing_artifacts": [
+        "Priya's message",
+        "the CTO",
+        "my own design memo",
+        "hospital scan"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I reread Priya's message about the ethics review",
+          "artifact": "Priya's message"
+        },
+        {
+          "record": "printed the latency report",
+          "artifact": "latency report"
+        },
+        {
+          "record": "apologized for freezing during last week's customer demo",
+          "artifact": "customer demo"
+        },
+        {
+          "record": "I opened the draft reply to Priya",
+          "artifact": "draft reply to Priya"
+        },
+        {
+          "record": "I opened the draft reply to Priya",
+          "artifact": "Priya"
+        },
+        {
+          "record": "deleted one sentence",
+          "artifact": "draft reply to Priya"
+        },
+        {
+          "record": "restored it",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+          "artifact": "Eva"
+        },
+        {
+          "record": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me that keeps treating every paragraph like a verdict",
+          "artifact": "the novel"
+        },
+        {
+          "record": "Most of the afternoon was me arguing with my own design memo",
+          "artifact": "my own design memo"
+        },
+        {
+          "record": "compared the throughput table to yesterday's trace",
+          "artifact": "throughput table"
+        },
+        {
+          "record": "compared the throughput table to yesterday's trace",
+          "artifact": "yesterday's trace"
+        },
+        {
+          "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+          "artifact": "caching layer"
+        },
+        {
+          "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+          "artifact": "queue"
+        },
+        {
+          "record": "I still didn't know whether the fix belonged in the caching layer, in the queue, or in my assumptions",
+          "artifact": "my assumptions"
+        },
+        {
+          "record": "I listened to the voicemail from Dr. Hale",
+          "artifact": "voicemail from Dr. Hale"
+        },
+        {
+          "record": "I listened to the voicemail from Dr. Hale",
+          "artifact": "Dr. Hale"
+        },
+        {
+          "record": "kept telling myself I already knew what it said",
+          "artifact": "voicemail from Dr. Hale"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 49.7814
+    }
+  ]
+}

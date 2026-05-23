@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it.",
+      "notes": "The author describes internal deliberation or hesitation implied by the physical actions."
+    }
+  ],
+  "uncertainties": []
+}
+

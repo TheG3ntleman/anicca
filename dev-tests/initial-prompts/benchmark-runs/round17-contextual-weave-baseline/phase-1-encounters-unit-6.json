@@ -1,0 +1,12 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "apologized for freezing during Friday's client walkthrough."
+      ],
+      "notes": "Reflective statement about a performance incident during a client meeting, not describing a substantial event."
+    }
+  ],
+  "uncertainties": []
+}

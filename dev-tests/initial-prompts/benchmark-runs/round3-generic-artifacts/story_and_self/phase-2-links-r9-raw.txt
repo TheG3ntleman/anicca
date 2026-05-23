@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a9",
+      "relation_label": "misses entity",
+      "relation_status": "explicit",
+      "supporting_text": "miss Arun",
+      "notes": "direct reference to artifact a9 in source text"
+    }
+  ],
+  "uncertainties": []
+}
+

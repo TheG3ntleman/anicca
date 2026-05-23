@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+      "I admitted I still hadn't called the contractor and apologized for going blank during last week's site visit."
+    ],
+      "notes": "Internal admission of inaction and apology regarding contractor communication and site visit performance."
+    }
+  ],
+  "uncertainties": []
+}
+

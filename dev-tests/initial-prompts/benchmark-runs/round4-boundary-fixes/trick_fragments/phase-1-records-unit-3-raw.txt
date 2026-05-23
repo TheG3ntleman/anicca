@@ -1,0 +1,8 @@
+Thinking...
+{
+  "process_type": ["thought", "behaviour"],
+  "source_text": ["I did not decide to quit", "and I did not forgive Sam"],
+  "notes": ["The first clause expresses the author's decision process about quitting, the second clause expresses an emotional stance about Sam."],
+  "uncertainties": [""]
+}
+

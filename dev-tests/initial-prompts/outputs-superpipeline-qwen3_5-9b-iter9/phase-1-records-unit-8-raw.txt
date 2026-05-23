@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "I told them I was fine",
+  "notes": "author states false reassurance"
+}
+

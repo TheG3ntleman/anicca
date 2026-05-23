@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I admitted I still hadn't called the contractor",
+      "notes": "admitting failure to call contractor"
+    }
+  ],
+  "uncertainties": []
+}

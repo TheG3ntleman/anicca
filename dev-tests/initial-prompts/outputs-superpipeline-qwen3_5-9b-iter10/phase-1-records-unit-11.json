@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "It is unclear whether the author knows the recipient of the reply or is expressing uncertainty about its intended audience.",
+    "I don't know whether the reply was for Maya, for the foundation, or just for me"
+  ]
+}

@@ -1,0 +1,31 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a1",
+      "relation_label": "notebook",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote three lines in the notebook about freedom",
+      "notes": "source record explicitly mentions 'the notebook'"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a2",
+      "relation_label": "freedom",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote three lines in the notebook about freedom",
+      "notes": "source record explicitly mentions 'about freedom'"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a3",
+      "relation_label": "last line",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote three lines in the notebook about freedom, crossed them out, and then rewrote the last line.",
+      "notes": "source record mentions 'last line' within the full source text"
+    }
+  ],
+  "uncertainties": []
+}
+

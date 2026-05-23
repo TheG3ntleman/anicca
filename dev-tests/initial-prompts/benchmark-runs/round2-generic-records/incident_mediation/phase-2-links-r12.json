@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a4",
+      "relation_label": "involves",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Nora",
+      "notes": "direct mention of artifact in source text"
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a4",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the draft reply to Nora",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

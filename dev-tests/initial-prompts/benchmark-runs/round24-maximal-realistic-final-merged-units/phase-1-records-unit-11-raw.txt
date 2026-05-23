@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I told him I was okay, I wasn't.",
+      "notes": "The author's inner thought or feeling contradicted their outward statement."
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text 'crossed it out' describes an action but does not clearly indicate a journal author's internal thought, emotion, or process within the provided context. Without surrounding context, the agency of the action is ambiguous."]
+}
+

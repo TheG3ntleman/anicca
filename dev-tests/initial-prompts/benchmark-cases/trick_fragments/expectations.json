@@ -1,0 +1,56 @@
+{
+  "case_id": "trick_fragments",
+  "description": "Fragmentary entry with negation, alternatives, quoted text, and pronouns.",
+  "expected_records": [
+    "I did not decide to quit",
+    "I did not forgive Sam",
+    "I wrote \"maybe Friday\" on the whiteboard",
+    "erased it",
+    "wrote \"maybe never,\"",
+    "erased that too",
+    "stood there feeling stupid",
+    "I keep telling myself I already know what it says",
+    "I don't",
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan",
+    "I am tired of how both options feel like the same answer"
+  ],
+  "expected_artifacts": [
+    "Sam",
+    "whiteboard",
+    "voicemail from Dr. Hale",
+    "Dr. Hale",
+    "scan"
+  ],
+  "expected_reference_pairs": [
+    {
+      "record": "I did not forgive Sam",
+      "artifact": "Sam"
+    },
+    {
+      "record": "I wrote \"maybe Friday\" on the whiteboard",
+      "artifact": "whiteboard"
+    },
+    {
+      "record": "wrote \"maybe never,\"",
+      "artifact": "whiteboard"
+    },
+    {
+      "record": "I keep telling myself I already know what it says",
+      "artifact": "voicemail from Dr. Hale"
+    },
+    {
+      "record": "If I call back, it will be about the scan",
+      "artifact": "scan"
+    },
+    {
+      "record": "if I don't, it will still be about the scan",
+      "artifact": "scan"
+    }
+  ],
+  "forbidden_records": [],
+  "forbidden_artifacts": [],
+  "forbidden_reference_pairs": [],
+  "max_encounters": 0,
+  "target_reference_count": 6
+}

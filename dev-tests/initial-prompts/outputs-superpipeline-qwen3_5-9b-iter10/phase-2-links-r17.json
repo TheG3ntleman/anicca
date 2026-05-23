@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a18",
+      "relation_label": "refer to note",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the hearing",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a2",
+      "relation_label": "refer to message",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the hearing",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a4",
+      "relation_label": "refer to hearing",
+      "relation_status": "explicit",
+      "supporting_text": "about the hearing",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r17",
+      "to_candidate_id": "a18",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the hearing again",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

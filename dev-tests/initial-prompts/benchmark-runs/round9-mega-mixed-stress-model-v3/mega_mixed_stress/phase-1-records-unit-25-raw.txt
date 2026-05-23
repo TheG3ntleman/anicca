@@ -1,0 +1,6 @@
+Thinking...
+{"role":"assistant","content":"{"
+
+
+}
+

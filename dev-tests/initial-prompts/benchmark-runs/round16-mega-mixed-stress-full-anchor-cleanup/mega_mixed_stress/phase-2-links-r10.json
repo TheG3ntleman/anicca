@@ -1,0 +1,39 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a11",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "Afterward I opened the draft reply to Priya",
+      "notes": "The local context explicitly mentions opening the artifact 'draft reply to Priya'."
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a12",
+      "relation_label": "edited",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one sentence restored it",
+      "notes": "The local context describes the actions performed on the sentence within the draft reply."
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Priya",
+      "notes": "The artifact contains text mentioning Priya."
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a12",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "restored it"
+  ]
+}

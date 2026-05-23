@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once, I could barely swallow",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

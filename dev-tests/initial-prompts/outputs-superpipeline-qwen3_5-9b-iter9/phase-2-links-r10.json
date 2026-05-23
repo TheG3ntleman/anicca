@@ -1,0 +1,37 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a13",
+      "relation_label": "is",
+      "relation_status": "explicit",
+      "supporting_text": "the email draft to the foundation",
+      "notes": "record r10 contains the phrase 'opened the email draft to the foundation' which directly refers to artifact a13"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a8",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "foundation",
+      "notes": "record r10 contains the word 'foundation' which refers to artifact a8"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a13",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a8",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

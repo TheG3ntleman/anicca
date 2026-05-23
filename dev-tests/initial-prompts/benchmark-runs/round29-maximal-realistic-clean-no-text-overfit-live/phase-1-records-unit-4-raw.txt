@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "process_type": "thought",
+      "notes": "Acknowledgment of incomplete task"
+    },
+    {
+      "source_text": "apologized for freezing during Tuesday's intake interview",
+      "process_type": "thought",
+      "notes": "Acknowledgment of performance issue"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,35 @@
+{
+  "case_id": "mega_mixed_stress",
+  "description": "One mixed entry combining incident description, reflective rumination, literary carryover, technical argument, belief-like self-talk, quotes, pronouns, negation, and alternatives.",
+  "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round12-mega-mixed-stress-phase2-only/mega_mixed_stress",
+  "phase_1_records": 35,
+  "phase_1_artifacts": 37,
+  "phase_2_references": 50,
+  "record_recall": 1.0,
+  "artifact_recall": 1.0,
+  "reference_recall": 0.8966,
+  "overbroad_encounters": 0,
+  "unexpected_encounters": 3,
+  "composite_records": 0,
+  "weak_references": 2,
+  "missing_records": [],
+  "missing_artifacts": [],
+  "missing_reference_pairs": [
+    {
+      "record": "deleted one sentence",
+      "artifact": "draft reply to Priya"
+    },
+    {
+      "record": "restored it",
+      "artifact": "one sentence"
+    },
+    {
+      "record": "kept telling myself I already knew what it said",
+      "artifact": "voicemail from Dr. Hale"
+    }
+  ],
+  "forbidden_records_present": [],
+  "forbidden_artifacts_present": [],
+  "forbidden_reference_hits": [],
+  "score": 69.8793
+}

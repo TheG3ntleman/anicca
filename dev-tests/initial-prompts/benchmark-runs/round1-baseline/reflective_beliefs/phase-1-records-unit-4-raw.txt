@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "I am not angry at Mira, or at least I keep insisting that I'm not angry.",
+  "notes": "Author denies anger and notes the need to insist on it."
+}
+

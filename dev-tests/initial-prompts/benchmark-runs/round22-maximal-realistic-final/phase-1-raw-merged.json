@@ -1,0 +1,575 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I reread Lena's email about the ethics complaint",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "copied one sentence from the draft incident log into the reply to Omar before the meeting with Priya",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "my jaw tightened",
+      "notes": "physical reaction indicating tension",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "body",
+      "source_text": "my jaw tightened when the email itself only said",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the corrected invoice to the clinic",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during Tuesday's intake interview",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I opened the unsent reply to Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "opened the unsent reply to Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one paragraph",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": "",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept hearing Tessa laugh from the scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict.",
+      "notes": "Author reflecting on confusion about the source of their anger.",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r14"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r15"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "arguing with my own project memo",
+      "notes": "author engages in argument with project memo",
+      "candidate_id": "tmp_r16"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "The rest of the evening was me arguing with my own project memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r17"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r18"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r19"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r20"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r21"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "compared the risk table to last night's trace",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r22"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the row about the rollback window.",
+      "notes": "direct action describing author's behavior",
+      "candidate_id": "tmp_r23"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the row about the rollback window",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r24"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r25"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r26"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "At dinner with my brother Arun he asked whether the scan had scared me again.",
+      "notes": "The author is answering a question from their brother about their emotional state following a medical scan.",
+      "candidate_id": "tmp_r27"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I told him I was okay",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r28"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r29"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I felt ashamed, furious, relieved, and unexpectedly lonely all at once",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r30"
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "",
+      "candidate_id": "tmp_r31"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr. Imani",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r32"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r33"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r34"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said.",
+      "notes": "",
+      "candidate_id": "tmp_r35"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r36"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r37"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wanted the call to be about the scan, and part of me wanted it to be about nothing medical at all.",
+      "notes": "",
+      "candidate_id": "tmp_r38"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wanted the call to be about the scan, and part of me wanted it to be about nothing medical at all",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r39"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I missed Maya",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r40"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r41"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan.",
+      "notes": "",
+      "candidate_id": "tmp_r42"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r43"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r44"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "meeting with Priya"
+      ],
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "During the meeting with Priya"
+      ],
+      "notes": "Meeting with Priya.",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "apologized for freezing during Tuesday's intake interview."
+      ],
+      "notes": "The patient apologized for freezing during Tuesday's intake interview.",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Tuesday's intake interview"
+      ],
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my brother Arun he asked whether the scan had scared me again"
+      ],
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "meeting with Priya, my manager"
+      ],
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email about the ethics complaint",
+      "notes": "Email from Lena regarding an ethics complaint",
+      "candidate_id": "tmp_a7"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft incident log",
+      "notes": "Draft log of incidents",
+      "candidate_id": "tmp_a8"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the reply to Omar",
+      "notes": "Drafted reply message to Omar",
+      "candidate_id": "tmp_a9"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "unsent reply to Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a10"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "project memo",
+      "notes": "Project documentation",
+      "candidate_id": "tmp_a11"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "risk table",
+      "notes": "Risk assessment table",
+      "candidate_id": "tmp_a12"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "last night's trace",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a13"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Imani",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a14"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the scene in the novel where the sister breaks the cup",
+      "notes": "Specific scene from a novel",
+      "candidate_id": "tmp_a15"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the novel",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a16"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a17"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email about the ethics complaint and",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a18"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "reply to Omar",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a19"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "reply to Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a20"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "last line",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a21"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my own project memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a22"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "ethics complaint",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a23"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "corrected invoice",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a24"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "clinic",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a25"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Tuesday's intake interview",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a26"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "cache",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a27"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the queue",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a28"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a29"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my assumptions",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a30"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "assumptions",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a31"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "scene in the novel where the sister breaks the cup",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a32"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a33"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my brother",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a34"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my brother Arun",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a35"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "scan",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a36"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "one sentence",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a37"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "one paragraph",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a38"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "rollback window",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a39"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "parser",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a40"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Priya",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a41"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Omar",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a42"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a43"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Dr. Imani",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a44"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Tessa",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a45"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Arun",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_a46"
+    }
+  ],
+  "uncertainties": [
+    "Is 'copied one sentence...' an action of the journal author or a description of a task? Without context on who Omar, Priya are, or if this is a direct quote from the author, it's unclear if this describes a process. Assuming this describes the author's action, but it's more of a note or log entry. However, rule 2 says do not extract artifacts. Is a log entry an artifact? Rule 11 says wrap records inside candidate_records. The instruction says 'Extract only the journal author's candidate_records that are directly supported by this local work unit.' The text describes copying a sentence. This is an action. But is it a 'process'? It is a behaviour. However, is the text from the journal author? It's a narrative snippet. If it's a draft incident log, copying it is a behaviour. But often these snippets are just factual statements about the narrative. Without a clear 'I' or narrator voice in the snippet (like 'I copied'), it's hard to classify as a process. But rule 6 says 'Do not insert a missing I.' Rule 4 says 'Use exact contiguous text'. The text is 'copied one sentence...'. This is a verb phrase, implying an agent. In extraction tasks, this is often a process. So I should extract it as behaviour.",
+    "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit",
+    "Input fragment 'my manager' does not clearly describe an action, thought, emotion, or behavior of the journal author. It appears to be a reference to another person rather than a process of the author.",
+    "The work unit text 'deleted one paragraph' indicates a deletion rather than new content; no specific journal content to extract from this.",
+    "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+    "couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+    "The text 'crossed it out' describes an action but does not clearly indicate a journal author's internal thought, emotion, or process within the provided context. Without surrounding context, the agency of the action is ambiguous.",
+    "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+    "still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+    "The text 'I told him I was okay' describes an encounter or interaction rather than the author's internal process. While it could be considered an expression of emotion or state, the instructions specify extracting only the journal author's processes. The phrase describes an act of communication. However, the instructions also say not to extract artifacts or encounters. This statement is the author speaking. Is the act of speaking a 'behaviour'? Or is it an 'encounter'? Given rule 2, I must avoid extracting artifacts or encounters. Is this an encounter or an action? It is an action by the author. But the prompt says 'only the journal author's candidate_records that are directly supported by this local work unit'. And 'Do not extract artifacts or encounters in this task.' 'encounters' implies external events. 'artifacts' implies external items. The author speaking is their own action. Is it a behaviour? Yes. However, the rule also says 'Do not extract other people's actions, speech, or emotions'. This is the author's speech/action. But usually 'encounters' are treated as interactions with others. This is the author talking to someone. Let me check rule 2 again: 'Do not extract artifacts or encounters in this task.' If 'encounters' includes interactions with others, then 'I told him' is an encounter interaction. If it includes only the external event, maybe not. But the rule says 'Do not extract artifacts or encounters'. This text is purely the author communicating. If I consider this as a 'behaviour' (communication), is it allowed? The instruction says 'Extract only the journal author's candidate_records'. Usually, candidate records capture thoughts, emotions, behaviors, body. Speaking is a behavior. But the 'rule 2' might imply interactions are not to be extracted. 'I told him' describes the action of informing. This is the author's behavior. However, if the rule 'Do not extract artifacts or encounters' means 'interactions' are not allowed, then this is borderline. Let me lean towards not extracting it as an 'encounter' or 'interaction' since it's directed at another person, even though it's the author speaking. But is it an encounter? An encounter is usually a meeting or interaction. The statement itself is an account of a past interaction. But as a record of a process, it's the author's action of telling. If I treat 'telling' as 'behaviour', it might be valid. But rule 3 says 'Do not extract other people's actions...'. This is the author's action. So rule 3 doesn't block it. Rule 2 'Do not extract artifacts or encounters'. If 'encounters' is a specific category of text to exclude, and this is not an artifact, but is it an encounter? The phrase is the author reporting they told someone. It's a record of a behavior (communication). I will try to extract it as a behaviour since it describes the author's action. But wait, rule 2 might be interpreted as 'do not extract descriptions of events involving others'. 'I told him' involves 'him'. If 'encounter' implies interaction with others, maybe exclude. But let's check the examples or standard interpretation. Usually, 'encounters' refers to events outside the internal processing. 'I told him' is the author's behavior. However, if the goal is to extract internal states or specific actions, 'told him' is an action. But if 'encounters' includes talking to people, it should be excluded. I will exclude it based on 'Do not extract artifacts or encounters', interpreting 'encounter' as interaction with others. So, candidate_records should be empty.",
+    "uncertainties",
+    "The text 'did not call back' describes a failure to perform an action (calling back) but does not clearly attribute this action or its lack to the journal author. It could be an artifact (the recipient not calling back) or an unattributed action.",
+    "Process type not specified for the action of not texting; negated action context unclear.",
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan"
+  ]
+}

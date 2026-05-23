@@ -1,0 +1,13 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "Unclear whether 'the reply' constitutes an external event, a thought, or an emotion. 'I don't know' is an internal thought state.",
+    "I don't know whether the reply was for Maya, for the foundation, or just for me"
+  ]
+}

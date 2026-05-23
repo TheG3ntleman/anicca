@@ -1,0 +1,6 @@
+Thinking...
+{
+  "task": "Extract candidate_records from the local work unit.",
+  "work_unit_text": "The essay by Weil is still on my desk, and I keep reading the sentence about attention as if it could decide things for me."
+}
+

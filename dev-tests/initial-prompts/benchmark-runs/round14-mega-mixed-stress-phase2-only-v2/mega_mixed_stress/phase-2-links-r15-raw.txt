@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a17",
+      "relation_label": "at",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a20",
+      "relation_label": "at",
+      "relation_status": "explicit",
+      "supporting_text": "I couldn't tell whether I was angry at Eva, at the novel, or at the version of me",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

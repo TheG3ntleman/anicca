@@ -1,0 +1,19 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "opened the email draft to the foundation",
+      "notes": "opening email draft"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "stared at it without sending it",
+      "notes": "not sending email"
+    }
+  ],
+  "uncertainties": [
+    "distinguishing physical action from internal thought"
+  ]
+}
+

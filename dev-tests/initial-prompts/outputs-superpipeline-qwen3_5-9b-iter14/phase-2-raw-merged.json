@@ -1,0 +1,518 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "refers to",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message",
+      "notes": "Source text directly mentions the artifact",
+      "candidate_reference_id": "tmp_cr1"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "refers to",
+      "relation_status": "explicit",
+      "supporting_text": "appeal hearing",
+      "notes": "Source text directly mentions the artifact",
+      "candidate_reference_id": "tmp_cr2"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message about the appeal hearing",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr3"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message about the appeal hearing",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr4"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message about the appeal hearing",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr5"
+    },
+    {
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the revised budget spreadsheet",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr6"
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a5",
+      "relation_label": "printed",
+      "relation_status": "explicit",
+      "supporting_text": "printed the revised budget spreadsheet before the check-in with Dr",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr7"
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a7",
+      "relation_label": "supervisor",
+      "relation_status": "explicit",
+      "supporting_text": "Dr. Sen",
+      "notes": "directly refers to Dr. Sen",
+      "candidate_reference_id": "tmp_cr8"
+    },
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr9"
+    },
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a2",
+      "relation_label": "mentioned",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr10"
+    },
+    {
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a2",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "the message itself only said, \"we should talk before Friday.\"",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr11"
+    },
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr12"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a9",
+      "relation_label": "apology",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr13"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a6",
+      "relation_label": "apology",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr14"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a7",
+      "relation_label": "during",
+      "relation_status": "explicit",
+      "supporting_text": "during the donor call on Monday",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr15"
+    },
+    {
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "about the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr16"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a10",
+      "relation_label": "contains",
+      "relation_status": "explicit",
+      "supporting_text": "moment Leah laughed",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr17"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a11",
+      "relation_label": "mention",
+      "relation_status": "explicit",
+      "supporting_text": "Leah",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr18"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a10",
+      "relation_label": "replaying",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr19"
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a11",
+      "relation_label": "replaying",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr20"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a12",
+      "relation_label": "object",
+      "relation_status": "explicit",
+      "supporting_text": "slide with the broken chart",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr21"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a11",
+      "relation_label": "person",
+      "relation_status": "explicit",
+      "supporting_text": "Leah",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr22"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a12",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr23"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a11",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr24"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a13",
+      "relation_label": "refers to",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr25"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a20",
+      "relation_label": "same object as",
+      "relation_status": "ambiguous",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "draft reply implied by 'draft'",
+      "candidate_reference_id": "tmp_cr26"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a8",
+      "relation_label": "opened",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr27"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a13",
+      "relation_label": "action",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr28"
+    },
+    {
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a13",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "stared at it without sending it",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr29"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a14",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "hospital scan next week",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr30"
+    },
+    {
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a14",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan next week",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr31"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a18",
+      "relation_label": "read the note",
+      "relation_status": "explicit",
+      "supporting_text": "read the note about the hearing again",
+      "notes": "The source text mentions 'read the note about the hearing again' which directly links to the 'note about the hearing' artifact.",
+      "candidate_reference_id": "tmp_cr32"
+    },
+    {
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a18",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the hearing again",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr33"
+    },
+    {
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a18",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "read it again",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr34"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a11",
+      "relation_label": "hearing Leah say",
+      "relation_status": "explicit",
+      "supporting_text": "hearing Leah say",
+      "notes": "Leah is mentioned as speaking",
+      "candidate_reference_id": "tmp_cr35"
+    },
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a11",
+      "relation_label": "hearing",
+      "relation_status": "explicit",
+      "supporting_text": "kept hearing Leah say, \"just present the numbers",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr36"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a20",
+      "relation_label": "deleted draft",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "directly stated deletion",
+      "candidate_reference_id": "tmp_cr37"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a2",
+      "relation_label": "context of message",
+      "relation_status": "explicit",
+      "supporting_text": "draft reply to Maya's message",
+      "notes": "reply is to this message",
+      "candidate_reference_id": "tmp_cr38"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a19",
+      "relation_label": "deleted content",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply",
+      "notes": "paragraph was deleted",
+      "candidate_reference_id": "tmp_cr39"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a2",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr40"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a19",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr41"
+    },
+    {
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a3",
+      "relation_label": "deleted from",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr42"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a20",
+      "relation_label": "modified",
+      "relation_status": "explicit",
+      "supporting_text": "deleted one paragraph from the draft reply to Maya's message",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr43"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a19",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr44"
+    },
+    {
+      "from_candidate_id": "r25",
+      "to_candidate_id": "a20",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr45"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a3",
+      "relation_label": "recipient",
+      "relation_status": "explicit",
+      "supporting_text": "for Maya",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr46"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a8",
+      "relation_label": "recipient",
+      "relation_status": "explicit",
+      "supporting_text": "for the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr47"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr48"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr49"
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr50"
+    },
+    {
+      "from_candidate_id": "r27",
+      "to_candidate_id": "a20",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "the reply",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr51"
+    },
+    {
+      "from_candidate_id": "r27",
+      "to_candidate_id": "a3",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "Maya",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr52"
+    },
+    {
+      "from_candidate_id": "r27",
+      "to_candidate_id": "a8",
+      "relation_label": "mentions",
+      "relation_status": "explicit",
+      "supporting_text": "the foundation",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr53"
+    },
+    {
+      "from_candidate_id": "r27",
+      "to_candidate_id": "a3",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr54"
+    },
+    {
+      "from_candidate_id": "r27",
+      "to_candidate_id": "a8",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "",
+      "candidate_reference_id": "tmp_cr55"
+    },
+    {
+      "from_candidate_id": "r27",
+      "to_candidate_id": "a20",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "deterministic backfill",
+      "candidate_reference_id": "tmp_cr56"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether she had sent the message to warn me or to push me out",
+    "the message itself only said, \"we should talk before Friday.\"",
+    "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+    "stared at it without sending it",
+    "read it again",
+    "restored it",
+    "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+    "I don't know whether the reply was for Maya, for the foundation, or just for me"
+  ]
+}

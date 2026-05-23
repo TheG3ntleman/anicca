@@ -1,0 +1,77 @@
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "ref_1",
+      "from_candidate_id": "3",
+      "to_candidate_id": "1",
+      "relation_label": "replaying moment Leah laughed",
+      "relation_status": "ambiguous",
+      "supporting_text": "kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "Pronoun she in first part of sentence. Leah is the only named person in context that could be laughing at the protagonist, but text does not explicitly say Leah laughed at the slide. The slide is broken, which makes sense for the protagonist, but the laughing event itself is not tied to either target explicitly."
+    },
+    {
+      "candidate_reference_id": "ref_2",
+      "from_candidate_id": "4",
+      "to_candidate_id": "1",
+      "relation_label": "questioning why message was sent",
+      "relation_status": "explicit",
+      "supporting_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "The message sent by Maya (candidate 1) is the object of the verb sent in the thought process about its purpose. Pronoun she refers to Maya."
+    },
+    {
+      "candidate_reference_id": "ref_3",
+      "from_candidate_id": "11",
+      "to_candidate_id": "1",
+      "relation_label": "mentioned the appeal hearing",
+      "relation_status": "ambiguous",
+      "supporting_text": "my mother asked whether Dr. Sen had calmed me down",
+      "notes": "Candidate 1 (Maya's message about the appeal hearing) and candidate 3 (stomach tightened) are both thoughts/events connected to the same scene. Dr. Sen and Maya's message are linked by the mention of 'Dr. Sen had calmed me down' in relation to the event that preceded it. This link is indirect and thus ambiguous."
+    },
+    {
+      "candidate_reference_id": "ref_4",
+      "from_candidate_id": "18",
+      "to_candidate_id": "8",
+      "relation_label": "uncertain audience",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "The reply is explicitly linked to Maya's message and the email draft. The uncertainty is expressed explicitly."
+    },
+    {
+      "candidate_reference_id": "ref_5",
+      "from_candidate_id": "17",
+      "to_candidate_id": "1",
+      "relation_label": "deleted and restored paragraph",
+      "relation_status": "ambiguous",
+      "supporting_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it",
+      "notes": "The draft reply is mentioned in candidate 1 (Maya's message about the appeal hearing). This link is ambiguous due to the unresolved purpose of the reply."
+    },
+    {
+      "candidate_reference_id": "ref_6",
+      "from_candidate_id": "15",
+      "to_candidate_id": "1",
+      "relation_label": "read note about hearing",
+      "relation_status": "explicit",
+      "supporting_text": "On the ride home I read the note about the hearing again",
+      "notes": "Candidate 1 (Maya's message about the appeal hearing) and candidate 15 (reading the note) are directly linked by the text 'about the appeal hearing'."
+    },
+    {
+      "candidate_reference_id": "ref_7",
+      "from_candidate_id": "5",
+      "to_candidate_id": "1",
+      "relation_label": "admitting hadn't emailed",
+      "relation_status": "explicit",
+      "supporting_text": "During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation",
+      "notes": "The foundation is a separate candidate (candidate 2). The text supports an explicit link between 5 and the foundation."
+    },
+    {
+      "candidate_reference_id": "ref_8",
+      "from_candidate_id": "2",
+      "to_candidate_id": "5",
+      "relation_label": "printed spreadsheet",
+      "relation_status": "explicit",
+      "supporting_text": "I printed the revised budget spreadsheet before the check-in with Dr. Sen",
+      "notes": "Explicit link between the action of printing and the check-in."
+    }
+  ],
+  "uncertainties": []
+}

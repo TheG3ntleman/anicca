@@ -1,0 +1,19 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The provided text expresses a state of uncertainty about the location of a bug. This is a state of knowing (or not knowing) rather than a direct action or process like 'thought', 'emotion', 'behaviour', or 'body'. However, the text describes an internal realization or state, which could be mapped to the 'thought' process_type. The exact wording 'I still didn't know' indicates a lack of knowledge. The processes supported are the author's thoughts regarding the bug's location and their own state of uncertainty.",
+    "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+    "still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions"
+  ]
+}

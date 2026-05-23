@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a14",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"stability is a promise we make to strangers\" in the margin",
+      "notes": "The source text explicitly mentions writing on 'the margin', and the candidate record a14 is the artifact 'margin'."
+    }
+  ],
+  "uncertainties": []
+}
+

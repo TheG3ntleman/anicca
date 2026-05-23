@@ -1,0 +1,31 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a10",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a12",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a9",
+      "relation_label": "restored",
+      "relation_status": "ambiguous",
+      "supporting_text": "restored it",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "restored it"
+  ]
+}

@@ -1,0 +1,97 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a6",
+      "relation_label": "printed the revised budget spreadsheet",
+      "relation_status": "explicit",
+      "supporting_text": "printed the revised budget spreadsheet",
+      "notes": "Action of printing the spreadsheet artifact."
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a14",
+      "relation_label": "opened the email draft",
+      "relation_status": "explicit",
+      "supporting_text": "opened the email draft to the foundation",
+      "notes": "Action of opening the draft artifact."
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a14",
+      "relation_label": "stared at it without sending it",
+      "relation_status": "explicit",
+      "supporting_text": "stared at it without sending it",
+      "notes": "Action of staring at the draft artifact."
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a25",
+      "relation_label": "deleted one paragraph from the draft reply",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "Action of modifying the draft reply artifact."
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a25",
+      "relation_label": "restored it",
+      "relation_status": "explicit",
+      "supporting_text": "restored it",
+      "notes": "Action of restoring the paragraph in the draft reply artifact."
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "wondered whether she had sent the message",
+      "relation_status": "ambiguous",
+      "supporting_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "Thought about the message artifact and its sender."
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a11",
+      "relation_label": "replaying the moment Leah laughed",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed",
+      "notes": "Thinking about the encounter moment artifact."
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a15",
+      "relation_label": "wanted to cancel the hospital scan",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan next week",
+      "notes": "Thought about cancelling the scan procedure artifact."
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a15",
+      "relation_label": "knew the scan wasn't the thing",
+      "relation_status": "explicit",
+      "supporting_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "Thought about the scan procedure artifact."
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a4",
+      "relation_label": "deleted one paragraph from the draft reply to Maya's message",
+      "relation_status": "ambiguous",
+      "supporting_text": "I deleted one paragraph from the draft reply to Maya's message",
+      "notes": "Draft reply to Maya's message artifact."
+    }
+  ],
+  "uncertainties": []
+}
+

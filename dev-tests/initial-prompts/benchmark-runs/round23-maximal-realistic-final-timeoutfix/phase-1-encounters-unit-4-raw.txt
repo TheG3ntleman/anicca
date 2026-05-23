@@ -1,0 +1,16 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "I kept wondering whether she had forwarded the thread to shield me, to warn Omar, or to leave a record in case I quit"
+      ],
+      "notes": "Narrator speculates about her intent for forwarding a thread."
+    }
+  ],
+  "uncertainties": [
+    "Whether speculation about her intent counts as a substantial event-like episode"
+  ]
+}
+

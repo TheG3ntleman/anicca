@@ -1,0 +1,86 @@
+{
+  "case_id": "maximal_realistic_stress",
+  "description": "A highly mixed but realistic journal entry combining narrative events, reflective argument, explicit emotion, body sensations, technical debugging, literary recall, appositives, pronouns, negation, and medical uncertainty.",
+  "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round29-maximal-realistic-clean-no-text-overfit-live",
+  "phase_1_records": 29,
+  "phase_1_artifacts": 39,
+  "phase_2_references": 45,
+  "record_recall": 0.875,
+  "artifact_recall": 0.7742,
+  "reference_recall": 0.6667,
+  "overbroad_encounters": 0,
+  "unexpected_encounters": 0,
+  "composite_records": 0,
+  "weak_references": 7,
+  "missing_records": [
+    "I told him I was okay",
+    "I felt ashamed, furious, relieved, and unexpectedly lonely all at once",
+    "I don't",
+    "If I call back, it will be about the scan"
+  ],
+  "missing_artifacts": [
+    "draft incident log",
+    "my own project memo",
+    "risk table",
+    "last night's trace",
+    "rollback window",
+    "my assumptions",
+    "Maya"
+  ],
+  "missing_reference_pairs": [
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "draft incident log"
+    },
+    {
+      "record": "copied one sentence from the draft incident log into the reply to Omar",
+      "artifact": "Omar"
+    },
+    {
+      "record": "I opened the unsent reply to Lena",
+      "artifact": "Lena"
+    },
+    {
+      "record": "The rest of the evening was me arguing with my own project memo",
+      "artifact": "my own project memo"
+    },
+    {
+      "record": "compared the risk table to last night's trace",
+      "artifact": "risk table"
+    },
+    {
+      "record": "compared the risk table to last night's trace",
+      "artifact": "last night's trace"
+    },
+    {
+      "record": "circled the row about the rollback window",
+      "artifact": "rollback window"
+    },
+    {
+      "record": "I still didn't know whether the bug belonged in the cache, in the queue, in the parser, or in my assumptions",
+      "artifact": "my assumptions"
+    },
+    {
+      "record": "I told him I was okay",
+      "artifact": "my brother Arun"
+    },
+    {
+      "record": "I missed Maya",
+      "artifact": "Maya"
+    },
+    {
+      "record": "I did not text her",
+      "artifact": "Maya"
+    },
+    {
+      "record": "If I call back, it will be about the scan",
+      "artifact": "scan"
+    }
+  ],
+  "forbidden_records_present": [],
+  "forbidden_artifacts_present": [
+    "reply"
+  ],
+  "forbidden_reference_hits": [],
+  "score": 54.6882
+}

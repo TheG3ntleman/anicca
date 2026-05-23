@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wants a clean principle; part of me only wants relief.",
+      "notes": "Internal conflict regarding principle versus relief"
+    }
+  ],
+  "uncertainties": []
+}
+

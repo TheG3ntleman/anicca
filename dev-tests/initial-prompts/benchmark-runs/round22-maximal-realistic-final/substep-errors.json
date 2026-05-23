@@ -1,0 +1,10 @@
+[
+  {
+    "substep": "phase-1-records-unit-13",
+    "error": "Command '['ollama', 'run', 'qwen3.5:9b', '--think', 'false', '--format', 'json']' timed out after 120 seconds"
+  },
+  {
+    "substep": "phase-1-records-unit-26",
+    "error": "Command '['ollama', 'run', 'qwen3.5:9b', '--think', 'false', '--format', 'json']' timed out after 120 seconds"
+  }
+]

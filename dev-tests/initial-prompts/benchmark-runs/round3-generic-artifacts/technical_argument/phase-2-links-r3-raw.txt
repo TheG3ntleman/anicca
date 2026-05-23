@@ -1,0 +1,3 @@
+Thinking...
+{"error": "Missing required fields or invalid values", "type": "missing_field", "msg": "Required field 'candidate_references' is missing or null."}
+

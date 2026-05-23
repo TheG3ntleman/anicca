@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote the first proposal for it",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

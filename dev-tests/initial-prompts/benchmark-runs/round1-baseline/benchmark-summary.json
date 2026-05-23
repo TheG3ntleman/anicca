@@ -1,0 +1,282 @@
+{
+  "run_label": "round1-baseline",
+  "model": "qwen3.5:9b",
+  "aggregate": {
+    "case_count": 5,
+    "ok_count": 3,
+    "avg_score": 8.5184,
+    "avg_record_recall": 0.1935,
+    "avg_artifact_recall": 0.2667,
+    "avg_reference_recall": 0.0556,
+    "total_missing_records": 28,
+    "total_missing_artifacts": 22,
+    "total_missing_reference_pairs": 30
+  },
+  "results": [
+    {
+      "case_id": "incident_mediation",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round1-baseline/incident_mediation",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Narrative incident with repeated reading, apology, pronouns, and reply ambiguity.",
+      "phase_1_records": 6,
+      "phase_1_artifacts": 4,
+      "phase_2_references": 1,
+      "record_recall": 0.3077,
+      "artifact_recall": 0.2727,
+      "reference_recall": 0.0,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "I reread Nora's email about the mediation",
+        "printed the calendar invite",
+        "I kept wondering whether she was warning me or documenting me",
+        "I apologized for going blank during last week's site visit",
+        "I read the note about the leak again",
+        "kept hearing Omar say, \"just send the estimate.\"",
+        "I opened the draft reply to Nora",
+        "deleted one sentence",
+        "still didn't know whether the reply was for Nora, for Omar, or just for me"
+      ],
+      "missing_artifacts": [
+        "Nora",
+        "Nora's email",
+        "mediation",
+        "meeting with Omar",
+        "Omar",
+        "contractor",
+        "site visit",
+        "one sentence"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I reread Nora's email about the mediation",
+          "artifact": "Nora's email"
+        },
+        {
+          "record": "I reread Nora's email about the mediation",
+          "artifact": "mediation"
+        },
+        {
+          "record": "I kept wondering whether she was warning me or documenting me",
+          "artifact": "Nora's email"
+        },
+        {
+          "record": "I admitted I still hadn't called the contractor",
+          "artifact": "contractor"
+        },
+        {
+          "record": "I apologized for going blank during last week's site visit",
+          "artifact": "site visit"
+        },
+        {
+          "record": "I read the note about the leak again",
+          "artifact": "note about the leak"
+        },
+        {
+          "record": "kept hearing Omar say, \"just send the estimate.\"",
+          "artifact": "Omar"
+        },
+        {
+          "record": "I opened the draft reply to Nora",
+          "artifact": "draft reply to Nora"
+        },
+        {
+          "record": "deleted one sentence",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "deleted one sentence",
+          "artifact": "draft reply to Nora"
+        },
+        {
+          "record": "restored it",
+          "artifact": "one sentence"
+        },
+        {
+          "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+          "artifact": "Nora"
+        },
+        {
+          "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+          "artifact": "Omar"
+        },
+        {
+          "record": "still didn't know whether the reply was for Nora, for Omar, or just for me",
+          "artifact": "draft reply to Nora"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 12.6259
+    },
+    {
+      "case_id": "reflective_beliefs",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round1-baseline/reflective_beliefs",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Reflective journal text with beliefs, self-argument, and no real encounters.",
+      "phase_1_records": 7,
+      "phase_1_artifacts": 2,
+      "phase_2_references": 2,
+      "record_recall": 0.2727,
+      "artifact_recall": 0.1429,
+      "reference_recall": 0.1667,
+      "overbroad_encounters": 1,
+      "unexpected_encounters": 1,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "I keep telling myself that consistency matters more than sincerity",
+        "I don't believe that all the way through",
+        "crossed them out",
+        "rewrote the last line",
+        "I am not angry at Mira",
+        "I keep insisting that I'm not angry",
+        "What I actually feel is smaller and sharper than that, more like embarrassment",
+        "I keep reading the sentence about attention as if it could decide things for me"
+      ],
+      "missing_artifacts": [
+        "freedom",
+        "last line",
+        "Mira",
+        "essay by Weil",
+        "Weil",
+        "sentence about attention"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "I wrote three lines in the notebook about freedom",
+          "artifact": "freedom"
+        },
+        {
+          "record": "rewrote the last line",
+          "artifact": "last line"
+        },
+        {
+          "record": "I am not angry at Mira",
+          "artifact": "Mira"
+        },
+        {
+          "record": "I keep reading the sentence about attention as if it could decide things for me",
+          "artifact": "sentence about attention"
+        },
+        {
+          "record": "I keep reading the sentence about attention as if it could decide things for me",
+          "artifact": "essay by Weil"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 6.3139
+    },
+    {
+      "case_id": "story_and_self",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round1-baseline/story_and_self",
+      "runner_exit_code": 1,
+      "status": "runner_failed",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 972, in <module>\n    main()\n    ~~~~^^\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 849, in main\n    records_payload, error = safe_run_substep(\n                             ~~~~~~~~~~~~~~~~^\n        args.model,\n        ^^^^^^^^^^^\n    ...<8 lines>...\n        timeout_sec=args.ollama_timeout_sec,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 251, in safe_run_substep\n    raw = run_ollama(model, request, think, stream, stage_name, timeout_sec=timeout_sec)\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_ollama_pipeline.py\", line 810, in run_ollama\n    completed = subprocess.run(\n        [\"ollama\", \"run\", model, \"--think\", think_mode, \"--format\", \"json\"],\n    ...<4 lines>...\n        timeout=timeout_sec,\n    )\n  File \"/home/abhirath/miniconda3/lib/python3.13/subprocess.py\", line 558, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhirath/miniconda3/lib/python3.13/subprocess.py\", line 1221, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhirath/miniconda3/lib/python3.13/subprocess.py\", line 2131, in _communicate\n    self._check_timeout(endtime, orig_timeout, stdout, stderr)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhirath/miniconda3/lib/python3.13/subprocess.py\", line 1265, in _check_timeout\n    raise TimeoutExpired(\n    ...<2 lines>...\n            stderr=b''.join(stderr_seq) if stderr_seq else None)\nsubprocess.TimeoutExpired: Command '['ollama', 'run', 'qwen3.5:9b', '--think', 'false', '--format', 'json']' timed out after 90 seconds\n"
+    },
+    {
+      "case_id": "technical_argument",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round1-baseline/technical_argument",
+      "runner_exit_code": 0,
+      "status": "ok",
+      "description": "Technical self-argument with documents, traces, review, and unsent follow-up.",
+      "phase_1_records": 5,
+      "phase_1_artifacts": 6,
+      "phase_2_references": 5,
+      "record_recall": 0.0,
+      "artifact_recall": 0.3846,
+      "reference_recall": 0.0,
+      "overbroad_encounters": 0,
+      "unexpected_encounters": 0,
+      "composite_records": 0,
+      "weak_references": 0,
+      "missing_records": [
+        "Most of today was me arguing with my own design memo",
+        "I still think the caching layer is the wrong fix",
+        "I wrote the first proposal for it",
+        "I compared the latency graph with yesterday's trace",
+        "circled the spike near authentication",
+        "added a note that the queue only looks healthy because the retries are hidden",
+        "I said the benchmark was misleading",
+        "I wasn't calm when I said it",
+        "I reopened the benchmark report",
+        "stared at the throughput table",
+        "didn't send the follow-up message"
+      ],
+      "missing_artifacts": [
+        "caching layer",
+        "first proposal",
+        "spike near authentication",
+        "note",
+        "code review with Priya",
+        "Priya",
+        "throughput table",
+        "follow-up message"
+      ],
+      "missing_reference_pairs": [
+        {
+          "record": "Most of today was me arguing with my own design memo",
+          "artifact": "design memo"
+        },
+        {
+          "record": "I still think the caching layer is the wrong fix",
+          "artifact": "caching layer"
+        },
+        {
+          "record": "I wrote the first proposal for it",
+          "artifact": "first proposal"
+        },
+        {
+          "record": "I compared the latency graph with yesterday's trace",
+          "artifact": "latency graph"
+        },
+        {
+          "record": "I compared the latency graph with yesterday's trace",
+          "artifact": "yesterday's trace"
+        },
+        {
+          "record": "circled the spike near authentication",
+          "artifact": "spike near authentication"
+        },
+        {
+          "record": "added a note that the queue only looks healthy because the retries are hidden",
+          "artifact": "note"
+        },
+        {
+          "record": "I said the benchmark was misleading",
+          "artifact": "benchmark"
+        },
+        {
+          "record": "I reopened the benchmark report",
+          "artifact": "benchmark report"
+        },
+        {
+          "record": "stared at the throughput table",
+          "artifact": "throughput table"
+        },
+        {
+          "record": "didn't send the follow-up message",
+          "artifact": "follow-up message"
+        }
+      ],
+      "forbidden_records_present": [],
+      "forbidden_artifacts_present": [],
+      "forbidden_reference_hits": [],
+      "score": 6.6154
+    },
+    {
+      "case_id": "trick_fragments",
+      "output_dir": "/home/abhirath/Art/anicca/dev-tests/initial-prompts/benchmark-runs/round1-baseline/trick_fragments",
+      "runner_exit_code": 1,
+      "status": "runner_failed",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 972, in <module>\n    main()\n    ~~~~^^\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 849, in main\n    records_payload, error = safe_run_substep(\n                             ~~~~~~~~~~~~~~~~^\n        args.model,\n        ^^^^^^^^^^^\n    ...<8 lines>...\n        timeout_sec=args.ollama_timeout_sec,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_superpipeline_1_2_3.py\", line 251, in safe_run_substep\n    raw = run_ollama(model, request, think, stream, stage_name, timeout_sec=timeout_sec)\n  File \"/home/abhirath/Art/anicca/dev-tests/initial-prompts/run_ollama_pipeline.py\", line 810, in run_ollama\n    completed = subprocess.run(\n        [\"ollama\", \"run\", model, \"--think\", think_mode, \"--format\", \"json\"],\n    ...<4 lines>...\n        timeout=timeout_sec,\n    )\n  File \"/home/abhirath/miniconda3/lib/python3.13/subprocess.py\", line 558, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhirath/miniconda3/lib/python3.13/subprocess.py\", line 1221, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhirath/miniconda3/lib/python3.13/subprocess.py\", line 2131, in _communicate\n    self._check_timeout(endtime, orig_timeout, stdout, stderr)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhirath/miniconda3/lib/python3.13/subprocess.py\", line 1265, in _check_timeout\n    raise TimeoutExpired(\n    ...<2 lines>...\n            stderr=b''.join(stderr_seq) if stderr_seq else None)\nsubprocess.TimeoutExpired: Command '['ollama', 'run', 'qwen3.5:9b', '--think', 'false', '--format', 'json']' timed out after 90 seconds\n"
+    }
+  ]
+}

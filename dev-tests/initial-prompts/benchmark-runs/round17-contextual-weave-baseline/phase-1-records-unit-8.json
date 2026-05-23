@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The provided work unit text is not valid journal text; it states 'deleted one sentence' which contains no author processes."
+  ]
+}

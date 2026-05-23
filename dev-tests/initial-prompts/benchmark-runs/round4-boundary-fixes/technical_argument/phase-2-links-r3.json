@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a2",
+      "relation_label": "critique",
+      "relation_status": "explicit",
+      "supporting_text": "I still think the caching layer is the wrong fix",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "creation",
+      "relation_status": "explicit",
+      "supporting_text": "first proposal",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

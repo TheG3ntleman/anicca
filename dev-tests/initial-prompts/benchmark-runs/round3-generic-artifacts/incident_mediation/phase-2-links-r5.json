@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r5",
+      "to_candidate_id": "a6",
+      "relation_label": "context",
+      "relation_status": "ambiguous",
+      "supporting_text": "meeting with Omar",
+      "notes": "meeting mentioned in meeting context, but source text only states jaw tight"
+    }
+  ],
+  "uncertainties": []
+}

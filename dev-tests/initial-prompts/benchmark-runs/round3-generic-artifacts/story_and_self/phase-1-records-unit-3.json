@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I texted Lina to say the book was getting under my skin",
+      "notes": "author's internal assessment of emotional state"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I deleted the message instead of sending it",
+      "notes": "author's action of deleting message"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I texted Lina to say the book was getting under my skin, then deleted the message instead of sending it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted the message instead of sending it",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

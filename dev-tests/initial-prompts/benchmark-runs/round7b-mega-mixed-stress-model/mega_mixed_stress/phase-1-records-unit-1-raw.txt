@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "On Monday I reread Priya's message about the ethics review",
+      "notes": "author reread a message"
+    }
+  ],
+  "uncertainties": []
+}
+

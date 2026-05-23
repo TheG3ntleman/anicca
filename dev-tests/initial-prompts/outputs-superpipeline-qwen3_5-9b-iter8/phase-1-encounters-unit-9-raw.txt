@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_artifacts":[{"artifact_kind":"encounter","source_texts":["On the ride home I read the note about the hearing again, then read it again, and kept hearing Leah say, \"just present the numbers.\""],"notes":"Reflecting on a note about an upcoming hearing while riding home, hearing Leah's instructions repeating in mind."}],"uncertainties":[] }
+

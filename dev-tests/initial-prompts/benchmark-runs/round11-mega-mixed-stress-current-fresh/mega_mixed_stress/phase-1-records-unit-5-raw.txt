@@ -1,0 +1,10 @@
+Thinking...
+{
+  "thought": "The user wants me to extract candidate_records from the provided text snippet. The snippet is 'During the call with Martin, the CTO'. I need to check if this text describes the journal author's process (thought, emotion, behaviour, body). The text describes an event or context ('During the call...') but does not contain an explicit action, feeling, thought, or physical movement attributed to the author. It mentions 'Martin' and 'CTO' which are not the author. Therefore, no candidate_records can be extracted based on the rules. I will return an empty list for records and check if there are uncertainties. Since the text is a fragment and doesn't clearly describe a process, I'll note that. However, the rule 14 says if unsure, return empty. But here it's clear there's no process. So I'll output the JSON with empty lists.",
+  "plan": "1. Analyze the text for author processes. 2. Identify if any thoughts, emotions, behaviors, or body actions of the author are present. 3. Determine if 'Martin, the CTO' refers to the author. 4. If no author process is found, return empty lists. 5. Format the JSON response.",
+  "output": {
+    "candidate_records": [],
+    "uncertainties": ["text is a fragment describing a context without explicit author process"]
+  }
+}
+

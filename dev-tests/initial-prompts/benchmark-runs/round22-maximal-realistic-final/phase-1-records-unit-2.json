@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "copied one sentence from the draft incident log into the reply to Omar before the meeting with Priya",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "Is 'copied one sentence...' an action of the journal author or a description of a task? Without context on who Omar, Priya are, or if this is a direct quote from the author, it's unclear if this describes a process. Assuming this describes the author's action, but it's more of a note or log entry. However, rule 2 says do not extract artifacts. Is a log entry an artifact? Rule 11 says wrap records inside candidate_records. The instruction says 'Extract only the journal author's candidate_records that are directly supported by this local work unit.' The text describes copying a sentence. This is an action. But is it a 'process'? It is a behaviour. However, is the text from the journal author? It's a narrative snippet. If it's a draft incident log, copying it is a behaviour. But often these snippets are just factual statements about the narrative. Without a clear 'I' or narrator voice in the snippet (like 'I copied'), it's hard to classify as a process. But rule 6 says 'Do not insert a missing I.' Rule 4 says 'Use exact contiguous text'. The text is 'copied one sentence...'. This is a verb phrase, implying an agent. In extraction tasks, this is often a process. So I should extract it as behaviour."
+  ]
+}

@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "During the meeting with Priya, my manager",
+      "notes": "The text is incomplete and does not contain a clear process or action by the journal author. It describes a situation rather than an internal process."
+    }
+  ],
+  "uncertainties": [
+    "The source text is incomplete and lacks a clear process or action by the journal author."
+  ]
+}
+

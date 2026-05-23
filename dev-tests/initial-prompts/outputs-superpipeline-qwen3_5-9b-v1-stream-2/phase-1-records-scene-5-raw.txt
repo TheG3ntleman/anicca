@@ -1,0 +1,19 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "On the ride home I read the note about the hearing again, then read it again",
+      "notes": "author repeatedly reads the note"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "kept hearing Leah say",
+      "notes": "author experiences a persistent internal thought of Leah speaking"
+    }
+  ],
+  "uncertainties": [
+    ""
+  ]
+}
+

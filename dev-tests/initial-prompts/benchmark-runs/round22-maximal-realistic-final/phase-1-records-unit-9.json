@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during Tuesday's intake interview",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

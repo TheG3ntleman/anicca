@@ -1,0 +1,4 @@
+Thinking...
+{"status":"success","response":"{\"candidate_artifacts\":[],\"uncertainties\":[]}\""
+}
+

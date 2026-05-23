@@ -1,0 +1,27 @@
+Thinking...
+{
+
+"candidate_artifacts": [
+
+{
+
+"artifact_kind": "encounter",
+
+"source_texts": [
+
+"we should talk before Friday."
+
+],
+
+"notes": "Maya's message content indicating an upcoming conversation."
+
+}
+
+],
+
+"uncertainties": ["Whether Maya's message was intended as a warning or a push-out."
+
+]
+
+}
+

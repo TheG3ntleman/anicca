@@ -1,0 +1,136 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she had sent the message to warn me or to push me out",
+      "notes": "Internal deliberation about motivation"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "body",
+      "source_text": "my stomach tightened",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "emotion",
+      "source_text": "I wanted to cancel the hospital scan next week",
+      "notes": "Desire expressed"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "thought",
+      "source_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "Internal judgment about fear"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": "Physical sensation"
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "emotion",
+      "source_text": "I was fine, but I wasn't fine",
+      "notes": "Contradictory self-report of emotional state"
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "emotion",
+      "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "Expression of uncertainty"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the check-in with Dr. Sen, my supervisor",
+        "the meeting"
+      ],
+      "notes": "Meeting with supervisor"
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "dinner with my parents",
+        "the check-in with Dr. Sen, my supervisor"
+      ],
+      "notes": "Dinner with family"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "the donor call on Monday",
+        "the call"
+      ],
+      "notes": "Previous event referenced"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "Maya's message about the appeal hearing",
+      "notes": "Message from Maya"
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "the revised budget spreadsheet",
+      "notes": "Document referenced"
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "the mug",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "object",
+      "source_text": "my laptop",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "object",
+      "source_text": "the email draft to the foundation",
+      "notes": "Draft message"
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "the hospital scan",
+      "notes": "Procedure referenced"
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "the note about the hearing",
+      "notes": "Note read repeatedly"
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "Leah",
+      "notes": "Person referenced"
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "object",
+      "source_text": "the slide with the broken chart",
+      "notes": ""
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "the draft reply to Maya's message",
+      "notes": "Draft message edited"
+    }
+  ],
+  "uncertainties": []
+}

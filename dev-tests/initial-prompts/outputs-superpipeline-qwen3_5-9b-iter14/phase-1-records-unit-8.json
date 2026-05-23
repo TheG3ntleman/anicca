@@ -1,0 +1,23 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I told them I was fine",
+      "notes": ""
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't fine",
+      "notes": ""
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "Is 'I told them' part of the author's process or the narrative description of an interaction?",
+    "Is the first clause 'I told them I was fine' a process or a report of an action?"
+  ]
+}

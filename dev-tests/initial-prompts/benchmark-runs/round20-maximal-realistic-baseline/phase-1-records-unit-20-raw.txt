@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "circled the row about the rollback window.",
+  "notes": "author action indicating attention to a specific detail."
+}
+

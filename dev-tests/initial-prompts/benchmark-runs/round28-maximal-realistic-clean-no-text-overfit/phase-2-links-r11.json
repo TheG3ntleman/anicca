@@ -1,0 +1,31 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a25",
+      "relation_label": "wrote on",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a26",
+      "relation_label": "wrote on",
+      "relation_status": "ambiguous",
+      "supporting_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a27",
+      "relation_label": "wrote on",
+      "relation_status": "ambiguous",
+      "supporting_text": "I wrote \"clarity is a promise we make to strangers\" in the margin",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "I wrote \"clarity is a promise we make to strangers\" in the margin"
+  ]
+}

@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a20",
+      "relation_label": "identifies",
+      "relation_status": "explicit",
+      "supporting_text": "Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it.",
+      "notes": "The source record directly quotes and describes the artifact."
+    }
+  ],
+  "uncertainties": []
+}
+

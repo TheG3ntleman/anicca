@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it.",
+      "notes": "Author expresses lack of calmness during an utterance."
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I said it",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

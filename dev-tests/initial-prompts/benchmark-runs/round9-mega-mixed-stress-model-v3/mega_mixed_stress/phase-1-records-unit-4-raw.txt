@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "my throat tightened when the message itself only said, \"we should talk before noon.\"",
+  "notes": "Author describes physical sensation in throat"
+}
+

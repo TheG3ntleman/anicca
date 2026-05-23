@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text describes an external action (listening to voicemail) rather than the author's internal processes (thought, emotion, behaviour, body)."]
+}
+

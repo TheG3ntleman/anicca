@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "Fragmentary input ends abruptly without a complete thought or action to extract."
+  ]
+}

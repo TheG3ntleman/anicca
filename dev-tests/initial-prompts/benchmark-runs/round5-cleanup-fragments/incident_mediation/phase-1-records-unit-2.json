@@ -1,0 +1,17 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me.",
+      "notes": "Author reflects on their own thought process regarding another person's intent."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I kept wondering whether she was warning me or documenting me",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I kept wondering whether she was warning me or documenting me"
+  ]
+}

@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I told him I was okay, I wasn't.",
+      "process_type": "behaviour",
+      "notes": "Author's action of speaking truthfully then contradicting it."
+    }
+  ],
+  "uncertainties": []
+}
+

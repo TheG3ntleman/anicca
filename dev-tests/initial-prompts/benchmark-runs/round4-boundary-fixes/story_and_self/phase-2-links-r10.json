@@ -1,0 +1,21 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a11",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a1",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

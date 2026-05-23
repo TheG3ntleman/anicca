@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a20",
+      "relation_label": "response_to_message",
+      "relation_status": "ambiguous",
+      "supporting_text": "",
+      "notes": "source record discusses message but no explicit link to artifact a20"
+    }
+  ],
+  "uncertainties": ["source text mentions message but artifact a2 is message itself, not response; a20 is draft reply but not explicitly supported"]
+}
+

@@ -1,0 +1,7 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["Process type not specified for the action of not texting; negated action context unclear."],
+  "notes": "Fragmentary text with negated action; no clear process type assigned per allowed values."
+}
+

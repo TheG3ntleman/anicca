@@ -1,0 +1,35 @@
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Lena's email",
+      "notes": "Email regarding an ethics complaint and a request to talk before noon."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "draft incident log",
+      "notes": "Draft document from which a sentence was copied for an email reply."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "unsent reply to Lena",
+      "notes": "Email reply that was opened, edited, and not sent."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "project memo",
+      "notes": "Document the narrator argued with, annotated, and edited."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "risk table",
+      "notes": "Risk table compared to a trace from the previous night."
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "last night's trace",
+      "notes": "Trace from the previous night that was compared to the risk table."
+    }
+  ],
+  "uncertainties": []
+}

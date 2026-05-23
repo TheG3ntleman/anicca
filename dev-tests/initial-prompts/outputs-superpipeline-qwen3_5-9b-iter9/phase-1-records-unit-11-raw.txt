@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "I don't know whether the reply was for Maya, for the foundation, or just for me.",
+  "notes": "Author expresses uncertainty about the recipient or intent of a reply."
+}
+

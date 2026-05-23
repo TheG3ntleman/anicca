@@ -1,0 +1,15 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a38",
+      "relation_label": "about",
+      "relation_status": "ambiguous",
+      "supporting_text": "part of me wanted it to be about nothing medical at all",
+      "notes": "deterministic backfill"
+    }
+  ],
+  "uncertainties": [
+    "part of me wanted it to be about nothing medical at all"
+  ]
+}

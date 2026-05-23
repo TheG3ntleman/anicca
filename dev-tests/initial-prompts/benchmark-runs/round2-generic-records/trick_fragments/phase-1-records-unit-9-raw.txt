@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "emotion",
+  "source_text": "I am tired of how both options feel like the same answer.",
+  "notes": ""
+}
+

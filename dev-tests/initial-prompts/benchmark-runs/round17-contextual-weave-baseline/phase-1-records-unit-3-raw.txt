@@ -1,0 +1,3 @@
+Thinking...
+{"process_type":"emotion","source_text":"my chest tightened when the note itself only said, \"we need to talk before lunch.\"", "notes":""}
+

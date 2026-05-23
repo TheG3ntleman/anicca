@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I told them I was fine, but I wasn't fine and I could barely swallow.",
+      "notes": "Author expresses internal emotional state conflicting with outward appearance, supported by physical symptom of swallowing difficulty."
+    }
+  ],
+  "uncertainties": []
+}
+

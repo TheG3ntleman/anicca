@@ -1,0 +1,17 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "object",
+      "source_text": "Lina",
+      "notes": "Recipient of text message"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "chapter seven",
+      "notes": "Section of the novel underlined"
+    }
+  ],
+  "uncertainties": []
+}
+

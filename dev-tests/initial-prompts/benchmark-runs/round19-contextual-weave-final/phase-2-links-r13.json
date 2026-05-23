@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a19",
+      "relation_label": "written in",
+      "relation_status": "explicit",
+      "supporting_text": "I wrote \"stability is a promise we make to strangers\" in the margin",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "I admitted I still hadn't sent the correction memo to the vendor",
+  "notes": "author admits to not sending correction memo"
+}
+

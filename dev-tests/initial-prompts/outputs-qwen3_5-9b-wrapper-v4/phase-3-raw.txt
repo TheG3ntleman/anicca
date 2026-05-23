@@ -1,0 +1,133 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "reread message",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message",
+      "notes": "direct action on artifact"
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r2",
+      "to_candidate_id": "a1",
+      "relation_label": "wondering about warning",
+      "relation_status": "ambiguous",
+      "supporting_text": "whether she had sent the message to warn me",
+      "notes": "questioning intent behind artifact"
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a10",
+      "relation_label": "emailed foundation",
+      "relation_status": "ambiguous",
+      "supporting_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "mention of action on artifact"
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a5",
+      "relation_label": "replaying Leah's laugh",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed",
+      "notes": "internal replay of person"
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a5",
+      "relation_label": "interpreting Leah's laugh",
+      "relation_status": "explicit",
+      "supporting_text": "whether she was laughing at me or at the slide",
+      "notes": "uncertainty about person's intent"
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a7",
+      "relation_label": "interpreting laugh target",
+      "relation_status": "explicit",
+      "supporting_text": "whether she was laughing at me or at the slide with the broken chart",
+      "notes": "alternative target for laugh"
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a11",
+      "relation_label": "wanted to cancel scan",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan",
+      "notes": "desire regarding artifact"
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a11",
+      "relation_label": "scan not fear object",
+      "relation_status": "explicit",
+      "supporting_text": "the scan wasn't the thing I was really afraid of",
+      "notes": "reappraisal of fear"
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a8",
+      "relation_label": "mug beside laptop",
+      "relation_status": "ambiguous",
+      "supporting_text": "I put the mug beside my laptop",
+      "notes": "placement action"
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a9",
+      "relation_label": "mug beside laptop",
+      "relation_status": "ambiguous",
+      "supporting_text": "I put the mug beside my laptop",
+      "notes": "adjacent item"
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a16",
+      "relation_label": "deleted from draft",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph from the draft reply",
+      "notes": "editing action"
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a17",
+      "relation_label": "deleted one paragraph",
+      "relation_status": "explicit",
+      "supporting_text": "I deleted one paragraph",
+      "notes": "removed text segment"
+    },
+    {
+      "candidate_reference_id": "cr13",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a16",
+      "relation_label": "restored from draft",
+      "relation_status": "explicit",
+      "supporting_text": "and then restored it",
+      "notes": "undid deletion"
+    },
+    {
+      "candidate_reference_id": "cr14",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a16",
+      "relation_label": "reply intended recipient",
+      "relation_status": "ambiguous",
+      "supporting_text": "I don't know whether the reply was for Maya, for the foundation, or just for me",
+      "notes": "uncertainty about audience"
+    }
+  ],
+  "uncertainties": []
+}
+

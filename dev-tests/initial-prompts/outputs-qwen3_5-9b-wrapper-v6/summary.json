@@ -1,0 +1,13 @@
+{
+  "model": "qwen3.5:9b",
+  "phase_2_candidate_records": 22,
+  "phase_2_candidate_artifacts": 26,
+  "phase_3_candidate_references": 26,
+  "phase_4_candidate_records": 22,
+  "phase_4_candidate_artifacts": 26,
+  "phase_4_candidate_references": 26,
+  "phase_4_removed_items": 0,
+  "phase_4_soft_groups": 0,
+  "phase_4_fallback_used": false,
+  "phase_4_mode": "deterministic"
+}

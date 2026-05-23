@@ -1,0 +1,13 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r8",
+      "to_candidate_id": "a9",
+      "relation_label": "said about",
+      "relation_status": "explicit",
+      "supporting_text": "I said the benchmark was misleading",
+      "notes": "direct mention of benchmark in context of said"
+    }
+  ],
+  "uncertainties": []
+}

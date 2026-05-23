@@ -1,0 +1,20 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "I texted Lina to say the book was getting under my skin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "body",
+      "source_text": "then deleted the message",
+      "notes": "The author deletes the text message"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted the message instead of sending it",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

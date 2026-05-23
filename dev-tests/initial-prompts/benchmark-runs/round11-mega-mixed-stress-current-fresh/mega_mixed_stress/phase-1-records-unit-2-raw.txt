@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "printed the latency report before the call with Martin, the CTO.",
+      "notes": "Physical action of printing a document."
+    }
+  ],
+  "uncertainties": []
+}
+

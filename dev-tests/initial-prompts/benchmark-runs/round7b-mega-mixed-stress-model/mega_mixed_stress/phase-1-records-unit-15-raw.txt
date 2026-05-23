@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The phrase 'crossed it out' refers to an action taken on previous text, but does not clearly describe a current process (thought, emotion, behaviour, body) of the author without additional context."]
+}
+

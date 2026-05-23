@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I don't.",
+      "notes": "Direct author expression of thought process."
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,39 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a3",
+      "relation_label": "recipient_of",
+      "relation_status": "explicit",
+      "supporting_text": "Maya",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a8",
+      "relation_label": "recipient_of",
+      "relation_status": "explicit",
+      "supporting_text": "foundation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a13",
+      "relation_label": "contextual_mention",
+      "relation_status": "ambiguous",
+      "supporting_text": "for the foundation",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r26",
+      "to_candidate_id": "a20",
+      "relation_label": "contextual_mention",
+      "relation_status": "ambiguous",
+      "supporting_text": "for Maya",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

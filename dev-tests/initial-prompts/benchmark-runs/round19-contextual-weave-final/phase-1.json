@@ -1,0 +1,359 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "behaviour",
+      "source_text": "I reread Jonah's note about the audit appeal",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r2",
+      "process_type": "behaviour",
+      "source_text": "copied two figures from the draft budget into the email to Mara",
+      "notes": "trimmed trailing context"
+    },
+    {
+      "candidate_id": "r3",
+      "process_type": "thought",
+      "source_text": "I kept wondering whether he had sent the note to protect me, to warn Mara, or to pin the delay on me",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r4",
+      "process_type": "body",
+      "source_text": "my chest tightened",
+      "notes": "trimmed trailing context"
+    },
+    {
+      "candidate_id": "r5",
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the correction memo to the vendor",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r6",
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during Friday's client walkthrough",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r7",
+      "process_type": "behaviour",
+      "source_text": "I opened the unsent reply to Jonah",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r8",
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r9",
+      "process_type": "behaviour",
+      "source_text": "restored it",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r10",
+      "process_type": "thought",
+      "source_text": "kept hearing Noor laugh from the scene in the essay where the child drops the bowl",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r11",
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r12",
+      "process_type": "thought",
+      "source_text": "The rest of the evening was me arguing with my own roadmap",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r13",
+      "process_type": "behaviour",
+      "source_text": "I wrote \"stability is a promise we make to strangers\" in the margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r14",
+      "process_type": "behaviour",
+      "source_text": "crossed it out",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r15",
+      "process_type": "behaviour",
+      "source_text": "rewrote the last line",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r16",
+      "process_type": "behaviour",
+      "source_text": "compared the failure table to last night's trace",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r17",
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r18",
+      "process_type": "behaviour",
+      "source_text": "I told him I was okay",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r19",
+      "process_type": "emotion",
+      "source_text": "I wasn't",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r20",
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": ""
+    },
+    {
+      "candidate_id": "r21",
+      "process_type": "behaviour",
+      "source_text": "I listened to the voicemail from Dr. Imani",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r22",
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r23",
+      "process_type": "thought",
+      "source_text": "kept telling myself I already knew what it said",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r24",
+      "process_type": "thought",
+      "source_text": "I don't",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r25",
+      "process_type": "thought",
+      "source_text": "If I call back, it will be about the scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "r26",
+      "process_type": "thought",
+      "source_text": "if I don't, it will still be about the scan",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "Jonah's note",
+      "notes": "Note referenced in the journal entry regarding an audit appeal."
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "object",
+      "source_text": "Jonah",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a3",
+      "artifact_kind": "object",
+      "source_text": "audit appeal",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a4",
+      "artifact_kind": "object",
+      "source_text": "draft budget",
+      "notes": "Draft budget mentioned in the context of copying figures."
+    },
+    {
+      "candidate_id": "a5",
+      "artifact_kind": "object",
+      "source_text": "email to Mara",
+      "notes": "Email drafted before the meeting with Selene."
+    },
+    {
+      "candidate_id": "a6",
+      "artifact_kind": "object",
+      "source_text": "Mara",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a7",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "meeting with Selene"
+      ],
+      "notes": "Meeting referenced where the narrator discussed with Selene, their legal lead."
+    },
+    {
+      "candidate_id": "a8",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "meeting with Selene, our legal lead"
+      ],
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a9",
+      "artifact_kind": "object",
+      "source_text": "Selene",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a10",
+      "artifact_kind": "object",
+      "source_text": "correction memo",
+      "notes": "Correction memo mentioned as not yet sent to the vendor."
+    },
+    {
+      "candidate_id": "a11",
+      "artifact_kind": "object",
+      "source_text": "vendor",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a12",
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Friday's client walkthrough"
+      ],
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a13",
+      "artifact_kind": "object",
+      "source_text": "unsent reply to Jonah",
+      "notes": "Email reply to Jonah that was opened, edited, and remained unsent."
+    },
+    {
+      "candidate_id": "a14",
+      "artifact_kind": "object",
+      "source_text": "one sentence",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a15",
+      "artifact_kind": "object",
+      "source_text": "Noor",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a16",
+      "artifact_kind": "object",
+      "source_text": "scene in the essay where the child drops the bowl",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a17",
+      "artifact_kind": "object",
+      "source_text": "essay",
+      "notes": "Essay containing a scene where a child drops a bowl, as referenced in the journal entry."
+    },
+    {
+      "candidate_id": "a18",
+      "artifact_kind": "object",
+      "source_text": "my own roadmap",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a19",
+      "artifact_kind": "object",
+      "source_text": "margin",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a20",
+      "artifact_kind": "object",
+      "source_text": "last line",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a21",
+      "artifact_kind": "object",
+      "source_text": "failure table",
+      "notes": "Table compared to the trace mentioned in the journal entry."
+    },
+    {
+      "candidate_id": "a22",
+      "artifact_kind": "object",
+      "source_text": "last night's trace",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a23",
+      "artifact_kind": "object",
+      "source_text": "cache",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a24",
+      "artifact_kind": "object",
+      "source_text": "queue",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a25",
+      "artifact_kind": "object",
+      "source_text": "my assumptions",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a26",
+      "artifact_kind": "object",
+      "source_text": "my brother",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a27",
+      "artifact_kind": "object",
+      "source_text": "scan",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "candidate_id": "a28",
+      "artifact_kind": "object",
+      "source_text": "voicemail from Dr. Imani",
+      "notes": "Voicemail from Dr. Imani mentioned as listened to before sleep."
+    },
+    {
+      "candidate_id": "a29",
+      "artifact_kind": "object",
+      "source_text": "Dr. Imani",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "type",
+    "items",
+    "I kept wondering whether he had sent the note to protect me, to warn Mara, or to pin the delay on me",
+    "restored it lacks context to identify the author or the action's originator; unclear if this is a direct quote or paraphrased text",
+    "The text describes hearing someone laugh but does not explicitly state the journal author's internal process, thoughts, or actions related to the laughter.",
+    "If something is unclear",
+    "If unsure return empty",
+    "I couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+    "couldn't tell whether I was angry at Noor, at the essay, or at the part of me that keeps treating every paragraph like a verdict",
+    "The phrase 'crossed it out' describes an action of modifying text but does not clearly indicate a specific process_type (thought, emotion, behaviour, body) performed by the journal author in a way that can be directly extracted as a candidate_record without additional context.",
+    "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+    "still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions",
+    "If I call back, it will be about the scan",
+    "if I don't, it will still be about the scan",
+    "Determine if Jonah's note is an original artifact or a copy referenced within the entry."
+  ]
+}

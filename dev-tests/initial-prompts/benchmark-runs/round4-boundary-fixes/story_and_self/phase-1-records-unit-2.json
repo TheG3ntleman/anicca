@@ -1,0 +1,17 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I care that I kept defending him in my head as if he were someone I owed",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't care whether that scene is realistic",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I don't care whether that scene is realistic"
+  ]
+}

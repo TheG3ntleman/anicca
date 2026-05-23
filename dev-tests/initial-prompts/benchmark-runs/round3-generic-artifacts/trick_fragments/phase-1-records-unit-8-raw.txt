@@ -1,0 +1,7 @@
+Thinking...
+{
+  "process_type": "thought",
+  "source_text": "If I call back, it will be about the scan; if I don't, it will still be about the scan.",
+  "notes": "Expression of anticipated concern or expectation regarding communication about a scan."
+}
+

@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "my throat tightened when the message itself only said",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't sent the rollback note to the vendor",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

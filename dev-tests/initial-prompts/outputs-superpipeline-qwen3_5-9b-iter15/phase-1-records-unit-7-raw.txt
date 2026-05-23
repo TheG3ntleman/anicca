@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "whether Dr. Sen had calmed me down",
+      "notes": "Author is reflecting on their emotional state"
+    }
+  ],
+  "uncertainties": [
+    "Context of mother's question may imply uncertainty"
+  ]
+}
+

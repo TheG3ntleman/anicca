@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "calmed me down",
+      "notes": "Mother's observation of emotional state"
+    }
+  ],
+  "uncertainties": []
+}

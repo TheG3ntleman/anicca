@@ -1,0 +1,15 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a2",
+      "relation_label": "freedom topic reference",
+      "relation_status": "explicit",
+      "supporting_text": "about freedom",
+      "notes": "source text directly matches artifact text"
+    }
+  ],
+  "uncertainties": []
+}
+

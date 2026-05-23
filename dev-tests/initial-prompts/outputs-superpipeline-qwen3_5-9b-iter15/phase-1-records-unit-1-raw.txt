@@ -1,0 +1,3 @@
+Thinking...
+{"process_type":"thought","source_text":"reread Maya's message about the appeal hearing","notes":"Author reread a message from Maya.","process_type":"behaviour","source_text":"printed the revised budget spreadsheet","notes":"Author printed a spreadsheet.","process_type":"thought","source_text":"check-in with Dr. Sen, my supervisor","notes":"Author planned a check-in with Dr. Sen, their supervisor.","process_type":"thought","source_text":"before the check-in with Dr. Sen, my supervisor","notes":"Author intended to check-in with Dr. Sen before doing the other tasks."}
+

@@ -1,0 +1,171 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "arguing with my own design memo",
+      "notes": "Author describes internal argument.",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Most of today was me arguing with my own design memo",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it.",
+      "notes": "Author expresses an opinion about a technical fix.",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still think the caching layer is the wrong fix, even though I wrote the first proposal for it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I wrote the first proposal for it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I compared the latency graph with yesterday's trace",
+      "notes": "Cognitive activity of comparing data.",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "circled the spike near authentication",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I compared the latency graph with yesterday's trace, circled the spike near authentication, and added a note that the queue only looks healthy because the retries are hidden",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I said the benchmark was misleading",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it.",
+      "notes": "The author admits to being not calm during speaking.",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I wasn't calm when I said it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I said it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Later I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message.",
+      "notes": "Author describes reopening report, viewing table, and withholding message.",
+      "candidate_id": "tmp_r14"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r15"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "stared at the throughput table, and didn't send the follow-up message",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r16"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "didn't send the follow-up message",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r17"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "Later I reopened the benchmark report, stared at the throughput table, and didn't send the follow-up message."
+      ],
+      "notes": "Narrative describing an action (reopening report, staring at table) and a decision (not sending message) but no external event or substantial episode involving another entity.",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "my own design memo",
+      "notes": "The user's personal design document being referred to.",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the first proposal [for the caching layer]",
+      "notes": "A document or document-like object proposed by the user.",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the latency graph",
+      "notes": "A data visualization object being analyzed.",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "yesterday's trace",
+      "notes": "A data log or visualization from a previous day.",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "a note",
+      "notes": "An annotation added by the user.",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the benchmark",
+      "notes": "A performance measurement object or report.",
+      "candidate_id": "tmp_a7"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the benchmark report",
+      "notes": "A formal report containing benchmark data.",
+      "candidate_id": "tmp_a8"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the throughput table",
+      "notes": "A specific data table within the benchmark report.",
+      "candidate_id": "tmp_a9"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "the follow-up message",
+      "notes": "A message intended to be sent but not.",
+      "candidate_id": "tmp_a10"
+    }
+  ],
+  "uncertainties": []
+}

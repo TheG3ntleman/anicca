@@ -1,0 +1,23 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict.",
+      "notes": "Author expresses confusion about the source of their anger."
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "generic deterministic fallback"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict",
+    "couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict"
+  ]
+}

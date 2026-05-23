@@ -1,0 +1,63 @@
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "message",
+      "relation_status": "explicit",
+      "supporting_text": "Maya's message",
+      "notes": "the object of the verb reread"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "about the appeal hearing",
+      "notes": "the topic of the message"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a20",
+      "relation_label": "draft",
+      "relation_status": "inferred",
+      "supporting_text": "the draft reply to Maya's message",
+      "notes": "implied content of rereading"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a4",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message about the appeal hearing",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a20",
+      "relation_label": "read",
+      "relation_status": "ambiguous",
+      "supporting_text": "I reread Maya's message about the appeal hearing",
+      "notes": "deterministic backfill"
+    },
+    {
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a2",
+      "relation_label": "read",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message about the appeal hearing",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "I reread Maya's message about the appeal hearing"
+  ]
+}

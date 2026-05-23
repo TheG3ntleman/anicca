@@ -1,0 +1,31 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a9",
+      "relation_label": "donor call",
+      "relation_status": "explicit",
+      "supporting_text": "frozen during the donor call on Monday",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a7",
+      "relation_label": "check-in",
+      "relation_status": "ambiguous",
+      "supporting_text": "check-in with Dr. Sen, my supervisor",
+      "notes": "source record is within the broader sentence containing the check-in context."
+    },
+    {
+      "from_candidate_id": "r4",
+      "to_candidate_id": "a8",
+      "relation_label": "foundation",
+      "relation_status": "explicit",
+      "supporting_text": "emailed the foundation",
+      "notes": "source record is in the same sentence as the mention of the foundation."
+    }
+  ],
+  "uncertainties": []
+}
+

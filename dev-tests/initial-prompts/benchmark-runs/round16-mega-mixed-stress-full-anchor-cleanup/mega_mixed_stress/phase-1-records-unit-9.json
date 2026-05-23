@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted one sentence",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "The provided work unit text is a single deletion notice and does not contain a valid narrative from the author."
+  ]
+}

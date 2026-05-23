@@ -1,0 +1,7 @@
+Thinking...
+{
+  "thought": "The user wants me to extract 'candidate_records' from the provided text unit 'I wasn't'. The text is extremely short and seems like a fragment. I need to check if there are any journal author processes (thought, emotion, behaviour, body) directly supported by this text. The phrase 'I wasn't' is incomplete and negates something. Since the subject and predicate are unfinished, I cannot identify a specific process like 'felt', 'thought', 'acted' etc. It could imply a state of not being or not doing something, but the content is too fragmentary to extract a clear process record without assumptions. Following rule 9, if something is unclear, I should put a short string in `uncertainties`. However, I must check if this counts as no valid processes or uncertain. Given rule 3, I shouldn't infer other actions. The text alone doesn't support a full process description. Rule 11 says wrap records inside candidate_records. I will return an empty candidate_records list and add a note about the text being a fragment.",
+  "action": "Return JSON with empty candidate_records and note in uncertainties regarding the fragmentary nature.",
+  "response": "{\"candidate_records\":[],\"uncertainties\":[\"text is too fragmentary to extract complete process\"]}"
+}
+

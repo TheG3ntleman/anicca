@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a6",
+      "relation_label": "reopened the",
+      "relation_status": "explicit",
+      "supporting_text": "reopened the benchmark report",
+      "notes": ""
+    },
+    {
+      "from_candidate_id": "r12",
+      "to_candidate_id": "a8",
+      "relation_label": "didn't send",
+      "relation_status": "explicit",
+      "supporting_text": "didn't send the follow-up message",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,145 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself.",
+      "notes": "Author reflects on a novel scene.",
+      "candidate_id": "tmp_r1"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I spent the afternoon thinking about the scene in the novel where the brother leaves without explaining himself",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r2"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I don't care whether that scene is realistic",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r3"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I care that I kept defending him in my head as if he were someone I owed",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r4"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I texted Lina",
+      "notes": "Action of texting",
+      "candidate_id": "tmp_r5"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "the book was getting under my skin",
+      "notes": "Author's emotional state regarding the book",
+      "candidate_id": "tmp_r6"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I deleted the message",
+      "notes": "Action of deleting the message",
+      "candidate_id": "tmp_r7"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "instead of sending it",
+      "notes": "Decision or mental shift about not sending the message",
+      "candidate_id": "tmp_r8"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I texted Lina to say the book was getting under my skin, then deleted the message instead of sending it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r9"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "deleted the message instead of sending it",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r10"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "Later I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin.",
+      "notes": "Author underlined text and added a personal note in margin.",
+      "candidate_id": "tmp_r11"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I underlined one sentence in chapter seven and wrote \"this is the part I keep living\" in the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r12"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "wrote \"this is the part I keep living\" in the margin",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r13"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him.",
+      "notes": "Author reflects on missing Arun versus missing self around Arun.",
+      "candidate_id": "tmp_r14"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "I still can't tell whether I miss Arun or only miss the version of myself that existed around him",
+      "notes": "generic deterministic fallback",
+      "candidate_id": "tmp_r15"
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "I texted Lina to say the book was getting under my skin, then deleted the message instead of sending it."
+      ],
+      "notes": "Text message to Lina was drafted and deleted before sending.",
+      "candidate_id": "tmp_a1"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "I texted Lina",
+      "notes": "a text message sent or attempted to be sent",
+      "candidate_id": "tmp_a2"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "a book",
+      "notes": "the novel being discussed",
+      "candidate_id": "tmp_a3"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "chapter seven",
+      "notes": "specific chapter of the novel underlined",
+      "candidate_id": "tmp_a4"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "this is the part I keep living",
+      "notes": "margin note written in the book",
+      "candidate_id": "tmp_a5"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Lina",
+      "notes": "person texted or messaged",
+      "candidate_id": "tmp_a6"
+    },
+    {
+      "artifact_kind": "object",
+      "source_text": "Arun",
+      "notes": "person mentioned in the journal",
+      "candidate_id": "tmp_a7"
+    }
+  ],
+  "uncertainties": [
+    "I don't care whether that scene is realistic",
+    "Determining if 'the book was getting under my skin' qualifies as a recorded emotion or observation",
+    "I still can't tell whether I miss Arun or only miss the version of myself that existed around him"
+  ]
+}

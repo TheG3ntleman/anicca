@@ -1,0 +1,14 @@
+Thinking...
+{
+  "candidate_artifacts": [
+    {
+      "artifact_kind": "encounter",
+      "source_texts": [
+        "On Thursday I reread Lena's email about the ethics complaint"
+      ],
+      "notes": "User reread an email regarding an ethics complaint."
+    }
+  ],
+  "uncertainties": []
+}
+

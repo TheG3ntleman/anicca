@@ -1,0 +1,23 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a17",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "angry at Tessa",
+      "notes": "direct mention"
+    },
+    {
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a19",
+      "relation_label": "about",
+      "relation_status": "explicit",
+      "supporting_text": "angry at ... the novel",
+      "notes": "direct mention"
+    }
+  ],
+  "uncertainties": []
+}
+

@@ -1,0 +1,74 @@
+[
+  {
+    "substep": "phase-1-records-unit-2",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-encounters-unit-2",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-3",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-4",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-5",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-encounters-unit-5",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-6",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-10",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-11",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-encounters-unit-11",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-12",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-13",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-encounters-unit-13",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-14",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-15",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-1-records-unit-16",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-2-links-r3",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  },
+  {
+    "substep": "phase-2-links-r20",
+    "error": "Error: could not connect to ollama server, run 'ollama serve' to start it"
+  }
+]

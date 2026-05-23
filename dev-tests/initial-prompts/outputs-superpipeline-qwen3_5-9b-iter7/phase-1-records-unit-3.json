@@ -1,0 +1,25 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "admitted I still hadn't emailed the foundation",
+      "notes": "author admits a specific action they failed to complete"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "apologized for freezing",
+      "notes": "author expresses regret about their reaction during a call"
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I admitted I still hadn't emailed the foundation",
+      "notes": ""
+    },
+    {
+      "process_type": "behaviour",
+      "source_text": "I apologized for freezing during the donor call on Monday",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

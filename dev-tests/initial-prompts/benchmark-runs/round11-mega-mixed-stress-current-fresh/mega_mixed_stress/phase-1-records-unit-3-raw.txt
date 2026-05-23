@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The text contains mixed intent (protect vs document) but does not clearly describe an action taken by the journal author."]
+}
+

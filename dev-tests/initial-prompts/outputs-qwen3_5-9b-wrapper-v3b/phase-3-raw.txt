@@ -1,0 +1,168 @@
+Thinking...
+{
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a3",
+      "relation_label": "reread the message",
+      "relation_status": "explicit",
+      "supporting_text": "I reread Maya's message",
+      "notes": "Reread message artifact."
+    },
+    {
+      "candidate_reference_id": "cr2",
+      "from_candidate_id": "r3",
+      "to_candidate_id": "a3",
+      "relation_label": "message sent to warn or push out",
+      "relation_status": "ambiguous",
+      "supporting_text": "whether she had sent the message to warn me or to push me out",
+      "notes": "Uncertainty about message intent."
+    },
+    {
+      "candidate_reference_id": "cr3",
+      "from_candidate_id": "r6",
+      "to_candidate_id": "a7",
+      "relation_label": "hadn't emailed the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "I admitted I still hadn't emailed the foundation",
+      "notes": "Admitted not emailing foundation."
+    },
+    {
+      "candidate_reference_id": "cr4",
+      "from_candidate_id": "r7",
+      "to_candidate_id": "a8",
+      "relation_label": "apologized for freezing during the donor call",
+      "relation_status": "explicit",
+      "supporting_text": "I apologized for freezing during the donor call on Monday",
+      "notes": "Apology for donor call behavior."
+    },
+    {
+      "candidate_reference_id": "cr5",
+      "from_candidate_id": "r9",
+      "to_candidate_id": "a9",
+      "relation_label": "replaying the moment Leah laughed",
+      "relation_status": "explicit",
+      "supporting_text": "I kept replaying the moment Leah laughed",
+      "notes": "Replaying Leah's laughter."
+    },
+    {
+      "candidate_reference_id": "cr6",
+      "from_candidate_id": "r10",
+      "to_candidate_id": "a9",
+      "relation_label": "couldn't tell whether she was laughing at me",
+      "relation_status": "ambiguous",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "Uncertainty about laughter target."
+    },
+    {
+      "candidate_reference_id": "cr7",
+      "from_candidate_id": "r11",
+      "to_candidate_id": "a10",
+      "relation_label": "laughing at the slide with the broken chart",
+      "relation_status": "ambiguous",
+      "supporting_text": "couldn't tell whether she was laughing at me or at the slide with the broken chart",
+      "notes": "Ambiguity about laughter target."
+    },
+    {
+      "candidate_reference_id": "cr8",
+      "from_candidate_id": "r13",
+      "to_candidate_id": "a13",
+      "relation_label": "opened the email draft to the foundation",
+      "relation_status": "explicit",
+      "supporting_text": "I opened the email draft to the foundation",
+      "notes": "Opened email draft artifact."
+    },
+    {
+      "candidate_reference_id": "cr9",
+      "from_candidate_id": "r14",
+      "to_candidate_id": "a13",
+      "relation_label": "stared at it without sending it",
+      "relation_status": "explicit",
+      "supporting_text": "I stared at it without sending it",
+      "notes": "Staring at email draft."
+    },
+    {
+      "candidate_reference_id": "cr10",
+      "from_candidate_id": "r15",
+      "to_candidate_id": "a17",
+      "relation_label": "wanted to cancel the hospital scan",
+      "relation_status": "explicit",
+      "supporting_text": "I wanted to cancel the hospital scan next week",
+      "notes": "Desire to cancel scan."
+    },
+    {
+      "candidate_reference_id": "cr11",
+      "from_candidate_id": "r16",
+      "to_candidate_id": "a17",
+      "relation_label": "scan wasn't the thing I was really afraid of",
+      "relation_status": "explicit",
+      "supporting_text": "I also knew the scan wasn't the thing I was really afraid of",
+      "notes": "Knowledge about scan fear."
+    },
+    {
+      "candidate_reference_id": "cr12",
+      "from_candidate_id": "r19",
+      "to_candidate_id": "a18",
+      "relation_label": "barely swallow on the ride home",
+      "relation_status": "explicit",
+      "supporting_text": "I told them I was fine, but I wasn't fine and I could barely swallow",
+      "notes": "Physical sensation on ride home."
+    },
+    {
+      "candidate_reference_id": "cr13",
+      "from_candidate_id": "r20",
+      "to_candidate_id": "a19",
+      "relation_label": "read the note about the hearing again",
+      "relation_status": "explicit",
+      "supporting_text": "I read the note about the hearing again",
+      "notes": "Reading note about hearing."
+    },
+    {
+      "candidate_reference_id": "cr14",
+      "from_candidate_id": "r21",
+      "to_candidate_id": "a19",
+      "relation_label": "read it again",
+      "relation_status": "explicit",
+      "supporting_text": "I read it again",
+      "notes": "Rereading note."
+    },
+    {
+      "candidate_reference_id": "cr15",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a21",
+      "relation_label": "drafting reply to Maya's message",
+      "relation_status": "explicit",
+      "supporting_text": "I started drafting a reply to Maya's message",
+      "notes": "Drafting reply."
+    },
+    {
+      "candidate_reference_id": "cr16",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a3",
+      "relation_label": "reply for Maya",
+      "relation_status": "ambiguous",
+      "supporting_text": "whether the reply was for Maya",
+      "notes": "Ambiguity on reply purpose."
+    },
+    {
+      "candidate_reference_id": "cr17",
+      "from_candidate_id": "r22",
+      "to_candidate_id": "a7",
+      "relation_label": "reply for the foundation",
+      "relation_status": "ambiguous",
+      "supporting_text": "for the foundation",
+      "notes": "Ambiguity on reply purpose."
+    },
+    {
+      "candidate_reference_id": "cr18",
+      "from_candidate_id": "r24",
+      "to_candidate_id": "a3",
+      "relation_label": "restored the paragraph",
+      "relation_status": "explicit",
+      "supporting_text": "I restored it",
+      "notes": "Restoring paragraph."
+    }
+  ]
+}
+

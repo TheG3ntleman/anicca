@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "source_text": "I couldn't tell whether I was angry at Tessa, at the novel, or at the part of me that keeps treating every sentence like a verdict.",
+      "process_type": "emotion",
+      "notes": "Author expresses unresolved anger with ambiguity about the source."
+    }
+  ],
+  "uncertainties": []
+}
+

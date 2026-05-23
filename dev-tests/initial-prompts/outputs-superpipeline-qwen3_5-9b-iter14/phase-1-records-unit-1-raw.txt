@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I reread Maya's message about the appeal hearing",
+      "notes": "Internal review of Maya's message"
+    }
+  ],
+  "uncertainties": []
+}
+

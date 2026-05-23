@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "apologized for freezing during last week's customer demo",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "unclear if this is the author's action or a description of a past event"
+  ]
+}

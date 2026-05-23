@@ -1,0 +1,22 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "Part of me wanted the call to be about the scan",
+      "notes": "Author expresses a thought about wanting a different topic for the call"
+    },
+    {
+      "process_type": "thought",
+      "source_text": "and part of me wanted it to be about nothing medical at all",
+      "notes": "Author continues expressing a conflicting thought about the call topic"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "I missed Maya",
+      "notes": "Author expresses feeling of missing someone"
+    }
+  ],
+  "uncertainties": []
+}
+

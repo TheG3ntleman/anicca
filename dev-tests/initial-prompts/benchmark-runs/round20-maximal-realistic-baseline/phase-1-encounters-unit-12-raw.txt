@@ -1,0 +1,3 @@
+Thinking...
+{"candidate_artifacts":[{"artifact_kind":"encounter","source_texts":["restored it"],"notes":"restored it"}],"uncertainties":[]}
+

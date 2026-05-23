@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment.",
+      "notes": "Author describes their felt emotion"
+    },
+    {
+      "process_type": "emotion",
+      "source_text": "What I actually feel is smaller and sharper than that, more like embarrassment",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

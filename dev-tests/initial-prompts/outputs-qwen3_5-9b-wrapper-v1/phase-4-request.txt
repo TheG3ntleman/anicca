@@ -1,0 +1,141 @@
+You are performing phase 4 only.
+
+Critical output rules:
+1. Return exactly one JSON object and nothing else.
+2. Always return all top-level keys: `candidate_records`, `candidate_artifacts`, `candidate_references`, `removed_items`, `soft_groups`, `uncertainties`.
+3. If a list is empty, return `[]`.
+4. Do not ask for continuation or additional input.
+5. Do not think out loud or explain your reasoning in `notes`.
+6. Unchanged surviving items must still be returned with empty absorbed-ID lists.
+7. Preserve surviving IDs. Do not invent a new ID scheme.
+8. Use the exact field name `candidate_references`, not `candidate_refs`.
+9. Each surviving reference item must use `candidate_reference_id`, not `candidate_id`.
+10. Each item in `uncertainties` must be a plain string, not an object.
+
+You will be given:
+1. a journal entry
+2. phase-2 JSON containing unresolved candidate_records and candidate_artifacts
+3. phase-3 JSON containing unresolved candidate_references
+
+Your task is to perform conservative pre-resolution culling and consolidation over all candidate items.
+
+This stage has two jobs:
+1. genuine removal
+2. consolidation
+
+Definitions:
+- genuine removal: delete a candidate that is clearly unsupported, redundant, structurally wrong, or mentally inconsequential
+- hard consolidation: collapse clearly overlapping candidates into one surviving representative without resolving external identity
+- soft grouping: mark candidates as related, alternative, or possibly-the-same while keeping them separate
+
+General rules:
+1. Be conservative.
+2. Do not resolve identity.
+3. Do not use outside context.
+4. Do not add tags.
+5. Preserve provenance and negation.
+6. Preserve real ambiguity.
+7. Prefer soft grouping over hard consolidation when uncertainty remains.
+8. If nothing should change, copy the phase-2 and phase-3 items forward unchanged and use empty `removed_items` and `soft_groups`.
+
+Removal rules:
+1. Remove exact duplicates by hard-consolidating them into one survivor.
+2. Remove candidates that are clearly unsupported by their cited text.
+3. Remove structurally wrong or clearly mistargeted references when a better directly supported surviving reference exists.
+4. Remove dominated variants when a more text-faithful surviving candidate expresses the same structure.
+5. Remove low-consequence artifacts only when they are merely incidental, have no higher-value surviving role, and are unlikely to matter later.
+
+Hard consolidation rules:
+1. Hard-consolidate only when sameness is clear enough before resolution.
+2. Use one surviving representative candidate or candidate_reference.
+3. Record absorbed IDs on the survivor.
+4. Do not hard-consolidate ambiguous alternatives or unresolved likely co-reference.
+5. If a candidate is hard-consolidated, redirect surviving references to the consolidated representative.
+
+Soft grouping rules:
+1. Use soft groups when items are related enough to track together but not safe to collapse.
+2. Use `possible_same_unresolved` for likely co-reference.
+3. Use `alternative_set` for explicit competing alternatives.
+4. Use `close_variant_family` for closely related unresolved variants.
+
+Type-specific reminders:
+1. Remove records rarely.
+2. Remove artifacts cautiously.
+3. Candidate references may be culled more aggressively than records or artifacts.
+4. If two references share the same source, target, and support, prefer the more text-faithful label.
+
+Return JSON in exactly this shape:
+
+{
+  "candidate_records": [
+    {
+      "candidate_id": "r1",
+      "process_type": "thought",
+      "source_text": "",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_artifacts": [
+    {
+      "candidate_id": "a1",
+      "artifact_kind": "object",
+      "source_text": "",
+      "notes": "",
+      "absorbed_candidate_ids": []
+    },
+    {
+      "candidate_id": "a2",
+      "artifact_kind": "encounter",
+      "source_texts": [""],
+      "notes": "",
+      "absorbed_candidate_ids": []
+    }
+  ],
+  "candidate_references": [
+    {
+      "candidate_reference_id": "cr1",
+      "from_candidate_id": "r1",
+      "to_candidate_id": "a1",
+      "relation_label": "",
+      "relation_status": "explicit",
+      "supporting_text": "",
+      "notes": "",
+      "absorbed_candidate_reference_ids": []
+    }
+  ],
+  "removed_items": [
+    {
+      "item_kind": "candidate_reference",
+      "item_id": "cr9",
+      "removal_kind": "",
+      "reason": "",
+      "replacement_item_id": ""
+    }
+  ],
+  "soft_groups": [
+    {
+      "group_id": "g1",
+      "group_type": "possible_same_unresolved",
+      "member_item_ids": ["a2", "a3"],
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+
+Return only JSON.
+
+<journal_entry>
+Yesterday morning on the train I reread Maya's message about the appeal hearing and printed the revised budget spreadsheet before the check-in with Dr. Sen, my supervisor. I kept wondering whether she had sent the message to warn me or to push me out, and my stomach tightened even though the message itself only said, "we should talk before Friday." During the check-in with Dr. Sen, my supervisor, I admitted I still hadn't emailed the foundation, and then I apologized for freezing during the donor call on Monday. He said the call had been fine, but I kept replaying the moment Leah laughed and couldn't tell whether she was laughing at me or at the slide with the broken chart. After the meeting I put the mug beside my laptop, opened the email draft to the foundation, and stared at it without sending it. I wanted to cancel the hospital scan next week, but I also knew the scan wasn't the thing I was really afraid of. At dinner with my parents, my mother asked whether Dr. Sen had calmed me down. I told them I was fine, but I wasn't fine and I could barely swallow. On the ride home I read the note about the hearing again, then read it again, and kept hearing Leah say, "just present the numbers." Before bed I deleted one paragraph from the draft reply to Maya's message and then restored it. I don't know whether the reply was for Maya, for the foundation, or just for me.
+</journal_entry>
+
+<phase_2_json>
+{"candidate_records":[{"candidate_id":"r1","process_type":"thought","source_text":"I kept wondering whether she had sent the message to warn me or to push me out","notes":"Internal deliberation about motivation"},{"candidate_id":"r2","process_type":"body","source_text":"my stomach tightened","notes":""},{"candidate_id":"r3","process_type":"emotion","source_text":"I wanted to cancel the hospital scan next week","notes":"Desire expressed"},{"candidate_id":"r4","process_type":"thought","source_text":"I also knew the scan wasn't the thing I was really afraid of","notes":"Internal judgment about fear"},{"candidate_id":"r5","process_type":"body","source_text":"I could barely swallow","notes":"Physical sensation"},{"candidate_id":"r6","process_type":"emotion","source_text":"I was fine, but I wasn't fine","notes":"Contradictory self-report of emotional state"},{"candidate_id":"r7","process_type":"emotion","source_text":"I don't know whether the reply was for Maya, for the foundation, or just for me","notes":"Expression of uncertainty"}],"candidate_artifacts":[{"candidate_id":"a1","artifact_kind":"encounter","source_texts":["the check-in with Dr. Sen, my supervisor","the meeting"],"notes":"Meeting with supervisor"},{"candidate_id":"a2","artifact_kind":"encounter","source_texts":["dinner with my parents","the check-in with Dr. Sen, my supervisor"],"notes":"Dinner with family"},{"candidate_id":"a3","artifact_kind":"encounter","source_texts":["the donor call on Monday","the call"],"notes":"Previous event referenced"},{"candidate_id":"a4","artifact_kind":"object","source_text":"Maya's message about the appeal hearing","notes":"Message from Maya"},{"candidate_id":"a5","artifact_kind":"object","source_text":"the revised budget spreadsheet","notes":"Document referenced"},{"candidate_id":"a6","artifact_kind":"object","source_text":"the mug","notes":""},{"candidate_id":"a7","artifact_kind":"object","source_text":"my laptop","notes":""},{"candidate_id":"a8","artifact_kind":"object","source_text":"the email draft to the foundation","notes":"Draft message"},{"candidate_id":"a9","artifact_kind":"object","source_text":"the hospital scan","notes":"Procedure referenced"},{"candidate_id":"a10","artifact_kind":"object","source_text":"the note about the hearing","notes":"Note read repeatedly"},{"candidate_id":"a11","artifact_kind":"object","source_text":"Leah","notes":"Person referenced"},{"candidate_id":"a12","artifact_kind":"object","source_text":"the slide with the broken chart","notes":""},{"candidate_id":"a13","artifact_kind":"object","source_text":"the draft reply to Maya's message","notes":"Draft message edited"}],"uncertainties":[]}
+</phase_2_json>
+
+<phase_3_json>
+{"candidate_references":[{"candidate_reference_id":"cr1","from_candidate_id":"r1","to_candidate_id":"a4","relation_label":"wondering about message motivation","relation_status":"explicit","supporting_text":"I kept wondering whether she had sent the message","notes":"Thought relates to Maya's message"},{"candidate_reference_id":"cr2","from_candidate_id":"r4","to_candidate_id":"a9","relation_label":"desire to cancel scan","relation_status":"explicit","supporting_text":"I wanted to cancel the hospital scan","notes":"Thought expresses intent about scan"},{"candidate_reference_id":"cr3","from_candidate_id":"r4","to_candidate_id":"a1","relation_label":"knowing fear is not about scan","relation_status":"ambiguous","supporting_text":"the scan wasn't the thing I was really afraid of","notes":"Unclear what the actual fear is"},{"candidate_reference_id":"cr4","from_candidate_id":"r6","to_candidate_id":"a2","relation_label":"state during dinner","relation_status":"ambiguous","supporting_text":"I told them I was fine","notes":"Claim made during dinner interaction"},{"candidate_reference_id":"cr5","from_candidate_id":"r6","to_candidate_id":"r5","relation_label":"contradictory physical state","relation_status":"ambiguous","supporting_text":"but I wasn't fine and I could barely swallow","notes":"Contradiction between emotional and physical state"},{"candidate_reference_id":"cr6","from_candidate_id":"r7","to_candidate_id":"a13","relation_label":"uncertainty about draft purpose","relation_status":"explicit","supporting_text":"I don't know whether the reply was for Maya","notes":"Uncertainty about recipient of draft"},{"candidate_reference_id":"cr7","from_candidate_id":"r7","to_candidate_id":"a8","relation_label":"uncertainty about foundation draft","relation_status":"ambiguous","supporting_text":"or for the foundation","notes":"Uncertainty about draft purpose"},{"candidate_reference_id":"cr8","from_candidate_id":"r1","to_candidate_id":"a11","relation_label":"pushing out via Leah","relation_status":"ambiguous","supporting_text":"or to push me out","notes":"Reference to potential action by Leah"}],"uncertainties":[]}
+</phase_3_json>
+
+Return only the final JSON object.

@@ -1,0 +1,10 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "compared the risk table to last night's trace",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": []
+}

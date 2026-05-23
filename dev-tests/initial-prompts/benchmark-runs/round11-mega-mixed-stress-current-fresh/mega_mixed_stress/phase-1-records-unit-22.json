@@ -1,0 +1,15 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow.",
+      "notes": "The author describes a physical sensation or action (swallowing) which may be linked to an emotional state but the action itself is a bodily process."
+    },
+    {
+      "process_type": "body",
+      "source_text": "I could barely swallow",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}

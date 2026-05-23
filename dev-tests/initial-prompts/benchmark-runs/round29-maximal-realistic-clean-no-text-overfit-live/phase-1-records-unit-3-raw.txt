@@ -1,0 +1,6 @@
+Thinking...
+{
+  "candidate_records": [],
+  "uncertainties": ["The provided work unit 'During the meeting with Priya, my manager' is incomplete and does not describe any action, thought, emotion, or behavior of the journal author. It only introduces a context."]
+}
+

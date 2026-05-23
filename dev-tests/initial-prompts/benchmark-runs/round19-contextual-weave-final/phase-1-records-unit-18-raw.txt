@@ -1,0 +1,12 @@
+Thinking...
+{
+  "candidate_records": [
+    {
+      "process_type": "thought",
+      "source_text": "I still didn't know whether the bug belonged in the cache, in the queue, or in my assumptions.",
+      "notes": ""
+    }
+  ],
+  "uncertainties": []
+}
+

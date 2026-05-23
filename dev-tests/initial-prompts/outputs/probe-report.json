@@ -1,0 +1,111 @@
+{
+  "stage_status": {
+    "phase_2_json_present": true,
+    "phase_3_json_present": true,
+    "phase_4_json_present": false,
+    "phase_3_has_candidate_references": false,
+    "phase_4_has_expected_top_level_keys": false
+  },
+  "counts": {
+    "phase_2_candidate_records": 19,
+    "phase_2_candidate_artifacts": 9,
+    "phase_3_candidate_references": 0,
+    "phase_4_candidate_records": 0,
+    "phase_4_candidate_artifacts": 0,
+    "phase_4_candidate_references": 0,
+    "phase_4_removed_items": 0,
+    "phase_4_soft_groups": 0
+  },
+  "duplicates": {
+    "phase_2_candidate_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "phase_3_candidate_reference_ids": [],
+    "phase_4_candidate_ids": [],
+    "phase_4_candidate_reference_ids": []
+  },
+  "reference_integrity": {
+    "phase_3_references_with_missing_candidates": [],
+    "phase_4_references_with_missing_candidates": [],
+    "phase_4_references_with_support_not_found_in_entry": []
+  },
+  "graph": {
+    "pre_phase_4": {
+      "nodes": 28,
+      "edges": 0,
+      "components": 19,
+      "component_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "largest_component_size": 1,
+      "largest_component_pct": 3.5714285714285716,
+      "isolates": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "avg_degree": 0.0
+    },
+    "post_phase_4": {
+      "nodes": 0,
+      "edges": 0,
+      "components": 0,
+      "component_sizes": [],
+      "largest_component_size": 0,
+      "largest_component_pct": 0.0,
+      "isolates": [],
+      "avg_degree": 0.0
+    }
+  }
+}

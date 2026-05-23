@@ -1,0 +1,12 @@
+{
+  "candidate_records": [
+    {
+      "process_type": "behaviour",
+      "source_text": "did not call back",
+      "notes": "generic deterministic fallback"
+    }
+  ],
+  "uncertainties": [
+    "No clear author process extracted. The fragment 'did not call back' appears to describe a past action of another subject or a missed interaction rather than the author's internal process."
+  ]
+}
