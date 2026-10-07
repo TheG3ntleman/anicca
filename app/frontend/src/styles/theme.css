@@ -1,0 +1,18 @@
+/* Shared palette and semantic colours. Components use semantic tokens. */
+:root {
+  color-scheme: dark;
+
+  --dracula-background: #101827;
+  --dracula-current-line: #44475a;
+  --dracula-foreground: #f8f8f2;
+  --dracula-purple: #bd93f9;
+  --dracula-red: #ff5555;
+
+  --background: var(--dracula-background);
+  --surface: #1b263b;
+  --foreground: var(--dracula-foreground);
+  --muted: #a5abc5;
+  --border: var(--dracula-current-line);
+  --accent: var(--dracula-purple);
+  --danger: var(--dracula-red);
+}
