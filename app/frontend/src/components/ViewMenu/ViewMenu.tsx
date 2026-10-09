@@ -66,10 +66,12 @@ export function ViewMenu({ view, onViewChange }: {
             ))}
           </nav>
         </div>
+        <div className={styles.circleTrack}>
         <button type="button" className={`${styles.trigger} ${styles.movingTrigger}`}
           aria-label="Close Anicca navigation" autoFocus onClick={close}>
           <span className={styles.circle} aria-hidden="true" />
         </button>
+        </div>
       </dialog>
     </>
   );

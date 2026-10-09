@@ -66,16 +66,23 @@
   transition: transform var(--motion-duration) var(--motion-easing),
     opacity var(--motion-duration) var(--motion-easing);
 }
-.movingTrigger {
+.circleTrack {
+  position: absolute;
   top: env(safe-area-inset-top);
-  left: env(safe-area-inset-left);
-  transition: left var(--motion-duration) var(--motion-easing);
+  left: 0;
+  width: var(--panel-width);
+  height: 44px;
+  pointer-events: none;
+  transform: translate3d(calc(-100% + 52px + env(safe-area-inset-left)), 0, 0);
+  transition: transform var(--motion-duration) var(--motion-easing);
+  will-change: transform;
 }
+.movingTrigger { top: 0; left: auto; right: 8px; pointer-events: auto; }
 .drawer[data-expanded='true'] .panel { transform: translateX(0); opacity: 1; }
 .drawer[data-expanded='true'] .backdrop { opacity: 1; }
-.drawer[data-expanded='true'] .movingTrigger { left: calc(var(--panel-width) - 52px); }
+.drawer[data-expanded='true'] .circleTrack { transform: translate3d(0, 0, 0); }
 .option {
-  font-size: 13px;
+  font-size: 14px;
   display: block;
   width: 100%;
   min-height: 36px;

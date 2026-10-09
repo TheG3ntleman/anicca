@@ -6,14 +6,16 @@ import { useState } from 'react';
 import type { AppView } from '../ViewMenu/ViewMenu';
 import { Composer } from '../Composer/Composer';
 import { Library } from '../Library/Library';
+import { EntrySession } from '../../state/EntrySession';
 
 export function AppShell() {
   const { mode } = useCapabilities();
   const [view, setView] = useState<AppView>('compose');
+  const [entrySession] = useState(() => new EntrySession());
   const content = (
     <>
       <section className={styles.view} hidden={view !== 'compose'} aria-label="Composer">
-        <Composer />
+        <Composer session={entrySession} />
       </section>
       <section className={styles.view} hidden={view !== 'library'} aria-label="Library">
         <h1 className={styles.title}>Library</h1>

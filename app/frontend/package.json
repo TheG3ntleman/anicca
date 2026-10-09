@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "node scripts/run-tests.mjs",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview"
   },
@@ -22,6 +23,8 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.2",
     "typescript": "^5.0.0",
     "vite": "^7.0.0",
     "vite-plugin-pwa": "^1.0.0"

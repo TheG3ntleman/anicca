@@ -1,4 +1,6 @@
 # Command menu
 
-Reserved for the contextual `@` selector UI. It will insert boxes using editor
-commands rather than directly modifying DOM or maintaining separate text state.
+A caret-anchored `@` menu populated from the box registry, including custom
+definitions. Supports selector filtering, arrow-key selection, Enter/Tab,
+pointer selection without losing editor focus, and depth-limit messaging.
+It renders choices; generic editor commands perform insertion.
