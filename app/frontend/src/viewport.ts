@@ -4,8 +4,14 @@ export function initializeViewport(): () => void {
   const style = document.documentElement.style;
   let frame = 0;
   const update = () => {
-    style.setProperty('--viewport-height', `${viewport?.height ?? window.innerHeight}px`);
-    style.setProperty('--viewport-width', `${viewport?.width ?? window.innerWidth}px`);
+    style.setProperty(
+      '--viewport-height',
+      `${viewport?.height ?? window.innerHeight}px`,
+    );
+    style.setProperty(
+      '--viewport-width',
+      `${viewport?.width ?? window.innerWidth}px`,
+    );
     style.setProperty('--viewport-top', `${viewport?.offsetTop ?? 0}px`);
     style.setProperty('--viewport-left', `${viewport?.offsetLeft ?? 0}px`);
   };
@@ -21,7 +27,8 @@ export function initializeViewport(): () => void {
     if (touchEnvironment.matches) event.preventDefault();
   };
   const preventPinch = (event: TouchEvent) => {
-    if (touchEnvironment.matches && event.touches.length > 1) event.preventDefault();
+    if (touchEnvironment.matches && event.touches.length > 1)
+      event.preventDefault();
   };
 
   update();
@@ -29,7 +36,9 @@ export function initializeViewport(): () => void {
   viewport?.addEventListener('resize', scheduleUpdate);
   viewport?.addEventListener('scroll', scheduleUpdate);
   document.addEventListener('gesturestart', preventGesture, { passive: false });
-  document.addEventListener('gesturechange', preventGesture, { passive: false });
+  document.addEventListener('gesturechange', preventGesture, {
+    passive: false,
+  });
   document.addEventListener('touchmove', preventPinch, { passive: false });
 
   return () => {

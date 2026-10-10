@@ -15,7 +15,8 @@ function getSnapshot(): string {
 function subscribe(onChange: () => void): () => void {
   const media = Object.values(queries).map((query) => window.matchMedia(query));
   media.forEach((query) => query.addEventListener('change', onChange));
-  return () => media.forEach((query) => query.removeEventListener('change', onChange));
+  return () =>
+    media.forEach((query) => query.removeEventListener('change', onChange));
 }
 
 export function useCapabilities() {
@@ -29,6 +30,9 @@ export function useCapabilities() {
     finePointer,
     hover,
     // Layout policy, not device identification or proof of analysis availability.
-    mode: spacious && finePointer && hover ? 'desktop' as const : 'phone' as const,
+    mode:
+      spacious && finePointer && hover
+        ? ('desktop' as const)
+        : ('phone' as const),
   };
 }

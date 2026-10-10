@@ -1,42 +1,75 @@
-# Anicca frontend scaffold
+# Anicca planning pilot
 
-Starting point for Anicca's executive-function and deep-work direction.
-The app currently displays only an italic Anicca title.
+A local-first planning PWA on `executive-function`. The former journaling editor
+is preserved on `archive/journaling`.
 
-## Retained infrastructure
+## First milestone
 
-- React, TypeScript, and Vite.
-- Installable PWA with home-screen icons and offline asset caching.
-- Modular dark blue/Dracula-inspired theme.
-- Fixed, safe-area-aware viewport with keyboard viewport handling.
-- Capability-based phone/desktop layout selection and reusable layout wrappers.
-- GitHub Pages base path `/anicca/`.
+- Today, Medium term, and Long term with independent scrolling and bottom arrows.
+- Swipe left to create a task, with a + button as a fallback.
+- Title, finish criteria, optional description, and planned completion date.
+  Dates express intentions; there are no deadlines or priorities.
+- Details, editing, dated notes, completion/Undo, individual review, archive,
+  and a searchable browser including completed and cancelled work.
+- Finish day reviews unresolved short/medium tasks. Each decision saves
+  immediately; finishing records a review and plays a short celebration.
+- IndexedDB persistence and complete JSON export/import. Imports merge by ID
+  with explicit conflict choices and transactional validation.
+- Bundled Iosevka Term Slab Nerd Font, fixed phone viewport, keyboard handling,
+  safe areas, capability-based layouts, and offline PWA caching.
 
-The journaling composer, library, navigation, boxes, AST, and their dependencies
-are preserved on `archive/journaling`. They are removed from this branch.
-No recording, timers, analysis, or persistence features are implemented here.
-Historical design notes in `docs/` remain available as references.
+Habits are a clearly marked placeholder. Habit logs, attachments, streaks,
+custom schemas, and Deep Work are subsequent features. Test fixtures do not seed
+records into the user's database.
 
-## Development
+## Source organization
+
+`src/domain/` contains independent TypeScript models, validation, date/selection
+rules, review decisions, and transfer logic. `src/storage/` owns database upgrades
+and atomic repository operations. `src/state/` connects storage to reactive
+snapshots and cross-tab refreshes. `src/hooks/` owns local-day/gesture behavior.
+
+`src/components/` separates the planning screen, task forms/details, reviews,
+transfer tools, dialogs, and celebration. Each component owns a CSS module.
+`src/styles/` contains theme/font tokens, shared controls, and document defaults.
+Phone/desktop layout wrappers remain reusable; desktop processing is future work.
+
+See [schema v1](../../docs/llm-context-files/planning-schema-v1.md).
+
+## Development and checks
 
 ```sh
 cd app/frontend
 npm ci
 npm run dev
+npm test
+npm run format:check
+npm run build
 ```
 
-Open the printed local URL at `/anicca/`. Changes update live.
+Open the printed URL at `/anicca/`. `npm run format` formats source. Tests cover
+persistence after reopening, failed transactions, export/restore, merge conflicts,
+stale edits, and actual React interface flows using jsdom/fake IndexedDB.
+Device layout, downloads, gestures, and offline launch still need iPhone testing.
 
-## Production / PWA checks
+## Production and backups
 
 ```sh
 npm run build
 npm run preview
 ```
 
-Service-worker functionality is enabled for the production build, not the
-development server. On iPhone, open the deployed HTTPS site in Safari and use
-Share → Add to Home Screen. Load online before testing offline launch.
+Service workers run in production, not on the development server. GitHub Pages
+serves built output from `gh-pages` at `https://theg3ntleman.github.io/anicca/`.
+Source on `executive-function` needs deliberate build/deployment; the inherited
+workflow targets `main`.
 
-The GitHub Pages workflow builds frontend changes on `main`. This branch does
-not automatically deploy until deliberately selected or merged for deployment.
+On iPhone, open the HTTPS site in Safari and choose Share → Add to Home Screen.
+Load online before testing offline launch. Fonts are bundled/precached; the
+initial download is approximately 20 MB.
+
+Records stay in this browser/PWA's IndexedDB. Use **Data** to export backups
+and save them to Files. JSON exports are plaintext; clearing browser data can
+remove local records. No sync or export encryption is implemented. Import into
+an empty database to restore, or merge into an existing database after checking
+conflict choices.

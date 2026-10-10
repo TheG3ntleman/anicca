@@ -12,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: 'Anicca',
         short_name: 'Anicca',
-        description: 'A blank canvas for Anicca.',
+        description: 'A local, offline space for planning and daily review.',
         id: '/anicca/',
         start_url: '/anicca/',
         scope: '/anicca/',
@@ -21,10 +21,18 @@ export default defineConfig({
         theme_color: '#101827',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
+          {
+            src: 'icon-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
         ],
       },
-      workbox: { globPatterns: ['**/*.{js,css,html,png,svg,ico}'] },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,png,svg,ico,woff,woff2}'],
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
+      },
     }),
   ],
 });

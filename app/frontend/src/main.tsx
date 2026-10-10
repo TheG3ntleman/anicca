@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { registerSW } from 'virtual:pwa-register';
 import './styles/theme.css';
+import './styles/fonts.css';
 import './styles/global.css';
 import { AppShell } from './components/AppShell/AppShell';
 import { initializeViewport } from './viewport';

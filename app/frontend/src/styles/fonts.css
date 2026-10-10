@@ -1,0 +1,38 @@
+/* Bundled from the user's installed Iosevka Term Slab Nerd Font files. */
+@font-face {
+  font-family: 'Iosevka Term Slab Nerd Font';
+  src: url('../assets/fonts/IosevkaTermSlabNerdFont-Regular.woff')
+    format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka Term Slab Nerd Font';
+  src: url('../assets/fonts/IosevkaTermSlabNerdFont-Italic.woff') format('woff');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka Term Slab Nerd Font';
+  src: url('../assets/fonts/IosevkaTermSlabNerdFont-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iosevka Term Slab Nerd Font';
+  src: url('../assets/fonts/IosevkaTermSlabNerdFont-BoldItalic.woff')
+    format('woff');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --font-primary: 'Iosevka Term Slab Nerd Font', monospace;
+}
