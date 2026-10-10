@@ -1,0 +1,14 @@
+.form {
+  gap: 20px;
+}
+.footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+.footer button:first-child {
+  flex: 1;
+}
+.footer button:last-child {
+  background: transparent;
+}

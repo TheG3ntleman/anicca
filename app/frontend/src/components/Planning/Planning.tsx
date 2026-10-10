@@ -4,33 +4,31 @@ import { usePlanning } from '../../state/usePlanning';
 import { useLocalDay } from '../../hooks/useLocalDay';
 import { useCreateSwipe } from '../../hooks/useCreateSwipe';
 import {
-  alphabetical,
   layerTasks,
   needsReview,
   todayTasks,
   tomorrowTasks,
 } from '../../domain/tasks/selectors';
-import type { Task, TaskHorizon } from '../../domain/tasks/types';
+import type { Task, PlanningLayer } from '../../domain/tasks/types';
+import { addDays } from '../../domain/tasks/dates';
 import { TaskList } from '../TaskList/TaskList';
-import { Modal } from '../Modal/Modal';
 import { SlidePanel } from '../SlidePanel/SlidePanel';
 import { TaskForm } from '../TaskForm/TaskForm';
 import { TaskDetails } from '../TaskDetails/TaskDetails';
 import { ReviewFlow } from '../Review/ReviewFlow';
 import { Celebration } from '../Celebration/Celebration';
-import { DataTools } from '../DataTools/DataTools';
+import { ToolsOverlay } from '../ToolsOverlay/ToolsOverlay';
 import { Toast } from '../Toast/Toast';
 import styles from './Planning.module.css';
 import ui from '../../styles/controls.module.css';
 
 type Overlay =
-  | { kind: 'details'; taskId: string }
+  | { kind: 'details'; taskId: string; startEditing?: boolean }
   | { kind: 'review' }
-  | { kind: 'data' }
-  | { kind: 'all' }
+  | { kind: 'tools' }
   | { kind: 'celebration'; message: string }
   | null;
-const horizons: TaskHorizon[] = ['short', 'medium', 'long'];
+const layers: PlanningLayer[] = ['short', 'medium', 'long'];
 const titles = ['Today', 'Medium term', 'Long term'];
 export function Planning({ store }: { store: PlanningStore }) {
   const snapshot = usePlanning(store);
@@ -42,7 +40,6 @@ export function Planning({ store }: { store: PlanningStore }) {
     undo?: () => void;
   } | null>(null);
   const [busy, setBusy] = useState(false);
-  const [allQuery, setAllQuery] = useState('');
   const scroller = useRef<HTMLDivElement>(null);
   const scrollPositions = useRef([0, 0, 0]);
   const dismissToast = useCallback(() => setToast(null), []);
@@ -69,24 +66,21 @@ export function Planning({ store }: { store: PlanningStore }) {
     setOverlay({ kind: 'details', taskId: task.id });
   const toggle = async (task: Task) => {
     if (busy) return;
+    if (task.status === 'completed') {
+      setOverlay({ kind: 'details', taskId: task.id, startEditing: true });
+      return;
+    }
     setBusy(true);
     try {
-      const completed = await store.status(
-        task,
-        task.status === 'completed' ? 'pending' : 'completed',
-      );
+      const completed = await store.status(task, 'completed');
       setToast({
-        message:
-          task.status === 'completed' ? 'Task reopened.' : 'Task completed.',
-        undo:
-          task.status === 'completed'
-            ? undefined
-            : () => {
-                void store
-                  .undoCompletion(completed)
-                  .then(() => setToast({ message: 'Completion undone.' }))
-                  .catch((error) => setToast({ message: error.message }));
-              },
+        message: 'Task completed.',
+        undo: () => {
+          void store
+            .undoCompletion(completed)
+            .then(() => setToast({ message: 'Completion undone.' }))
+            .catch((error) => setToast({ message: error.message }));
+        },
       });
     } catch (error) {
       setToast({
@@ -100,27 +94,23 @@ export function Planning({ store }: { store: PlanningStore }) {
   const tasks =
     layer === 0
       ? todayTasks(snapshot.tasks, today)
-      : layerTasks(snapshot.tasks, horizons[layer]);
+      : layerTasks(snapshot.tasks, layers[layer], today);
   const pendingReview = snapshot.tasks.filter((task) =>
     needsReview(task, today),
   );
   const tomorrow = tomorrowTasks(snapshot.tasks, today);
-  const allTasks = alphabetical(
-    snapshot.tasks.filter((task) =>
-      task.title.toLocaleLowerCase().includes(allQuery.toLocaleLowerCase()),
-    ),
-  );
   return (
-    <div className={styles.planning} {...swipe.bind}>
+    <div ref={swipe.ref} className={styles.planning} {...swipe.bind}>
       <header className={styles.header}>
         <h1>Anicca</h1>
         <div className={ui.row}>
           <button
-            className={styles.quiet}
-            onClick={() => setOverlay({ kind: 'data' })}
+            className={styles.tools}
+            aria-label="Open task browser and tools"
+            onClick={() => setOverlay({ kind: 'tools' })}
             disabled={!snapshot.ready || Boolean(snapshot.error)}
           >
-            Data
+            <span className={styles.circle} aria-hidden="true" />
           </button>
           <button
             className={styles.add}
@@ -149,7 +139,7 @@ export function Planning({ store }: { store: PlanningStore }) {
                   month: 'long',
                 })
               : layer === 1
-                ? 'Intentions with a planned date.'
+                ? 'Planned for after tomorrow.'
                 : 'Room for what comes later.'}
           </p>
         </div>
@@ -262,7 +252,9 @@ export function Planning({ store }: { store: PlanningStore }) {
         >
           <TaskForm
             onBusyChange={setBusy}
-            initialHorizon={horizons[layer]}
+            initialPlannedDate={
+              layer === 0 ? today : layer === 1 ? addDays(today, 7) : null
+            }
             onCancel={swipe.close}
             onSave={async (input) => {
               await store.create(input);
@@ -276,6 +268,7 @@ export function Planning({ store }: { store: PlanningStore }) {
         <TaskDetails
           key={overlay.taskId}
           taskId={overlay.taskId}
+          startEditing={overlay.startEditing}
           store={store}
           onClose={() => setOverlay(null)}
         />
@@ -293,44 +286,8 @@ export function Planning({ store }: { store: PlanningStore }) {
           onDone={() => setOverlay(null)}
         />
       )}
-      {overlay?.kind === 'data' && (
-        <DataTools
-          store={store}
-          onClose={() => setOverlay(null)}
-          onBrowseTasks={() => {
-            setAllQuery('');
-            setOverlay({ kind: 'all' });
-          }}
-        />
-      )}
-      {overlay?.kind === 'all' && (
-        <Modal title="All tasks" onClose={() => setOverlay(null)}>
-          <div className={ui.stack}>
-            <label className={ui.field}>
-              Search
-              <input
-                value={allQuery}
-                onChange={(event) => setAllQuery(event.target.value)}
-              />
-            </label>
-            {allTasks.map((task) => (
-              <button
-                key={task.id}
-                className={ui.button}
-                style={{ textAlign: 'left' }}
-                onClick={() => select(task)}
-              >
-                {task.title}
-                <br />
-                <span className={ui.muted}>
-                  {task.status}
-                  {task.archived ? ' · Archived' : ''}
-                </span>
-              </button>
-            ))}
-            {!allTasks.length && <p className={ui.muted}>No matching tasks.</p>}
-          </div>
-        </Modal>
+      {overlay?.kind === 'tools' && (
+        <ToolsOverlay store={store} onClose={() => setOverlay(null)} />
       )}
     </div>
   );

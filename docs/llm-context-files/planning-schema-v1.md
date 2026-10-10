@@ -1,5 +1,8 @@
 # Planning schema v1
 
+Historical contract. The current app uses [schema v2](planning-schema-v2.md),
+which derives layers from dates and supports migration/import from this version.
+
 The independent domain model is in `app/frontend/src/domain`. React edits and
 renders it; IndexedDB persists it. Database and export versions both begin at 1.
 The separate `anicca-planning` database does not modify old journaling records.

@@ -1,7 +1,16 @@
 import { useState } from 'react';
 import type { ReviewDecision } from '../../domain/reviews/operations';
 import { addDays } from '../../domain/tasks/dates';
+import { SchedulePicker } from '../SchedulePicker/SchedulePicker';
 import ui from '../../styles/controls.module.css';
+import styles from './Review.module.css';
+const options = [
+  ['plan', 'Plan next'],
+  ['complete', 'Completed'],
+  ['defer', 'Defer'],
+  ['cancel', 'Cancel task'],
+  ['leave', 'Leave unresolved'],
+] as const;
 export function ReviewActions({
   today,
   busy,
@@ -11,82 +20,74 @@ export function ReviewActions({
   busy: boolean;
   onDecision: (decision: ReviewDecision) => void;
 }) {
-  const [date, setDate] = useState(addDays(today, 1));
+  const [kind, setKind] = useState<(typeof options)[number][0]>('plan');
+  const [date, setDate] = useState<string | null>(addDays(today, 1));
+  const descriptions = {
+    complete: 'Mark this task as finished.',
+    defer: 'Set it aside. It will stay available for review.',
+    cancel: 'Stop pursuing this task. Its history and logs are kept.',
+    leave: 'Keep its current status and planned date.',
+    plan: '',
+  };
+  const label =
+    kind === 'plan'
+      ? date === null
+        ? 'Save without a date'
+        : date === today
+          ? 'Plan today'
+          : date === addDays(today, 1)
+            ? 'Plan tomorrow'
+            : 'Plan this date'
+      : 'Save decision';
   return (
-    <div className={ui.stack}>
-      <div className={ui.row}>
-        <button
-          className={`${ui.button} ${ui.primary}`}
+    <form
+      className={ui.stack}
+      onSubmit={(event) => {
+        event.preventDefault();
+        if (!busy)
+          onDecision(
+            kind === 'plan'
+              ? date === null
+                ? { kind: 'unschedule' }
+                : { kind: 'plan', date }
+              : { kind },
+          );
+      }}
+    >
+      <fieldset className={ui.choiceGroup} disabled={busy}>
+        <legend>What happens next?</legend>
+        <div className={styles.outcomes}>
+          {options.map(([value, text]) => (
+            <button
+              type="button"
+              key={value}
+              className={ui.button}
+              aria-pressed={kind === value}
+              onClick={() => setKind(value)}
+            >
+              {text}
+            </button>
+          ))}
+        </div>
+      </fieldset>
+      {kind === 'plan' ? (
+        <SchedulePicker
+          today={today}
+          value={date}
+          onChange={setDate}
           disabled={busy}
-          onClick={() => onDecision({ kind: 'plan', date: addDays(today, 1) })}
-        >
-          Plan tomorrow
-        </button>
-        <button
-          className={ui.button}
-          disabled={busy}
-          onClick={() => onDecision({ kind: 'plan', date: today })}
-        >
-          Plan today
-        </button>
-      </div>
-      <div className={ui.row}>
-        <label className={ui.field}>
-          Another date
-          <div className={ui.dateControl}>
-            <input
-              aria-label="Review planned completion date"
-              type="date"
-              value={date}
-              onChange={(event) => setDate(event.target.value)}
-            />
-          </div>
-        </label>
-        <button
-          className={ui.button}
-          disabled={busy || !date}
-          onClick={() => onDecision({ kind: 'plan', date })}
-        >
-          Plan this date
-        </button>
-      </div>
-      <div className={ui.row}>
-        <button
-          className={ui.button}
-          disabled={busy}
-          onClick={() => onDecision({ kind: 'complete' })}
-        >
-          Complete
-        </button>
-        <button
-          className={ui.button}
-          disabled={busy}
-          onClick={() => onDecision({ kind: 'defer' })}
-        >
-          Defer
-        </button>
-        <button
-          className={ui.button}
-          disabled={busy}
-          onClick={() => onDecision({ kind: 'long' })}
-        >
-          Move to long term
-        </button>
-        <button
-          className={ui.button}
-          disabled={busy}
-          onClick={() => onDecision({ kind: 'cancel' })}
-        >
-          Cancel task
-        </button>
-        <button
-          className={ui.button}
-          disabled={busy}
-          onClick={() => onDecision({ kind: 'leave' })}
-        >
-          Leave unresolved
-        </button>
-      </div>
-    </div>
+          label="Choose a timeline"
+        />
+      ) : (
+        <p className={styles.explanation}>{descriptions[kind]}</p>
+      )}
+      <button
+        className={`${ui.button} ${ui.primary}`}
+        disabled={busy}
+        type="submit"
+      >
+        {busy ? 'Saving…' : label}
+      </button>
+    </form>
   );
 }

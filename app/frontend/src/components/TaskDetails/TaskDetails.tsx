@@ -4,24 +4,27 @@ import type { PlanningStore } from '../../state/PlanningStore';
 import { usePlanning } from '../../state/usePlanning';
 import { Modal } from '../Modal/Modal';
 import { TaskForm } from '../TaskForm/TaskForm';
-import { ReviewActions } from '../Review/ReviewActions';
-import { formatDate, localDate } from '../../domain/tasks/dates';
-import type { ReviewDecision } from '../../domain/reviews/operations';
+import { LogComposer } from '../LogComposer/LogComposer';
+import { LogViewer } from '../LogViewer/LogViewer';
+import { formatDate } from '../../domain/tasks/dates';
+import { planningLayer } from '../../domain/tasks/selectors';
+import { useLocalDay } from '../../hooks/useLocalDay';
 import ui from '../../styles/controls.module.css';
 export function TaskDetails({
   taskId,
   store,
   onClose,
+  startEditing = false,
 }: {
   taskId: string;
   store: PlanningStore;
   onClose: () => void;
+  startEditing?: boolean;
 }) {
   const snapshot = usePlanning(store);
+  const today = useLocalDay();
   const task = snapshot.tasks.find((task) => task.id === taskId);
-  const [editing, setEditing] = useState(false);
-  const [reviewing, setReviewing] = useState(false);
-  const [note, setNote] = useState('');
+  const [editing, setEditing] = useState(startEditing);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   if (!task) return null;
@@ -36,22 +39,29 @@ export function TaskDetails({
       setBusy(false);
     }
   };
-  const notes = snapshot.notes
-    .filter((note) => note.taskId === taskId)
+  const logIds = new Set(
+    snapshot.logLinks
+      .filter((link) => link.targetType === 'task' && link.targetId === taskId)
+      .map((link) => link.logId),
+  );
+  const logs = snapshot.logs
+    .filter((log) => logIds.has(log.id))
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
   const events = snapshot.events
     .filter((event) => event.taskId === taskId)
     .sort((a, b) => b.at.localeCompare(a.at));
+  const layer = planningLayer(task, today);
   return (
     <Modal
       title={editing ? 'Edit task' : task.title}
       onClose={onClose}
       locked={busy}
     >
-      {editing ? (
+      {editing && (
         <TaskForm
           key={task.updatedAt}
           task={task}
+          startReopening={startEditing}
           onSave={async (input) => {
             await store.edit(task, input);
             setEditing(false);
@@ -59,117 +69,78 @@ export function TaskDetails({
           onCancel={() => setEditing(false)}
           onBusyChange={setBusy}
         />
-      ) : (
-        <div className={ui.stack}>
-          <p className={ui.muted}>
-            {task.horizon} term · {task.status}
-            {task.archived ? ' · Archived' : ''} ·{' '}
-            {formatDate(task.plannedCompletionDate)}
-          </p>
-          <div>
-            <strong>Finished means</strong>
-            <p style={{ whiteSpace: 'pre-wrap' }}>{task.finishCriteria}</p>
-          </div>
-          {task.description && (
-            <p style={{ whiteSpace: 'pre-wrap' }}>{task.description}</p>
-          )}
-          <div className={ui.row}>
-            <button
-              className={ui.button}
-              disabled={busy}
-              onClick={() => setEditing(true)}
-            >
-              Edit
-            </button>
-            <button
-              className={ui.button}
-              disabled={busy}
-              onClick={() => setReviewing(!reviewing)}
-            >
-              Review
-            </button>
-            <button
-              className={ui.button}
-              disabled={busy}
-              onClick={() =>
-                void run(() => store.archive(task, !task.archived))
-              }
-            >
-              {task.archived ? 'Restore from archive' : 'Archive'}
-            </button>
-            {['completed', 'cancelled'].includes(task.status) && (
-              <button
-                className={ui.button}
-                disabled={busy}
-                onClick={() => void run(() => store.status(task, 'pending'))}
-              >
-                Reopen
-              </button>
-            )}
-          </div>
-          {reviewing && (
-            <ReviewActions
-              today={localDate()}
-              busy={busy}
-              onDecision={(decision: ReviewDecision) =>
-                void run(() => store.decide(task, decision))
-              }
-            />
-          )}
-          <form
-            className={ui.stack}
-            onSubmit={(event) => {
-              event.preventDefault();
-              void run(async () => {
-                await store.note(task, note);
-                setNote('');
-              });
-            }}
-          >
-            <label className={ui.field}>
-              Add a note
-              <textarea
-                value={note}
-                onChange={(event) => setNote(event.target.value)}
-                maxLength={100000}
-              />
-            </label>
-            <button
-              type="submit"
-              className={ui.button}
-              disabled={busy || !note.trim()}
-            >
-              Save note
-            </button>
-          </form>
-          {error && (
-            <div className={ui.error} role="alert">
-              {error}
-            </div>
-          )}
-          {notes.length > 0 && (
-            <section>
-              <h3>Notes</h3>
-              {notes.map((note) => (
-                <article key={note.id}>
-                  <small className={ui.muted}>
-                    {new Date(note.createdAt).toLocaleString()}
-                  </small>
-                  <p style={{ whiteSpace: 'pre-wrap' }}>{note.text}</p>
-                </article>
-              ))}
-            </section>
-          )}
-          <details>
-            <summary>Task history ({events.length})</summary>
-            {events.map((event) => (
-              <p key={event.id} className={ui.muted}>
-                {new Date(event.at).toLocaleString()} · {event.action}
-              </p>
-            ))}
-          </details>
-        </div>
       )}
+      <div
+        className={ui.stack}
+        style={editing ? { display: 'none' } : undefined}
+        inert={editing}
+      >
+        <p className={ui.muted}>
+          {layer === 'review' ? 'Needs review' : `${layer} term`} ·{' '}
+          {task.status}
+          {task.archived ? ' · Archived' : ''} ·{' '}
+          {formatDate(task.plannedCompletionDate, today)}
+        </p>
+        <div>
+          <strong>Finished means</strong>
+          <p style={{ whiteSpace: 'pre-wrap' }}>{task.finishCriteria}</p>
+        </div>
+        {task.description && (
+          <p style={{ whiteSpace: 'pre-wrap' }}>{task.description}</p>
+        )}
+        <div className={ui.row}>
+          <button
+            className={ui.button}
+            disabled={busy}
+            onClick={() => setEditing(true)}
+          >
+            Edit
+          </button>
+          <button
+            className={ui.button}
+            disabled={busy}
+            onClick={() => void run(() => store.archive(task, !task.archived))}
+          >
+            {task.archived ? 'Restore from archive' : 'Archive'}
+          </button>
+        </div>
+        <LogComposer
+          disabled={busy}
+          onBusyChange={setBusy}
+          onSave={async (draft) => {
+            await store.createLog(draft.text, draft.attachments, {
+              type: 'task',
+              id: taskId,
+            });
+          }}
+        />
+        {error && (
+          <div className={ui.error} role="alert">
+            {error}
+          </div>
+        )}
+        {logs.length > 0 && (
+          <section>
+            <h3>Logs</h3>
+            {logs.map((log) => (
+              <LogViewer
+                key={log.id}
+                log={log}
+                attachments={snapshot.attachments}
+                loadMedia={store.loadMedia}
+              />
+            ))}
+          </section>
+        )}
+        <details>
+          <summary>Task history ({events.length})</summary>
+          {events.map((event) => (
+            <p key={event.id} className={ui.muted}>
+              {new Date(event.at).toLocaleString()} · {event.action}
+            </p>
+          ))}
+        </details>
+      </div>
     </Modal>
   );
 }

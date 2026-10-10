@@ -19,6 +19,7 @@ for (const name of [
   'MutationObserver',
   'Option',
   'File',
+  'FileReader',
   'Event',
   'MouseEvent',
 ]) {

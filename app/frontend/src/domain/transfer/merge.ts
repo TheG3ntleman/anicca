@@ -4,12 +4,8 @@ import type {
   ImportConflict,
   ConflictChoices,
 } from './types';
-export const collections: Collection[] = [
-  'tasks',
-  'notes',
-  'events',
-  'reviews',
-];
+import { COLLECTIONS } from './types';
+export const collections: readonly Collection[] = COLLECTIONS;
 function canonical(value: unknown): string {
   if (Array.isArray(value)) return `[${value.map(canonical).join(',')}]`;
   if (value && typeof value === 'object')
@@ -53,7 +49,9 @@ export function mergeData(
       throw new Error('Choose which version to keep for every conflict.');
   const merged: PlanningData = {
     tasks: [],
-    notes: [],
+    logs: [],
+    logLinks: [],
+    attachments: [],
     events: [],
     reviews: [],
   };

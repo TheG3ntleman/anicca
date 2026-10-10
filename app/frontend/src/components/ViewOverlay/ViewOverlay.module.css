@@ -1,0 +1,110 @@
+.overlay {
+  position: fixed;
+  top: var(--viewport-top, 0px);
+  left: var(--viewport-left, 0px);
+  width: var(--viewport-width, 100vw);
+  height: var(--viewport-height, 100dvh);
+  min-width: 0;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  background: var(--background);
+  color: var(--foreground);
+  touch-action: pan-y;
+  overscroll-behavior: contain;
+}
+.overlay[open] {
+  display: flex;
+  flex-direction: column;
+}
+.overlay::backdrop {
+  background: var(--background);
+}
+.overlay[data-dragging] {
+  user-select: none;
+}
+.header {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: max(8px, env(safe-area-inset-top))
+    max(12px, env(safe-area-inset-right)) 8px
+    max(12px, env(safe-area-inset-left));
+  border-bottom: 1px solid var(--border);
+}
+.ring {
+  flex: 1;
+  position: relative;
+  min-width: 0;
+  height: 42px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+}
+.label {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: calc(100% / 3);
+  padding: 0;
+  height: 34px;
+  transform: translateX(
+    calc(-50% + var(--label-position) * 100% + var(--label-drag))
+  );
+  border: 1px solid transparent;
+  border-radius: 18px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  touch-action: pan-y;
+}
+.label[aria-current='page'] {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.close {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 24px;
+  cursor: pointer;
+}
+.label:focus-visible,
+.close:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -3px;
+}
+.pages {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+.page {
+  position: absolute;
+  inset: 0;
+  min-width: 0;
+  min-height: 0;
+  padding: 20px max(20px, env(safe-area-inset-right))
+    calc(24px + env(safe-area-inset-bottom))
+    max(20px, env(safe-area-inset-left));
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  background: var(--background);
+}

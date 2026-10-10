@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import type { PlanningStore } from '../../state/PlanningStore';
 import { usePlanning } from '../../state/usePlanning';
-import { reviewTasks } from '../../domain/tasks/selectors';
+import { reviewTasks, isDailyReviewTask } from '../../domain/tasks/selectors';
 import { formatDate, localDate } from '../../domain/tasks/dates';
 import type { ReviewDecision } from '../../domain/reviews/operations';
 import { Modal } from '../Modal/Modal';
 import { ReviewActions } from './ReviewActions';
 import ui from '../../styles/controls.module.css';
+import styles from './Review.module.css';
+import { reviewOutcome } from '../../domain/reviews/outcomes';
+import { useLocalDay } from '../../hooks/useLocalDay';
 export function ReviewFlow({
   store,
   onClose,
@@ -17,16 +20,20 @@ export function ReviewFlow({
   onComplete: (message: string) => void;
 }) {
   const snapshot = usePlanning(store);
+  const today = useLocalDay();
   const [reviewId] = useState(() => crypto.randomUUID());
   const [ids] = useState(() =>
-    reviewTasks(store.getSnapshot().tasks).map((task) => task.id),
+    reviewTasks(store.getSnapshot().tasks, today).map((task) => task.id),
   );
   const [index, setIndex] = useState(0);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const task = snapshot.tasks.find((task) => task.id === ids[index]);
+  const outcomes = snapshot.events
+    .filter((event) => event.reviewId === reviewId)
+    .sort((a, b) => a.at.localeCompare(b.at));
   const decide = async (decision: ReviewDecision) => {
-    if (!task || busy) return;
+    if (!task || !isDailyReviewTask(task, today) || busy) return;
     setBusy(true);
     setError('');
     try {
@@ -45,27 +52,36 @@ export function ReviewFlow({
   return (
     <Modal title="Finish day" onClose={onClose} locked={busy}>
       <div className={ui.stack}>
-        <p className={ui.muted}>
-          Review items, not missed days. Each decision is saved immediately.
-        </p>
-        {index < ids.length && task ? (
+        <div className={styles.progress} aria-hidden="true">
+          <span
+            style={{
+              width: `${ids.length ? (index / ids.length) * 100 : 100}%`,
+            }}
+          />
+        </div>
+        {index < ids.length && task && isDailyReviewTask(task, today) ? (
           <>
             <p className={ui.muted}>
               {index + 1} of {ids.length} ·{' '}
               {formatDate(task.plannedCompletionDate)} · {task.status}
             </p>
             <h3 style={{ margin: 0 }}>{task.title}</h3>
-            <p style={{ whiteSpace: 'pre-wrap' }}>{task.finishCriteria}</p>
+            <p
+              className={styles.explanation}
+              style={{ whiteSpace: 'pre-wrap' }}
+            >
+              {task.finishCriteria}
+            </p>
             <ReviewActions
               key={task.id}
-              today={localDate()}
+              today={today}
               busy={busy}
               onDecision={(decision) => void decide(decision)}
             />
           </>
         ) : index < ids.length ? (
           <>
-            <p>This item is no longer available.</p>
+            <p>This item no longer needs review.</p>
             <button className={ui.button} onClick={() => setIndex(index + 1)}>
               Continue
             </button>
@@ -73,13 +89,31 @@ export function ReviewFlow({
         ) : (
           <>
             <h3 style={{ margin: 0 }}>You’ve checked through your plan.</h3>
-            <p>
-              {ids.length
-                ? `${ids.length} items reviewed.`
-                : 'No unresolved short- or medium-term tasks.'}{' '}
-              Tomorrow’s selections are saved. Anything left unresolved stays
-              available for review.
+            <p className={styles.explanation}>
+              {outcomes.length
+                ? `${outcomes.length} ${outcomes.length === 1 ? 'item' : 'items'} reviewed.`
+                : 'No tasks need review today.'}{' '}
+              Your decisions are saved. Anything left unresolved stays available
+              for review.
             </p>
+            {outcomes.length > 0 && (
+              <ul
+                className={styles.summary}
+                aria-label="Review outcomes"
+                tabIndex={0}
+              >
+                {outcomes.map((event) => (
+                  <li key={event.id}>
+                    <strong>{event.after.title}</strong>
+                    <span>{reviewOutcome(event, localDate())}</span>
+                    <small>
+                      Previously: {event.before?.status} ·{' '}
+                      {formatDate(event.before?.plannedCompletionDate ?? null)}
+                    </small>
+                  </li>
+                ))}
+              </ul>
+            )}
             <button
               className={`${ui.button} ${ui.primary}`}
               disabled={busy}
@@ -95,7 +129,11 @@ export function ReviewFlow({
                 const message =
                   messages[snapshot.reviews.length % messages.length];
                 try {
-                  await store.finishReview(reviewId, ids, message);
+                  await store.finishReview(
+                    reviewId,
+                    outcomes.map((event) => event.taskId),
+                    message,
+                  );
                   onComplete(message);
                 } catch (error) {
                   setError(

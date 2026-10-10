@@ -4,8 +4,15 @@ import type {
   PlanningExport,
   ConflictChoices,
 } from '../domain/transfer/types';
-import type { Task, TaskInput, TaskStatus } from '../domain/tasks/types';
+import type {
+  Task,
+  TaskInput,
+  TaskEditInput,
+  TaskStatus,
+} from '../domain/tasks/types';
 import type { ReviewAction } from '../domain/reviews/types';
+import type { Attachment, LogTarget } from '../domain/logs/types';
+import type { PendingAttachment } from '../media/types';
 import { editTask } from '../domain/tasks/operations';
 import {
   applyReviewDecision,
@@ -19,7 +26,9 @@ export interface PlanningSnapshot extends PlanningData {
 export class PlanningStore {
   private snapshot: PlanningSnapshot = {
     tasks: [],
-    notes: [],
+    logs: [],
+    logLinks: [],
+    attachments: [],
     events: [],
     reviews: [],
     ready: false,
@@ -72,17 +81,38 @@ export class PlanningStore {
     await this.changed();
     return task;
   }
-  async edit(task: Task, input: TaskInput) {
+  async edit(task: Task, input: TaskEditInput) {
+    const reopening =
+      ['completed', 'cancelled'].includes(task.status) &&
+      ['pending', 'deferred'].includes(input.status ?? task.status);
+    if (
+      reopening &&
+      (input.plannedCompletionDate === undefined ||
+        (input.plannedCompletionDate !== null &&
+          input.plannedCompletionDate < localDate()))
+    )
+      throw new Error('Choose a new timeline before reopening this task.');
     await this.repository.update(
       task.id,
-      (current) => editTask(current, input),
-      'edited',
+      (current) =>
+        editTask(current, {
+          ...input,
+          ...(reopening ? { archived: false } : {}),
+        }),
+      reopening ? 'reopen' : 'edited',
       null,
       task.updatedAt,
     );
     await this.changed();
   }
   async status(task: Task, status: TaskStatus) {
+    if (
+      ['completed', 'cancelled'].includes(task.status) &&
+      ['pending', 'deferred'].includes(status)
+    )
+      throw new Error(
+        'Open Edit and choose a new timeline to reopen this task.',
+      );
     const result = await this.repository.update(
       task.id,
       (current) => editTask(current, { status }),
@@ -123,26 +153,39 @@ export class PlanningStore {
     );
     await this.changed();
   }
-  async note(task: Task, text: string) {
-    await this.repository.addNote(task.id, text);
+  async createLog(
+    text: string,
+    files: PendingAttachment[] = [],
+    target?: LogTarget,
+  ) {
+    const log = await this.repository.createLog(text, files, target);
     await this.changed();
+    return log;
   }
+  loadMedia = (attachment: Attachment) => this.repository.loadMedia(attachment);
   async decide(
     task: Task,
     decision: ReviewDecision,
     reviewId: string | null = null,
   ) {
+    if (
+      ['completed', 'cancelled'].includes(task.status) &&
+      ['plan', 'unschedule', 'defer'].includes(decision.kind)
+    )
+      throw new Error(
+        'Open Edit and choose a new timeline to reopen this task.',
+      );
     const actions: Record<ReviewDecision['kind'], ReviewAction> = {
       complete: 'complete',
       cancel: 'cancel',
       defer: 'defer',
       leave: 'review',
       plan: 'reschedule',
-      long: 'reschedule',
+      unschedule: 'reschedule',
     };
     await this.repository.update(
       task.id,
-      (current) => applyReviewDecision(current, decision, localDate()),
+      (current) => applyReviewDecision(current, decision),
       actions[decision.kind],
       reviewId,
       task.updatedAt,
@@ -160,14 +203,9 @@ export class PlanningStore {
     await this.changed();
   }
   async export(): Promise<PlanningExport> {
-    return {
-      ...(await this.repository.read()),
-      format: 'anicca-planning',
-      schemaVersion: 1,
-      exportedAt: new Date().toISOString(),
-    };
+    return this.repository.export();
   }
-  async import(data: PlanningData, choices: ConflictChoices) {
+  async import(data: PlanningExport, choices: ConflictChoices) {
     await this.repository.import(data, choices);
     await this.changed();
   }

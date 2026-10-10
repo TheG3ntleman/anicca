@@ -1,16 +1,28 @@
-import type { Task, TaskNote } from '../tasks/types';
+import type { Task } from '../tasks/types';
+import type { Log, LogLink, Attachment, ExportMedia } from '../logs/types';
 import type { TaskEvent, DayReview } from '../reviews/types';
 export interface PlanningData {
   tasks: Task[];
-  notes: TaskNote[];
+  logs: Log[];
+  logLinks: LogLink[];
+  attachments: Attachment[];
   events: TaskEvent[];
   reviews: DayReview[];
 }
 export interface PlanningExport extends PlanningData {
   format: 'anicca-planning';
-  schemaVersion: 1;
+  schemaVersion: 3;
   exportedAt: string;
+  media: ExportMedia[];
 }
+export const COLLECTIONS = [
+  'tasks',
+  'logs',
+  'logLinks',
+  'attachments',
+  'events',
+  'reviews',
+] as const;
 export type Collection = keyof PlanningData;
 export interface ImportConflict {
   key: string;

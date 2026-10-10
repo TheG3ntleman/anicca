@@ -3,9 +3,9 @@ import {
   useEffect,
   useRef,
   useState,
-  type PointerEvent,
   type MouseEvent,
 } from 'react';
+import { useSwipeInput, type SwipeInput } from './useSwipeInput';
 
 export type SwipePhase = 'idle' | 'dragging' | 'opening' | 'open' | 'closing';
 interface SwipeState {
@@ -101,20 +101,21 @@ export function useCreateSwipe(enabled: boolean) {
     };
   }, [cancel]);
 
-  const move = (event: PointerEvent<HTMLElement>) => {
+  const move = (event: SwipeInput): boolean => {
     const start = gesture.current;
-    if (!start || (event.pointerId ?? 0) !== start.pointerId) return;
+    if (!start || (event.pointerId ?? 0) !== start.pointerId) return false;
     const dx = start.x - event.clientX;
     const dy = Math.abs(start.y - event.clientY);
     if (!start.locked) {
-      if (Math.max(Math.abs(dx), dy) < 8) return;
+      if (Math.max(Math.abs(dx), dy) < 8) return false;
       if (dx <= 0 || dy >= dx) {
         gesture.current = null;
-        return;
+        return false;
       }
       start.locked = true;
       try {
-        event.currentTarget.setPointerCapture?.(event.pointerId);
+        if (!event.nativeTouch)
+          event.currentTarget.setPointerCapture?.(event.pointerId);
       } catch {
         /* Pointer already ended. */
       }
@@ -124,56 +125,59 @@ export function useCreateSwipe(enabled: boolean) {
       width: start.width,
       offset: start.width - Math.min(start.width, Math.max(0, dx)),
     });
+    return true;
   };
+  const input = useSwipeInput({
+    start(event: SwipeInput) {
+      if (
+        !enabled ||
+        current.current.phase !== 'idle' ||
+        event.pointerType === 'mouse' ||
+        !event.isPrimary
+      )
+        return false;
+      const target = event.target as Element;
+      if (
+        target.closest('input,textarea,select,a,summary,[contenteditable]') ||
+        (target.closest('button') && !target.closest('[data-swipe-surface]'))
+      )
+        return false;
+      gesture.current = {
+        pointerId: event.pointerId ?? 0,
+        x: event.clientX,
+        y: event.clientY,
+        at: event.timeStamp,
+        width: panelWidth(),
+        locked: false,
+      };
+      return true;
+    },
+    move,
+    end(event: SwipeInput) {
+      move(event);
+      const start = gesture.current;
+      if (!start || (event.pointerId ?? 0) !== start.pointerId) return;
+      gesture.current = null;
+      if (!start.locked) return;
+      suppressUntil.current = Date.now() + 350;
+      const distance = start.width - current.current.offset;
+      const fastFlick = distance >= 60 && event.timeStamp - start.at < 220;
+      if (distance >= start.width * 0.32 || fastFlick)
+        publish({ ...current.current, phase: 'opening', offset: 0 });
+      else close();
+    },
+    cancel(id: number) {
+      if (id === gesture.current?.pointerId) cancel();
+    },
+  });
   return {
     ...state,
     open,
     close,
     settle,
+    ref: input.ref,
     bind: {
-      onPointerDown(event: PointerEvent<HTMLElement>) {
-        if (
-          !enabled ||
-          current.current.phase !== 'idle' ||
-          event.pointerType === 'mouse' ||
-          !event.isPrimary
-        )
-          return;
-        const target = event.target as Element;
-        if (
-          target.closest('input,textarea,select,a,summary,[contenteditable]') ||
-          (target.closest('button') && !target.closest('[data-swipe-surface]'))
-        )
-          return;
-        gesture.current = {
-          pointerId: event.pointerId ?? 0,
-          x: event.clientX,
-          y: event.clientY,
-          at: event.timeStamp,
-          width: panelWidth(),
-          locked: false,
-        };
-      },
-      onPointerMove: move,
-      onPointerUp(event: PointerEvent<HTMLElement>) {
-        move(event);
-        const start = gesture.current;
-        if (!start || (event.pointerId ?? 0) !== start.pointerId) return;
-        gesture.current = null;
-        if (!start.locked) return;
-        suppressUntil.current = Date.now() + 350;
-        const distance = start.width - current.current.offset;
-        const fastFlick = distance >= 60 && event.timeStamp - start.at < 220;
-        if (distance >= start.width * 0.32 || fastFlick)
-          publish({ ...current.current, phase: 'opening', offset: 0 });
-        else close();
-      },
-      onPointerCancel(event: PointerEvent<HTMLElement>) {
-        if ((event.pointerId ?? 0) === gesture.current?.pointerId) cancel();
-      },
-      onLostPointerCapture(event: PointerEvent<HTMLElement>) {
-        if ((event.pointerId ?? 0) === gesture.current?.pointerId) cancel();
-      },
+      ...input.bind,
       onClickCapture(event: MouseEvent<HTMLElement>) {
         if (Date.now() < suppressUntil.current) {
           event.preventDefault();

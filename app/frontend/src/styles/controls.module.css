@@ -18,8 +18,29 @@
   color: var(--background);
   border-color: var(--accent);
 }
+.button[aria-pressed='true'] {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.choiceGroup {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  gap: 10px;
+}
+.choiceGroup legend {
+  padding: 0 0 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
 .danger {
   color: var(--danger);
+}
+.alignLeft {
+  text-align: left;
 }
 .row {
   display: flex;

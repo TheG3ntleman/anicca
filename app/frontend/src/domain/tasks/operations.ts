@@ -35,7 +35,16 @@ export function editTask(
   next.finishCriteria = next.finishCriteria.trim();
   next.completedAt =
     next.status === 'completed' ? (task.completedAt ?? now) : null;
-  if (next.horizon === 'long') next.plannedCompletionDate = null;
+  // Scheduling deferred work brings it back into the active plan. Text edits
+  // alone must keep its review flag.
+  if (
+    task.status === 'deferred' &&
+    changes.status === undefined &&
+    changes.plannedCompletionDate !== undefined &&
+    changes.plannedCompletionDate !== null &&
+    changes.plannedCompletionDate !== task.plannedCompletionDate
+  )
+    next.status = 'pending';
   validateTask(next);
   return next;
 }

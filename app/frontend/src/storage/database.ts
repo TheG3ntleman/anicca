@@ -1,5 +1,13 @@
-export const DATABASE_VERSION = 1;
-export const STORES = ['tasks', 'notes', 'events', 'reviews'] as const;
+import {
+  migrateTaskV1,
+  migrateTaskEventV1,
+} from '../domain/migrations/planningV2';
+
+import { migrateNoteV2 } from '../domain/migrations/planningV3';
+import { COLLECTIONS } from '../domain/transfer/types';
+export const DATABASE_VERSION = 3;
+export const STORES = COLLECTIONS;
+export const MEDIA_STORE = 'media';
 export function request<T>(operation: IDBRequest<T>): Promise<T> {
   return new Promise((resolve, reject) => {
     operation.onsuccess = () => resolve(operation.result);
@@ -15,7 +23,10 @@ export function completion(transaction: IDBTransaction): Promise<void> {
       reject(transaction.error ?? new Error('Database write failed.'));
   });
 }
-export function openDatabase(name = 'anicca-planning'): Promise<IDBDatabase> {
+export function openDatabase(
+  name = 'anicca-planning',
+  onVersionChange?: () => void,
+): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
     if (!globalThis.indexedDB) {
       reject(new Error('Local storage is unavailable in this browser.'));
@@ -23,11 +34,54 @@ export function openDatabase(name = 'anicca-planning'): Promise<IDBDatabase> {
     }
     const opening = indexedDB.open(name, DATABASE_VERSION);
     let blocked = false;
-    opening.onupgradeneeded = () => {
+    let migrationError: unknown;
+    opening.onupgradeneeded = (event) => {
       // Migration v1: new planning records; no journal records are touched.
-      for (const store of STORES)
+      for (const store of [...STORES, MEDIA_STORE])
         if (!opening.result.objectStoreNames.contains(store))
           opening.result.createObjectStore(store, { keyPath: 'id' });
+      if (event.oldVersion === 1) {
+        // Upgrade tasks and every history snapshot in the same transaction.
+        // Keep IDs, dates, notes, reviews, timestamps, and event relationships.
+        const transaction = opening.transaction!;
+        for (const [store, migrate] of [
+          ['tasks', migrateTaskV1],
+          ['events', migrateTaskEventV1],
+        ] as const) {
+          const cursorRequest = transaction.objectStore(store).openCursor();
+          cursorRequest.onsuccess = () => {
+            const cursor = cursorRequest.result;
+            if (!cursor) return;
+            try {
+              cursor.update(migrate(cursor.value));
+              cursor.continue();
+            } catch (error) {
+              migrationError = error;
+              transaction.abort();
+            }
+          };
+        }
+      }
+      if (event.oldVersion > 0 && event.oldVersion < 3) {
+        const transaction = opening.transaction!;
+        const notes = transaction.objectStore('notes').openCursor();
+        notes.onsuccess = () => {
+          const cursor = notes.result;
+          if (!cursor) {
+            opening.result.deleteObjectStore('notes');
+            return;
+          }
+          try {
+            const { log, link } = migrateNoteV2(cursor.value);
+            transaction.objectStore('logs').add(log);
+            transaction.objectStore('logLinks').add(link);
+            cursor.continue();
+          } catch (error) {
+            migrationError = error;
+            transaction.abort();
+          }
+        };
+      }
     };
     opening.onblocked = () => {
       blocked = true;
@@ -36,13 +90,20 @@ export function openDatabase(name = 'anicca-planning'): Promise<IDBDatabase> {
       );
     };
     opening.onerror = () =>
-      reject(opening.error ?? new Error('Unable to open local storage.'));
+      reject(
+        migrationError ??
+          opening.error ??
+          new Error('Unable to open local storage.'),
+      );
     opening.onsuccess = () => {
       if (blocked) {
         opening.result.close();
         return;
       }
-      opening.result.onversionchange = () => opening.result.close();
+      opening.result.onversionchange = () => {
+        opening.result.close();
+        onVersionChange?.();
+      };
       resolve(opening.result);
     };
   });
