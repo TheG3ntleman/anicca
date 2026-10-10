@@ -33,12 +33,14 @@ export function ReviewActions({
       <div className={ui.row}>
         <label className={ui.field}>
           Another date
-          <input
-            aria-label="Review planned completion date"
-            type="date"
-            value={date}
-            onChange={(event) => setDate(event.target.value)}
-          />
+          <div className={ui.dateControl}>
+            <input
+              aria-label="Review planned completion date"
+              type="date"
+              value={date}
+              onChange={(event) => setDate(event.target.value)}
+            />
+          </div>
         </label>
         <button
           className={ui.button}

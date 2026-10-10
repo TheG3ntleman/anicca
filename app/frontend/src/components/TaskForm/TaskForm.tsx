@@ -142,15 +142,17 @@ export function TaskForm({
           </div>
           <label className={ui.field}>
             Planned completion date
-            <input
-              type="date"
-              value={input.plannedCompletionDate ?? ''}
-              onChange={(event) =>
-                event.target.value
-                  ? plan(event.target.value)
-                  : update({ horizon: 'long', plannedCompletionDate: null })
-              }
-            />
+            <div className={ui.dateControl}>
+              <input
+                type="date"
+                value={input.plannedCompletionDate ?? ''}
+                onChange={(event) =>
+                  event.target.value
+                    ? plan(event.target.value)
+                    : update({ horizon: 'long', plannedCompletionDate: null })
+                }
+              />
+            </div>
           </label>
           <span className={ui.muted}>
             An intention, not a deadline. You can change it whenever you need.
