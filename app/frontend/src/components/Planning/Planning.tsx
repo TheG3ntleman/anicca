@@ -140,7 +140,6 @@ export function Planning({ store }: { store: PlanningStore }) {
         }}
       >
         <div className={styles.heading}>
-          <span className={styles.eyebrow}>Planning · {layer + 1} / 3</span>
           <h2>{titles[layer]}</h2>
           <p>
             {layer === 0
@@ -217,18 +216,6 @@ export function Planning({ store }: { store: PlanningStore }) {
                 </section>
               </>
             )}
-            <button
-              className={styles.quiet}
-              onClick={() => {
-                setAllQuery('');
-                setOverlay({ kind: 'all' });
-              }}
-            >
-              Browse all tasks · completed, cancelled & archived
-            </button>
-            <p className={styles.gestureHint}>
-              Swipe left to add a task, or use ＋.
-            </p>
           </>
         )}
       </div>
@@ -307,7 +294,14 @@ export function Planning({ store }: { store: PlanningStore }) {
         />
       )}
       {overlay?.kind === 'data' && (
-        <DataTools store={store} onClose={() => setOverlay(null)} />
+        <DataTools
+          store={store}
+          onClose={() => setOverlay(null)}
+          onBrowseTasks={() => {
+            setAllQuery('');
+            setOverlay({ kind: 'all' });
+          }}
+        />
       )}
       {overlay?.kind === 'all' && (
         <Modal title="All tasks" onClose={() => setOverlay(null)}>

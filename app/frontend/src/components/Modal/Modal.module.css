@@ -1,13 +1,16 @@
 .modal {
   position: fixed;
-  top: calc(var(--viewport-top, 0px) + 16px);
+  top: calc(var(--viewport-top, 0px) + max(16px, env(safe-area-inset-top)));
   left: calc(var(--viewport-left, 0px) + var(--viewport-width, 100vw) / 2);
   right: auto;
   transform: translateX(-50%);
   width: calc(var(--viewport-width, 100vw) - 32px);
   min-width: 0;
   max-width: 620px;
-  max-height: calc(var(--viewport-height, 100dvh) - 32px);
+  max-height: calc(
+    var(--viewport-height, 100dvh) - max(16px, env(safe-area-inset-top)) -
+      max(16px, env(safe-area-inset-bottom))
+  );
   margin: 0;
   padding: 16px;
   border: 1px solid var(--border);

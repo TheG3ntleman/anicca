@@ -13,9 +13,11 @@ import ui from '../../styles/controls.module.css';
 export function DataTools({
   store,
   onClose,
+  onBrowseTasks,
 }: {
   store: PlanningStore;
   onClose: () => void;
+  onBrowseTasks?: () => void;
 }) {
   const [incoming, setIncoming] = useState<PlanningExport | null>(null);
   const [conflicts, setConflicts] = useState<ImportConflict[]>([]);
@@ -56,6 +58,11 @@ export function DataTools({
           Your tasks, notes, and review history stay in this browser. Keep
           exports as backups; deleting browser data can remove local records.
         </p>
+        {onBrowseTasks && (
+          <button className={ui.button} disabled={busy} onClick={onBrowseTasks}>
+            All tasks
+          </button>
+        )}
         <button
           className={`${ui.button} ${ui.primary}`}
           disabled={busy}

@@ -12,7 +12,7 @@
 }
 .header {
   flex: 0 0 auto;
-  padding: 8px 16px;
+  padding: calc(8px + env(safe-area-inset-top)) 16px 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,10 +51,6 @@
 }
 .heading {
   padding: 10px 0 20px;
-}
-.eyebrow {
-  font-size: 11px;
-  color: var(--muted);
 }
 .heading h2 {
   font-size: 28px;
@@ -109,11 +105,6 @@
 .habits span {
   color: var(--muted);
   font-size: 12px;
-}
-.gestureHint {
-  color: var(--muted);
-  font-size: 11px;
-  padding-top: 16px;
 }
 .footer {
   flex: 0 0 auto;

@@ -12,7 +12,7 @@ is preserved on `archive/journaling`.
 - Title, finish criteria, optional description, and planned completion date.
   Dates express intentions; there are no deadlines or priorities.
 - Details, editing, dated notes, completion/Undo, individual review, archive,
-  and a searchable browser including completed and cancelled work.
+  and a searchable browser (Data → All tasks) including completed and cancelled work.
 - Finish day reviews unresolved short/medium tasks. Each decision saves
   immediately; finishing records a review and plays a short celebration.
 - IndexedDB persistence and complete JSON export/import. Imports merge by ID
