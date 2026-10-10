@@ -13,6 +13,7 @@ import {
 import type { Task, TaskHorizon } from '../../domain/tasks/types';
 import { TaskList } from '../TaskList/TaskList';
 import { Modal } from '../Modal/Modal';
+import { SlidePanel } from '../SlidePanel/SlidePanel';
 import { TaskForm } from '../TaskForm/TaskForm';
 import { TaskDetails } from '../TaskDetails/TaskDetails';
 import { ReviewFlow } from '../Review/ReviewFlow';
@@ -23,7 +24,6 @@ import styles from './Planning.module.css';
 import ui from '../../styles/controls.module.css';
 
 type Overlay =
-  | { kind: 'create' }
   | { kind: 'details'; taskId: string }
   | { kind: 'review' }
   | { kind: 'data' }
@@ -63,8 +63,7 @@ export function Planning({ store }: { store: PlanningStore }) {
       scroller.current.scrollTop = scrollPositions.current[layer];
   }, [layer]);
   const swipe = useCreateSwipe(
-    () => setOverlay({ kind: 'create' }),
-    !overlay && snapshot.ready && !snapshot.error,
+    !overlay && snapshot.ready && !snapshot.error && !busy,
   );
   const select = (task: Task) =>
     setOverlay({ kind: 'details', taskId: task.id });
@@ -112,7 +111,7 @@ export function Planning({ store }: { store: PlanningStore }) {
     ),
   );
   return (
-    <div className={styles.planning} {...swipe}>
+    <div className={styles.planning} {...swipe.bind}>
       <header className={styles.header}>
         <h1>Anicca</h1>
         <div className={ui.row}>
@@ -126,7 +125,7 @@ export function Planning({ store }: { store: PlanningStore }) {
           <button
             className={styles.add}
             aria-label="Create a new task"
-            onClick={() => setOverlay({ kind: 'create' })}
+            onClick={swipe.open}
             disabled={!snapshot.ready || Boolean(snapshot.error)}
           >
             ＋
@@ -264,19 +263,27 @@ export function Planning({ store }: { store: PlanningStore }) {
           onDismiss={dismissToast}
         />
       )}
-      {overlay?.kind === 'create' && (
-        <Modal title="New task" onClose={() => setOverlay(null)} locked={busy}>
+      {swipe.phase !== 'idle' && (
+        <SlidePanel
+          title="New task"
+          phase={swipe.phase}
+          offset={swipe.offset}
+          width={swipe.width}
+          onClose={swipe.close}
+          onSettled={swipe.settle}
+          locked={busy}
+        >
           <TaskForm
             onBusyChange={setBusy}
             initialHorizon={horizons[layer]}
-            onCancel={() => setOverlay(null)}
+            onCancel={swipe.close}
             onSave={async (input) => {
               await store.create(input);
-              setOverlay(null);
+              swipe.close();
               setToast({ message: 'Task saved locally.' });
             }}
           />
-        </Modal>
+        </SlidePanel>
       )}
       {overlay?.kind === 'details' && (
         <TaskDetails

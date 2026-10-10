@@ -6,7 +6,9 @@ is preserved on `archive/journaling`.
 ## First milestone
 
 - Today, Medium term, and Long term with independent scrolling and bottom arrows.
-- Swipe left to create a task, with a + button as a fallback.
+- Drag left to reveal task creation. The panel follows your finger, opens after
+  a longer drag/quick flick, and returns closed after a short or cancelled drag.
+  Vertical scrolling stays available; + opens the same panel without a gesture.
 - Title, finish criteria, optional description, and planned completion date.
   Dates express intentions; there are no deadlines or priorities.
 - Details, editing, dated notes, completion/Undo, individual review, archive,

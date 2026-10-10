@@ -330,6 +330,10 @@ test('UI creates, completes, undoes, edits, adds notes, navigates and reviews ta
     });
     await waitFor(() => store.getSnapshot().ready);
     await click('Create a new task');
+    await waitFor(
+      () =>
+        document.querySelector('dialog')?.getAttribute('data-phase') === 'open',
+    );
     await fill('Title', 'Test task');
     await fill('What does finished look like?', 'A working result.');
     await click('Add task');
@@ -433,6 +437,10 @@ test('UI distinguishes vertical scrolling from swipe-to-create and normalizes sc
       document.querySelector('dialog')?.getAttribute('aria-label'),
       'New task',
     );
+    await waitFor(
+      () =>
+        document.querySelector('dialog')?.getAttribute('data-phase') === 'open',
+    );
     await fill('Title', 'An unscheduled idea');
     await fill('What does finished look like?', 'A future result.');
     await fill('Planned completion date', '');
@@ -444,6 +452,143 @@ test('UI distinguishes vertical scrolling from swipe-to-create and normalizes sc
     await waitFor(() => store.getSnapshot().tasks.length === 1);
     assert.equal(store.getSnapshot().tasks[0].horizon, 'long');
     assert.equal(store.getSnapshot().tasks[0].plannedCompletionDate, null);
+  } finally {
+    await act(async () => root.unmount());
+    container.remove();
+    await store.close();
+  }
+});
+
+test('creation panel follows slow drags, reverses, cancels, and settles open on release', async () => {
+  const store = new PlanningStore(repository('interactive-swipe'), false);
+  const container = document.createElement('div');
+  document.body.append(container);
+  const root = createRoot(container);
+  const pointer = (
+    target: Element,
+    type: string,
+    x: number,
+    y: number,
+    at: number,
+  ) => {
+    const event = new Event(type, { bubbles: true });
+    Object.defineProperties(event, {
+      pointerType: { value: 'touch' },
+      isPrimary: { value: true },
+      pointerId: { value: 1 },
+      clientX: { value: x },
+      clientY: { value: y },
+      timeStamp: { value: at },
+    });
+    target.dispatchEvent(event);
+  };
+  const dispatch = async (type: string, x: number, y: number, at: number) => {
+    await act(async () =>
+      pointer(container.querySelector('h2')!, type, x, y, at),
+    );
+  };
+  try {
+    await act(async () => root.render(<Planning store={store} />));
+    await waitFor(() => store.getSnapshot().ready);
+    // A vertical gesture never mounts a preview.
+    await dispatch('pointerdown', 500, 100, 0);
+    await dispatch('pointermove', 495, 180, 200);
+    await dispatch('pointerup', 490, 250, 500);
+    assert.equal(container.querySelector('dialog'), null);
+    // Finger movement changes the actual panel transform before release.
+    await dispatch('pointerdown', 500, 100, 1000);
+    await dispatch('pointermove', 400, 102, 1400);
+    const preview = container.querySelector('dialog')!;
+    assert.equal(preview.getAttribute('data-phase'), 'dragging');
+    assert.equal(preview.style.getPropertyValue('--panel-offset'), '520px');
+    assert.equal(preview.querySelector('section')!.hasAttribute('inert'), true);
+    await dispatch('pointermove', 300, 104, 1800);
+    assert.equal(preview.style.getPropertyValue('--panel-offset'), '420px');
+    // Reversing towards the starting point follows the finger, then returns closed.
+    await dispatch('pointermove', 470, 103, 2200);
+    assert.equal(preview.style.getPropertyValue('--panel-offset'), '590px');
+    await dispatch('pointerup', 470, 103, 2400);
+    assert.equal(preview.getAttribute('data-phase'), 'closing');
+    await waitFor(() => !container.querySelector('dialog'));
+    assert.equal(store.getSnapshot().tasks.length, 0);
+    // Interrupted drags reset instead of leaving an orphaned preview.
+    await dispatch('pointerdown', 500, 100, 3000);
+    await dispatch('pointermove', 400, 100, 3400);
+    await dispatch('pointercancel', 400, 100, 3500);
+    await waitFor(() => !container.querySelector('dialog'));
+    // A deliberately slow drag can open; there is no old 800ms timeout.
+    await dispatch('pointerdown', 500, 100, 4000);
+    await dispatch('pointermove', 250, 105, 6000);
+    assert.equal(
+      container.querySelector('dialog')!.getAttribute('data-phase'),
+      'dragging',
+    );
+    await dispatch('pointerup', 250, 105, 6200);
+    assert.equal(
+      container.querySelector('dialog')!.getAttribute('data-phase'),
+      'opening',
+    );
+    assert.equal(
+      container
+        .querySelector('dialog')!
+        .style.getPropertyValue('--panel-offset'),
+      '0px',
+    );
+    await waitFor(
+      () =>
+        container.querySelector('dialog')?.getAttribute('data-phase') ===
+        'open',
+    );
+    await act(async () => {
+      await sleep(360);
+    });
+    await click('Close');
+    assert.equal(
+      container.querySelector('dialog')!.getAttribute('data-phase'),
+      'closing',
+    );
+    await waitFor(() => !container.querySelector('dialog'));
+  } finally {
+    await act(async () => root.unmount());
+    container.remove();
+    await store.close();
+  }
+});
+
+test('a creation swipe on a task suppresses the following task-detail click', async () => {
+  const store = new PlanningStore(repository('swipe-click'), false);
+  const container = document.createElement('div');
+  document.body.append(container);
+  const root = createRoot(container);
+  try {
+    await store.create(input('Swipe surface'));
+    await act(async () => root.render(<Planning store={store} />));
+    const target = container.querySelector<HTMLButtonElement>(
+      '[data-swipe-surface]',
+    )!;
+    await act(async () => {
+      for (const [type, x] of [
+        ['pointerdown', 300],
+        ['pointermove', 150],
+        ['pointerup', 150],
+      ] as const) {
+        const event = new Event(type, { bubbles: true });
+        Object.defineProperties(event, {
+          pointerType: { value: 'touch' },
+          isPrimary: { value: true },
+          pointerId: { value: 2 },
+          clientX: { value: x },
+          clientY: { value: 100 },
+        });
+        target.dispatchEvent(event);
+      }
+      target.click();
+    });
+    assert.equal(container.querySelectorAll('dialog').length, 1);
+    assert.equal(
+      container.querySelector('dialog')!.getAttribute('aria-label'),
+      'New task',
+    );
   } finally {
     await act(async () => root.unmount());
     container.remove();
